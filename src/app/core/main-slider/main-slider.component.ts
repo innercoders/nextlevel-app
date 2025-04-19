@@ -25,27 +25,41 @@ import { Subscription } from 'rxjs';
 })
 export class MainSliderComponent implements OnInit, AfterViewInit, OnDestroy {
 
+	showControls = false;
+
 	@ViewChild('progressBar') public progressBar!: HTMLElement;
 	private progressInterval!: any;
 	public progressBarWidth: number = 0;
 	
-	public sliderOpacity = 1;
+	public sliderOpacity = 0.2;
 	private opacitySubscription: Subscription | undefined;
 
 	public recentPosts: { featureImageUrl: string, title: string, shortContent: string, publishedAt: Date, callToAction?: string }[] = [
 		{
-			featureImageUrl: '/assets/images/background/wallpaper1.png',
+			featureImageUrl: '/assets/images/background/manifesto2.png',
 			title: 'Next Level',
 			shortContent: 'O novo caminho para o Dota 2',
 			publishedAt: new Date(),
 			callToAction: 'Conheça o projeto'
 		},
-		/* {
-			featureImageUrl: '/assets/images/background/wallpaper2.png',
+		{
+			featureImageUrl: '/assets/images/background/manifesto1.png',
 			title: 'Iniciante no Dota?',
 			shortContent: 'Confira nossa tutorial completo',
 			publishedAt: new Date()
-		} */
+		},
+		{
+			featureImageUrl: '/assets/images/background/wallpaper1.png',
+			title: 'Iniciante no Dota?',
+			shortContent: 'Confira nossa tutorial completo',
+			publishedAt: new Date()
+		},
+		{
+			featureImageUrl: '/assets/images/background/manifesto3.png',
+			title: 'Iniciante no Dota?',
+			shortContent: 'Confira nossa tutorial completo',
+			publishedAt: new Date()
+		}
 	];
 
 	public currentIndex = 0;

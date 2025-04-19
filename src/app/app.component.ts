@@ -83,7 +83,7 @@ export class AppComponent {
 		const scrollTop = this.mainContent.nativeElement.scrollTop;
 		// Calculate opacity based on scroll position - fade out over 200px of scrolling
 		const maxScrollForOpacity = 250;
-		const opacity = Math.max(0.1, 1 - (scrollTop / maxScrollForOpacity));
+		const opacity = Math.max(0.1, 0.5 - (scrollTop / maxScrollForOpacity));
 		
 		// Update opacity through the service
 		this.scrollService.updateSliderOpacity(opacity);
