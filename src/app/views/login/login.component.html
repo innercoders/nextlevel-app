@@ -1,0 +1,34 @@
+<div class="login-container" nz-row>
+    <div nz-col nzSpan="8">
+
+    </div>
+    <div nz-col nzSpan="8" class="pr-2">
+        <div class="in-card">
+            <div class="in-card-header">
+                <div  class="in-horizontal between">
+                    <div class="in-card-title">Login</div>   
+                    <div class="in-card-subtitle">Área restrita</div>
+                </div>
+                
+            </div>
+            <div class="in-card-body">
+                <form [formGroup]="loginForm">
+                    <nz-input-group class="mb-3" [nzPrefix]="prefixTemplateUser" nzSize="large">
+                        <input type="text" nz-input placeholder="Email" formControlName="email"/>
+                    </nz-input-group>
+                    <ng-template #prefixTemplateUser><nz-icon nzType="user" /></ng-template>
+                    <nz-input-group [nzPrefix]="prefixTemplatePassword"  nzSize="large">
+                        <input type="text" nz-input placeholder="Senha" formControlName="password"/>
+                    </nz-input-group>
+                    <ng-template #prefixTemplatePassword><nz-icon nzType="lock" /></ng-template>
+                    <div class="in-horizontal end">
+                        <button class="mt" nz-button nzType="primary" nzSize="large" (click)="simulateLogin()">
+                            Entrar
+                        </button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

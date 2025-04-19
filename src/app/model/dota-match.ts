@@ -1,0 +1,41 @@
+import { DotaMatchPlayer } from "./dota-match-player";
+
+export interface DotaMatch {
+    id: string;
+    matchId: string;
+    didRadiantWin: boolean;
+    durationSeconds: number;
+    startDateTime: Date;
+    endDateTime: Date;  
+    towerStatusRadiant: boolean;
+    towerStatusDire: boolean;
+    barracksStatusRadiant: boolean;
+    barracksStatusDire: boolean;
+    lobbyType: string;
+    gameMode: string;
+    tournamentId: string;
+    radiantTeamId: number;
+    direTeamId: number;
+    regionId: string;
+    analysisOutcome: string;
+    predictionOutcomeWeight: number;
+    radiantNetWorthLeads: number;
+    radiantExperienceLeads: number;
+    direTeamScore: number;
+    radiantTeamScore: number;
+    direKills: number[];
+    radiantKills: number[];
+    winRates: number[];
+    predictedWinRates: number[];
+    bottomLaneOutcome: string;
+    midLaneOutcome: string;
+    topLaneOutcome: string;
+    cluster: string;
+    replaySalt: string;
+    status: string;
+    players: DotaMatchPlayer[];
+    averageMmr: number;
+    serverSteamId: string;
+    radiantTeam: any;
+    direTeam: any;
+}

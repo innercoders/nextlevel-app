@@ -1,0 +1,31 @@
+<div class="side-menu">
+
+	<div class="side-menu-logo mb" routerLink="/">
+		<img src="/assets/images/next-level-logo.png" alt="Next Logo"/>
+	</div>
+
+	<div class="main-menu">
+		<!-- <a nz-button nzSize="large" [nzType]="'text'" nz-tooltip nzTooltipTitle="Home" nzTooltipPlacement="right" routerLink="/" routerLinkActive="active">
+			<nz-icon nzType="home" nzTheme="outline" />
+		</a> -->
+
+		<a nz-button nzSize="large" [nzType]="'text'" nz-tooltip nzTooltipTitle="Meta" nzTooltipPlacement="right" routerLink="/dota-meta" routerLinkActive="active">
+			<nz-icon nzType="rise" nzTheme="outline" />
+		</a>
+
+		<a nz-button nzSize="large" [nzType]="'text'" nz-tooltip nzTooltipTitle="Sobre nós" nzTooltipPlacement="right" routerLink="/about-us" routerLinkActive="active">
+			<img src="/assets/images/next-level-icon.png" alt="Next Level" />
+		</a>
+
+		<a nz-button nzSize="large" [nzType]="'text'" nz-tooltip nzTooltipTitle="NS_ART" nzTooltipPlacement="right" target="_blank" href="https://twitch.tv/ns_art">
+			<nz-icon nzType="twitch" nzTheme="outline" />
+		</a>
+	</div>
+
+
+	<div class="side-menu-footer pb-3">
+		<a nz-button nzSize="large" [nzType]="'text'" nz-tooltip nzTooltipTitle="Admin" nzTooltipPlacement="right" routerLink="/admin" routerLinkActive="active" *ngIf="false">
+			<nz-icon nzType="setting" nzTheme="outline" />
+		</a>
+	</div>
+</div>

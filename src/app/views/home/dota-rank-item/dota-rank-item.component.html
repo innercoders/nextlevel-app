@@ -1,0 +1,13 @@
+<div class="py-1" nz-row [ngClass]="{'featured-br': rank.country == 'br' || rank.nlCountry == 'br'}">
+    <div nz-col nzSpan="2" class="pl-2">{{ rank.rank }}</div>
+    <div nz-col nzSpan="2">
+        <img [src]="'https://community.cloudflare.steamstatic.com/public/images/countryflags/' + (rank.nlCountry ?? rank.country)+ '.gif'" *ngIf="rank.country || rank.nlCountry"/>
+        <span *ngIf="!rank.country && !rank.nlCountry">
+            -
+        </span>
+    </div>
+    <div nz-col nzSpan="20">
+        <span class="text-muted">{{ rank.nlTeamTag ?? rank.teamTag }}.</span>
+        {{ rank.nlName ?? rank.name }}
+    </div>
+</div>

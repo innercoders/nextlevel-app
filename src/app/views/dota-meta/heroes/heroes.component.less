@@ -1,0 +1,162 @@
+@import '../../../../styles/_variables';
+
+@hero-video: scaleX(1);
+@hero-inverted-video: scaleX(-1);
+@hero-orientation: @hero-video;
+
+.reversed-video {
+    transform: @hero-orientation;
+    animation: fadeInFromRight 0.8s ease-out forwards;
+}
+
+.hero-container {
+    // overflow: hidden;
+
+    .hero-info {
+        margin-top: -200px;
+        position: relative;
+        z-index: 8;
+
+        &.in-card {
+            .in-card-body {
+                padding: @default-padding;
+            }
+        }
+    }
+
+    .hero-similar-heroes {
+        position: absolute;
+        top: 600px;
+        right: 30px;
+
+        display: flex;
+        align-items: center;
+
+        z-index: 2;
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    .hero-meta-info {
+        position: absolute;
+        left: 0;
+        right: 30px;
+        top: 660px;
+
+        display: flex;
+        align-items: center;
+
+        .line-group {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .line {
+                width: 70%;
+                height: 1px;
+                background: #fff;
+                background: linear-gradient(90deg, rgba(#fff, 0) 0%, rgba(#fff, 0.5) 100%);
+            }
+            .sub-line {
+                margin-top: 2px;
+                width: 50%;
+                height: 1px;
+                background: @primary-color;
+                background: linear-gradient(90deg, rgba(@primary-color, 0) 0%, rgba(@primary-color, 1) 100%);
+            }
+        }
+
+        .info {
+            padding-left: 20px;
+            text-wrap: nowrap;
+            font-family: monospace;
+            opacity: 0.6;
+        }
+    }
+}
+
+/* Reusable fade in from top animation */
+.fade-in-from-top {
+    animation: fadeInFromTop 0.8s ease-out forwards;
+}
+
+/* Ensure video is visible even during animation */
+.hero-video {
+    position: absolute;
+    top: -50px;
+    left: -70px;
+    min-height: 500px;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-items {
+    .in-card-body {
+        padding: 0 @default-padding @default-padding @default-padding;
+
+        .item-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin-bottom: 5px;
+            font-size: 80%;
+
+            img {
+                margin-bottom: 3px;
+                border-radius: 10px;
+            }
+
+            .item-presence {
+                opacity: 0.7;
+            }
+
+            .feature-item {
+                color: @success-color !important;
+                opacity: 1 !important;
+                text-shadow: 0 0 5px rgba(@success-color, 1) !important;
+            }
+
+            .normal-item {
+                color: @warning-color;
+                opacity: 1;
+                text-shadow: 0 0 5px rgba(@warning-color, 0.8);
+            }
+        }
+    }
+}
+
+.overall-stats {
+    .in-card-body {
+        padding: 0 @default-padding @default-padding @default-padding;
+    }
+
+    .stats-list {
+        display: flex;
+        flex-direction: column;
+
+        .stats-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #333;
+            padding: 10px 0;
+        }
+    }
+}
+
+.hero-matchups {
+    .in-card-body {
+        padding: 0 @default-padding @default-padding @default-padding;
+    }
+}

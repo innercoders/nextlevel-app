@@ -1,0 +1,75 @@
+@body-background: #1B252C;
+@component-background: #131A1F;
+
+@default-padding: 20px;
+@default-margin: 20px;
+
+@border-radius: 20px;
+
+@font-family: 'Play', sans-serif;
+
+@padding-0: 0;
+@padding-1: 5px;
+@padding-2: 10px;
+@padding-3: 15px;
+@padding-4: @default-padding;
+
+@margin-0: 0;
+@margin-1: 5px;
+@margin-2: 10px;
+@margin-3: 15px;
+@margin-4: @default-margin;
+
+@btn-border-radius-base: @border-radius;
+
+// Colors
+@primary-color: #0AB4E9;
+@normal-color: #D9D9D9;
+@success-color: #52C41A;
+@warning-color: #FAAD14;
+@danger-color: #FF4D4F;
+@info-color: #1890FF;
+@light-color: #F5F5F5;
+
+@box-neon-primary: 0 0 10px 2px rgba(#0AB4E9, 0.7);
+@box-neon-secondary: 0 0 10px 2px rgba(#D9D9D9, 0.7);
+@box-neon-success: 0 0 10px 2px rgba(#52C41A, 0.7);
+@box-neon-warning: 0 0 10px 2px rgba(#FAAD14, 0.7);
+@box-neon-danger: 0 0 10px 2px rgba(#FF4D4F, 0.7);
+@box-neon-info: 0 0 10px 2px rgba(#1890FF, 0.7);
+@box-neon-light: 0 0 10px 2px rgba(#F5F5F5, 0.7);
+
+// Animations
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade in from left animation */
+@keyframes fadeInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInFromRight  {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

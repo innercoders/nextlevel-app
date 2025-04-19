@@ -1,0 +1,23 @@
+<div class="in-slider" *ngIf="recentPosts.length > 0" [style.opacity]="sliderOpacity">
+	@for (post of recentPosts; track post.title; let i = $index) {
+		<div class="in-slider-item"
+		     [@slideAnimation]
+		     *ngIf="i === currentIndex"
+		     [ngStyle]="{'background-image': 'url(' + post.featureImageUrl + ')'}">
+
+			<div class="overlay"></div>
+			<div class="content">
+				<span class="text-muted">publicado em: {{ post.publishedAt | date: 'dd/MM/YY' }}</span>
+				<h2>{{ post.title }}</h2>
+				<h5>{{ post.shortContent }}</h5>
+				<button class="mt cursor-pointer" nz-button nzType="primary" nzSize="large" routerLink="/about-us">
+					{{ post.callToAction ?? 'Leia mais' }}
+				</button>
+			</div>
+		</div>
+	}
+
+	<div class="progress-bar-container" *ngIf="recentPosts.length > 1">
+		<div class="progress-bar" #progressBar [style.width]="progressBarWidth + '%'"></div>
+	</div>
+</div>

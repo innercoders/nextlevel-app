@@ -1,0 +1,63 @@
+@import '../../../styles/_variables.less';
+
+.dota-live-matches-card {
+	margin-top: 100px;
+
+	.in-card-body {
+		.in-tab-content {
+			height: 50vh;
+			overflow-y: auto;
+			padding: @default-padding;
+		}
+	}
+}
+
+.match-details {
+	width: 100%;
+	margin-bottom: 20px;
+
+	.dota-match-team {
+		display: flex;
+		flex-direction: column;
+
+		.heroes-container {
+			display: flex;
+			flex-direction: row;
+			gap: 5px;
+
+			img { 
+				border-radius: 10px;
+				height: 38px;
+				cursor: pointer;
+			}
+		}
+
+		.team-container {
+			margin-top: 10px;
+		}
+
+		&.dire {
+			.team-container {
+				text-align: right;
+			}
+		}
+	}
+}
+
+.dota-rank-card {
+	margin-top: 300px;
+
+
+	.in-card-body {
+		.rank-table {
+			height: 40vh;
+			overflow-y: auto;
+
+			padding: 0 @default-padding;
+		}
+	}
+}
+
+.primary-bg {
+    background-color: rgba(@primary-color, 0.5);
+}

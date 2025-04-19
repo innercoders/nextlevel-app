@@ -1,0 +1,66 @@
+<div nz-row>
+    <div nz-col nzSpan="24">
+        <div class="in-card dota-meta-card">
+            <div class="in-card-header">
+                <div class="in-card-title">Dota Meta</div>
+                <div class="in-card-subtitle in-vertical end">
+                    Melhores heróis dos últimos 7 dias
+                    <span class="text-muted">Partidas oficiais e ranqueadas</span>
+                </div>
+            </div>
+            <div class="in-card-body">
+                <nz-tabset nzSize="large" nzCentered="true" (nzSelectedIndexChange)="changePosition(positions[$event].value)">
+                    <nz-tab *ngFor="let position of positions" [nzTitle]="titleTemplate">
+                        <ng-template #titleTemplate>
+                            <img height="20px" class="mr-2" [src]="getPositionImage(position.value)" *ngIf="position.value">
+                            <span>{{ position.label }}</span>
+                        </ng-template>
+                    </nz-tab>
+                </nz-tabset>
+
+                <div class="in-tab-content">
+                    <nz-table #heroTable [nzData]="bestHeroes" [nzLoading]="loading" [nzShowPagination]="true" [nzPageSize]="bestHeroesRequest.limit" 
+                    [nzTotal]="totalResults" [nzFrontPagination]="false" (nzQueryParams)="changePage($event)">
+                        <thead>
+                            <tr>
+                                <th>Herói</th>
+                                <th *ngIf="!selectedPosition">Posição</th>
+                                <th class="text-primary">Win Rate</th>
+                                <th>Partidas</th>
+                                <th>K/D/A</th>
+                                <th>GPM/XPM</th>
+                                <th>Dano em Heróis</th>
+                                <th>Cura</th>
+                                <th>Dano em Torres</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let hero of heroTable.data" (click)="goToHero(hero.dotaHero?.sanitizedName)">
+                                <td>
+                                    <div class="in-horizontal">
+                                        <img [src]="hero.dotaHero?.img" [nzTooltipTitle]="hero.dotaHero?.localized_name" nz-tooltip>
+                                        <span class="ml-2">{{ hero.dotaHero?.localized_name }}</span>
+                                    </div>
+                                </td>
+                                <td *ngIf="!selectedPosition">
+                                    <img height="20px" class="mr-2" [src]="getPositionImage(hero.position)" nz-tooltip [nzTooltipTitle]="getPositionLabel(hero.position)">
+                                </td>
+                                <td [ngClass]="{'text-success': hero.winRate > 50, 'text-danger': hero.winRate < 50}">{{ hero.winRate }}%</td>
+                                <td>{{ hero.totalMatches }}</td>
+                                <td>
+                                    <span class="text-success">{{ hero.avgKills }}</span> / 
+                                    <span class="text-danger">{{ hero.avgDeaths }}</span> / 
+                                    <span class="text-info">{{ hero.avgAssists }}</span>
+                                </td>
+                                <td>{{ hero.avgGpm }}/{{ hero.avgXpm }}</td>
+                                <td>{{ hero.avgHeroDamage }}</td>
+                                <td>{{ hero.avgHeroHealing }}</td>
+                                <td>{{ hero.avgTowerDamage }}</td>
+                            </tr>
+                        </tbody>
+                    </nz-table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

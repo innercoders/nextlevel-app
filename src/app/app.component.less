@@ -1,0 +1,35 @@
+@import '../styles/_variables';
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	height: 110px;
+	overflow: hidden;
+
+	padding-top: @default-padding;
+	padding-right: @default-padding;
+	padding-left: calc(135px + (@default-margin * 2));
+
+	display: flex;
+	justify-content: space-between;
+
+	background: #1B252C;
+	background: linear-gradient(90deg, rgba(#1B252C, 1) 0%, rgba(#1B252C, 0) 70%);
+}
+
+.main {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-left: calc(135px + @default-margin);
+	padding-top: 110px;
+	padding-bottom: @default-margin;
+	padding-right: @default-margin;
+	overflow-y: auto;
+	z-index: 1;
+}

@@ -1,0 +1,67 @@
+@import '../../../styles/_variables';
+
+.in-slider {
+	position: fixed;
+	width: 100%;
+	height: 400px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	overflow: hidden;
+	transition: opacity 0.2s;
+
+	.in-slider-item {
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+
+		.overlay {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 8;
+			background: rgba(@component-background, 0.4);
+			background: linear-gradient(180deg, rgba(@body-background, 0.0) 0%, rgba(@body-background, 1) 100%);
+		}
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			justify-content: flex-end;
+			padding-right: 150px;
+			padding-bottom: 60px;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 9;
+
+			h2, h5 {
+				text-align: right;
+			}
+			h5 {
+				max-width: 400px;
+			}
+		}
+	}
+
+	.progress-bar-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 2px;
+		background: rgba(#000, 0.2);
+		z-index: 10;
+	}
+
+	.progress-bar {
+		height: 100%;
+		background-color: @primary-color;
+		transition: 100ms ease-out;
+	}
+
+}

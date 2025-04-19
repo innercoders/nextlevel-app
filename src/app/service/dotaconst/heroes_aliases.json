@@ -1,0 +1,550 @@
+{
+    "1": [
+        "am",
+        "magina",
+        "antimage",
+        "anti-mage"
+    ],
+    "2": [
+        "axe"
+    ],
+    "3": [
+        "bane"
+    ],
+    "4": [
+        "bloodseeker",
+        "bs"
+    ],
+    "5": [
+        "crystal-maiden",
+        "crystalmaiden",
+        "cm",
+        "rylai"
+    ],
+    "6": [
+        "drow-ranger",
+        "drow",
+        "drowranger",
+        "traxex"
+    ],
+    "7": [
+        "earthshaker",
+        "es"
+    ],
+    "8": [
+        "juggernaut",
+        "yurnero",
+        "jugg"
+    ],
+    "9": [
+        "mirana"
+    ],
+    "10": [
+        "morphling",
+        "morph"
+    ],
+    "11": [
+        "shadow-fiend",
+        "sf",
+        "nevermore"
+    ],
+    "12": [
+        "phantom-lancer",
+        "pl"
+    ],
+    "13": [
+        "puck"
+    ],
+    "14": [
+        "pudge"
+    ],
+    "15": [
+        "razor",
+        "razorblade"
+    ],
+    "16": [
+        "sand-king",
+        "sandking",
+        "sk"
+    ],
+    "17": [
+        "storm-spirit",
+        "ss",
+        "panda"
+    ],
+    "18": [
+        "sven"
+    ],
+    "19": [
+        "tiny",
+        "tony"
+    ],
+    "20": [
+        "vengefulspirit",
+        "vs",
+        "veng"
+    ],
+    "21": [
+        "windrunner",
+        "windranger",
+        "wind"
+    ],
+    "22": [
+        "zuus",
+        "zeus",
+        "zeus"
+    ],
+    "23": [
+        "kunkka"
+    ],
+    "25": [
+        "lina"
+    ],
+    "26": [
+        "lion"
+    ],
+    "27": [
+        "shadow-shaman",
+        "shaman",
+        "ss"
+    ],
+    "28": [
+        "slardar"
+    ],
+    "29": [
+        "tidehunter",
+        "tide",
+        "watermelon"
+    ],
+    "30": [
+        "witch-doctor",
+        "wd",
+        "witchdoctor"
+    ],
+    "31": [
+        "lich"
+    ],
+    "32": [
+        "riki",
+        "rikimaru"
+    ],
+    "33": [
+        "enigma"
+    ],
+    "34": [
+        "tinker"
+    ],
+    "35": [
+        "sniper"
+    ],
+    "36": [
+        "necrophos",
+        "necrolyte",
+        "necro"
+    ],
+    "37": [
+        "warlock",
+        "lock"
+    ],
+    "38": [
+        "beastmaster",
+        "bm"
+    ],
+    "39": [
+        "queenofpain",
+        "qop",
+        "queen-of-pain"
+    ],
+    "40": [
+        "venomancer",
+        "venom"
+    ],
+    "41": [
+        "faceless-void",
+        "void"
+    ],
+    "42": [
+        "skeleton-king",
+        "wraith-king",
+        "wk"
+    ],
+    "43": [
+        "death-prophet",
+        "dp",
+        "deathprophet"
+    ],
+    "44": [
+        "phantom-assassin",
+        "pa",
+        "mortred",
+        "phantomassassin"
+    ],
+    "45": [
+        "pugna"
+    ],
+    "46": [
+        "templar-assassin",
+        "templar",
+        "templarassassin",
+        "ta",
+        "lanaya"
+    ],
+    "47": [
+        "viper",
+        "netherdrake"
+    ],
+    "48": [
+        "luna"
+    ],
+    "49": [
+        "dragon-knight",
+        "dk",
+        "dragonknight"
+    ],
+    "50": [
+        "dazzle"
+    ],
+    "51": [
+        "rattletrap",
+        "clockwerk",
+        "clock"
+    ],
+    "52": [
+        "leshrac",
+        "lesh"
+    ],
+    "53": [
+        "furion",
+        "naturesprophet",
+        "nature"
+    ],
+    "54": [
+        "life-stealer",
+        "lifestealer",
+        "life",
+        "ls",
+        "naix"
+    ],
+    "55": [
+        "dark-seer",
+        "darkseer",
+        "ds"
+    ],
+    "56": [
+        "clinkz"
+    ],
+    "57": [
+        "omniknight",
+        "omni"
+    ],
+    "58": [
+        "enchantress",
+        "ench"
+    ],
+    "59": [
+        "huskar"
+    ],
+    "60": [
+        "night-stalker",
+        "ns",
+        "nightstalker"
+    ],
+    "61": [
+        "broodmother",
+        "brood"
+    ],
+    "62": [
+        "bounty-hunter",
+        "bh",
+        "bounty"
+    ],
+    "63": [
+        "weaver"
+    ],
+    "64": [
+        "jakiro"
+    ],
+    "65": [
+        "batrider",
+        "bat"
+    ],
+    "66": [
+        "chen"
+    ],
+    "67": [
+        "spectre",
+        "mercurial"
+    ],
+    "68": [
+        "ancient-apparition",
+        "aa",
+        "ancientapparition"
+    ],
+    "69": [
+        "doom-bringer",
+        "doom"
+    ],
+    "70": [
+        "ursa",
+        "ursa-warrior"
+    ],
+    "71": [
+        "spirit-breaker",
+        "sb",
+        "bara",
+        "spiritbreaker",
+        "barathrum"
+    ],
+    "72": [
+        "gyrocopter",
+        "gyro"
+    ],
+    "73": [
+        "alchemist",
+        "alch"
+    ],
+    "74": [
+        "invoker"
+    ],
+    "75": [
+        "silencer"
+    ],
+    "76": [
+        "obsidian-destroyer",
+        "od",
+        "obsidian",
+        "outworld-devourer",
+        "outworlddevourer"
+    ],
+    "77": [
+        "lycan",
+        "lycanthrope",
+        "lyc"
+    ],
+    "78": [
+        "brewmaster",
+        "brew"
+    ],
+    "79": [
+        "shadow-demon",
+        "sd",
+        "shadowdemon"
+    ],
+    "80": [
+        "lone-druid",
+        "ld",
+        "lonedruid",
+        "bear",
+        "sylla",
+        "syllabear",
+        "lone"
+    ],
+    "81": [
+        "chaos-knight",
+        "ck",
+        "chaosknight"
+    ],
+    "82": [
+        "meepo"
+    ],
+    "83": [
+        "treant",
+        "treant-protector",
+        "treantprotector"
+    ],
+    "84": [
+        "ogre-magi",
+        "ogre",
+        "ogremagi"
+    ],
+    "85": [
+        "undying",
+        "und"
+    ],
+    "86": [
+        "rubick"
+    ],
+    "87": [
+        "disruptor"
+    ],
+    "88": [
+        "nyx-assassin",
+        "nyx",
+        "nyxassassin"
+    ],
+    "89": [
+        "naga-siren",
+        "naga",
+        "nagasiren"
+    ],
+    "90": [
+        "keeper-of-the-light",
+        "kotl",
+        "keeperofthelight"
+    ],
+    "91": [
+        "wisp",
+        "io"
+    ],
+    "92": [
+        "visage"
+    ],
+    "93": [
+        "slark"
+    ],
+    "94": [
+        "medusa"
+    ],
+    "95": [
+        "troll-warlord",
+        "troll",
+        "trollwarlord"
+    ],
+    "96": [
+        "centaur",
+        "centaurwarrunner"
+    ],
+    "97": [
+        "magnataur",
+        "magnus"
+    ],
+    "98": [
+        "timbersaw",
+        "timber",
+        "shredder"
+    ],
+    "99": [
+        "bristleback",
+        "bristle",
+        "bb"
+    ],
+    "100": [
+        "tusk",
+        "tuskar"
+    ],
+    "101": [
+        "skywrath-mage",
+        "skywrath",
+        "skywrathmage",
+        "sky"
+    ],
+    "102": [
+        "abaddon",
+        "aba"
+    ],
+    "103": [
+        "elder-titan",
+        "elder",
+        "et"
+    ],
+    "104": [
+        "legion-commander",
+        "legion",
+        "legioncommander",
+        "lc"
+    ],
+    "105": [
+        "techies"
+    ],
+    "106": [
+        "ember-spirit",
+        "ember",
+        "emberspirit"
+    ],
+    "107": [
+        "earth-spirit",
+        "earth",
+        "es"
+    ],
+    "108": [
+        "abyssal-underlord",
+        "underlord",
+        "uberlord"
+    ],
+    "109": [
+        "terrorblade",
+        "terror",
+        "tb"
+    ],
+    "110": [
+        "phoenix"
+    ],
+    "111": [
+        "oracle"
+    ],
+    "112": [
+        "winter-wyvern",
+        "winterwyvern",
+        "ww"
+    ],
+    "113": [
+        "arc-warden",
+        "arcwarden",
+        "arc",
+        "zet"
+    ],
+    "114": [
+        "monkey-king",
+        "monkey",
+        "mk",
+        "sun-wukong"
+    ],
+    "119": [
+        "dark-willow",
+        "darkwillow",
+        "dw",
+        "mireska",
+        "willow"
+    ],
+    "120": [
+        "pangolier",
+        "pango"
+    ],
+    "121": [
+        "grimstroke",
+        "grim"
+    ],
+    "123": [
+        "hoodwink",
+        "hw",
+        "hood"
+    ],
+    "126": [
+        "void-spirit",
+        "void",
+        "voidspirit",
+        "vs"
+    ],
+    "128": [
+        "snapfire",
+        "snap",
+        "vovo"
+    ],
+    "129": [
+        "mars"
+    ],
+    "131": [
+        "ringmaster",
+        "ring",
+        "palhaco"
+    ],
+    "135": [
+        "dawnbreaker",
+        "dawn",
+        "db"
+    ],
+    "136": [
+        "marci"
+    ],
+    "137": [
+        "primal-beast",
+        "primal"
+    ],
+    "138": [
+        "muerta"
+    ],
+    "145": [
+        "kez"
+    ]
+        
+}
