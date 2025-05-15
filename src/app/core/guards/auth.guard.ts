@@ -8,10 +8,7 @@ export class AuthGuard implements CanActivate {
 	constructor(private router: Router, private userService: UserService) {}
 
 	canActivate(): boolean {
-		const currentUser = this.userService.getCurrentUser();
-
-		console.log(currentUser);
-		if (currentUser) {
+		if (this.userService.checkAuth()) {
 			return true;
 		}
 

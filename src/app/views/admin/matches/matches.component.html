@@ -1,0 +1,101 @@
+<div class="matches-container">
+    <div class="mb-3" nz-row>
+        <div nz-col nzSpan="12" nzAlign="bottom">
+            <h3>Partidas de Dota 2</h3>
+            <h6>Gerenciamento de Partidas</h6>
+        </div>
+        <div nz-col nzSpan="12">
+
+        </div>
+    </div>
+
+    <div nz-row>
+        <div nz-col nzSpan="24">
+            <div class="in-card px-3" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+                <div class="in-card-content">
+                    <nz-select 
+                        style="width: 200px;" 
+                        [ngModel]="selectedStatus" 
+                        (ngModelChange)="changeStatus($event)"
+                        nzPlaceHolder="Selecionar Status">
+                        <nz-option *ngFor="let status of statusOptions" [nzValue]="status.value" [nzLabel]="status.label"></nz-option>
+                    </nz-select>
+                    
+                    <button 
+                        nz-button 
+                        nzType="primary" 
+                        class="ml-3" 
+                        [disabled]="selectedMatches.length === 0"
+                        (click)="reparseSelectedMatches()"
+                        *ngIf="">
+                        Reprocessar Partidas Selecionadas ({{selectedMatches.length}})
+                    </button>
+                </div>
+            </div>
+
+            <nz-table 
+                #matchesTable 
+                [nzData]="matches" 
+                [nzLoading]="loading" 
+                [nzShowPagination]="true" 
+                [nzPageSize]="pageSize" 
+                [nzTotal]="totalResults" 
+                [nzFrontPagination]="false" 
+                (nzQueryParams)="changePage($event)">
+                <thead>
+                    <tr>
+                        <th [nzWidth]="'60px'" [nzChecked]="isAllChecked" [nzIndeterminate]="isIndeterminate" (nzCheckedChange)="checkAll($event)"></th>
+                        <th>ID da Partida</th>
+                        <th>Status</th>
+                        <th>Data de Início</th>
+                        <th>Duração</th>
+                        <th>Vencedor</th>
+                        <th>MMR Médio</th>
+                        <th>Modo de Jogo</th>
+                        <th>Campeonato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let match of matchesTable.data">
+                        <td [nzChecked]="isChecked(match)" (nzCheckedChange)="checkMatch($event, match)"></td>
+                        <td>{{ match.matchId }}</td>
+                        <td>
+                            <nz-tag 
+                                [nzColor]="getStatusColor(match.status)">
+                                {{ match.status }}
+                            </nz-tag>
+                        </td>
+                        <td>{{ match.startDateTime | date:'dd/MM/yyyy HH:mm' }}</td>
+                        <td>{{ formatDuration(match.durationSeconds) }}</td>
+                        <td>
+                            <span [ngClass]="{'text-success': match.didRadiantWin, 'text-danger': !match.didRadiantWin}">
+                                {{ match.didRadiantWin ? 'Radiant' : 'Dire' }}
+                            </span>
+                        </td>
+                        <td>{{ match.averageMmr }}</td>
+                        <td>{{ match.gameMode }}</td>
+                        <td>
+                            <span *ngIf="match.league">
+                                {{ match.league.displayName ? match.league.displayName : match.league.leagueId }}
+                            </span>
+                            <span *ngIf="!match.league">
+                                -
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </div>
+    </div>
+
+    <nz-modal 
+        [(nzVisible)]="isReparseModalVisible" 
+        nzTitle="Reprocessar Partidas" 
+        (nzOnCancel)="handleReparseCancel()" 
+        (nzOnOk)="confirmReparse()">
+        <ng-container *nzModalContent>
+            <p>Você está prestes a reprocessar {{ selectedMatches.length }} partida(s).</p>
+            <p>Deseja continuar?</p>
+        </ng-container>
+    </nz-modal>
+</div>

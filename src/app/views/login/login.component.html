@@ -5,7 +5,7 @@
     <div nz-col nzSpan="8" class="pr-2">
         <div class="in-card">
             <div class="in-card-header">
-                <div  class="in-horizontal between">
+                <div  class="in-horizontal between flex-grow-1">
                     <div class="in-card-title">Login</div>   
                     <div class="in-card-subtitle">Área restrita</div>
                 </div>
@@ -18,11 +18,11 @@
                     </nz-input-group>
                     <ng-template #prefixTemplateUser><nz-icon nzType="user" /></ng-template>
                     <nz-input-group [nzPrefix]="prefixTemplatePassword"  nzSize="large">
-                        <input type="text" nz-input placeholder="Senha" formControlName="password"/>
+                        <input type="password" nz-input placeholder="Senha" formControlName="password"/>
                     </nz-input-group>
                     <ng-template #prefixTemplatePassword><nz-icon nzType="lock" /></ng-template>
                     <div class="in-horizontal end">
-                        <button class="mt" nz-button nzType="primary" nzSize="large" (click)="simulateLogin()">
+                        <button class="mt" nz-button nzType="primary" nzSize="large" (click)="login()" [disabled]="loginForm.invalid">
                             Entrar
                         </button>
                     </div>

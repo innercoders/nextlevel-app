@@ -1,3 +1,41 @@
+// Breakpoints
+@screen-xs: 0;
+@screen-sm: 576px;
+@screen-md: 768px;
+@screen-lg: 992px;
+@screen-xl: 1200px;
+@screen-xxl: 1600px;
+
+// Display types
+@display-types: block, flex, inline, none, table, table-row, table-cell;
+@breakpoints: xs, sm, md, lg, xl, xxl;
+@media-widths: @screen-xs, @screen-sm, @screen-md, @screen-lg, @screen-xl, @screen-xxl;
+
+// Base classes
+each(@display-types, {
+  .d-@{value} {
+    display: @value !important;
+  }
+});
+
+// Responsive classes
+.generate-display(@i: 1) when (@i =< length(@breakpoints)) {
+  @bp: extract(@breakpoints, @i);
+  @min: extract(@media-widths, @i);
+
+  each(@display-types, {
+    @display: @value;
+    .d-@{bp}-@{display} {
+      @media (min-width: @min) {
+        display: @display !important;
+      }
+    }
+  });
+
+  .generate-display(@i + 1);
+}
+.generate-display();
+
 .in-horizontal {
     display: flex;
     flex-direction: row;
@@ -14,6 +52,10 @@
     &.end {
         justify-content: flex-end;
     }
+
+    &.bottom {
+        align-items: flex-end;
+    }
 }
 
 .in-vertical {
@@ -28,3 +70,33 @@
 .text-center {
     text-align: center;
 }
+
+.text-right {
+    text-align: right;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+// Facet Colors
+.bg-Red { background-color: @danger-color; }
+.bg-Blue { background-color: @primary-color; }
+.bg-Green { background-color: @success-color; }
+.bg-Yellow { background-color: @warning-color; }
+.bg-Purple { background-color: @purple-color; }
+.bg-Gray { background-color: @gray-color; }
+
+.bg-Red-opacity { background-color: rgba(@danger-color, 0.8); }
+.bg-Blue-opacity { background-color: rgba(@primary-color, 0.8); }
+.bg-Green-opacity { background-color: rgba(@success-color, 0.8); }
+.bg-Yellow-opacity { background-color: rgba(@warning-color, 0.8); }
+.bg-Purple-opacity { background-color: rgba(@purple-color, 0.8); }
+.bg-Gray-opacity { background-color: rgba(@gray-color, 0.8); }
+
+.text-Red { color: @danger-color; }
+.text-Blue { color: @primary-color; }
+.text-Green { color: @success-color; }
+.text-Yellow { color: @warning-color; }
+.text-Purple { color: @purple-color; }
+.text-Gray { color: @gray-color; }

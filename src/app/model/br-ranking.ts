@@ -345,16 +345,16 @@ export const brRanking = [
     {
       "Player": "Hyko",
       "Age": 24,
-      "MMR": "11.5",
+      "MMR": "11.5K",
       "Notes": "Aposentado",
-      "MMR_Value": 11.5
+      "MMR_Value": 11500
     },
     {
       "Player": "Zoimotoboy",
       "Age": NaN,
-      "MMR": "10.9",
+      "MMR": "10.9K",
       "Notes": "",
-      "MMR_Value": 10.9
+      "MMR_Value": 10900
     },
     {
       "Player": "Duster",

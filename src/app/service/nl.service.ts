@@ -8,7 +8,8 @@ export abstract class NlService {
 
     protected baseAPI: string = 'http://localhost:3000';
 
-    constructor() { }
+    constructor() {
+    }
 
     protected buildHttpParams(requestObject: any): HttpParams {
         let params = new HttpParams();

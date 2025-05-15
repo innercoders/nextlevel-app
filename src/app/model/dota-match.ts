@@ -1,3 +1,4 @@
+import { DotaLeague } from "./dota-league";
 import { DotaMatchPlayer } from "./dota-match-player";
 
 export interface DotaMatch {
@@ -38,4 +39,5 @@ export interface DotaMatch {
     serverSteamId: string;
     radiantTeam: any;
     direTeam: any;
+    league: DotaLeague;
 }

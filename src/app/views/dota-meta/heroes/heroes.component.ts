@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
-import { DotaHero } from '@app/model';
+import { DotaHero, DotaHeroAbilities, HeroMatchupsRequest, HeroOverrallStatsRequest } from '@app/model';
 import { DotaMetaService, DotaHelperService } from '@app/service';
 import { DotaPlayerPositions } from '@app/shared';
+import { BestHeroItemsRequest } from 'app/model/request/best-hero-items.request';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
@@ -31,11 +32,14 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 
 	heroId: string = '';
 	hero?: DotaHero;
+	heroAbilities?: DotaHeroAbilities;
 	videoLoaded = false;
 
 	bestHeroItems?: any;
 	heroOverrallStats?: HeroOverrallStats[];
 	heroMatchups?: any[];
+
+	selectedFacetId?: number;
 
 	public heroRecordsPositions: string[] = ['POSITION_1', 'POSITION_2', 'POSITION_3', 'POSITION_4', 'POSITION_5'];
 
@@ -47,9 +51,12 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 
 	ngOnInit() {
 		this.route.params.subscribe((params) => {
-			console.log('params', params['heroId']);
 			this.hero = this.dotaHelperService.getHeroData(params['heroId']);
+			this.heroAbilities = this.dotaHelperService.getHeroAbilityData(this.hero.name);
 			this.heroId = this.hero.id.toString();
+
+			const firstNotDeprecatedFacet: any = this.heroAbilities?.facets.findIndex((facet) => facet.deprecated != '1' && facet.deprecated != 'true');
+			this.selectedFacetId = firstNotDeprecatedFacet + 1;
 
 			this.getHeroOverrallStats();
 			this.getBestHeroItems();
@@ -91,13 +98,29 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 	}
 
 	getHeroOverrallStats() {
-		this.dotaMetaService.getHeroOverrallStats({ heroId: this.heroId }).subscribe((data) => {
+		let params: HeroOverrallStatsRequest = {
+			heroId: this.heroId,
+		}
+
+		if(this.selectedFacetId) {
+			params.facetId = this.selectedFacetId;
+		}
+
+		this.dotaMetaService.getHeroOverrallStats(params).subscribe((data) => {
 			this.heroOverrallStats = data.overallStats;
 		});
 	}
 
 	getBestHeroItems() {
-		this.dotaMetaService.getBestHeroItems({ heroId: this.heroId }).subscribe((data) => {
+		let params: BestHeroItemsRequest = { 
+			heroId: this.heroId,
+		}
+
+		if(this.selectedFacetId) {
+			params.facetId = this.selectedFacetId;
+		}
+
+		this.dotaMetaService.getBestHeroItems(params).subscribe((data) => {
 			data.items = data.items.map((item: any) => {
 				return {
 					...item,
@@ -110,7 +133,15 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 	}
 
 	getHeroMatchups() {
-		this.dotaMetaService.getHeroMatchups({ heroId: this.heroId }).subscribe((data) => {
+		let params: HeroMatchupsRequest = {
+			heroId: this.heroId,
+		}
+
+		if(this.selectedFacetId) {
+			params.facetId = this.selectedFacetId;
+		}
+
+		this.dotaMetaService.getHeroMatchups(params).subscribe((data) => {
 			let finalData = Object.keys(data.matchupsByPosition).map((key) => {
 				return {
 					position: key,
@@ -132,8 +163,6 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 			});
 
 			this.heroMatchups = finalData;
-
-			console.log(finalData);
 		});
 	}
 	
@@ -179,6 +208,10 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 		return DotaPlayerPositions.getPositionLabel(position);
 	}
 
+	getDotaIcon(icon: string) {
+		return this.dotaHelperService.getDotaIcon(icon);
+	}
+
 	getWinRateClass(winRate: number) {
 		if (winRate > 50) return 'high';
 		if (winRate > 40) return 'medium';
@@ -189,6 +222,13 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 		if (winRate > 50) return '#52C41A';
 		if (winRate > 40) return '#FAAD14';
 		return '#FF4D4F';
+	}
+
+	selectFacet(facetId: number) {
+		this.selectedFacetId = facetId;
+		this.getBestHeroItems();
+		this.getHeroOverrallStats();
+		this.getHeroMatchups();
 	}
 }
 

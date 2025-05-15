@@ -1,7 +1,7 @@
 export interface DotaHero {
 	id: number;
 	name: string;
-	sanitized_name: string;
+	sanitizedName: string;
 	primary_attr: string;
 	attack_type: string;
 	roles: string[];
@@ -41,6 +41,6 @@ export interface DotaHero {
 	botHeroType: string;
 	similarHeroes: number[];
 	similarHeroesData: DotaHero[];
-	facets: any[];
+	facets: any;
 	heroAlias: any;
 }

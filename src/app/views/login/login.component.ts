@@ -8,6 +8,7 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { UserService } from '@app/service';
+import { Router } from '@angular/router';
 
 @Component({
 	selector: 'app-login',
@@ -28,18 +29,31 @@ export class LoginComponent {
 
 	loginForm: FormGroup;
 
-	constructor(private fb: FormBuilder, private userService: UserService) {
+	constructor(private fb: FormBuilder, private userService: UserService, private router: Router) {
 		this.loginForm = this.fb.group({
-			email: ['', [Validators.required, Validators.email]],
-			password: ['', [Validators.minLength(6), Validators.required]]
+			email: ['devfeliperodrigues@gmail.com', [Validators.required, Validators.email]],
+			password: ['hHYRdd4gLwA3jRp', [Validators.minLength(6), Validators.required]]
 		});
 	}
 
-	simulateLogin() {
-		this.userService.setCurrentUser({
-			email: 'devfeliperodrigues@gmail.com',
-			token: '1234567890'
-		});
+	login(): void {
+		if (this.loginForm.valid) {
+			this.userService.login(this.loginForm.value.email, this.loginForm.value.password)
+				.subscribe({
+					next: (response) => {
+						this.userService.setCurrentUser(response);
+
+						if(response.user.role === 'admin') {
+							this.router.navigate(['/admin/dashboard']);
+						} else {
+							this.router.navigate(['/']);
+						}
+					},
+					error: (error) => {
+						console.error('Login failed', error);
+					}
+				});
+		}
 	}
 
 }

@@ -9043,7 +9043,7 @@
       "2",
       "1"
     ],
-    "botHeroType": "DOTA_BOT_GANKER",
+    "botHeroType": "DOTA_BOT_GANKER | DOTA_BOT_HARD_CARRY",
     "complexity": "2",
     "heroAlias": "rm;marionetto;cogliostro",
     "facets": {
@@ -9220,9 +9220,6 @@
       "1",
       "1"
     ],
-    "botHeroType": "DOTA_BOT_SEMI_CARRY",
-    "complexity": "2",
-    "heroAlias": "marci",
     "facets": {
       "marci_sidekick": {
         "Icon": "healing",
@@ -9313,8 +9310,6 @@
       "3",
       "2"
     ],
-    "botHeroType": "DOTA_BOT_TANK | DOTA_BOT_GANKER",
-    "complexity": "2",
     "heroAlias": "pb",
     "facets": {
       "primal_beast_romp_n_stomp": {
@@ -9381,9 +9376,6 @@
       "2",
       "1"
     ],
-    "botHeroType": "DOTA_BOT_SEMI_CARRY",
-    "complexity": "2",
-    "heroAlias": "muerta",
     "facets": {
       "muerta_dance_of_the_dead": {
         "Icon": "spirit",
@@ -9449,8 +9441,6 @@
       "2",
       "1"
     ],
-    "botHeroType": "DOTA_BOT_SEMI_CARRY",
-    "complexity": "2",
     "heroAlias": "bird samurai;kestrel",
     "facets": {
       "kez_flutter": {

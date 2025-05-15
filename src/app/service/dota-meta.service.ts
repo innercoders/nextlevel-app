@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { BestHeroesRequest, BestHeroItemsResponse, DotaMetaResponse, HeroMatchupResponse, HeroOverrallStatsResponse, HeroStatsRecordsResponse } from '@app/model';
+import { BestHeroesRequest, BestHeroItemsResponse, HeroStatsRecordsResponse } from '@app/model';
 import { NlService } from './nl.service';
 import { HeroOverrallStatsRequest } from 'app/model/request/hero-overrall-stats.request';
 import { HeroStatsRecordsRequest } from 'app/model/request/hero-stats-records.request';
@@ -14,7 +14,7 @@ export class DotaMetaService extends NlService {
 
 	public heroRecordPositions: any[] = [];
 
-	private readonly DEFAULT_DAYS = 7;
+	private readonly DEFAULT_DAYS = 14;
 	private readonly DEFAULT_MIN_MATCHES = 10;
 
 	constructor(private http: HttpClient) { 

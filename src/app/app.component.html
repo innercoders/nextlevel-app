@@ -1,21 +1,95 @@
-<app-main-slider *ngIf="showSlider$ | async" @sliderAnimation></app-main-slider>
+<app-main-slider *ngIf="showSlider$ | async"></app-main-slider>
 
-<app-side-menu *ngIf="false"></app-side-menu>
+<app-side-menu *ngIf="currentUser"></app-side-menu>
 
-<div class="header">
-	<div class="">
-		<img src="/assets/images/next-level-complete-logo.png" alt="Next Level" height="50px"/>
-		<h6>Seu jogo, seu nível, além!</h6>
+<div class="header-nz" nz-row nzAlign="middle" *ngIf="currentUser">
+	<div nz-col nzSpan="16" class="search-bar-container">
+		<div class="search-bar">
+			<nz-input-group [nzSuffix]="suffixIconSearch">
+				<input type="text" nz-input placeholder="Pesquisar"/>
+			</nz-input-group>
+			<ng-template #suffixIconSearch>
+				<nz-icon nzType="search" />
+			</ng-template>
+		</div>
 	</div>
+	<div nz-col nzSpan="8" class="right-side-container">
+		<div class="notification-bar-container">
+			<button nz-button nzType="text" nzSize="large" nz-popover nzPopoverTrigger="click" [nzPopoverContent]="contentTemplate" nzPopoverPlacement="leftTop">
+				<nz-badge nzDot>
+					<nz-icon nzType="bell"/>
+				  </nz-badge>
+			</button>
+			<ng-template #contentTemplate>
+				<h6>Notificações</h6>
+				<hr/>
+				<div class="notification-list">
+					<div class="notification-item">
+						Novo campeonato da <span class="text-primary">NEXTLEVEL</span>, faça a inscrição do seu time agora!
+					</div>
+					<div class="notification-item">
+						Novo campeonato da <span class="text-primary">NEXTLEVEL</span>, faça a inscrição do seu time agora!
+					</div>
+					<div class="notification-item">
+						Novo campeonato da <span class="text-primary">NEXTLEVEL</span>, faça a inscrição do seu time agora!
+					</div>
+				</div>
+			</ng-template>
+		</div>
 
-	<div class="" *ngIf="currentUser">
-		<a nz-button nzType="text" nzSize="large" (click)="logout()">
-			<span class="mr-2">{{ currentUser.email }}</span>
-			<nz-icon nzType="logout" nzTheme="outline" />
-		</a>
+		<div class="user-info" *ngIf="currentUser">
+			<nz-avatar nzIcon="user"></nz-avatar>
+			<div class="user-info-text">
+				<span class="user-info-text-name">{{ currentUser.alias || currentUser.firstName + ' ' + currentUser.lastName }}</span>
+				<span class="user-info-text-email" [innerHTML]="currentUser.email"></span>
+			</div>
+			<!-- add a logout button -->
+			<button nz-button nzType="text" nzSize="large" nz-popconfirm nzPopconfirmTitle="Tem certeza que deseja sair?"
+			(nzOnConfirm)="logout()" nzTooltipTitle="Sair" nzCancelText="Cancelar" nzOkText="Sair" nzPopconfirmPlacement="rightBottom" nz-tooltip>
+				<nz-icon nzType="logout" />
+			</button>
+		</div>
+	
+		<div class="user-info" *ngIf="!currentUser">
+			<div class="user-info-text">
+				<button nz-button nzType="text" nzSize="large" routerLink="/login"  nzTooltipTitle="Personalize sua experiência" nz-tooltip>
+					<span>Entrar</span>
+				</button>
+			</div>
+		</div>
+
 	</div>
 </div>
 
+<!-- <div class="header">
+	<div class="search-bar">
+		<nz-input-group [nzSuffix]="suffixIconSearch">
+			<input type="text" nz-input placeholder="Pesquisar"/>
+		</nz-input-group>
+		<ng-template #suffixIconSearch>
+			<nz-icon nzType="search" />
+		</ng-template>
+	</div>
+
+	<div class="user-info" *ngIf="currentUser">
+		<nz-avatar nzIcon="user"></nz-avatar>
+		<div class="user-info-text">
+			<span class="user-info-text-name">John Doe</span>
+			<span class="user-info-text-email" [innerHTML]="'john.doe@example.com'"></span>
+		</div>
+	</div>
+
+	<div class="user-info" *ngIf="!currentUser">
+		<div class="user-info-text">
+			<button nz-button nzType="text" nzSize="large" routerLink="/login"  nzTooltipTitle="Personalize sua experiência" nz-tooltip>
+				<span>Entrar</span>
+			</button>
+		</div>
+	</div>
+</div> -->
+
 <div class="main" #mainContent (scroll)="onWindowScroll()">
+
 	<router-outlet></router-outlet>
+	
 </div>

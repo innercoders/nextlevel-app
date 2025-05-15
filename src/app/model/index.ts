@@ -2,6 +2,9 @@ export * from './dota-hero';
 export * from './dota-item';
 export * from './dota-match';
 export * from './dota-match-player';
+export * from './dota-hero-abilities';
+export * from './dota-league';
+export * from './user';
 
 // Request
 export * from './request/auth-login.request';
@@ -16,6 +19,5 @@ export * from './response/best-hero-items.response';
 export * from './response/hero-overrall-stats.response';
 export * from './response/hero-matchup.response';
 export * from './response/hero-stats-records.response';
-
 // Ranking
 export * from './br-ranking';

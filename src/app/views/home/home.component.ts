@@ -30,7 +30,6 @@ import { NzTabChangeEvent } from 'ng-zorro-antd/tabs';
 		NzTabsModule,
 		NzTableModule,
 		RouterModule,
-		TimeFormatPipe,
 	],
 	templateUrl: './home.component.html',
 	styleUrl: './home.component.less'
@@ -42,7 +41,7 @@ export class HomeComponent implements OnInit {
 	public loadingDotaMeta: boolean = false;
 	public loadingOnGoingMatches: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
-	public dotaRankBrasil: any[] = brRanking;
+	public dotaRankBrasil: any[] = brRanking.sort((a, b) => b.MMR_Value - a.MMR_Value);
 	public dotaRanksAmericas: any[] = [];
 	public dotaRanksEurope: any[] = [];
 	public dotaRanksSeAsia: any[] = [];
@@ -60,8 +59,8 @@ export class HomeComponent implements OnInit {
 				private message: NzMessageService) {}
 
 	public ngOnInit() {
-		this.getOnGoingMatches();
-		this.getDotaRanks();
+		// this.getOnGoingMatches();
+		// this.getDotaRanks();
 		// Default to showing Brazil ranking
 		this.selectedRankingData = this.dotaRanksEurope;
 		// this.getLastMatches();

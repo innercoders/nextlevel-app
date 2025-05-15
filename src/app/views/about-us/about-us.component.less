@@ -1,9 +1,75 @@
 @import '../../../styles/_variables';
 
+.about-us-header {
+    .side-menu-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    margin-bottom: 20px;
+}
+
+.about-us-tournament {
+    .in-card {
+        height: 240px;
+
+        .in-card-body {
+            background-color: rgba(0, 0, 0, 0.9);
+            border-radius: 10px;
+            height: 100%;
+        }
+    }
+}
+
 .about-us-container {
-    margin-top: 80px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    @media (max-width: 768px) {
+        margin-top: 80px;
+    }
+    
+    @media (max-width: 576px) {
+        margin-top: 80px;
+    }
+    
+    h3 {
+        @media (max-width: 576px) {
+            font-size: 1.5rem;
+        }
+    }
+    
+    h5 {
+        @media (max-width: 576px) {
+            font-size: 1rem;
+        }
+    }
+    
+    p {
+        @media (max-width: 576px) {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+.in-card {
+    margin-bottom: 20px;
+    
+    .in-card-header {
+        @media (max-width: 576px) {
+            padding: 10px !important;
+        }
+    }
 }
 
 .in-card-body {
-    padding: 20px 30px 0 30px; 
+    padding: 20px 30px 0 30px;
+    
+    @media (max-width: 768px) {
+        padding: 15px 20px 0 20px;
+    }
+    
+    @media (max-width: 576px) {
+        padding: 10px 15px 0 15px;
+    }
 }

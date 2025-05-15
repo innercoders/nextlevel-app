@@ -8,6 +8,7 @@
 @import "./styles/_typo";
 @import "./styles/_margin";
 @import "./styles/_padding";
+@import "./styles/_ng-zorro";
 
 // Custom scrollbar styling
 ::-webkit-scrollbar {
@@ -39,60 +40,4 @@
 // Ensure smooth scrolling
 html {
 	scroll-behavior: smooth;
-}
-
-.ant-carousel .slick-dots li {
-	& button {
-		background: @white;
-	}
-
-	&.slick-active button {
-		background: @primary-color;
-	}
-}
-
-.hero-role-progress {
-    .ant-progress-inner {
-		.ant-progress-bg {
-			box-shadow: @box-neon-primary;
-		}
-        
-		overflow: visible;
-    }
-}
-
-.win-rate-progress {
-	&.high {
-		.ant-progress-inner {
-			.ant-progress-bg {
-				box-shadow: @box-neon-success;
-			}
-		}
-	}
-
-	&.medium {
-		.ant-progress-inner {
-			.ant-progress-bg {
-				box-shadow: @box-neon-warning;
-			}
-		}
-	}
-
-	&.low {
-		.ant-progress-inner {
-			.ant-progress-bg {
-				box-shadow: @box-neon-danger;
-			}
-		}
-	}
-
-    .ant-progress-inner {
-		overflow: visible;
-    }
-}
-
-.ant-collapse-header {
-	&>div {
-		width: 100%;
-	}
 }

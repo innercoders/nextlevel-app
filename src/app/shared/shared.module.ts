@@ -5,9 +5,9 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { TimeFormatPipe } from './pipes/time-format.pipe';
 
-
 @NgModule({
-	declarations: [],
+	declarations: [
+	],
 	imports: [
 		NzIconModule,
 		NzButtonModule,

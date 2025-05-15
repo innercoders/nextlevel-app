@@ -1,8 +1,30 @@
 <div class="hero-container" *ngIf="hero">
+    <div class="hero-name">
+        <div class="in-horizontal">
+            <img class="mr-3" [src]="hero.primaryAttributeImage" alt="Atributo primário" />
+            <h2>{{ hero.localized_name }}</h2>
+        </div>
+
+        <div class="in-horizontal ">
+            <h5 class="text-muted">Complexidade</h5>
+            <h5 class="ml-2 in-horizontal text-primary">
+                <nz-icon nzType="thunderbolt" [nzTheme]="hero.complexity > 0 ? 'fill' : 'outline'" />
+                <nz-icon nzType="thunderbolt" [nzTheme]="hero.complexity > 1 ? 'fill' : 'outline'" />
+                <nz-icon nzType="thunderbolt" [nzTheme]="hero.complexity > 2 ? 'fill' : 'outline'" />
+            </h5>
+        </div>
+
+        <div class="in-horizontal mt-3">
+            <img style="width: 20px;" src="/assets/images/dota/type/ranged.svg" *ngIf="hero.attack_type === 'Ranged'"/>
+            <img style="width: 20px;" src="/assets/images/dota/type/melee.svg" *ngIf="hero.attack_type === 'Melee'"/>
+            <span class="ml-2">{{ hero.attack_type == 'Ranged' ? 'Ataque a distância' : 'Ataque corpo a corpo' }}</span>
+        </div>
+    </div>
+
     <div class="hero-similar-heroes" *ngIf="hero.similarHeroesData">
         <span class="text-muted mr-2">Heróis similares:</span>
         <div class="in-horizontal">
-            <img *ngFor="let hero of hero.similarHeroesData" [src]="hero.img" height="40px" routerLink="/dota-meta/heroes/{{ hero.sanitized_name }}"
+            <img *ngFor="let hero of hero.similarHeroesData" [src]="hero.img" height="40px" routerLink="/dota-meta/heroes/{{ hero.sanitizedName }}"
             nz-tooltip [nzTooltipTitle]="hero.localized_name"/>
         </div>
     </div>
@@ -18,237 +40,228 @@
             <img height="20px" [src]="hero.primaryAttributeImage" alt="Atributo primário" />
         </div>
     </div>
-    <div class="hero-video">
-        <video 
-            #heroVideo 
-            class="reversed-video" 
-            height="800" 
-            autoplay 
-            loop 
-            muted 
-            playsinline 
-            preload="auto"
-        >
-            <!-- Source will be set programmatically in component -->
-            Your browser does not support the video tag.
-        </video>
-    </div>
 
+    <div class="hero-video" [ngClass]="hero.name">
+        <video #heroVideo class="reversed-video" autoplay loop muted playsinline preload="auto"></video>
+    </div>
+</div>
+
+<div class="hero-info-container" *ngIf="hero">
     <div class="in-card hero-info">
         <div class="in-card-body">
-            <div class="in-horizontal between">
-                <div class="in-vertical">
-                    <div class="in-horizontal">
-                        <img class="mr-3" [src]="hero.primaryAttributeImage" alt="Atributo primário" />
-                        <h2>{{ hero.localized_name }}</h2>
-                    </div>
-
-                    <div class="in-horizontal ">
-                        <h5 class="text-muted">Complexidade</h5>
-                        <h5 class="ml-2 in-horizontal text-primary">
-                            <nz-icon nzType="thunderbolt" [nzTheme]="hero.complexity > 0 ? 'fill' : 'outline'" />
-                            <nz-icon nzType="thunderbolt" [nzTheme]="hero.complexity > 1 ? 'fill' : 'outline'" />
-                            <nz-icon nzType="thunderbolt" [nzTheme]="hero.complexity > 2 ? 'fill' : 'outline'" />
-                        </h5>
-                    </div>
-
-                    <div class="in-horizontal mt-3">
-                        <img style="width: 20px;" src="/assets/images/dota/type/ranged.svg" *ngIf="hero.attack_type === 'Ranged'"/>
-                        <img style="width: 20px;" src="/assets/images/dota/type/melee.svg" *ngIf="hero.attack_type === 'Melee'"/>
-                        <span class="ml-2">{{ hero.attack_type == 'Ranged' ? 'Ataque a distância' : 'Ataque corpo a corpo' }}</span>
-                    </div>
+            <div nz-row [nzGutter]="24">
+                <div nz-col [nzSpan]="8" *ngFor="let role of hero.formatted_roles">
+                    <h6>{{ role.label }}</h6>
+                    <nz-progress [ngClass]="{'hero-role-progress': role.count > 0}" [nzPercent]="role.count" [nzShowInfo]="false" nzStrokeColor="#0AB4E9" nzStrokeWidth="2"></nz-progress>
                 </div>
-
-                <div nz-row [nzGutter]="24">
-                    <div nz-col [nzSpan]="8" *ngFor="let role of hero.formatted_roles">
-                        <h6>{{ role.label }}</h6>
-                        <nz-progress [ngClass]="{'hero-role-progress': role.count > 0}" [nzPercent]="role.count" [nzShowInfo]="false" nzStrokeColor="#0AB4E9" nzStrokeWidth="2"></nz-progress>
-                    </div>
-                    
-                </div>
+                
             </div>
         </div>
-        
     </div>
 
-    <div class="mt-4" nz-row [nzGutter]="24">
-        <div nz-col [nzSpan]="8">
-            <div class="in-card hero-items" *ngIf="bestHeroItems">
-                <div class="in-card-header">
-                    <div class="in-card-title">
-                        Itens
-                        <div class="text-muted" style="font-size: 50%; margin-top: -5px;">Presença dos itens nas vitórias.</div>
+    <div class="hero-facets" *ngIf="heroAbilities && selectedFacetId">
+        <div nz-row [nzGutter]="[20, 20]" *ngIf="heroAbilities" nzJustify="center">
+            <ng-container *ngFor="let facet of heroAbilities.facets; let i = index">
+                <div nz-col nzXs="24" nzLg="12" nzXl="6" class="hero-facet" *ngIf="facet.deprecated != '1' && facet.deprecated != 'true'" [ngClass]="{'selected': selectedFacetId === i + 1}" (click)="selectFacet(i + 1)">
+                    <div class="hero-facet-title" [ngClass]="'bg-'+facet.color+'-opacity'">
+                        <h6>{{ facet.title }}</h6>
+                        <div class="in-horizontal">
+                            <div class="facet-selected" *ngIf="selectedFacetId === i + 1">
+                                <nz-icon nzType="check" />
+                                <span class="ml-2">Selecionado</span>
+                            </div>
+                            <div class="icon">
+                                <img [src]="getDotaIcon(facet.icon)" height="20px" />
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div class="in-card-subtitle text-small in-vertical end">
-                        <div>em {{ bestHeroItems.totalMatches }} partidas analisadas</div>
-                        <div>nos últimos 7 dias</div>
+                    <div class="hero-facet-description" [innerHTML]="facet.description">
                     </div>
                 </div>
-                <div class="in-card-body">
-                    <div class="item-list">
-                        <div class="item"  *ngFor="let item of bestHeroItems.items">
-                            <img height="30px" [src]="item.imageData.img" alt="{{ item.imageData.dname }}" 
-                            nz-tooltip [nzTooltipTitle]="item.imageData.dname" />
-                            <div class="item-presence" [ngClass]="{'feature-item': item.count / bestHeroItems.totalMatches > 0.5, 'normal-item': item.count / bestHeroItems.totalMatches > 0.10}">{{ (item.count / bestHeroItems.totalMatches) * 100 | number:'1.0-2' }}%</div>
+            </ng-container>
+        </div>
+    </div>
+
+    <div class="hero-data">
+        <div class="mt-4" nz-row [nzGutter]="[20, 20]" *ngIf="hero">
+            <div nz-col nzXs="24" nzXl="8">
+                <div class="in-card hero-items" *ngIf="bestHeroItems">
+                    <div class="in-card-header">
+                        <div class="in-card-title">
+                            Itens
+                            <div class="text-muted" style="font-size: 50%; margin-top: -5px;">Presença dos itens nas vitórias.</div>
+                        </div>
+                        <div class="in-card-subtitle text-small in-vertical end">
+                            <div>em {{ bestHeroItems.totalMatches }} partidas analisadas</div>
+                            <div>nos últimos 14 dias</div>
+                        </div>
+                    </div>
+                    <div class="in-card-body">
+                        <div class="item-list">
+                            <div class="item"  *ngFor="let item of bestHeroItems.items">
+                                <img height="30px" [src]="item.imageData.img" alt="{{ item.imageData.dname }}" 
+                                nz-tooltip [nzTooltipTitle]="item.imageData.dname" />
+                                <div class="item-presence" [ngClass]="{'feature-item': item.count / bestHeroItems.totalMatches > 0.5, 'normal-item': item.count / bestHeroItems.totalMatches > 0.10}">{{ (item.count / bestHeroItems.totalMatches) * 100 | number:'1.0-2' }}%</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div nz-col [nzSpan]="8">
-            <div class="in-card overall-stats" *ngIf="bestHeroItems">
-                <div class="in-card-header">
-                    <div class="in-card-title">
-                        Estatísticas
-                        <div class="text-muted" style="font-size: 50%; margin-top: -5px;">Dados por posição.</div>
+            <div nz-col  nzXs="24" nzXl="8">
+                <div class="in-card overall-stats" *ngIf="bestHeroItems">
+                    <div class="in-card-header">
+                        <div class="in-card-title">
+                            Estatísticas
+                            <div class="text-muted" style="font-size: 50%; margin-top: -5px;">Dados por posição.</div>
+                        </div>
+                        <div class="in-card-subtitle text-small in-vertical end">
+                            <div>Média por posição</div>
+                            <div>nos últimos 14 dias</div>
+                        </div>
                     </div>
-                    <div class="in-card-subtitle text-small in-vertical end">
-                        <div>Média por posição</div>
-                        <div>nos últimos 7 dias</div>
+                    <div class="in-card-body" *ngIf="heroOverrallStats">
+                        <nz-collapse nzAccordion nzGhost>
+                            @for (stat of heroOverrallStats; track stat; let i = $index) {
+                                <nz-collapse-panel #statPanel [nzExpandedIcon]="expandedStatIcon">
+                                    <ng-template #expandedStatIcon let-active>
+                                        <div class="in-horizontal between">
+                                            <div class="in-horizontal">
+                                                <nz-icon nzType="caret-right" class="ant-collapse-arrow" [nzRotate]="statPanel.nzActive ? 90 : 0" />
+                                                <img [src]="getPositionImage(stat.position)" height="20px" class="mr-2"/>
+                                                <span>{{ getPositionLabel(stat.position) }}</span>
+                                            </div>
+                                            <span class="text-muted ml-auto">{{ stat.totalMatches }} partidas</span>
+                                        </div>
+                                    </ng-template>
+
+                                    <div class="">
+                                        <nz-progress class="win-rate-progress" [ngClass]="getWinRateClass(stat.winRate)" [nzPercent]="stat.winRate" [nzShowInfo]="false" [nzStrokeColor]="getWinRateColor(stat.winRate)" nzStrokeWidth="2"></nz-progress>
+                                        <div class="in-horizontal end mb-2" style="margin-top: -8px; font-size: 80%;">
+                                            <span [style.color]="getWinRateColor(stat.winRate)">{{ stat.winRate | number:'1.0-2' }}% vitórias</span>
+                                        </div>
+                                        <div class="stats-list">
+                                            <div class="stats-item">
+                                                <div class="in-horizontal">
+                                                    <img src="/assets/images/dota/icons/skull.png" height="15px" />
+                                                    <h6 class="mx-2">Kill / Deaths / Assists</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="text-success">{{ stat.avgKills | number:'1.0-0' }}</span> / 
+                                                    <span class="text-danger">{{ stat.avgDeaths | number:'1.0-0' }}</span> / 
+                                                    <span class="text-info">{{ stat.avgAssists | number:'1.0-0' }}</span>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="stats-item">
+                                                <div class="in-horizontal">
+                                                    <img src="/assets/images/dota/icons/gold.png" height="15px" />
+                                                    <h6 class="mx-2">Ouro por Minuto</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="text-warning">{{ stat.avgGpm | number:'1.0-0' }}</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="stats-item">
+                                                <div class="in-horizontal">
+                                                    <img src="/assets/images/dota/icons/xp.png" height="15px" />
+                                                    <h6 class="mx-2">Experiência por Minuto</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="text-info">{{ stat.avgXpm | number:'1.0-0' }}</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="stats-item">
+                                                <div class="in-horizontal">
+                                                    <img src="/assets/images/dota/icons/damage.png" height="15px" />
+                                                    <h6 class="mx-2">Dano em Heróis</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="text-danger">{{ stat.avgHeroDamage | number:'1.0-0' }}</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="stats-item">
+                                                <div class="in-horizontal">
+                                                    <img src="/assets/images/dota/icons/healing.png" height="15px" />
+                                                    <h6 class="mx-2">Cura em Heróis</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="text-success">{{ stat.avgHeroHealing | number:'1.0-0' }}</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="stats-item">
+                                                <div class="in-horizontal">
+                                                    <img src="/assets/images/dota/icons/siege.png" height="15px" />
+                                                    <h6 class="mx-2">Dano em Estruturas</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="text-warning">{{ stat.avgTowerDamage | number:'1.0-0' }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nz-collapse-panel>
+                            }
+                        </nz-collapse>
                     </div>
-                </div>
-                <div class="in-card-body" *ngIf="heroOverrallStats">
-                    <nz-collapse nzAccordion nzGhost>
-                        @for (stat of heroOverrallStats; track stat; let i = $index) {
-                            <nz-collapse-panel #statPanel [nzExpandedIcon]="expandedStatIcon">
-                                <ng-template #expandedStatIcon let-active>
-                                    <div class="in-horizontal between">
-                                        <div class="in-horizontal">
-                                            <nz-icon nzType="caret-right" class="ant-collapse-arrow" [nzRotate]="statPanel.nzActive ? 90 : 0" />
-                                            <img [src]="getPositionImage(stat.position)" height="20px" class="mr-2"/>
-                                            <span>{{ getPositionLabel(stat.position) }}</span>
-                                        </div>
-                                        <span class="text-muted ml-auto">{{ stat.totalMatches }} partidas</span>
-                                    </div>
-                                </ng-template>
-
-                                <div class="">
-                                    <nz-progress class="win-rate-progress" [ngClass]="getWinRateClass(stat.winRate)" [nzPercent]="stat.winRate" [nzShowInfo]="false" [nzStrokeColor]="getWinRateColor(stat.winRate)" nzStrokeWidth="2"></nz-progress>
-                                    <div class="in-horizontal end mb-2" style="margin-top: -8px; font-size: 80%;">
-                                        <span [style.color]="getWinRateColor(stat.winRate)">{{ stat.winRate | number:'1.0-2' }}% vitórias</span>
-                                    </div>
-                                    <div class="stats-list">
-                                        <div class="stats-item">
-                                            <div class="in-horizontal">
-                                                <img src="/assets/images/dota/icons/skull.png" height="15px" />
-                                                <h6 class="mx-2">Execuções / Mortes / Assistências</h6>
-                                            </div>
-                                            <div>
-                                                <span class="text-success">{{ stat.avgKills | number:'1.0-0' }}</span> / 
-                                                <span class="text-danger">{{ stat.avgDeaths | number:'1.0-0' }}</span> / 
-                                                <span class="text-info">{{ stat.avgAssists | number:'1.0-0' }}</span>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="stats-item">
-                                            <div class="in-horizontal">
-                                                <img src="/assets/images/dota/icons/gold.png" height="15px" />
-                                                <h6 class="mx-2">Ouro por Minuto</h6>
-                                            </div>
-                                            <div>
-                                                <span class="text-warning">{{ stat.avgGpm | number:'1.0-0' }}</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="stats-item">
-                                            <div class="in-horizontal">
-                                                <img src="/assets/images/dota/icons/xp.png" height="15px" />
-                                                <h6 class="mx-2">Experiência por Minuto</h6>
-                                            </div>
-                                            <div>
-                                                <span class="text-info">{{ stat.avgXpm | number:'1.0-0' }}</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="stats-item">
-                                            <div class="in-horizontal">
-                                                <img src="/assets/images/dota/icons/damage.png" height="15px" />
-                                                <h6 class="mx-2">Dano em Heróis</h6>
-                                            </div>
-                                            <div>
-                                                <span class="text-danger">{{ stat.avgHeroDamage | number:'1.0-0' }}</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="stats-item">
-                                            <div class="in-horizontal">
-                                                <img src="/assets/images/dota/icons/healing.png" height="15px" />
-                                                <h6 class="mx-2">Cura em Heróis</h6>
-                                            </div>
-                                            <div>
-                                                <span class="text-success">{{ stat.avgHeroHealing | number:'1.0-0' }}</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="stats-item">
-                                            <div class="in-horizontal">
-                                                <img src="/assets/images/dota/icons/siege.png" height="15px" />
-                                                <h6 class="mx-2">Dano em Estruturas</h6>
-                                            </div>
-                                            <div>
-                                                <span class="text-warning">{{ stat.avgTowerDamage | number:'1.0-0' }}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </nz-collapse-panel>
-                        }
-                    </nz-collapse>
                 </div>
             </div>
-        </div>
-        <div nz-col [nzSpan]="8">
-            <div class="in-card hero-matchups" *ngIf="heroMatchups">
-                <div class="in-card-header">
-                    <div class="in-card-title">
-                        Confrontos
-                        <div class="text-muted" style="font-size: 50%; margin-top: -5px;">{{ hero.localized_name }} é melhor contra</div>
+            <div nz-col  nzXs="24" nzXl="8">
+                <div class="in-card hero-matchups" *ngIf="heroMatchups">
+                    <div class="in-card-header">
+                        <div class="in-card-title">
+                            Confrontos
+                            <div class="text-muted" style="font-size: 50%; margin-top: -5px;">{{ hero.localized_name }} é melhor contra</div>
+                        </div>
+                        <div class="in-card-subtitle text-small in-vertical end">
+                            <div>Vitórias por posição</div>
+                            <div>nos últimos 14 dias</div>
+                        </div>
                     </div>
-                    <div class="in-card-subtitle text-small in-vertical end">
-                        <div>Vitórias por posição</div>
-                        <div>nos últimos 7 dias</div>
-                    </div>
-                </div>
-                <div class="in-card-body">
-                    <nz-collapse nzAccordion nzGhost>
-                        @for (matchup of heroMatchups; track matchup; let i = $index) {
-                            <nz-collapse-panel #p [nzActive]="i === 0" [nzExpandedIcon]="expandedIcon">
-                                <ng-template #expandedIcon let-active>
-                                    <div class="in-horizontal between">
-                                        <div class="in-horizontal">
-                                            <nz-icon nzType="caret-right" class="ant-collapse-arrow" [nzRotate]="p.nzActive ? 90 : 0" />
-                                            <img class="mr-2" [src]="getPositionImage(matchup.position)" height="20px" />
-                                            <span class="mr-2">{{ getPositionLabel(matchup.position) }}</span>
-                                        </div>
-                                        <span class="text-muted">{{ matchup.totalMatches }} confrontos</span>
-                                    </div>
-                                </ng-template>
-
-                                <div class="in-vertical" style="max-height: 400px; padding-right: 10px; overflow-y: auto;">
-                                    @for (matchup of matchup.matchups; track matchup) {
-                                        <div class="in-horizontal between mb-2">
+                    <div class="in-card-body">
+                        <nz-collapse nzAccordion nzGhost>
+                            @for (matchup of heroMatchups; track matchup; let i = $index) {
+                                <nz-collapse-panel #p [nzActive]="i === 0" [nzExpandedIcon]="expandedIcon">
+                                    <ng-template #expandedIcon let-active>
+                                        <div class="in-horizontal between">
                                             <div class="in-horizontal">
-                                                <img [src]="matchup.enemyHero.img" height="30px"/>
-                                                <span class="ml-2">{{ matchup.enemyHero.localized_name }}</span>
+                                                <nz-icon nzType="caret-right" class="ant-collapse-arrow" [nzRotate]="p.nzActive ? 90 : 0" />
+                                                <img class="mr-2" [src]="getPositionImage(matchup.position)" height="20px" />
+                                                <span class="mr-2">{{ getPositionLabel(matchup.position) }}</span>
                                             </div>
-                                            <div class="in-vertical end">
-                                                <span [style.color]="getWinRateColor(matchup.winRate)">{{ matchup.winRate | number:'1.0-2' }}% vitórias</span>
-                                                <span class="text-muted text-smaller">{{ matchup.totalMatches }} partidas</span>
-                                            </div>
-                                            
+                                            <span class="text-muted">{{ matchup.totalMatches }} confrontos</span>
                                         </div>
-                                    }
-                                </div>
-                            </nz-collapse-panel>
-                        }
-                    </nz-collapse>
+                                    </ng-template>
+
+                                    <div class="in-vertical" style="max-height: 400px; padding-right: 10px; overflow-y: auto;">
+                                        @for (matchup of matchup.matchups; track matchup) {
+                                            <div class="in-horizontal between mb-2">
+                                                <div class="in-horizontal">
+                                                    <img [src]="matchup.enemyHero.img" height="30px"/>
+                                                    <span class="ml-2">{{ matchup.enemyHero.localized_name }}</span>
+                                                </div>
+                                                <div class="in-vertical end">
+                                                    <span [style.color]="getWinRateColor(matchup.winRate)">{{ matchup.winRate | number:'1.0-2' }}% vitórias</span>
+                                                    <span class="text-muted text-smaller">{{ matchup.totalMatches }} partidas</span>
+                                                </div>
+                                                
+                                            </div>
+                                        }
+                                    </div>
+                                </nz-collapse-panel>
+                            }
+                        </nz-collapse>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="hero-container" *ngIf="!hero">
     Carregando...

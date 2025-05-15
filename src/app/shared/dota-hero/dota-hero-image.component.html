@@ -1,0 +1,8 @@
+<div class="dota-hero radius" *ngIf="hero">
+    <div class="dota-hero-image">
+        <img class="hero-image" [src]="hero.img" [alt]="hero.localized_name" nz-tooltip [nzTooltipTitle]="hero.localized_name"/>
+        <div class="dota-hero-facet" [ngClass]="'bg-' + selectedFacet.color" *ngIf="selectedFacet">
+            <img [src]="'/assets/images/dota/icons/' + selectedFacet.icon + '.png'" [alt]="selectedFacet.title" nz-tooltip [nzTooltipTitle]="selectedFacet.title"/>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+
+.ant-collapse-header {
+	&>div {
+		width: 100%;
+	}
+}
+
+.ant-menu {
+	background: none;
+}
+
+.ant-btn-text.active, .ant-btn-default.active {
+	span {
+		color: @primary-color;
+	}	
+}
+
+.ant-carousel .slick-dots li {
+	& button {
+		background: @white;
+	}
+
+	&.slick-active button {
+		background: @primary-color;
+	}
+}
+
+
+// progress
+.hero-role-progress {
+    .ant-progress-inner {
+		.ant-progress-bg {
+			box-shadow: @box-neon-primary;
+		}
+        
+		overflow: visible;
+    }
+}
+
+.win-rate-progress {
+	&.high {
+		.ant-progress-inner {
+			.ant-progress-bg {
+				box-shadow: @box-neon-success;
+			}
+		}
+	}
+
+	&.medium {
+		.ant-progress-inner {
+			.ant-progress-bg {
+				box-shadow: @box-neon-warning;
+			}
+		}
+	}
+
+	&.low {
+		.ant-progress-inner {
+			.ant-progress-bg {
+				box-shadow: @box-neon-danger;
+			}
+		}
+	}
+
+    .ant-progress-inner {
+		overflow: visible;
+    }
+}
+
+.ant-badge-dot {
+	box-shadow: none;
+}

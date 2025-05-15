@@ -7,17 +7,19 @@
 
 			<div class="overlay"></div>
 			<div class="content" *ngIf="showControls">
-				<span class="text-muted">publicado em: {{ post.publishedAt | date: 'dd/MM/YY' }}</span>
-				<h2>{{ post.title }}</h2>
-				<h5>{{ post.shortContent }}</h5>
-				<button class="mt cursor-pointer" nz-button nzType="primary" nzSize="large" routerLink="/about-us">
-					{{ post.callToAction ?? 'Leia mais' }}
-				</button>
+				<div class="content-wrapper">
+					<span class="text-muted">publicado em: {{ post.publishedAt | date: 'dd/MM/YY' }}</span>
+					<h2 class="slider-title">{{ post.title }}</h2>
+					<h5 class="slider-description">{{ post.shortContent }}</h5>
+					<button class="mt cursor-pointer" nz-button nzType="primary" nzSize="large" routerLink="/about-us">
+						{{ post.callToAction ?? 'Leia mais' }}
+					</button>
+				</div>
 			</div>
 		</div>
 	}
 
-	<div class="progress-bar-container" *ngIf="recentPosts.length > 1">
+	<!-- <div class="progress-bar-container" *ngIf="recentPosts.length > 1">
 		<div class="progress-bar" #progressBar [style.width]="progressBarWidth + '%'"></div>
-	</div>
+	</div> -->
 </div>

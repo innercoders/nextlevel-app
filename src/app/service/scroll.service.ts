@@ -5,13 +5,13 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ScrollService {
-  private sliderOpacitySubject = new BehaviorSubject<number>(1);
-  
-  public sliderOpacity$: Observable<number> = this.sliderOpacitySubject.asObservable();
-  
-  constructor() {}
-  
-  updateSliderOpacity(opacity: number): void {
-    this.sliderOpacitySubject.next(opacity);
-  }
+    private sliderOpacitySubject = new BehaviorSubject<number>(0.2);
+    
+    public sliderOpacity$: Observable<number> = this.sliderOpacitySubject.asObservable();
+    
+    constructor() {}
+    
+    updateSliderOpacity(opacity: number): void {
+      this.sliderOpacitySubject.next(opacity);
+    }
 } 

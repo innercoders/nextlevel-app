@@ -1,15 +1,20 @@
-<div nz-row>
-    <div nz-col nzSpan="24">
-        <div class="in-card dota-meta-card">
-            <div class="in-card-header">
-                <div class="in-card-title">Dota Meta</div>
-                <div class="in-card-subtitle in-vertical end">
-                    Melhores heróis dos últimos 7 dias
-                    <span class="text-muted">Partidas oficiais e ranqueadas</span>
-                </div>
+<div class="dota-meta-container">
+    <div class="mb-3" nz-row>
+        <div nz-col nzSpan="12" nzAlign="bottom">
+            <h3>Meta de Heróis</h3>
+            <h6>Partidas com +7500 de MMR</h6>
+        </div>
+        <div nz-col nzSpan="12">
+            <div class="in-horizontal end bottom" style="height: 100%;">
+                <span class="text-muted">Nos últimos 14 dias</span>
             </div>
-            <div class="in-card-body">
-                <nz-tabset nzSize="large" nzCentered="true" (nzSelectedIndexChange)="changePosition(positions[$event].value)">
+        </div>
+    </div>
+
+    <div nz-row>
+        <div nz-col nzSpan="24">
+            <div class="in-card px-3" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+                <nz-tabset style="margin-bottom: 0;" nzSize="large" nzCentered="true" (nzSelectedIndexChange)="changePosition(positions[$event].value)">
                     <nz-tab *ngFor="let position of positions" [nzTitle]="titleTemplate">
                         <ng-template #titleTemplate>
                             <img height="20px" class="mr-2" [src]="getPositionImage(position.value)" *ngIf="position.value">
@@ -17,49 +22,63 @@
                         </ng-template>
                     </nz-tab>
                 </nz-tabset>
+            </div>
 
-                <div class="in-tab-content">
-                    <nz-table #heroTable [nzData]="bestHeroes" [nzLoading]="loading" [nzShowPagination]="true" [nzPageSize]="bestHeroesRequest.limit" 
-                    [nzTotal]="totalResults" [nzFrontPagination]="false" (nzQueryParams)="changePage($event)">
-                        <thead>
-                            <tr>
-                                <th>Herói</th>
-                                <th *ngIf="!selectedPosition">Posição</th>
-                                <th class="text-primary">Win Rate</th>
-                                <th>Partidas</th>
-                                <th>K/D/A</th>
-                                <th>GPM/XPM</th>
-                                <th>Dano em Heróis</th>
-                                <th>Cura</th>
-                                <th>Dano em Torres</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr *ngFor="let hero of heroTable.data" (click)="goToHero(hero.dotaHero?.sanitizedName)">
-                                <td>
-                                    <div class="in-horizontal">
-                                        <img [src]="hero.dotaHero?.img" [nzTooltipTitle]="hero.dotaHero?.localized_name" nz-tooltip>
-                                        <span class="ml-2">{{ hero.dotaHero?.localized_name }}</span>
+            <div class="in-tab-content">
+                <nz-table #heroTable [nzData]="bestHeroes" [nzLoading]="loading" [nzShowPagination]="true" [nzPageSize]="bestHeroesRequest.limit" 
+                [nzTotal]="totalResults" [nzFrontPagination]="false" (nzQueryParams)="changePage($event)">
+                    <thead>
+                        <tr>
+                            <th>Herói</th>
+                            <th *ngIf="!selectedPosition">Posição</th>
+                            <th class="d-table-cell d-md-none text-primary">Win Rate</th>
+                            <th class="d-none d-md-table-cell text-primary">Win Rate</th>
+                            <th class="d-none d-md-table-cell">Partidas</th>
+                            <th>K/D/A</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/gold.png" height="15px" /> GPM</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/xp.png" height="15px" /> XPM</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/damage.png" height="15px" /> Dano Heróis</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/siege.png" height="15px" /> Dano Torres</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let hero of heroTable.data" (click)="goToHero(hero.dotaHero?.sanitizedName)">
+                            <td>
+                                <div class="in-horizontal" *ngIf="hero.dotaHero" >
+                                    <!-- <img [src]="hero.dotaHero?.img" [nzTooltipTitle]="hero.dotaHero?.localized_name" nz-tooltip> -->
+                                    <app-dota-hero [hero]="hero.dotaHero" [selectedFacet]="hero.selectedFacet"></app-dota-hero>
+                                    <div class="ml-2 d-none d-xl-flex in-vertical">
+                                        <span>{{ hero.dotaHero?.localized_name }}</span>
+                                        <span [ngClass]="'text-' + hero.selectedFacet?.color" *ngIf="hero.selectedFacet">{{ hero.selectedFacet?.title }}</span>
                                     </div>
-                                </td>
-                                <td *ngIf="!selectedPosition">
-                                    <img height="20px" class="mr-2" [src]="getPositionImage(hero.position)" nz-tooltip [nzTooltipTitle]="getPositionLabel(hero.position)">
-                                </td>
-                                <td [ngClass]="{'text-success': hero.winRate > 50, 'text-danger': hero.winRate < 50}">{{ hero.winRate }}%</td>
-                                <td>{{ hero.totalMatches }}</td>
-                                <td>
-                                    <span class="text-success">{{ hero.avgKills }}</span> / 
-                                    <span class="text-danger">{{ hero.avgDeaths }}</span> / 
-                                    <span class="text-info">{{ hero.avgAssists }}</span>
-                                </td>
-                                <td>{{ hero.avgGpm }}/{{ hero.avgXpm }}</td>
-                                <td>{{ hero.avgHeroDamage }}</td>
-                                <td>{{ hero.avgHeroHealing }}</td>
-                                <td>{{ hero.avgTowerDamage }}</td>
-                            </tr>
-                        </tbody>
-                    </nz-table>
-                </div>
+                                </div>
+                            </td>
+                            <td class="text-center" *ngIf="!selectedPosition">
+                                <img height="20px" class="mr-2" [src]="getPositionImage(hero.position)" nz-tooltip [nzTooltipTitle]="getPositionLabel(hero.position)">
+                            </td>
+                            <td class="d-table-cell d-md-none">
+                                <div [ngClass]="{'text-success': hero.winRate > 50, 'text-danger': hero.winRate < 50}">{{ hero.winRate }}%</div>
+                                <div class="text-muted text-smallest" style="margin-top: -5px;">{{ hero.totalMatches }} partidas</div>
+                            </td>
+                            <td class="d-none d-md-table-cell text-center" [ngClass]="{'text-success': hero.winRate > 50, 'text-danger': hero.winRate < 50}">
+                                {{ hero.winRate }}%
+                            </td>
+                            <td class="d-none d-md-table-cell">
+                                <div style="margin-bottom: -10px;">{{ hero.totalMatches }} partidas</div>
+                                <nz-progress [nzPercent]="hero.totalMatches / highestMatches * 100" [nzShowInfo]="false" nzStrokeColor="#0AB4E9" nzStrokeWidth="2"></nz-progress>
+                            </td>
+                            <td class="text-center">
+                                <span class="text-success">{{ hero.avgKills | number:'1.0-0' }}</span> / 
+                                <span class="text-danger">{{ hero.avgDeaths | number:'1.0-0' }}</span> / 
+                                <span class="text-info">{{ hero.avgAssists | number:'1.0-0' }}</span>
+                            </td>
+                            <td class="text-center text-warning">{{ hero.avgGpm | number:'1.0-0' }}</td>
+                            <td class="text-center text-info">{{ hero.avgXpm | number:'1.0-0' }}</td>
+                            <td class="text-center text-danger">{{ hero.avgHeroDamage | number:'1.0-0' }}</td>
+                            <td class="text-center">{{ hero.avgTowerDamage | number:'1.0-0' }}</td>
+                        </tr>
+                    </tbody>
+                </nz-table>
             </div>
         </div>
     </div>

@@ -31,35 +31,29 @@ export class MainSliderComponent implements OnInit, AfterViewInit, OnDestroy {
 	private progressInterval!: any;
 	public progressBarWidth: number = 0;
 	
-	public sliderOpacity = 0.2;
+	public sliderOpacity = 0.1;
 	private opacitySubscription: Subscription | undefined;
 
 	public recentPosts: { featureImageUrl: string, title: string, shortContent: string, publishedAt: Date, callToAction?: string }[] = [
 		{
-			featureImageUrl: '/assets/images/background/manifesto2.png',
+			featureImageUrl: '/assets/images/background/dota-map-background.jpg',
 			title: 'Next Level',
 			shortContent: 'O novo caminho para o Dota 2',
 			publishedAt: new Date(),
 			callToAction: 'Conheça o projeto'
 		},
-		{
-			featureImageUrl: '/assets/images/background/manifesto1.png',
-			title: 'Iniciante no Dota?',
-			shortContent: 'Confira nossa tutorial completo',
-			publishedAt: new Date()
-		},
-		{
-			featureImageUrl: '/assets/images/background/wallpaper1.png',
-			title: 'Iniciante no Dota?',
-			shortContent: 'Confira nossa tutorial completo',
-			publishedAt: new Date()
-		},
-		{
-			featureImageUrl: '/assets/images/background/manifesto3.png',
-			title: 'Iniciante no Dota?',
-			shortContent: 'Confira nossa tutorial completo',
-			publishedAt: new Date()
-		}
+		// {
+		// 	featureImageUrl: '/assets/images/background/wallpaper1.png',
+		// 	title: 'Iniciante no Dota? 2',
+		// 	shortContent: 'Confira nossa tutorial completo',
+		// 	publishedAt: new Date()
+		// },
+		// {
+		// 	featureImageUrl: '/assets/images/background/manifesto3.png',
+		// 	title: 'Iniciante no Dota? 3',
+		// 	shortContent: 'Confira nossa tutorial completo',
+		// 	publishedAt: new Date()
+		// }
 	];
 
 	public currentIndex = 0;

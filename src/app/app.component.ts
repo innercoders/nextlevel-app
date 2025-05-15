@@ -1,23 +1,44 @@
-import { Component, ElementRef, ViewChild, HostListener, Renderer2 } from '@angular/core';
-import { RouterOutlet, Router, NavigationEnd } from '@angular/router';
+import { Component, ElementRef, ViewChild, HostListener, OnInit } from '@angular/core';
+import { RouterOutlet, Router, NavigationEnd, RouterModule } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { animate, style, transition, trigger } from '@angular/animations';
 import { BehaviorSubject } from 'rxjs';
 import { CommonModule } from '@angular/common';
-import { animate, style, transition, trigger } from '@angular/animations';
+
+import { User } from './model/user';
 
 import { SideMenuComponent } from './core/side-menu/side-menu.component';
 import { MainSliderComponent } from './core/main-slider/main-slider.component';
 import { UserService, ScrollService } from './service';
 import { NzIconModule } from 'ng-zorro-antd/icon';
+import { NzMenuModule } from 'ng-zorro-antd/menu';
+import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzAvatarModule } from 'ng-zorro-antd/avatar';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
+import { NzGridModule } from 'ng-zorro-antd/grid';
+import { NzPopoverModule } from 'ng-zorro-antd/popover';
+import { NzBadgeModule } from 'ng-zorro-antd/badge';
+import { NzPopconfirmModule } from 'ng-zorro-antd/popconfirm';
 
 @Component({
 	selector: 'app-root',
 	imports: [
+		MainSliderComponent,
 		SideMenuComponent,
 		RouterOutlet,
-		MainSliderComponent,
 		CommonModule,
-		NzIconModule
+		RouterModule,
+		NzIconModule,
+		NzMenuModule,
+		NzInputModule,
+		NzAvatarModule,
+		NzButtonModule,
+		NzToolTipModule,
+		NzGridModule,
+		NzPopoverModule,
+		NzBadgeModule,
+		NzPopconfirmModule
 	],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.less',
@@ -50,29 +71,31 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 		])
 	]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 	@ViewChild('mainContent', { static: false }) mainContent: ElementRef | undefined;
 	private showSliderSubject = new BehaviorSubject<boolean>(true);
 	showSlider$ = this.showSliderSubject.asObservable();
 	
-	currentUser: any;
+	currentUser: User | null = null;
 
 	constructor(
 		private router: Router, 
 		private userService: UserService,
-		private renderer: Renderer2,
 		private scrollService: ScrollService
 	) {
+	}
+
+	ngOnInit() {
+		this.userService.currentUser.subscribe(user => {
+			this.currentUser = user;
+		});
+
 		this.router.events.pipe(
 			filter(event => event instanceof NavigationEnd)
 		).subscribe((event: any) => {
 			const routesWithoutSlider = ['/login', '/admin', '/about-us'];
 			const shouldShowSlider = !routesWithoutSlider.some(route => event.url.startsWith(route));
 			this.showSliderSubject.next(shouldShowSlider);
-		});
-		
-		this.userService.currentUser.subscribe((user) => {
-			this.currentUser = user;
 		});
 	}
 
@@ -81,16 +104,19 @@ export class AppComponent {
 		if (!this.mainContent) return;
 		
 		const scrollTop = this.mainContent.nativeElement.scrollTop;
-		// Calculate opacity based on scroll position - fade out over 200px of scrolling
+
 		const maxScrollForOpacity = 250;
-		const opacity = Math.max(0.1, 0.5 - (scrollTop / maxScrollForOpacity));
+		const opacity = Math.max(0.1, 0.3 - (scrollTop / maxScrollForOpacity));
 		
-		// Update opacity through the service
 		this.scrollService.updateSliderOpacity(opacity);
 	}
 
+	login() {
+		this.router.navigate(['/login']);
+	}
+	
 	logout() {
 		this.userService.logout();
-		this.router.navigate(['/login']);
+		this.router.navigate(['/']);
 	}
 }

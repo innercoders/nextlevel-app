@@ -1,0 +1,127 @@
+<div class="tournaments-container">
+    <div class="mb-3" nz-row>
+        <div nz-col nzSpan="12" nzAlign="bottom">
+            <h3>Campeonatos de Dota 2</h3>
+            <h6>Gerenciamento de Campeonatos</h6>
+        </div>
+        <div nz-col nzSpan="12" nzAlign="end">
+            <button nz-button nzType="primary" (click)="addNewLeague()">
+                Adicionar Novo Campeonato
+            </button>
+        </div>
+    </div>
+
+    <div nz-row [nzGutter]="16">
+        <!-- Tournament List -->
+        <div nz-col [nzXs]="24" [nzLg]="14">
+            <div class="in-card">
+                <nz-table 
+                    #leaguesTable 
+                    [nzData]="leagues" 
+                    [nzLoading]="loading"
+                    [nzPageSize]="100"
+                    [nzScroll]="{ y: '500px' }"
+                    [nzFrontPagination]="false">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Tier</th>
+                            <th>Última atualização</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let league of leaguesTable.data" 
+                            (click)="selectLeague(league)" 
+                            [class.selected-row]="selectedLeague?.id === league.id">
+                            <td>{{ league.leagueId }}</td>
+                            <td>{{ league.displayName || league.name }}</td>
+                            <td>{{ league.tier || '-' }}</td>
+                            <td>{{ league.lastMatchAt | date:'dd/MM/yyyy HH:mm' }}</td>
+                            <td>
+                                <button nz-button nzType="default" nzSize="small" (click)="selectLeague(league); $event.stopPropagation();">
+                                    Editar
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </nz-table>
+            </div>
+        </div>
+
+        <!-- Tournament Form -->
+        <div nz-col [nzXs]="24" [nzLg]="10">
+            <div class="in-card">
+                <div class="in-card-header">
+                    <h4>{{ isEditing ? 'Editar Campeonato' : 'Novo Campeonato' }}</h4>
+                </div>
+                
+                <div class="in-card-content">
+                    <form nz-form [formGroup]="leagueForm" (ngSubmit)="saveLeague()">
+                        <input type="hidden" formControlName="id">
+                        
+                        <nz-form-item>
+                            <nz-form-label [nzSpan]="8" nzRequired>League ID</nz-form-label>
+                            <nz-form-control [nzSpan]="16" nzErrorTip="Por favor informe o ID do campeonato!">
+                                <input nz-input formControlName="leagueId" placeholder="ID" type="number">
+                            </nz-form-control>
+                        </nz-form-item>
+
+                        <nz-form-item>
+                            <nz-form-label [nzSpan]="8" nzRequired>Nome</nz-form-label>
+                            <nz-form-control [nzSpan]="16" nzErrorTip="Por favor informe o nome!">
+                                <input nz-input formControlName="name" placeholder="Nome do Campeonato">
+                            </nz-form-control>
+                        </nz-form-item>
+
+                        <nz-form-item>
+                            <nz-form-label [nzSpan]="8" nzRequired>Nome de exibição</nz-form-label>
+                            <nz-form-control [nzSpan]="16" nzErrorTip="Por favor informe o nome de exibição!">
+                                <input nz-input formControlName="displayName" placeholder="Nome de Exibição">
+                            </nz-form-control>
+                        </nz-form-item>
+
+                        <nz-form-item>
+                            <nz-form-label [nzSpan]="8">Tier</nz-form-label>
+                            <nz-form-control [nzSpan]="16">
+                                <nz-select formControlName="tier" placeholder="Selecione o Tier" style="width: 100%;">
+                                    <nz-option *ngFor="let option of tierOptions" [nzValue]="option.value" [nzLabel]="option.label"></nz-option>
+                                </nz-select>
+                            </nz-form-control>
+                        </nz-form-item>
+
+                        <nz-form-item>
+                            <nz-form-label [nzSpan]="8">Região</nz-form-label>
+                            <nz-form-control [nzSpan]="16">
+                                <nz-select formControlName="region" placeholder="Selecione a Região" style="width: 100%;">
+                                    <nz-option *ngFor="let option of regionOptions" [nzValue]="option.value" [nzLabel]="option.label"></nz-option>
+                                </nz-select>
+                            </nz-form-control>
+                        </nz-form-item>
+
+                        <nz-form-item>
+                            <nz-form-label [nzSpan]="8">URL da Imagem</nz-form-label>
+                            <nz-form-control [nzSpan]="16">
+                                <input nz-input formControlName="imageUrl" placeholder="URL da Imagem">
+                            </nz-form-control>
+                        </nz-form-item>
+
+                        <nz-form-item>
+                            <nz-form-control [nzOffset]="8" [nzSpan]="16">
+                                <div class="d-flex">
+                                    <button nz-button nzType="primary" type="submit">
+                                        {{ isEditing ? 'Atualizar' : 'Adicionar' }}
+                                    </button>
+                                    <button nz-button nzType="default" type="button" class="ml-2" (click)="addNewLeague()">
+                                        Limpar
+                                    </button>
+                                </div>
+                            </nz-form-control>
+                        </nz-form-item>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

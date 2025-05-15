@@ -3,7 +3,8 @@ import heroesData from './dotaconst/heroes.json';
 import heroesAliases from './dotaconst/heroes_aliases.json';
 import itemsData from './dotaconst/items.json';
 import itemIdsData from './dotaconst/item_ids.json';
-import { DotaHero, DotaItem } from '@app/model';
+import heroAbilitiesData from './dotaconst/hero_abilities.json';
+import { DotaHero, DotaItem, DotaHeroAbilities } from '@app/model';
 
 @Injectable({
 	providedIn: 'root'
@@ -13,8 +14,9 @@ export class DotaHelperService {
 	private heroes: any = heroesData;
 	private items: any = itemsData;
 	private itemIds: any = itemIdsData;
+	private heroAbilities: any = heroAbilitiesData;
 
-	private heroRoles: any[] = [
+	private heroRoles: { label: string, value: string, count: number }[] = [
 		{ label: 'Carregador', value: 'Carry', count: 0 },
 		{ label: 'Suporte', value: 'Support', count: 0 },
 		{ label: 'Bombardeador', value: 'Nuker', count: 0 },
@@ -33,13 +35,14 @@ export class DotaHelperService {
 		let hero = this.heroes[heroId];
 
 		if(!hero) {
-			console.log('heroId', heroId);
-			let alias = Object.keys(heroesAliases).find((key: string) => {
-				return heroesAliases[key as keyof typeof heroesAliases].includes(heroId.toString());
-			});
+			let alias = this.heroAliasToId(heroId.toString());
 
 			if(alias) {
 				hero = this.heroes[alias];
+			}
+
+			if(!hero) {
+				throw new Error('Hero not found');
 			}
 		}
 
@@ -87,6 +90,25 @@ export class DotaHelperService {
 		return this.items[itemCode];
 	}
 
+	public getHeroAbilityData(heroName: string): DotaHeroAbilities | undefined {
+		let heroAbilities = this.heroAbilities[heroName];
+		let hero = this.getHeroData(heroName);
+
+		if(!heroAbilities) {
+			return undefined;
+		}
+
+		heroAbilities.facets.forEach((facet: any) => {
+			let heroFacet = hero.facets[facet.name];
+			facet.icon = heroFacet.Icon;
+			facet.color = heroFacet.Color;
+
+			facet.shortDescription = facet.description.split(' ').slice(0, 12).join(' ');
+		});
+
+		return heroAbilities;
+	}
+
 	public getPositionImage(position: string): string {
 		switch(position) {
 			case 'carry':
@@ -131,7 +153,27 @@ export class DotaHelperService {
 		}
 	}
 
-	public getHeroesData(): void {
+	public getDotaIcon(icon: string): string {
+		return '/assets/images/dota/icons/' + icon + '.png';
+	}
 
+	private heroAliasToId(alias: string): string | undefined {
+		let heroId: string | undefined = Object.keys(heroesAliases).find((key: string) => {
+			return heroesAliases[key as keyof typeof heroesAliases].includes(alias);
+		});
+
+		if(!heroId) {
+			heroId = Object.keys(heroesData).find((key: string) => {
+				return heroesData[key as keyof typeof heroesData].name == alias;
+			});
+		}
+
+		return heroId;
+	}
+
+	private heroIdToAlias(heroId: string): string | undefined {
+		let alias = this.heroes[heroId].name;
+
+		return alias;
 	}
 }

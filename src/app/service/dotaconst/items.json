@@ -222,7 +222,7 @@
   },
   "recipe_arcane_blink": {
     "id": 606,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Translocação Arcana",
     "cost": 1750,
     "behavior": false,
@@ -238,7 +238,7 @@
   },
   "recipe_swift_blink": {
     "id": 607,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Translocação Veloz",
     "cost": 1750,
     "behavior": false,
@@ -254,7 +254,7 @@
   },
   "recipe_overwhelming_blink": {
     "id": 608,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Translocação Esmagadora",
     "cost": 1750,
     "behavior": false,
@@ -1380,7 +1380,7 @@
   },
   "recipe_magic_wand": {
     "id": 35,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Varinha Mágica",
     "cost": 150,
     "behavior": false,
@@ -2258,7 +2258,7 @@
   },
   "recipe_travel_boots": {
     "id": 47,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Botas de Teletransporte",
     "cost": 2000,
     "behavior": false,
@@ -2817,7 +2817,7 @@
   },
   "recipe_samurai_tabi": {
     "id": 1098,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Tabi de Samurai",
     "cost": 1100,
     "behavior": false,
@@ -2928,7 +2928,7 @@
   },
   "recipe_hermes_sandals": {
     "id": 1092,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Sandálias de Hermes",
     "cost": 500,
     "behavior": false,
@@ -3011,7 +3011,7 @@
   },
   "recipe_witches_switch": {
     "id": 1099,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Witches Switch Recipe",
     "cost": 625,
     "behavior": false,
@@ -3091,7 +3091,7 @@
   },
   "recipe_lunar_crest": {
     "id": 1094,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Brasão Lunar",
     "cost": 250,
     "behavior": false,
@@ -3164,7 +3164,7 @@
   },
   "recipe_phylactery": {
     "id": 1106,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Filactério",
     "cost": 400,
     "behavior": false,
@@ -3244,7 +3244,7 @@
   },
   "recipe_angels_demise": {
     "id": 1807,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Khanda",
     "cost": 1500,
     "behavior": false,
@@ -3422,7 +3422,7 @@
   },
   "recipe_hand_of_midas": {
     "id": 64,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Mão de Midas",
     "cost": 1750,
     "behavior": false,
@@ -3622,7 +3622,7 @@
   },
   "recipe_witch_blade": {
     "id": 533,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lâmina do Bruxo",
     "cost": 250,
     "behavior": false,
@@ -3836,7 +3836,7 @@
   },
   "recipe_bracer": {
     "id": 72,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Braçadeira",
     "cost": 210,
     "behavior": false,
@@ -3901,7 +3901,7 @@
   },
   "recipe_wraith_band": {
     "id": 74,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Tiara Assombrada",
     "cost": 210,
     "behavior": false,
@@ -3962,7 +3962,7 @@
   },
   "recipe_null_talisman": {
     "id": 76,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Talismã Nulo",
     "cost": 210,
     "behavior": false,
@@ -4023,7 +4023,7 @@
   },
   "recipe_mekansm": {
     "id": 78,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Mekansm",
     "cost": 800,
     "behavior": false,
@@ -4159,7 +4159,7 @@
   },
   "recipe_wraith_pact": {
     "id": 907,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Pacto Espectral",
     "cost": 400,
     "behavior": false,
@@ -4250,7 +4250,7 @@
   },
   "recipe_buckler": {
     "id": 85,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Broquel",
     "cost": 250,
     "behavior": false,
@@ -4304,7 +4304,7 @@
   },
   "recipe_ring_of_basilius": {
     "id": 87,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Anel de Basílio",
     "cost": 250,
     "behavior": false,
@@ -4357,7 +4357,7 @@
   },
   "recipe_holy_locket": {
     "id": 268,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Pingente Sagrado",
     "cost": 800,
     "behavior": false,
@@ -4443,7 +4443,7 @@
   },
   "recipe_pipe": {
     "id": 89,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Cachimbo de Introspecção",
     "cost": 700,
     "behavior": false,
@@ -4540,7 +4540,7 @@
   },
   "recipe_urn_of_shadows": {
     "id": 91,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Urna das Sombras",
     "cost": 280,
     "behavior": false,
@@ -4625,7 +4625,7 @@
   },
   "recipe_headdress": {
     "id": 93,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Cocar",
     "cost": 250,
     "behavior": false,
@@ -4678,7 +4678,7 @@
   },
   "recipe_sheepstick": {
     "id": 95,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Foice de Vyse",
     "cost": 600,
     "behavior": false,
@@ -4789,7 +4789,7 @@
   },
   "recipe_orchid": {
     "id": 97,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Orquídea Malevolente",
     "cost": 450,
     "behavior": false,
@@ -4870,7 +4870,7 @@
   },
   "recipe_bloodthorn": {
     "id": 245,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Espinho Sangrento",
     "cost": 450,
     "behavior": false,
@@ -5028,7 +5028,7 @@
   },
   "recipe_cyclone": {
     "id": 99,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Cetro de Eul",
     "cost": 675,
     "behavior": false,
@@ -5097,7 +5097,7 @@
   },
   "recipe_wind_waker": {
     "id": 612,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Domador Eólico",
     "cost": 1400,
     "behavior": false,
@@ -5169,7 +5169,7 @@
   },
   "recipe_aether_lens": {
     "id": 233,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lente do Éter",
     "cost": 775,
     "behavior": false,
@@ -5225,7 +5225,7 @@
   },
   "recipe_force_staff": {
     "id": 101,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Cajado de Força",
     "cost": 950,
     "behavior": false,
@@ -5294,7 +5294,7 @@
   },
   "recipe_hurricane_pike": {
     "id": 262,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lança Furacão",
     "cost": 350,
     "behavior": false,
@@ -5403,7 +5403,7 @@
   },
   "recipe_dagon": {
     "id": 103,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Dagon",
     "cost": 1150,
     "behavior": false,
@@ -5758,7 +5758,7 @@
   },
   "recipe_necronomicon": {
     "id": 105,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Necronomicon",
     "cost": 1250,
     "behavior": false,
@@ -6080,7 +6080,7 @@
   },
   "recipe_ultimate_scepter_2": {
     "id": 270,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Bênção de Aghanim",
     "cost": 1600,
     "behavior": false,
@@ -6184,7 +6184,7 @@
   },
   "recipe_refresher": {
     "id": 109,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Orbe Restaurador",
     "cost": 200,
     "behavior": false,
@@ -6242,7 +6242,7 @@
   },
   "recipe_assault": {
     "id": 111,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Couraça de Combate",
     "cost": 1300,
     "behavior": false,
@@ -6311,7 +6311,7 @@
   },
   "recipe_heart": {
     "id": 113,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Coração do Tarrasque",
     "cost": 600,
     "behavior": false,
@@ -6357,7 +6357,7 @@
   },
   "recipe_black_king_bar": {
     "id": 115,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Bastão Preto da Realeza",
     "cost": 1450,
     "behavior": false,
@@ -6466,7 +6466,7 @@
   },
   "recipe_shivas_guard": {
     "id": 118,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Proteção de Shiva",
     "cost": 2050,
     "behavior": false,
@@ -6649,7 +6649,7 @@
   },
   "recipe_sphere": {
     "id": 122,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Esfera de Linken",
     "cost": 600,
     "behavior": false,
@@ -6721,7 +6721,7 @@
   },
   "recipe_lotus_orb": {
     "id": 221,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Orbe de Lótus",
     "cost": 250,
     "behavior": false,
@@ -6790,7 +6790,7 @@
   },
   "recipe_meteor_hammer": {
     "id": 222,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Martelo Meteorítico",
     "cost": 300,
     "behavior": false,
@@ -6979,7 +6979,7 @@
   },
   "recipe_aeon_disk": {
     "id": 255,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Disco dos Éons",
     "cost": 1200,
     "behavior": false,
@@ -7051,7 +7051,7 @@
   },
   "recipe_kaya": {
     "id": 258,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Kaya",
     "cost": 650,
     "behavior": false,
@@ -7239,7 +7239,7 @@
   },
   "recipe_spirit_vessel": {
     "id": 266,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Receptáculo Espiritual",
     "cost": 900,
     "behavior": false,
@@ -7385,7 +7385,7 @@
   },
   "recipe_crimson_guard": {
     "id": 243,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Proteção Carmesim",
     "cost": 1050,
     "behavior": false,
@@ -7483,7 +7483,7 @@
   },
   "recipe_blade_mail": {
     "id": 126,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Cota de Lâminas",
     "cost": 750,
     "behavior": false,
@@ -7638,7 +7638,7 @@
   },
   "recipe_eternal_shroud": {
     "id": 691,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Mortalha Eterna",
     "cost": 900,
     "behavior": false,
@@ -7756,7 +7756,7 @@
   },
   "recipe_monkey_king_bar": {
     "id": 134,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Bastão do Rei Macaco",
     "cost": 600,
     "behavior": false,
@@ -7917,7 +7917,7 @@
   },
   "recipe_greater_crit": {
     "id": 140,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Dédalo",
     "cost": 900,
     "behavior": false,
@@ -7971,7 +7971,7 @@
   },
   "recipe_basher": {
     "id": 142,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Esmagador de Crânios",
     "cost": 825,
     "behavior": false,
@@ -8045,7 +8045,7 @@
   },
   "recipe_bfury": {
     "id": 144,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Fúria de Batalha",
     "cost": 600,
     "behavior": false,
@@ -8144,7 +8144,7 @@
   },
   "recipe_manta": {
     "id": 146,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Machado Ilusório",
     "cost": 1550,
     "behavior": false,
@@ -8251,7 +8251,7 @@
   },
   "recipe_lesser_crit": {
     "id": 148,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Cristális",
     "cost": 200,
     "behavior": false,
@@ -8308,7 +8308,7 @@
   },
   "recipe_dragon_lance": {
     "id": 234,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lança Dracônica",
     "cost": 450,
     "behavior": false,
@@ -8364,7 +8364,7 @@
   },
   "recipe_armlet": {
     "id": 150,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Bracelete de Mordiggian",
     "cost": 625,
     "behavior": false,
@@ -8507,7 +8507,7 @@
   },
   "recipe_silver_edge": {
     "id": 248,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lâmina de Prata",
     "cost": 250,
     "behavior": false,
@@ -8832,7 +8832,7 @@
   },
   "recipe_mjollnir": {
     "id": 157,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Mjollnir",
     "cost": 550,
     "behavior": false,
@@ -8955,7 +8955,7 @@
   },
   "recipe_skadi": {
     "id": 159,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Olho de Skadi",
     "cost": 1050,
     "behavior": false,
@@ -9036,7 +9036,7 @@
   },
   "recipe_sange": {
     "id": 161,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Sange",
     "cost": 650,
     "behavior": false,
@@ -9087,7 +9087,7 @@
   },
   "recipe_helm_of_the_dominator": {
     "id": 163,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Elmo do Dominador",
     "cost": 650,
     "behavior": false,
@@ -9186,7 +9186,7 @@
   },
   "recipe_helm_of_the_overlord": {
     "id": 633,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Elmo do Soberano",
     "cost": 300,
     "behavior": false,
@@ -9353,7 +9353,7 @@
   },
   "recipe_gungir": {
     "id": 1565,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Gleipnir",
     "cost": 1100,
     "behavior": false,
@@ -9489,7 +9489,7 @@
   },
   "recipe_yasha": {
     "id": 169,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Yasha",
     "cost": 650,
     "behavior": false,
@@ -9597,7 +9597,7 @@
   },
   "recipe_diffusal_blade": {
     "id": 173,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lâmina Difusora",
     "cost": 1050,
     "behavior": false,
@@ -9684,7 +9684,7 @@
   },
   "recipe_disperser": {
     "id": 1096,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Dispersora",
     "cost": 800,
     "behavior": false,
@@ -9790,7 +9790,7 @@
   },
   "recipe_ethereal_blade": {
     "id": 175,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lâmina Etérea",
     "cost": 1600,
     "behavior": false,
@@ -9898,7 +9898,7 @@
   },
   "recipe_soul_ring": {
     "id": 177,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Anel da Alma",
     "cost": 350,
     "behavior": false,
@@ -9962,7 +9962,7 @@
   },
   "recipe_arcane_boots": {
     "id": 179,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Botas Arcanas",
     "cost": 475,
     "behavior": false,
@@ -10241,7 +10241,7 @@
   },
   "recipe_falcon_blade": {
     "id": 599,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lâmina do Falcão",
     "cost": 250,
     "behavior": false,
@@ -10364,7 +10364,7 @@
   },
   "recipe_ancient_janggo": {
     "id": 184,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Tambor de Resistência",
     "cost": 500,
     "behavior": false,
@@ -10445,7 +10445,7 @@
   },
   "recipe_boots_of_bearing": {
     "id": 930,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Botas Vigorosas",
     "cost": 1700,
     "behavior": false,
@@ -10587,7 +10587,7 @@
   },
   "recipe_solar_crest": {
     "id": 227,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Brasão Solar",
     "cost": 500,
     "behavior": false,
@@ -10685,7 +10685,7 @@
   },
   "recipe_pavise": {
     "id": 1127,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Blindagem",
     "cost": 175,
     "behavior": false,
@@ -10842,7 +10842,7 @@
   },
   "recipe_veil_of_discord": {
     "id": 189,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Véu da Discórdia",
     "cost": 300,
     "behavior": false,
@@ -10916,7 +10916,7 @@
   },
   "recipe_revenants_brooch": {
     "id": 910,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Broche do Regressor",
     "cost": 600,
     "behavior": false,
@@ -10976,7 +10976,7 @@
   },
   "recipe_devastator": {
     "id": 1805,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Parasma",
     "cost": 400,
     "behavior": false,
@@ -11064,7 +11064,7 @@
   },
   "recipe_guardian_greaves": {
     "id": 230,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Grevas Guardiãs",
     "cost": 1450,
     "behavior": false,
@@ -11175,7 +11175,7 @@
   },
   "recipe_rod_of_atos": {
     "id": 205,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Bastão de Atos",
     "cost": 250,
     "behavior": false,
@@ -11237,7 +11237,7 @@
   },
   "recipe_iron_talon": {
     "id": 238,
-    "img": "/apps/dota2/images/dota_react/items/recipe.jpg?3",
+    "img": "/apps/dota2/images/dota_react/items/recipe.png?3",
     "dname": "Iron Talon Recipe",
     "cost": 125,
     "desc": "",
@@ -11302,7 +11302,7 @@
   },
   "recipe_abyssal_blade": {
     "id": 207,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Lâmina Abissal",
     "cost": 1275,
     "behavior": false,
@@ -11395,7 +11395,7 @@
   },
   "recipe_heavens_halberd": {
     "id": 209,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Alabarda Celestial",
     "cost": 450,
     "behavior": false,
@@ -11646,7 +11646,7 @@
   },
   "recipe_glimmer_cape": {
     "id": 253,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Capa Cintilante",
     "cost": 350,
     "behavior": false,
@@ -13940,7 +13940,7 @@
   },
   "recipe_trident": {
     "id": 275,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Tridente",
     "cost": 1,
     "behavior": false,
@@ -16078,7 +16078,7 @@
   },
   "recipe_harpoon": {
     "id": 1101,
-    "img": "/assets/images/dota/items/recipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Arpão",
     "cost": 1000,
     "behavior": false,
@@ -18688,7 +18688,7 @@
   },
   "diffusal_blade_2": {
     "id": 196,
-    "img": "/apps/dota2/images/dota_react/items/diffusal_blade_2.jpg?3",
+    "img": "/apps/dota2/images/dota_react/items/diffusal_blade_2.png?3",
     "dname": "Diffusal Blade",
     "qual": "artifact",
     "cost": 3850,
