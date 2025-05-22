@@ -1,4 +1,6 @@
-import { DotaHero } from "./dota-hero";
+import { DotaHero, DotaHeroSummary } from "./dota-hero";
+import { DotaHeroAbilities } from "./dota-hero-abilities";
+import { DotaItem } from "./dota-item";
 
 export interface DotaMatchPlayer {
     id: string;
@@ -43,6 +45,12 @@ export interface DotaMatchPlayer {
     impByMinute: number[];
     networthByMinute: number[];
     campStack: number[];
+    playerItemPurchases: any[];
 
-    dotaHero?: DotaHero;
+    dotaHero?: DotaHero | DotaHeroSummary;
+    selectedFacet?: any;
+
+    items?: DotaItem[];
+    purchasedItems?: { time: number, formatedTime: string,item: DotaItem }[];
+    dotaHeroAbilities?: any[];
 }

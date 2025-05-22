@@ -31,8 +31,8 @@ export class LoginComponent {
 
 	constructor(private fb: FormBuilder, private userService: UserService, private router: Router) {
 		this.loginForm = this.fb.group({
-			email: ['devfeliperodrigues@gmail.com', [Validators.required, Validators.email]],
-			password: ['hHYRdd4gLwA3jRp', [Validators.minLength(6), Validators.required]]
+			email: ['', [Validators.required, Validators.email]],
+			password: ['', [Validators.minLength(6), Validators.required]]
 		});
 	}
 

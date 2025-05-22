@@ -26,6 +26,10 @@ export class DotaMatchService extends NlService {
         super();
     }
 
+    getMatchById(matchId: string): Observable<DotaMatch> {
+        return this.http.get<DotaMatch>(`${this.baseAPI}/api/v1/dota-matches/${matchId}`);
+    }
+
     getLastMatches(count: number = 10): Observable<DotaMatch[]> {
         return this.http.get<DotaMatch[]>(`${this.baseAPI}/api/v1/dota-matches/last/${count}`);
     }
@@ -44,6 +48,26 @@ export class DotaMatchService extends NlService {
             : `${this.baseAPI}/api/v1/dota-matches`;
             
         return this.http.get<MatchesResponse>(endpoint, { params });
+    }
+
+    findMatches(page: number = 1, limit: number = 10, status?: string, includeHeroes?: string, excludeHeroes?: string): Observable<MatchesResponse> {
+        let params = new HttpParams()
+            .set('page', page.toString())
+            .set('limit', limit.toString());
+        
+        if (status) {
+            params = params.set('status', status);
+        }
+        
+        if (includeHeroes) {
+            params = params.set('includeHeroes', includeHeroes);
+        }
+        
+        if (excludeHeroes) {
+            params = params.set('excludeHeroes', excludeHeroes);
+        }
+        
+        return this.http.get<MatchesResponse>(`${this.baseAPI}/api/v1/dota-matches`, { params });
     }
 
     parseBatchMatches(matchIds: string[]): Observable<ParseBatchResponse> {

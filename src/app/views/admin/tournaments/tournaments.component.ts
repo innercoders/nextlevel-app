@@ -20,7 +20,8 @@ export class TournamentsComponent implements OnInit {
 	tierOptions = [
 		{ label: 'Premium', value: 'premium' },
 		{ label: 'Professional', value: 'professional' },
-		{ label: 'Amateur', value: 'amateur' }
+		{ label: 'Amateur', value: 'amateur' },
+		{ label: 'Ignorado', value: 'excluded' }
 	];
 
 	regionOptions = [

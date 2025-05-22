@@ -93,7 +93,7 @@ export class AppComponent implements OnInit {
 		this.router.events.pipe(
 			filter(event => event instanceof NavigationEnd)
 		).subscribe((event: any) => {
-			const routesWithoutSlider = ['/login', '/admin', '/about-us'];
+			const routesWithoutSlider = ['/login', '/admin'];
 			const shouldShowSlider = !routesWithoutSlider.some(route => event.url.startsWith(route));
 			this.showSliderSubject.next(shouldShowSlider);
 		});
@@ -117,6 +117,6 @@ export class AppComponent implements OnInit {
 	
 	logout() {
 		this.userService.logout();
-		this.router.navigate(['/']);
+		this.router.navigate(['/about-us']);
 	}
 }

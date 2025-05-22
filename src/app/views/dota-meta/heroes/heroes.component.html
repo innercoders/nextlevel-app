@@ -21,6 +21,21 @@
         </div>
     </div>
 
+    <div class="previous-next-hero">
+        <div class="in-horizontal" *ngIf="hero.previousHero">
+            <button nz-button nzType="text" [nzSize]="'large'" routerLink="/dota-meta/heroes/{{ hero.previousHero.sanitizedName }}">
+                <nz-icon nzType="caret-left" />
+                {{ hero.previousHero.localized_name }}
+            </button>
+        </div>
+        <div class="in-horizontal" *ngIf="hero.nextHero">
+            <button nz-button nzType="text" [nzSize]="'large'" routerLink="/dota-meta/heroes/{{ hero.nextHero.sanitizedName }}">
+                {{ hero.nextHero.localized_name }}
+                <nz-icon nzType="caret-right" />
+            </button>
+        </div>
+    </div>
+
     <div class="hero-similar-heroes" *ngIf="hero.similarHeroesData">
         <span class="text-muted mr-2">Heróis similares:</span>
         <div class="in-horizontal">
@@ -42,7 +57,10 @@
     </div>
 
     <div class="hero-video" [ngClass]="hero.name">
-        <video #heroVideo class="reversed-video" autoplay loop muted playsinline preload="auto"></video>
+        <video #heroVideo class="reversed-video" autoplay loop muted playsinline preload="auto">
+            <source [src]="hero.video_webm" type="video/webm">
+            <source [src]="hero.video" type='video/mp4; codecs="hvc1"'>
+        </video>
     </div>
 </div>
 

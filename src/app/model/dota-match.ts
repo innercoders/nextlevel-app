@@ -1,3 +1,4 @@
+import { DotaHero } from "./dota-hero";
 import { DotaLeague } from "./dota-league";
 import { DotaMatchPlayer } from "./dota-match-player";
 
@@ -6,6 +7,7 @@ export interface DotaMatch {
     matchId: string;
     didRadiantWin: boolean;
     durationSeconds: number;
+    durationSecondsFormatted: string;
     startDateTime: Date;
     endDateTime: Date;  
     towerStatusRadiant: boolean;
@@ -16,12 +18,16 @@ export interface DotaMatch {
     gameMode: string;
     tournamentId: string;
     radiantTeamId: number;
+    radiantTeamName: string;
+    radiantTeamLogoUrl: string;
     direTeamId: number;
+    direTeamName: string;
+    direTeamLogoUrl: string;
     regionId: string;
     analysisOutcome: string;
     predictionOutcomeWeight: number;
-    radiantNetWorthLeads: number;
-    radiantExperienceLeads: number;
+    radiantNetWorthLeads: number[];
+    radiantExperienceLeads: number[];
     direTeamScore: number;
     radiantTeamScore: number;
     direKills: number[];
@@ -37,7 +43,7 @@ export interface DotaMatch {
     players: DotaMatchPlayer[];
     averageMmr: number;
     serverSteamId: string;
-    radiantTeam: any;
-    direTeam: any;
     league: DotaLeague;
+    picksBans: {heroId: number, isPick: boolean, team: number, dotaHero?: DotaHero}[];
+    objectivesData: { key?: string, slot?: number, time?: number, type?: string, playerSlot?: number }[];
 }

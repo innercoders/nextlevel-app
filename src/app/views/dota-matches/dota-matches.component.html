@@ -1,0 +1,115 @@
+<div class="dota-matches-container">
+    <div class="mb-3" nz-row>
+        <div nz-col nzSpan="12" nzAlign="bottom">
+            <h3>Últimas Partidas</h3>
+            <h6>Lista de partidas recentes</h6>
+        </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="mb-3 filter-section" nz-row [nzGutter]="16">
+        <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24">
+            <div class="in-card p-3">
+                <div nz-row [nzGutter]="16" class="filter-controls">
+                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="4">
+                        <div class="filter-label">Quantidade</div>
+                        <nz-select [(ngModel)]="matchRequest.limit" class="filter-select">
+                            <nz-option [nzValue]="10" nzLabel="10 partidas"></nz-option>
+                            <nz-option [nzValue]="25" nzLabel="25 partidas"></nz-option>
+                            <nz-option [nzValue]="50" nzLabel="50 partidas"></nz-option>
+                        </nz-select>
+                    </div>
+                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="4">
+                        <div class="filter-label">Incluir Heróis</div>
+                        <nz-select [(ngModel)]="includedHeroes" class="filter-select" nzMode="multiple" 
+                                  nzPlaceHolder="Selecione heróis" (ngModelChange)="onIncludeHeroChange()">
+                            <nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
+                        </nz-select>
+                    </div>
+                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="4">
+                        <div class="filter-label">Excluir Heróis</div>
+                        <nz-select [(ngModel)]="excludedHeroes" class="filter-select" nzMode="multiple" 
+                                  nzPlaceHolder="Selecione heróis" (ngModelChange)="onExcludeHeroChange()">
+                            <nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
+                        </nz-select>
+                    </div>
+                    <div nz-col nzXs="24" nzSm="8" nzMd="6" nzLg="4" class="filter-button-container">
+                        <div class="in-horizontal">
+                            <button nz-button nzType="primary" (click)="applyFilters()" [nzLoading]="loading">
+                                <span nz-icon nzType="filter" nzTheme="outline" class="mr-1"></span>
+                                Aplicar Filtros
+                            </button>
+                            <button nz-button nzType="default" (click)="clearFilters()" class="ml-2" *ngIf="matchRequest.status || includedHeroes.length || excludedHeroes.length">
+                                <span nz-icon nzType="clear" nzTheme="outline" class="mr-1"></span>
+                                Limpar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div nz-row>
+        <div nz-col nzSpan="24">
+            <div class="in-tab-content">
+                <nz-table #matchTable [nzData]="matches" [nzLoading]="loading" [nzShowPagination]="true" 
+                        [nzPageSize]="matchRequest.limit" [nzTotal]="totalResults" [nzFrontPagination]="false" 
+                        (nzQueryParams)="changePage($event)" class="matches-table"
+                        [nzLoadingIndicator]="indicatorTemplate">
+                    <ng-template #indicatorTemplate>
+                        <div class="custom-loading">
+                            <span nz-icon nzType="loading" nzTheme="outline"></span>
+                            <span class="loading-text">Carregando partidas...</span>
+                        </div>
+                    </ng-template>
+                    <thead>
+                        <tr>
+                            <th>#ID</th>
+                            <th>Data</th>
+                            <th>Liga</th>
+                            <th>Radiant</th>
+                            <th>Dire</th>
+                            <th>Duração</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let match of matchTable.data" (click)="goToMatch(match.matchId)" class="match-row">
+                            <td>{{ match.matchId }}</td>
+                            <td>{{ match.startDateTime| date:'dd/MM/yyyy HH:mm' }}</td>
+                            <td>
+                                <span *ngIf="match.league">{{ match.league.displayName }}</span>
+                                <span *ngIf="!match.league">Ranqueada</span>
+                            </td>
+                            <td>
+                                <div class="team-info">
+                                    <img *ngIf="match.radiantTeamLogoUrl" [src]="match.radiantTeamLogoUrl" class="team-logo">
+                                    <span [ngClass]="{'text-success': match.didRadiantWin, 'text-muted': !match.didRadiantWin}">
+                                        {{ match.radiantTeamName || 'Radiant' }}
+                                    </span>
+                                    <span class="ml-2">{{ match.radiantTeamScore }}</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="team-info">
+                                    <img *ngIf="match.direTeamLogoUrl" [src]="match.direTeamLogoUrl" class="team-logo">
+                                    <span [ngClass]="{'text-danger': !match.didRadiantWin, 'text-muted': match.didRadiantWin}">
+                                        {{ match.direTeamName || 'Dire' }}
+                                    </span>
+                                    <span class="ml-2">{{ match.direTeamScore }}</span>
+                                </div>
+                            </td>
+                            <td>{{ match.durationSecondsFormatted }}</td>
+                            <td>
+                                <nz-tag [nzColor]="match.status === 'COMPLETED' ? 'green' : match.status === 'MATCH_ON_GOING' ? 'blue' : 'orange'">
+                                    {{ match.status === 'COMPLETED' ? 'Completa' : match.status === 'MATCH_ON_GOING' ? 'Ao vivo' : 'Pendente' }}
+                                </nz-tag>
+                            </td>
+                        </tr>
+                    </tbody>
+                </nz-table>
+            </div>
+        </div>
+    </div>
+</div> 

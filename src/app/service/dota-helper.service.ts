@@ -4,7 +4,11 @@ import heroesAliases from './dotaconst/heroes_aliases.json';
 import itemsData from './dotaconst/items.json';
 import itemIdsData from './dotaconst/item_ids.json';
 import heroAbilitiesData from './dotaconst/hero_abilities.json';
-import { DotaHero, DotaItem, DotaHeroAbilities } from '@app/model';
+import abilityIdsData from './dotaconst/ability_ids.json';
+import abilitiesData from './dotaconst/abilities.json';
+import { DotaHero, DotaItem, DotaHeroAbilities, DotaHeroSummary } from '@app/model';
+import { DotaPlayerPositions } from '@app/shared';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
 	providedIn: 'root'
@@ -12,9 +16,14 @@ import { DotaHero, DotaItem, DotaHeroAbilities } from '@app/model';
 export class DotaHelperService {
 
 	private heroes: any = heroesData;
+	private heroesNameOrdered: any[] = [];
 	private items: any = itemsData;
 	private itemIds: any = itemIdsData;
 	private heroAbilities: any = heroAbilitiesData;
+	private abilities: any = abilitiesData;
+	private abilityIds: any = abilityIdsData;
+
+	consumableItems: number[] = [38, 39, 40, 42, 43, 44, 46, 65, 188, 218, 237, 1123];
 
 	private heroRoles: { label: string, value: string, count: number }[] = [
 		{ label: 'Carregador', value: 'Carry', count: 0 },
@@ -29,9 +38,82 @@ export class DotaHelperService {
 	];
 
 	constructor() {
+		// create a new object with complete values and order the heroes by localized_name
+		this.heroesNameOrdered = Object.keys(this.heroes).map((key) => {
+			return {
+				...this.heroes[key]
+			};
+		}).sort((a, b) => a.localized_name.localeCompare(b.localized_name));
+
+		console.log(this.heroesNameOrdered);
 	}
 
-	public getHeroData(heroId: string | number): DotaHero {
+	public getAllHeroes(): Observable<DotaHero[]> {
+		const heroArray: DotaHero[] = [];
+		
+		Object.keys(this.heroes).forEach(id => {
+			try {
+				const hero = this.getHeroData(id);
+				heroArray.push(hero);
+			} catch (e) {
+				// Skip heroes that can't be parsed
+			}
+		});
+		
+		return of(heroArray);
+	}
+
+	public getAllHeroesSummary(): Observable<DotaHeroSummary[]> {
+		const heroArray: DotaHeroSummary[] = [];
+		
+		Object.keys(this.heroes).forEach(id => {
+			try {
+				const hero = this.getHeroDataSummary(id);
+				heroArray.push(hero);
+			} catch (e) {
+				// Skip heroes that can't be parsed
+			}
+		});
+		
+		return of(heroArray);
+	}
+
+	formatDuration(seconds: number): string {
+		const minutes = Math.floor(seconds / 60);
+		const remainingSeconds = seconds % 60;
+		return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+	}
+
+	public getHeroDataSummary(heroId: string | number): DotaHeroSummary {
+		let hero = this.heroes[heroId];
+
+		if(!hero) {
+			let alias = this.heroAliasToId(heroId.toString());
+
+			if(alias) {
+				hero = this.heroes[alias];
+			}
+
+			if(!hero) {
+				throw new Error('Hero not found');
+			}
+		}
+
+		const sanitizedName = hero.name ? hero.name.replace('npc_dota_hero_', '').replace(/_/g, '-') : '';
+
+		return {
+			id: hero.id,
+			name: hero.name,
+			icon: hero.icon,
+			img: hero.img,
+			localized_name: hero.localized_name,
+			roles: hero.roles,
+			roleLevels: hero.roleLevels,
+			sanitizedName
+		};
+	}
+
+	public getHeroData(heroId: string | number, getPreviousNext: boolean = false): DotaHero {
 		let hero = this.heroes[heroId];
 
 		if(!hero) {
@@ -79,7 +161,42 @@ export class DotaHelperService {
 			});
 		}
 
+		if(hero.video) {
+			hero.video_webm = hero.video.replace('.mov', '.webm');
+		}
+
+		if(getPreviousNext) {
+			hero.previousHero = this.findPreviousHero(hero.localized_name);
+			hero.nextHero = this.findNextHero(hero.localized_name);
+		}
+
 		return hero;
+	}
+
+	private findPreviousHero(localizedName: string): DotaHero {
+		let index = this.heroesNameOrdered.findIndex((hero) => hero.localized_name == localizedName);
+
+		let previousHero = this.heroesNameOrdered[index - 1];
+
+		while(!previousHero) {
+			index --;
+			previousHero = this.heroesNameOrdered[index];
+		}
+
+		return previousHero;
+	}
+
+	private findNextHero(localizedName: string): DotaHero {
+		let index = this.heroesNameOrdered.findIndex((hero) => hero.localized_name == localizedName);
+
+		let nextHero = this.heroesNameOrdered[index + 1];
+
+		while(!nextHero) {
+			index ++;
+			nextHero = this.heroesNameOrdered[index];
+		}
+
+		return nextHero;
 	}
 
 	public getItemDataById(itemId: any): DotaItem {
@@ -88,6 +205,14 @@ export class DotaHelperService {
 
 	public getItemDataByCode(itemCode: string): DotaItem {
 		return this.items[itemCode];
+	}
+
+	public getAbilityData(abilityKey: string): any {
+		return this.abilities[abilityKey];
+	}
+
+	public getAbilityDataById(abilityId: string): any {
+		return this.abilities[this.abilityIds[abilityId]];
 	}
 
 	public getHeroAbilityData(heroName: string): DotaHeroAbilities | undefined {
@@ -176,4 +301,6 @@ export class DotaHelperService {
 
 		return alias;
 	}
+
+
 }

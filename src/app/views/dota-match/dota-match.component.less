@@ -1,0 +1,251 @@
+@import '../../../styles/_variables.less';
+
+.dota-match-container {
+	padding: @default-padding;
+}
+
+.dota-match {
+
+    .dota-match-information {
+        height: 200px;
+    }
+
+    .dota-match-teams-infomation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        h6 {
+            color: rgba(#fff, 0.5);
+        }
+
+        .dota-match-team {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            &.radiant {
+                padding-right: calc(@default-padding * 2);
+
+                .score-container {
+                    margin-right: calc(@default-margin / 2);
+
+                    .dota-match-team-logo {
+                        margin-right: calc(@default-margin / 2);
+                    }
+                }
+            }
+
+            &.dire {
+                align-items: flex-end;
+                padding-left: calc(@default-padding * 2);
+
+                .score-container {
+                    margin-left: calc(@default-margin / 2);
+
+                    .dota-match-team-logo {
+                        margin-left: calc(@default-margin / 2);
+                    }
+                }
+            }
+
+            .score-container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+
+                .dota-match-result {
+                    background-color: rgba(#000, 0.5);
+                    border-radius: calc(@border-radius / 2);
+                    padding: calc(@default-padding / 2);
+                }
+            
+                .dota-match-team-logo {
+                    padding: calc(@default-padding / 2);
+                    background-color: rgba(#000, 0.5);
+                    border-radius: calc(@border-radius / 2);
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .dota-team {
+        .dota-player {
+
+            .in-card {
+                .dota-hero-image {
+                    width: 100%;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                }
+
+                .in-card-content {
+                    padding: @default-padding;
+                    text-align: center;
+
+                    .dota-player-position {
+                        margin-top: @default-margin;
+                    }
+
+                    .dota-player-items {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+
+                        margin-top: @default-margin;
+
+                        img {
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .dota-match-lanes {
+        padding: @default-padding;
+        background-color: @component-background;
+        border-radius: @border-radius;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+        height: 100%;
+
+        .lane-result-list  {
+            margin-top: @default-margin;
+            display: flex;
+            flex-direction: column;
+            gap: @default-margin;
+            height: 100%;
+
+            .lane-result {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 1px solid rgba(#fff, 0.1);
+                border-radius: @border-radius;
+                min-height: 100px;
+                padding: @default-padding;
+
+                &.radiant {
+                    background: linear-gradient(to right, rgba(@success-color, 0.1), rgba(@success-color, 0));
+                }
+
+                &.dire {
+                    background: linear-gradient(to left, rgba(@danger-color, 0.1), rgba(@danger-color, 0));
+                }
+
+                .heroes-list {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .divider {
+                    margin: 0 @default-margin;
+                }
+            }
+        }
+    }
+
+    .dota-match-chart {
+        padding: @default-padding;
+        background-color: @component-background;
+        border-radius: @border-radius;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+
+        h3 {
+            margin-bottom: @default-margin;
+            text-align: center;
+        }
+
+        .chart-container {
+            position: relative;
+            margin: auto;
+            max-width: 100%;
+            height: 300px !important;
+        }
+
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+
+            .legend-item {
+                display: flex;
+                align-items: center;
+
+                .color-box {
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 5px;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
+
+.dota-match-table {
+    tr.radiant {
+        background-color: rgba(@success-color, 0.05);
+    }
+    
+    tr.dire {
+        background-color: rgba(@danger-color, 0.05);
+    }
+
+    .dota-player-items {
+        display: flex;
+        flex-wrap: wrap;
+
+        .dota-player-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .timer {
+                font-size: 9px;
+                color: rgba(#fff, 0.5);
+            }
+
+            img {
+                width: 35px;
+            }
+        }
+
+        
+    }
+}
+
+.dota-match-picks-bans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: @default-margin;
+
+    img {
+        width: 60px;
+        border-radius: calc(@border-radius / 2);
+
+        &.pick {
+            border-bottom: 2px solid @success-color;
+        }
+
+        &.ban {
+            filter: grayscale(100%);
+        }
+    }
+}

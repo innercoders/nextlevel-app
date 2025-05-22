@@ -9,12 +9,20 @@ export const routes: Routes = [
 		children: [
 			{
 				path: '',
-				redirectTo: 'about-us',
+				redirectTo: '',
 				pathMatch: 'full'
 			},
 			{
 				path: '',
 				loadComponent: () => import('./views/home/home.component').then(m => m.HomeComponent)
+			},
+			{
+				path: 'matches/:matchId',
+				loadComponent: () => import('./views/dota-match/dota-match.component').then(m => m.DotaMatchComponent)
+			},
+			{
+				path: 'dota-matches',
+				loadComponent: () => import('./views/dota-matches/dota-matches.component').then(m => m.DotaMatchesComponent)
 			},
 			{
 				path: 'dota-meta',

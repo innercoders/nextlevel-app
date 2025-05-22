@@ -13,70 +13,74 @@
 
 // Base classes
 each(@display-types, {
-  .d-@{value} {
-    display: @value !important;
-  }
+	.d-@{value} {
+		display: @value !important;
+	}
 });
 
 // Responsive classes
 .generate-display(@i: 1) when (@i =< length(@breakpoints)) {
-  @bp: extract(@breakpoints, @i);
-  @min: extract(@media-widths, @i);
+	@bp: extract(@breakpoints, @i);
+	@min: extract(@media-widths, @i);
 
-  each(@display-types, {
-    @display: @value;
-    .d-@{bp}-@{display} {
-      @media (min-width: @min) {
-        display: @display !important;
-      }
-    }
-  });
+	each(@display-types, {
+		@display: @value;
+		.d-@{bp}-@{display} {
+			@media (min-width: @min) {
+				display: @display !important;
+			}
+		}
+	});
 
-  .generate-display(@i + 1);
+	.generate-display(@i + 1);
 }
 .generate-display();
 
 .in-horizontal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 
-    &.between {
-        justify-content: space-between;
-    }
+		&.between {
+				justify-content: space-between;
+		}
 
-    &.center {
-        justify-content: center;
-    }
+		&.center {
+				justify-content: center;
+		}
 
-    &.end {
-        justify-content: flex-end;
-    }
+		&.end {
+				justify-content: flex-end;
+		}
 
-    &.bottom {
-        align-items: flex-end;
-    }
+		&.bottom {
+				align-items: flex-end;
+		}
 }
 
 .in-vertical {
-    display: flex;
-    flex-direction: column;
+		display: flex;
+		flex-direction: column;
 
-    &.end {
-        align-items: flex-end;
-    }
+		&.end {
+				align-items: flex-end;
+		}
+
+		&.bottom {
+				justify-content: flex-end;
+		}
 }
 
 .text-center {
-    text-align: center;
+		text-align: center;
 }
 
 .text-right {
-    text-align: right;
+		text-align: right;
 }
 
 .flex-grow-1 {
-    flex-grow: 1;
+		flex-grow: 1;
 }
 
 // Facet Colors
@@ -100,3 +104,6 @@ each(@display-types, {
 .text-Yellow { color: @warning-color; }
 .text-Purple { color: @purple-color; }
 .text-Gray { color: @gray-color; }
+
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }

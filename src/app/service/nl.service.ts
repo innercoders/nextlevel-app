@@ -1,12 +1,13 @@
-import { HttpClient, HttpParams } from "@angular/common/http";
-import { Inject, Injectable } from "@angular/core";
+import { HttpParams } from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { environment } from "../../environments/environment";
 
 @Injectable({
     providedIn: 'root'
 })
 export abstract class NlService {
 
-    protected baseAPI: string = 'http://localhost:3000';
+    protected baseAPI: string = environment.apiUrl;
 
     constructor() {
     }

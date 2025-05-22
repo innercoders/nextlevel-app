@@ -1,3 +1,5 @@
+import { DotaItem } from "./dota-item";
+
 export interface DotaHero {
 	id: number;
 	name: string;
@@ -10,6 +12,7 @@ export interface DotaHero {
 	img: string;
 	icon: string;
 	video: string;
+	video_webm: string;
 	base_health: number;
 	base_health_regen: number;
 	base_mana: number;
@@ -43,4 +46,13 @@ export interface DotaHero {
 	similarHeroesData: DotaHero[];
 	facets: any;
 	heroAlias: any;
+
+	positionImage?: string;
+	positionLabel?: string;
+
+	previousHero?: DotaHero;
+	nextHero?: DotaHero;
 }
+
+// Define a more memory-efficient subset of DotaHero for listings
+export type DotaHeroSummary = Pick<DotaHero, 'id' | 'name' | 'icon' | 'img' | 'localized_name' | 'roles' | 'roleLevels' | 'sanitizedName'>;

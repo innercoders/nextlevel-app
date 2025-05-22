@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { authInterceptor } from './interceptors/auth.interceptor';
+import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
 
 registerLocaleData(en);
 
@@ -19,6 +20,6 @@ export const appConfig: ApplicationConfig = {
 		provideNzI18n(en_US),
 		importProvidersFrom(FormsModule),
 		provideAnimationsAsync(),
-		provideHttpClient(withInterceptors([authInterceptor]))
+		provideHttpClient(withInterceptors([authInterceptor])), provideCharts(withDefaultRegisterables())
 	]
 };

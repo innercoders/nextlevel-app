@@ -15,7 +15,7 @@
                 <div class="in-card-content">
                     <nz-select 
                         style="width: 200px;" 
-                        [ngModel]="selectedStatus" 
+                        [ngModel]="selectedStatus"
                         (ngModelChange)="changeStatus($event)"
                         nzPlaceHolder="Selecionar Status">
                         <nz-option *ngFor="let status of statusOptions" [nzValue]="status.value" [nzLabel]="status.label"></nz-option>
@@ -27,7 +27,7 @@
                         class="ml-3" 
                         [disabled]="selectedMatches.length === 0"
                         (click)="reparseSelectedMatches()"
-                        *ngIf="">
+                        *ngIf="selectedStatus === 'FAILED'">
                         Reprocessar Partidas Selecionadas ({{selectedMatches.length}})
                     </button>
                 </div>

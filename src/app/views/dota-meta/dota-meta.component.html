@@ -6,15 +6,52 @@
         </div>
         <div nz-col nzSpan="12">
             <div class="in-horizontal end bottom" style="height: 100%;">
-                <span class="text-muted">Nos últimos 14 dias</span>
+                <span class="text-muted">Nos últimos {{ bestHeroesRequest.days }} dias</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="mb-3 filter-section" nz-row [nzGutter]="16">
+        <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24">
+            <div class="in-card p-3">
+                <div *ngIf="bestHeroesRequest.leagueId" class="mb-3 league-tag-container">
+                    <nz-tag nzColor="blue" class="league-tag">
+                        <span nz-icon nzType="trophy" nzTheme="outline" class="mr-1"></span>
+                        {{ currentLeague?.displayName || 'Torneio: ID ' + bestHeroesRequest.leagueId }}
+                        <span nz-icon nzType="close-circle" nzTheme="outline" class="ml-2 close-icon" (click)="clearLeagueFilter()"></span>
+                    </nz-tag>
+                </div>
+                
+                <div nz-row [nzGutter]="16" class="filter-controls">
+                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="4" *ngIf="!bestHeroesRequest.leagueId">
+                        <div class="filter-label">Dias</div>
+                        <nz-select [(ngModel)]="bestHeroesRequest.days" class="filter-select">
+                            <nz-option [nzValue]="7" nzLabel="7 dias"></nz-option>
+                            <nz-option [nzValue]="14" nzLabel="14 dias"></nz-option>
+                            <nz-option [nzValue]="30" nzLabel="30 dias"></nz-option>
+                            <nz-option [nzValue]="60" nzLabel="60 dias"></nz-option>
+                        </nz-select>
+                    </div>
+                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="4">
+                        <div class="filter-label">Min. Partidas</div>
+                        <nz-slider [(ngModel)]="bestHeroesRequest.minMatches" [nzMin]="1" [nzMax]="50" [nzStep]="1"></nz-slider>
+                    </div>
+                    <div nz-col nzXs="24" nzSm="8" nzMd="6" nzLg="4" class="filter-button-container">
+                        <button nz-button nzType="primary" (click)="applyFilters()" [nzLoading]="loading">
+                            <span nz-icon nzType="filter" nzTheme="outline" class="mr-1"></span>
+                            Aplicar Filtros
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <div nz-row>
         <div nz-col nzSpan="24">
-            <div class="in-card px-3" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
-                <nz-tabset style="margin-bottom: 0;" nzSize="large" nzCentered="true" (nzSelectedIndexChange)="changePosition(positions[$event].value)">
+            <div class="in-card px-3 position-tabs" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+                <nz-tabset style="margin-bottom: 0;" nzSize="large" nzCentered="true" (nzSelectedIndexChange)="changePositionTab($event)">
                     <nz-tab *ngFor="let position of positions" [nzTitle]="titleTemplate">
                         <ng-template #titleTemplate>
                             <img height="20px" class="mr-2" [src]="getPositionImage(position.value)" *ngIf="position.value">
@@ -26,7 +63,14 @@
 
             <div class="in-tab-content">
                 <nz-table #heroTable [nzData]="bestHeroes" [nzLoading]="loading" [nzShowPagination]="true" [nzPageSize]="bestHeroesRequest.limit" 
-                [nzTotal]="totalResults" [nzFrontPagination]="false" (nzQueryParams)="changePage($event)">
+                [nzTotal]="totalResults" [nzFrontPagination]="false" (nzQueryParams)="changePage($event)" class="heroes-table"
+                [nzLoadingIndicator]="indicatorTemplate">
+                    <ng-template #indicatorTemplate>
+                        <div class="custom-loading">
+                            <span nz-icon nzType="loading" nzTheme="outline"></span>
+                            <span class="loading-text">Carregando heróis...</span>
+                        </div>
+                    </ng-template>
                     <thead>
                         <tr>
                             <th>Herói</th>
@@ -42,10 +86,9 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr *ngFor="let hero of heroTable.data" (click)="goToHero(hero.dotaHero?.sanitizedName)">
+                        <tr *ngFor="let hero of heroTable.data" (click)="goToHero(hero.dotaHero?.sanitizedName)" class="hero-row">
                             <td>
                                 <div class="in-horizontal" *ngIf="hero.dotaHero" >
-                                    <!-- <img [src]="hero.dotaHero?.img" [nzTooltipTitle]="hero.dotaHero?.localized_name" nz-tooltip> -->
                                     <app-dota-hero [hero]="hero.dotaHero" [selectedFacet]="hero.selectedFacet"></app-dota-hero>
                                     <div class="ml-2 d-none d-xl-flex in-vertical">
                                         <span>{{ hero.dotaHero?.localized_name }}</span>
@@ -54,7 +97,7 @@
                                 </div>
                             </td>
                             <td class="text-center" *ngIf="!selectedPosition">
-                                <img height="20px" class="mr-2" [src]="getPositionImage(hero.position)" nz-tooltip [nzTooltipTitle]="getPositionLabel(hero.position)">
+                                <img height="20px" class="mr-2" [src]="hero.dotaHero.positionImage" nz-tooltip [nzTooltipTitle]="hero.dotaHero.positionLabel">
                             </td>
                             <td class="d-table-cell d-md-none">
                                 <div [ngClass]="{'text-success': hero.winRate > 50, 'text-danger': hero.winRate < 50}">{{ hero.winRate }}%</div>

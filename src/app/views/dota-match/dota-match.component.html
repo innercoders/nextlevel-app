@@ -1,0 +1,232 @@
+<div class="dota-match-container">
+
+	<div class="" *ngIf="!dotaMatch">
+		carregando...
+	</div>
+
+	<div class="dota-match" *ngIf="dotaMatch">
+		<div class="dota-match-information" nz-row>
+			<div nz-col nzSpan="24">
+				<h3>#{{ dotaMatch.matchId }}</h3>
+
+				<h4 *ngIf="dotaMatch.league">{{ dotaMatch.league.displayName }}</h4>
+				<h4 *ngIf="!dotaMatch.league">Ranqueada</h4>
+			</div>
+
+			<div class="dota-match-teams-infomation" *ngIf="dotaMatch.radiantTeamName && dotaMatch.direTeamName">
+				<div class="dota-match-team radiant">
+					<div class="score-container">
+						<div class="in-horizontal">
+							<div class="dota-match-team-logo">
+								<img [src]="dotaMatch.radiantTeamLogoUrl">
+							</div>
+							<div>
+								<h6 style="margin-bottom: -10px;">Radiant</h6>
+								<h3 class="text-success">{{ dotaMatch.radiantTeamName }}</h3>
+							</div>
+						</div>
+						<div class="in-horizontal">
+							<div class="dota-match-result" *ngIf="dotaMatch.didRadiantWin">
+								<span class="text-danger">Vitória</span>
+							</div>
+							<h2 class="ml-3">{{ dotaMatch.radiantTeamScore }} </h2>
+						</div>
+					</div>
+				</div>
+				<div class="dota-match-team dire">
+					<div class="score-container">
+						<div class="in-horizontal">
+							<h2 class="mr-3">{{ dotaMatch.direTeamScore }}</h2>
+							<div class="dota-match-result" *ngIf="!dotaMatch.didRadiantWin">
+								<span class="text-danger">Vitória</span>
+							</div>
+						</div>
+						<div class="in-horizontal">
+							<div class="text-right">
+								<h6 style="margin-bottom: -10px;">Dire</h6>
+								<h3 class="text-danger">{{ dotaMatch.direTeamName }}</h3>
+							</div>
+							<div class="dota-match-team-logo">
+								<img [src]="dotaMatch.direTeamLogoUrl">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="dota-match-teams-infomation" *ngIf="!dotaMatch.radiantTeamName && !dotaMatch.direTeamName">
+				<div class="in-horizontal between w-100">
+					<h3 class="text-success">Radiant</h3>
+					<h2 class="mr-4">{{ dotaMatch.radiantTeamScore }}</h2>
+				</div>
+				<div class="in-horizontal between w-100">
+					<h2 class="ml-4">{{ dotaMatch.direTeamScore }}</h2>
+					<h3 class="text-danger">Dire</h3>
+				</div>
+			</div>
+		</div>
+
+		<div nz-row nzGutter="20">
+			<div nz-col nzSpan="12">
+				<div class="dota-team radiant" nz-row nzGutter="5">
+					<div class="dota-player" nz-col nzFlex="1" *ngFor="let player of radiantTeam">
+						<div class="in-card">
+							<app-dota-hero [full]="true" [hero]="player.dotaHero" [selectedFacet]="player.selectedFacet"></app-dota-hero>
+							<div class="in-card-content">
+								<div class="dota-hero-info">
+									<div>{{ player.kills }} <span class="text-muted">/</span> {{ player.deaths }} <span class="text-muted">/</span> {{ player.assists }}</div>
+									<div class="text-warning">
+										<img src="/assets/images/dota/icons/gold.png" alt="Gold" class="mr-1" style="width: 15px;">
+										{{ player.netWorth | number:'1.0-0'}}
+									</div>
+									<div class="dota-player-position">
+										<img [src]="getPositionImage(player.position)" alt="Position" class="mr-1" style="width: 15px;" nz-tooltip [nzTooltipTitle]="getPositionName(player.position)">
+									</div>
+									<div class="dota-player-items">
+										<img [src]="item.img" nz-tooltip [nzTooltipTitle]="item.dname" [nzTooltipPlacement]="i < 3 ? 'top' : 'bottom'" *ngFor="let item of player.items; let i = index" />										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div nz-col nzSpan="12">
+				<div class="dota-team radiant" nz-row nzGutter="5">
+					<div class="dota-player" nz-col nzFlex="1" *ngFor="let player of direTeam">
+						<div class="in-card">
+							<app-dota-hero [full]="true" [hero]="player.dotaHero" [selectedFacet]="player.selectedFacet"></app-dota-hero>
+							<div class="in-card-content">
+								<div class="dota-hero-info">
+									<div>{{ player.kills }} <span class="text-muted">/</span> {{ player.deaths }} <span class="text-muted">/</span> {{ player.assists }}</div>
+									<div class="text-warning">
+										<img src="/assets/images/dota/icons/gold.png" alt="Gold" class="mr-1" style="width: 15px;">
+										{{ player.netWorth | number:'1.0-0'}}
+									</div>
+									<div class="dota-player-position">
+										<img [src]="getPositionImage(player.position)" alt="Position" class="mr-1" style="width: 15px;" nz-tooltip [nzTooltipTitle]="getPositionName(player.position)">
+									</div>
+									<div class="dota-player-items">
+										<img [src]="item.img" nz-tooltip [nzTooltipTitle]="item.dname" [nzTooltipPlacement]="i < 3 ? 'top' : 'bottom'" *ngFor="let item of player.items; let i = index" />										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="dota-match-picks-bans">
+			<img *ngFor="let pickBan of dotaMatch.picksBans" [src]="pickBan.dotaHero?.img" [ngClass]="pickBan.isPick ? 'pick' : 'ban'" nz-tooltip [nzTooltipTitle]="pickBan.dotaHero?.localized_name" />
+		</div>
+
+		<div class="my-3" nz-row nzGutter="20">
+			<div nz-col nzSpan="8">
+				<div class="dota-match-lanes">
+					<h3>Resultados das Lanes</h3>
+
+					<div class="lane-result-list">
+						<div class="lane-result" *ngFor="let lane of laneResults" [ngClass]="laneResultClass(lane.result)">
+							<div class="mb-3 in-horizontal">
+								<img class="mr-3" [src]="'/assets/images/toplane.png'" height="20px" *ngIf="lane.lane === 'Top'">
+								<img class="mr-3" [src]="'/assets/images/midlane.png'" height="20px" *ngIf="lane.lane === 'Mid'">
+								<img class="mr-3" [src]="'/assets/images/bottomlane.png'" height="20px" *ngIf="lane.lane === 'Bottom'">
+								<h6>{{ lane.lane }} - <span innerHTML="{{ laneResultText(lane.result) }}"></span></h6>
+							</div>
+							<div class="heroes-list">
+								<ng-container *ngFor="let player of lane.players">
+									<div class="radiant-team" *ngIf="player.isRadiant">
+										<img class="mr-2" [src]="player.dotaHero?.icon" nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name"/>
+									</div>
+								</ng-container>
+								<div class="divider">vs</div>
+								<ng-container *ngFor="let player of lane.players">
+									<div class="dire-team" *ngIf="!player.isRadiant">
+										<img class="mr-2" [src]="player.dotaHero?.icon" nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name"/>
+									</div>
+								</ng-container>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div nz-col nzSpan="16">
+				<div class="dota-match-chart">
+					<h3>Vantagens das Equipes</h3>
+					<div class="chart-container">
+						<canvas baseChart
+							[type]="lineChartType"
+							[data]="lineChartData"
+							[options]="lineChartOptions">
+						</canvas>
+					</div>
+					<div class="chart-legend">
+						<div class="legend-item">
+							<span class="color-box" style="background-color: rgba(102, 187, 106, 1);"></span>
+							<span>Radiant</span>
+						</div>
+						<div class="legend-item">
+							<span class="color-box" style="background-color: rgba(244, 67, 54, 1);"></span>
+							<span>Dire</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div nz-row>
+			<div nz-col nzSpan="24">
+				<nz-table class="dota-match-table" #nzTable [nzData]="dotaMatch.players" [nzPageSize]="10" [nzShowPagination]="false">
+					<thead>
+						<tr>
+							<th>Herói</th>
+                            <th>Posição</th>
+                            <th>K/D/A</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/gold.png" height="15px" /> GPM</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/xp.png" height="15px" /> XPM</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/damage.png" height="15px" /> Dano Heróis</th>
+                            <th><img class="mr-1" src="/assets/images/dota/icons/siege.png" height="15px" /> Dano Torres</th>
+							<th>Itens</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let player of dotaMatch.players; let i = index;" [ngClass]="{'radiant' : i < 5, 'dire' : i >= 5}">
+							<td>
+								<div class="in-horizontal" *ngIf="player.dotaHero" >
+                                    <app-dota-hero [hero]="player.dotaHero" [selectedFacet]="player.selectedFacet"></app-dota-hero>
+                                    <div class="ml-2 d-none d-xl-flex in-vertical">
+                                        <span>{{ player.dotaHero.localized_name }}</span>
+                                        <span [ngClass]="'text-' + player.selectedFacet?.color" *ngIf="player.selectedFacet">{{ player.selectedFacet?.title }}</span>
+                                    </div>
+                                </div>
+							</td>
+							<td>
+								<img height="20px" class="mr-2" [src]="player.dotaHero?.positionImage" nz-tooltip [nzTooltipTitle]="player.dotaHero?.positionLabel">
+							</td>
+							<td>
+								<span class="text-success">{{ player.kills | number:'1.0-0' }}</span> / 
+                                <span class="text-danger">{{ player.deaths | number:'1.0-0' }}</span> / 
+                                <span class="text-info">{{ player.assists | number:'1.0-0' }}</span>
+							</td>
+							<td class="text-center text-warning">{{ player.goldPerMinute | number:'1.0-0' }}</td>
+							<td class="text-center text-info">{{ player.experiencePerMinute | number:'1.0-0' }}</td>
+							<td class="text-center text-danger">{{ player.heroDamage | number:'1.0-0' }}</td>
+							<td class="text-center">{{ player.towerDamage | number:'1.0-0' }}</td>
+							<td width="400px">
+								<div class="dota-player-items">
+									<div class="dota-player-item" *ngFor="let purchased of player.purchasedItems">
+										<img [src]="purchased.item.img" nz-tooltip [nzTooltipTitle]="purchased.item.dname" />
+										<span class="timer">{{ purchased.formatedTime  }}</span>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</nz-table>
+			</div>
+		</div>
+	</div>
+
+</div>

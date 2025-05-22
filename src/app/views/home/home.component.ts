@@ -6,15 +6,20 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { CommonModule } from '@angular/common';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
-import { DotaHelperService, OmniscienceService, DotaRankService, DotaMatchService } from '@app/service';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
-import { brRanking, DotaMatch } from '@app/model';
 import { NzTabsModule } from 'ng-zorro-antd/tabs';
 import { NzMessageService } from 'ng-zorro-antd/message';
-import { RouterModule } from '@angular/router';
-import { TimeFormatPipe } from '../../shared/pipes/time-format.pipe';
+import { Router, RouterModule } from '@angular/router';
 import { BehaviorSubject } from 'rxjs';
 import { NzTabChangeEvent } from 'ng-zorro-antd/tabs';
+
+import { brRanking, DotaMatch, User } from '@app/model';
+import { DotaHelperService, OmniscienceService, DotaRankService, DotaMatchService, UserService } from '@app/service';
+
+// Extend the DotaMatch interface for UI state
+interface DotaMatchWithUI extends DotaMatch {
+	expanded?: boolean;
+}
 
 @Component({
 	selector: 'app-home',
@@ -36,8 +41,8 @@ import { NzTabChangeEvent } from 'ng-zorro-antd/tabs';
 })
 export class HomeComponent implements OnInit {
 
-	public liveMatches: DotaMatch[] = [];
-	public lastMatches: DotaMatch[] = [];
+	public liveMatches: DotaMatchWithUI[] = [];
+	public lastMatches: DotaMatchWithUI[] = [];
 	public loadingDotaMeta: boolean = false;
 	public loadingOnGoingMatches: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
@@ -52,18 +57,32 @@ export class HomeComponent implements OnInit {
 	public bestHeroes: any[] = [];
 	public bestHeroesPosition: null | 'POSITION_1' | 'POSITION_2' | 'POSITION_3' | 'POSITION_4' | 'POSITION_5' = null;
 
+	public currentUser: User | null = null;
+
 	constructor(private dotaHelperService: DotaHelperService,
 				private omniscienceService: OmniscienceService,
 				private dotaRankService: DotaRankService,
 				private dotaMatchService: DotaMatchService,
-				private message: NzMessageService) {}
+				private message: NzMessageService,
+				private userService: UserService,
+				private router: Router) {}
 
 	public ngOnInit() {
-		// this.getOnGoingMatches();
-		// this.getDotaRanks();
+
+		this.userService.currentUser.subscribe(user => {
+			this.currentUser = user;
+		});
+
+		if(!this.currentUser) {
+			this.router.navigate(["/about-us"]);
+			return;
+		}
+
+		this.getOnGoingMatches();
+		this.getDotaRanks();
 		// Default to showing Brazil ranking
-		this.selectedRankingData = this.dotaRanksEurope;
-		// this.getLastMatches();
+		this.selectedRankingData = this.dotaRankBrasil;
+		this.getLastMatches();
 	}
 
 	getOnGoingMatches() {
@@ -74,7 +93,7 @@ export class HomeComponent implements OnInit {
 
 				this.liveMatches.forEach(match => {
 					match.players.forEach(player => {
-						player.dotaHero = this.dotaHelperService.getHeroData(player.heroId);
+						player.dotaHero = this.dotaHelperService.getHeroDataSummary(player.heroId);
 					});
 				});
 			}, error: error => {
@@ -89,7 +108,7 @@ export class HomeComponent implements OnInit {
 				this.lastMatches = data;
 				this.lastMatches.forEach(match => {
 					match.players.forEach(player => {
-						player.dotaHero = this.dotaHelperService.getHeroData(player.heroId);
+						player.dotaHero = this.dotaHelperService.getHeroDataSummary(player.heroId);
 					});
 				});
 			}, error: error => {
@@ -148,19 +167,19 @@ export class HomeComponent implements OnInit {
 		
 		// Switch table data based on selected tab index
 		switch (event.index) {
-			case 0: // Brasil
-				// Using separate table for Brasil
+			case 0:
+				
 				break;
-			case 1: // Europa
+			case 1:
 				this.selectedRankingData = this.dotaRanksEurope;
 				break;
-			case 2: // Americas
+			case 2:
 				this.selectedRankingData = this.dotaRanksAmericas;
 				break;
-			case 3: // China
+			case 3:
 				this.selectedRankingData = this.dotaRanksChina;
 				break;
-			case 4: // Sudeste Asiático
+			case 4:
 				this.selectedRankingData = this.dotaRanksSeAsia;
 				break;
 			default:
@@ -168,4 +187,12 @@ export class HomeComponent implements OnInit {
 		}
 	}
 
+	// Helper methods to safely access hero data
+	getHeroImage(player: any): string {
+		return player?.dotaHero?.imageUrl || '';
+	}
+
+	getHeroName(player: any): string {
+		return player?.dotaHero?.localizedName || 'Unknown Hero';
+	}
 }

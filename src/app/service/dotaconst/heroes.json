@@ -35,7 +35,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/antimage.png?",
-    "icon": "/assets/images/dota/heroes/icons/antimage.png?",
+    "icon": "/assets/images/dota/heroes/icons/antimage_icon.png?",
     "video": "/assets/videos/dota/heroes/antimage.mov",
     "sanitizedName": "antimage",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -108,7 +108,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/axe.png?",
-    "icon": "/assets/images/dota/heroes/icons/axe.png?",
+    "icon": "/assets/images/dota/heroes/icons/axe_icon.png?",
     "video": "/assets/videos/dota/heroes/axe.mov",
     "sanitizedName": "axe",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -176,7 +176,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/bane.png?",
-    "icon": "/assets/images/dota/heroes/icons/bane.png?",
+    "icon": "/assets/images/dota/heroes/icons/bane_icon.png?",
     "video": "/assets/videos/dota/heroes/bane.mov",
     "sanitizedName": "bane",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -245,7 +245,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/bloodseeker.png?",
-    "icon": "/assets/images/dota/heroes/icons/bloodseeker.png?",
+    "icon": "/assets/images/dota/heroes/icons/bloodseeker_icon.png?",
     "video": "/assets/videos/dota/heroes/bloodseeker.mov",
     "sanitizedName": "bloodseeker",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -324,7 +324,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/crystal_maiden.png?",
-    "icon": "/assets/images/dota/heroes/icons/crystal_maiden.png?",
+    "icon": "/assets/images/dota/heroes/icons/crystal_maiden_icon.png?",
     "video": "/assets/videos/dota/heroes/crystal_maiden.mov",
     "sanitizedName": "crystal-maiden",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -396,7 +396,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/drow_ranger.png?",
-    "icon": "/assets/images/dota/heroes/icons/drow_ranger.png?",
+    "icon": "/assets/images/dota/heroes/icons/drow_ranger_icon.png?",
     "video": "/assets/videos/dota/heroes/drow_ranger.mov",
     "sanitizedName": "drow-ranger",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -470,7 +470,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/earthshaker.png?",
-    "icon": "/assets/images/dota/heroes/icons/earthshaker.png?",
+    "icon": "/assets/images/dota/heroes/icons/earthshaker_icon.png?",
     "video": "/assets/videos/dota/heroes/earthshaker.mov",
     "sanitizedName": "earthshaker",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -542,7 +542,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/juggernaut.png?",
-    "icon": "/assets/images/dota/heroes/icons/juggernaut.png?",
+    "icon": "/assets/images/dota/heroes/icons/juggernaut_icon.png?",
     "video": "/assets/videos/dota/heroes/juggernaut.mov",
     "sanitizedName": "juggernaut",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -639,7 +639,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/mirana.png?",
-    "icon": "/assets/images/dota/heroes/icons/mirana.png?",
+    "icon": "/assets/images/dota/heroes/icons/mirana_icon.png?",
     "video": "/assets/videos/dota/heroes/mirana.mov",
     "sanitizedName": "mirana",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -719,7 +719,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/morphling.png?",
-    "icon": "/assets/images/dota/heroes/icons/morphling.png?",
+    "icon": "/assets/images/dota/heroes/icons/morphling_icon.png?",
     "video": "/assets/videos/dota/heroes/morphling.mov",
     "sanitizedName": "morphling",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -784,7 +784,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/nevermore.png?",
-    "icon": "/assets/images/dota/heroes/icons/nevermore.png?",
+    "icon": "/assets/images/dota/heroes/icons/nevermore_icon.png?",
     "video": "/assets/videos/dota/heroes/nevermore.mov",
     "sanitizedName": "nevermore",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -859,7 +859,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/phantom_lancer.png?",
-    "icon": "/assets/images/dota/heroes/icons/phantom_lancer.png?",
+    "icon": "/assets/images/dota/heroes/icons/phantom_lancer_icon.png?",
     "video": "/assets/videos/dota/heroes/phantom_lancer.mov",
     "sanitizedName": "phantom-lancer",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -928,7 +928,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/puck.png?",
-    "icon": "/assets/images/dota/heroes/icons/puck.png?",
+    "icon": "/assets/images/dota/heroes/icons/puck_icon.png?",
     "video": "/assets/videos/dota/heroes/puck.mov",
     "sanitizedName": "puck",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -1003,7 +1003,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/pudge.png?",
-    "icon": "/assets/images/dota/heroes/icons/pudge.png?",
+    "icon": "/assets/images/dota/heroes/icons/pudge_icon.png?",
     "video": "/assets/videos/dota/heroes/pudge.mov",
     "sanitizedName": "pudge",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -1077,7 +1077,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/razor.png?",
-    "icon": "/assets/images/dota/heroes/icons/razor.png?",
+    "icon": "/assets/images/dota/heroes/icons/razor_icon.png?",
     "video": "/assets/videos/dota/heroes/razor.mov",
     "sanitizedName": "razor",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -1148,7 +1148,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/sand_king.png?",
-    "icon": "/assets/images/dota/heroes/icons/sand_king.png?",
+    "icon": "/assets/images/dota/heroes/icons/sand_king_icon.png?",
     "video": "/assets/videos/dota/heroes/sand_king.mov",
     "sanitizedName": "sand-king",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -1219,7 +1219,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/storm_spirit.png?",
-    "icon": "/assets/images/dota/heroes/icons/storm_spirit.png?",
+    "icon": "/assets/images/dota/heroes/icons/storm_spirit_icon.png?",
     "video": "/assets/videos/dota/heroes/storm_spirit.mov",
     "sanitizedName": "storm-spirit",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -1295,7 +1295,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/sven.png?",
-    "icon": "/assets/images/dota/heroes/icons/sven.png?",
+    "icon": "/assets/images/dota/heroes/icons/sven_icon.png?",
     "video": "/assets/videos/dota/heroes/sven.mov",
     "sanitizedName": "sven",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -1373,7 +1373,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/tiny.png?",
-    "icon": "/assets/images/dota/heroes/icons/tiny.png?",
+    "icon": "/assets/images/dota/heroes/icons/tiny_icon.png?",
     "video": "/assets/videos/dota/heroes/tiny.mov",
     "sanitizedName": "tiny",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -1452,7 +1452,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/vengefulspirit.png?",
-    "icon": "/assets/images/dota/heroes/icons/vengefulspirit.png?",
+    "icon": "/assets/images/dota/heroes/icons/vengefulspirit_icon.png?",
     "video": "/assets/videos/dota/heroes/vengefulspirit.mov",
     "sanitizedName": "vengefulspirit",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -1545,7 +1545,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/windrunner.png?",
-    "icon": "/assets/images/dota/heroes/icons/windrunner.png?",
+    "icon": "/assets/images/dota/heroes/icons/windrunner_icon.png?",
     "video": "/assets/videos/dota/heroes/windrunner.mov",
     "sanitizedName": "windrunner",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -1610,7 +1610,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/zuus.png?",
-    "icon": "/assets/images/dota/heroes/icons/zuus.png?",
+    "icon": "/assets/images/dota/heroes/icons/zuus_icon.png?",
     "video": "/assets/videos/dota/heroes/zuus.mov",
     "sanitizedName": "zuus",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -1683,7 +1683,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/kunkka.png?",
-    "icon": "/assets/images/dota/heroes/icons/kunkka.png?",
+    "icon": "/assets/images/dota/heroes/icons/kunkka_icon.png?",
     "video": "/assets/videos/dota/heroes/kunkka.mov",
     "sanitizedName": "kunkka",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -1757,7 +1757,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/lina.png?",
-    "icon": "/assets/images/dota/heroes/icons/lina.png?",
+    "icon": "/assets/images/dota/heroes/icons/lina_icon.png?",
     "video": "/assets/videos/dota/heroes/lina.mov",
     "sanitizedName": "lina",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -1826,7 +1826,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/lion.png?",
-    "icon": "/assets/images/dota/heroes/icons/lion.png?",
+    "icon": "/assets/images/dota/heroes/icons/lion_icon.png?",
     "video": "/assets/videos/dota/heroes/lion.mov",
     "sanitizedName": "lion",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -1909,7 +1909,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/shadow_shaman.png?",
-    "icon": "/assets/images/dota/heroes/icons/shadow_shaman.png?",
+    "icon": "/assets/images/dota/heroes/icons/shadow_shaman_icon.png?",
     "video": "/assets/videos/dota/heroes/shadow_shaman.mov",
     "sanitizedName": "shadow-shaman",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -1980,7 +1980,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/slardar.png?",
-    "icon": "/assets/images/dota/heroes/icons/slardar.png?",
+    "icon": "/assets/images/dota/heroes/icons/slardar_icon.png?",
     "video": "/assets/videos/dota/heroes/slardar.mov",
     "sanitizedName": "slardar",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -2059,7 +2059,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/tidehunter.png?",
-    "icon": "/assets/images/dota/heroes/icons/tidehunter.png?",
+    "icon": "/assets/images/dota/heroes/icons/tidehunter_icon.png?",
     "video": "/assets/videos/dota/heroes/tidehunter.mov",
     "sanitizedName": "tidehunter",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -2132,7 +2132,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/witch_doctor.png?",
-    "icon": "/assets/images/dota/heroes/icons/witch_doctor.png?",
+    "icon": "/assets/images/dota/heroes/icons/witch_doctor_icon.png?",
     "video": "/assets/videos/dota/heroes/witch_doctor.mov",
     "sanitizedName": "witch-doctor",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -2197,7 +2197,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/lich.png?",
-    "icon": "/assets/images/dota/heroes/icons/lich.png?",
+    "icon": "/assets/images/dota/heroes/icons/lich_icon.png?",
     "video": "/assets/videos/dota/heroes/lich.mov",
     "sanitizedName": "lich",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -2264,7 +2264,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/riki.png?",
-    "icon": "/assets/images/dota/heroes/icons/riki.png?",
+    "icon": "/assets/images/dota/heroes/icons/riki_icon.png?",
     "video": "/assets/videos/dota/heroes/riki.mov",
     "sanitizedName": "riki",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -2340,7 +2340,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/enigma.png?",
-    "icon": "/assets/images/dota/heroes/icons/enigma.png?",
+    "icon": "/assets/images/dota/heroes/icons/enigma_icon.png?",
     "video": "/assets/videos/dota/heroes/enigma.mov",
     "sanitizedName": "enigma",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -2407,7 +2407,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/tinker.png?",
-    "icon": "/assets/images/dota/heroes/icons/tinker.png?",
+    "icon": "/assets/images/dota/heroes/icons/tinker_icon.png?",
     "video": "/assets/videos/dota/heroes/tinker.mov",
     "sanitizedName": "tinker",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -2472,7 +2472,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/sniper.png?",
-    "icon": "/assets/images/dota/heroes/icons/sniper.png?",
+    "icon": "/assets/images/dota/heroes/icons/sniper_icon.png?",
     "video": "/assets/videos/dota/heroes/sniper.mov",
     "sanitizedName": "sniper",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -2541,7 +2541,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/necrolyte.png?",
-    "icon": "/assets/images/dota/heroes/icons/necrolyte.png?",
+    "icon": "/assets/images/dota/heroes/icons/necrolyte_icon.png?",
     "video": "/assets/videos/dota/heroes/necrolyte.mov",
     "sanitizedName": "necrolyte",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -2613,7 +2613,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/warlock.png?",
-    "icon": "/assets/images/dota/heroes/icons/warlock.png?",
+    "icon": "/assets/images/dota/heroes/icons/warlock_icon.png?",
     "video": "/assets/videos/dota/heroes/warlock.mov",
     "sanitizedName": "warlock",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -2682,7 +2682,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/beastmaster.png?",
-    "icon": "/assets/images/dota/heroes/icons/beastmaster.png?",
+    "icon": "/assets/images/dota/heroes/icons/beastmaster_icon.png?",
     "video": "/assets/videos/dota/heroes/beastmaster.mov",
     "sanitizedName": "beastmaster",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -2770,7 +2770,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/queenofpain.png?",
-    "icon": "/assets/images/dota/heroes/icons/queenofpain.png?",
+    "icon": "/assets/images/dota/heroes/icons/queenofpain_icon.png?",
     "video": "/assets/videos/dota/heroes/queenofpain.mov",
     "sanitizedName": "queenofpain",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -2841,7 +2841,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/venomancer.png?",
-    "icon": "/assets/images/dota/heroes/icons/venomancer.png?",
+    "icon": "/assets/images/dota/heroes/icons/venomancer_icon.png?",
     "video": "/assets/videos/dota/heroes/venomancer.mov",
     "sanitizedName": "venomancer",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -2932,7 +2932,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/faceless_void.png?",
-    "icon": "/assets/images/dota/heroes/icons/faceless_void.png?",
+    "icon": "/assets/images/dota/heroes/icons/faceless_void_icon.png?",
     "video": "/assets/videos/dota/heroes/faceless_void.mov",
     "sanitizedName": "faceless-void",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -3017,7 +3017,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/skeleton_king.png?",
-    "icon": "/assets/images/dota/heroes/icons/skeleton_king.png?",
+    "icon": "/assets/images/dota/heroes/icons/skeleton_king_icon.png?",
     "video": "/assets/videos/dota/heroes/skeleton_king.mov",
     "sanitizedName": "skeleton-king",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -3103,7 +3103,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/death_prophet.png?",
-    "icon": "/assets/images/dota/heroes/icons/death_prophet.png?",
+    "icon": "/assets/images/dota/heroes/icons/death_prophet_icon.png?",
     "video": "/assets/videos/dota/heroes/death_prophet.mov",
     "sanitizedName": "death-prophet",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -3174,7 +3174,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/phantom_assassin.png?",
-    "icon": "/assets/images/dota/heroes/icons/phantom_assassin.png?",
+    "icon": "/assets/images/dota/heroes/icons/phantom_assassin_icon.png?",
     "video": "/assets/videos/dota/heroes/phantom_assassin.mov",
     "sanitizedName": "phantom-assassin",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -3238,7 +3238,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/pugna.png?",
-    "icon": "/assets/images/dota/heroes/icons/pugna.png?",
+    "icon": "/assets/images/dota/heroes/icons/pugna_icon.png?",
     "video": "/assets/videos/dota/heroes/pugna.mov",
     "sanitizedName": "pugna",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -3308,7 +3308,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/templar_assassin.png?",
-    "icon": "/assets/images/dota/heroes/icons/templar_assassin.png?",
+    "icon": "/assets/images/dota/heroes/icons/templar_assassin_icon.png?",
     "video": "/assets/videos/dota/heroes/templar_assassin.mov",
     "sanitizedName": "templar-assassin",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -3377,7 +3377,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/viper.png?",
-    "icon": "/assets/images/dota/heroes/icons/viper.png?",
+    "icon": "/assets/images/dota/heroes/icons/viper_icon.png?",
     "video": "/assets/videos/dota/heroes/viper.mov",
     "sanitizedName": "viper",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -3450,7 +3450,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/luna.png?",
-    "icon": "/assets/images/dota/heroes/icons/luna.png?",
+    "icon": "/assets/images/dota/heroes/icons/luna_icon.png?",
     "video": "/assets/videos/dota/heroes/luna.mov",
     "sanitizedName": "luna",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -3528,7 +3528,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/dragon_knight.png?",
-    "icon": "/assets/images/dota/heroes/icons/dragon_knight.png?",
+    "icon": "/assets/images/dota/heroes/icons/dragon_knight_icon.png?",
     "video": "/assets/videos/dota/heroes/dragon_knight.mov",
     "sanitizedName": "dragon-knight",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -3599,7 +3599,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/dazzle.png?",
-    "icon": "/assets/images/dota/heroes/icons/dazzle.png?",
+    "icon": "/assets/images/dota/heroes/icons/dazzle_icon.png?",
     "video": "/assets/videos/dota/heroes/dazzle.mov",
     "sanitizedName": "dazzle",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -3668,7 +3668,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/rattletrap.png?",
-    "icon": "/assets/images/dota/heroes/icons/rattletrap.png?",
+    "icon": "/assets/images/dota/heroes/icons/rattletrap_icon.png?",
     "video": "/assets/videos/dota/heroes/rattletrap.mov",
     "sanitizedName": "rattletrap",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -3744,7 +3744,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/leshrac.png?",
-    "icon": "/assets/images/dota/heroes/icons/leshrac.png?",
+    "icon": "/assets/images/dota/heroes/icons/leshrac_icon.png?",
     "video": "/assets/videos/dota/heroes/leshrac.mov",
     "sanitizedName": "leshrac",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -3813,7 +3813,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/furion.png?",
-    "icon": "/assets/images/dota/heroes/icons/furion.png?",
+    "icon": "/assets/images/dota/heroes/icons/furion_icon.png?",
     "video": "/assets/videos/dota/heroes/furion.mov",
     "sanitizedName": "furion",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -3919,7 +3919,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/life_stealer.png?",
-    "icon": "/assets/images/dota/heroes/icons/life_stealer.png?",
+    "icon": "/assets/images/dota/heroes/icons/life_stealer_icon.png?",
     "video": "/assets/videos/dota/heroes/life_stealer.mov",
     "sanitizedName": "life-stealer",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -3999,7 +3999,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/dark_seer.png?",
-    "icon": "/assets/images/dota/heroes/icons/dark_seer.png?",
+    "icon": "/assets/images/dota/heroes/icons/dark_seer_icon.png?",
     "video": "/assets/videos/dota/heroes/dark_seer.mov",
     "sanitizedName": "dark-seer",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -4065,7 +4065,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/clinkz.png?",
-    "icon": "/assets/images/dota/heroes/icons/clinkz.png?",
+    "icon": "/assets/images/dota/heroes/icons/clinkz_icon.png?",
     "video": "/assets/videos/dota/heroes/clinkz.mov",
     "sanitizedName": "clinkz",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -4137,7 +4137,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/omniknight.png?",
-    "icon": "/assets/images/dota/heroes/icons/omniknight.png?",
+    "icon": "/assets/images/dota/heroes/icons/omniknight_icon.png?",
     "video": "/assets/videos/dota/heroes/omniknight.mov",
     "sanitizedName": "omniknight",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -4206,7 +4206,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/enchantress.png?",
-    "icon": "/assets/images/dota/heroes/icons/enchantress.png?",
+    "icon": "/assets/images/dota/heroes/icons/enchantress_icon.png?",
     "video": "/assets/videos/dota/heroes/enchantress.mov",
     "sanitizedName": "enchantress",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -4284,7 +4284,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/huskar.png?",
-    "icon": "/assets/images/dota/heroes/icons/huskar.png?",
+    "icon": "/assets/images/dota/heroes/icons/huskar_icon.png?",
     "video": "/assets/videos/dota/heroes/huskar.mov",
     "sanitizedName": "huskar",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -4367,7 +4367,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/night_stalker.png?",
-    "icon": "/assets/images/dota/heroes/icons/night_stalker.png?",
+    "icon": "/assets/images/dota/heroes/icons/night_stalker_icon.png?",
     "video": "/assets/videos/dota/heroes/night_stalker.mov",
     "sanitizedName": "night-stalker",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -4436,7 +4436,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/broodmother.png?",
-    "icon": "/assets/images/dota/heroes/icons/broodmother.png?",
+    "icon": "/assets/images/dota/heroes/icons/broodmother_icon.png?",
     "video": "/assets/videos/dota/heroes/broodmother.mov",
     "sanitizedName": "broodmother",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -4507,7 +4507,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/bounty_hunter.png?",
-    "icon": "/assets/images/dota/heroes/icons/bounty_hunter.png?",
+    "icon": "/assets/images/dota/heroes/icons/bounty_hunter_icon.png?",
     "video": "/assets/videos/dota/heroes/bounty_hunter.mov",
     "sanitizedName": "bounty-hunter",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -4572,7 +4572,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/weaver.png?",
-    "icon": "/assets/images/dota/heroes/icons/weaver.png?",
+    "icon": "/assets/images/dota/heroes/icons/weaver_icon.png?",
     "video": "/assets/videos/dota/heroes/weaver.mov",
     "sanitizedName": "weaver",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -4674,7 +4674,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/jakiro.png?",
-    "icon": "/assets/images/dota/heroes/icons/jakiro.png?",
+    "icon": "/assets/images/dota/heroes/icons/jakiro_icon.png?",
     "video": "/assets/videos/dota/heroes/jakiro.mov",
     "sanitizedName": "jakiro",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -4746,7 +4746,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/batrider.png?",
-    "icon": "/assets/images/dota/heroes/icons/batrider.png?",
+    "icon": "/assets/images/dota/heroes/icons/batrider_icon.png?",
     "video": "/assets/videos/dota/heroes/batrider.mov",
     "sanitizedName": "batrider",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -4850,7 +4850,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/chen.png?",
-    "icon": "/assets/images/dota/heroes/icons/chen.png?",
+    "icon": "/assets/images/dota/heroes/icons/chen_icon.png?",
     "video": "/assets/videos/dota/heroes/chen.mov",
     "sanitizedName": "chen",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -4917,7 +4917,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/spectre.png?",
-    "icon": "/assets/images/dota/heroes/icons/spectre.png?",
+    "icon": "/assets/images/dota/heroes/icons/spectre_icon.png?",
     "video": "/assets/videos/dota/heroes/spectre.mov",
     "sanitizedName": "spectre",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -4984,7 +4984,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/ancient_apparition.png?",
-    "icon": "/assets/images/dota/heroes/icons/ancient_apparition.png?",
+    "icon": "/assets/images/dota/heroes/icons/ancient_apparition_icon.png?",
     "video": "/assets/videos/dota/heroes/ancient_apparition.mov",
     "sanitizedName": "ancient-apparition",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -5065,7 +5065,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/doom_bringer.png?",
-    "icon": "/assets/images/dota/heroes/icons/doom_bringer.png?",
+    "icon": "/assets/images/dota/heroes/icons/doom_bringer_icon.png?",
     "video": "/assets/videos/dota/heroes/doom_bringer.mov",
     "sanitizedName": "doom-bringer",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -5137,7 +5137,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/ursa.png?",
-    "icon": "/assets/images/dota/heroes/icons/ursa.png?",
+    "icon": "/assets/images/dota/heroes/icons/ursa_icon.png?",
     "video": "/assets/videos/dota/heroes/ursa.mov",
     "sanitizedName": "ursa",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -5214,7 +5214,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/spirit_breaker.png?",
-    "icon": "/assets/images/dota/heroes/icons/spirit_breaker.png?",
+    "icon": "/assets/images/dota/heroes/icons/spirit_breaker_icon.png?",
     "video": "/assets/videos/dota/heroes/spirit_breaker.mov",
     "sanitizedName": "spirit-breaker",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -5281,7 +5281,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/gyrocopter.png?",
-    "icon": "/assets/images/dota/heroes/icons/gyrocopter.png?",
+    "icon": "/assets/images/dota/heroes/icons/gyrocopter_icon.png?",
     "video": "/assets/videos/dota/heroes/gyrocopter.mov",
     "sanitizedName": "gyrocopter",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -5359,7 +5359,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/alchemist.png?",
-    "icon": "/assets/images/dota/heroes/icons/alchemist.png?",
+    "icon": "/assets/images/dota/heroes/icons/alchemist_icon.png?",
     "video": "/assets/videos/dota/heroes/alchemist.mov",
     "sanitizedName": "alchemist",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -5447,7 +5447,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/invoker.png?",
-    "icon": "/assets/images/dota/heroes/icons/invoker.png?",
+    "icon": "/assets/images/dota/heroes/icons/invoker_icon.png?",
     "video": "/assets/videos/dota/heroes/invoker.mov",
     "sanitizedName": "invoker",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -5523,7 +5523,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/silencer.png?",
-    "icon": "/assets/images/dota/heroes/icons/silencer.png?",
+    "icon": "/assets/images/dota/heroes/icons/silencer_icon.png?",
     "video": "/assets/videos/dota/heroes/silencer.mov",
     "sanitizedName": "silencer",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -5590,7 +5590,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/obsidian_destroyer.png?",
-    "icon": "/assets/images/dota/heroes/icons/obsidian_destroyer.png?",
+    "icon": "/assets/images/dota/heroes/icons/obsidian_destroyer_icon.png?",
     "video": "/assets/videos/dota/heroes/obsidian_destroyer.mov",
     "sanitizedName": "obsidian-destroyer",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -5667,7 +5667,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/lycan.png?",
-    "icon": "/assets/images/dota/heroes/icons/lycan.png?",
+    "icon": "/assets/images/dota/heroes/icons/lycan_icon.png?",
     "video": "/assets/videos/dota/heroes/lycan.mov",
     "sanitizedName": "lycan",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -5738,7 +5738,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/brewmaster.png?",
-    "icon": "/assets/images/dota/heroes/icons/brewmaster.png?",
+    "icon": "/assets/images/dota/heroes/icons/brewmaster_icon.png?",
     "video": "/assets/videos/dota/heroes/brewmaster.mov",
     "sanitizedName": "brewmaster",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -5812,7 +5812,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/shadow_demon.png?",
-    "icon": "/assets/images/dota/heroes/icons/shadow_demon.png?",
+    "icon": "/assets/images/dota/heroes/icons/shadow_demon_icon.png?",
     "video": "/assets/videos/dota/heroes/shadow_demon.mov",
     "sanitizedName": "shadow-demon",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -5890,7 +5890,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/lone_druid.png?",
-    "icon": "/assets/images/dota/heroes/icons/lone_druid.png?",
+    "icon": "/assets/images/dota/heroes/icons/lone_druid_icon.png?",
     "video": "/assets/videos/dota/heroes/lone_druid.mov",
     "sanitizedName": "lone-druid",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -5982,7 +5982,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/chaos_knight.png?",
-    "icon": "/assets/images/dota/heroes/icons/chaos_knight.png?",
+    "icon": "/assets/images/dota/heroes/icons/chaos_knight_icon.png?",
     "video": "/assets/videos/dota/heroes/chaos_knight.mov",
     "sanitizedName": "chaos-knight",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -6067,7 +6067,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/meepo.png?",
-    "icon": "/assets/images/dota/heroes/icons/meepo.png?",
+    "icon": "/assets/images/dota/heroes/icons/meepo_icon.png?",
     "video": "/assets/videos/dota/heroes/meepo.mov",
     "sanitizedName": "meepo",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -6137,7 +6137,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/treant.png?",
-    "icon": "/assets/images/dota/heroes/icons/treant.png?",
+    "icon": "/assets/images/dota/heroes/icons/treant_icon.png?",
     "video": "/assets/videos/dota/heroes/treant.mov",
     "sanitizedName": "treant",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -6208,7 +6208,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/ogre_magi.png?",
-    "icon": "/assets/images/dota/heroes/icons/ogre_magi.png?",
+    "icon": "/assets/images/dota/heroes/icons/ogre_magi_icon.png?",
     "video": "/assets/videos/dota/heroes/ogre_magi.mov",
     "sanitizedName": "ogre-magi",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -6277,7 +6277,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/undying.png?",
-    "icon": "/assets/images/dota/heroes/icons/undying.png?",
+    "icon": "/assets/images/dota/heroes/icons/undying_icon.png?",
     "video": "/assets/videos/dota/heroes/undying.mov",
     "sanitizedName": "undying",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -6344,7 +6344,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/rubick.png?",
-    "icon": "/assets/images/dota/heroes/icons/rubick.png?",
+    "icon": "/assets/images/dota/heroes/icons/rubick_icon.png?",
     "video": "/assets/videos/dota/heroes/rubick.mov",
     "sanitizedName": "rubick",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -6420,7 +6420,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/disruptor.png?",
-    "icon": "/assets/images/dota/heroes/icons/disruptor.png?",
+    "icon": "/assets/images/dota/heroes/icons/disruptor_icon.png?",
     "video": "/assets/videos/dota/heroes/disruptor.mov",
     "sanitizedName": "disruptor",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -6489,7 +6489,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/nyx_assassin.png?",
-    "icon": "/assets/images/dota/heroes/icons/nyx_assassin.png?",
+    "icon": "/assets/images/dota/heroes/icons/nyx_assassin_icon.png?",
     "video": "/assets/videos/dota/heroes/nyx_assassin.mov",
     "sanitizedName": "nyx-assassin",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -6576,7 +6576,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/naga_siren.png?",
-    "icon": "/assets/images/dota/heroes/icons/naga_siren.png?",
+    "icon": "/assets/images/dota/heroes/icons/naga_siren_icon.png?",
     "video": "/assets/videos/dota/heroes/naga_siren.mov",
     "sanitizedName": "naga-siren",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -6657,7 +6657,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/keeper_of_the_light.png?",
-    "icon": "/assets/images/dota/heroes/icons/keeper_of_the_light.png?",
+    "icon": "/assets/images/dota/heroes/icons/keeper_of_the_light_icon.png?",
     "video": "/assets/videos/dota/heroes/keeper_of_the_light.mov",
     "sanitizedName": "keeper-of-the-light",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -6724,7 +6724,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/wisp.png?",
-    "icon": "/assets/images/dota/heroes/icons/wisp.png?",
+    "icon": "/assets/images/dota/heroes/icons/wisp_icon.png?",
     "video": "/assets/videos/dota/heroes/wisp.mov",
     "sanitizedName": "wisp",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -6800,7 +6800,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/visage.png?",
-    "icon": "/assets/images/dota/heroes/icons/visage.png?",
+    "icon": "/assets/images/dota/heroes/icons/visage_icon.png?",
     "video": "/assets/videos/dota/heroes/visage.mov",
     "sanitizedName": "visage",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -6869,7 +6869,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/slark.png?",
-    "icon": "/assets/images/dota/heroes/icons/slark.png?",
+    "icon": "/assets/images/dota/heroes/icons/slark_icon.png?",
     "video": "/assets/videos/dota/heroes/slark.mov",
     "sanitizedName": "slark",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -6957,7 +6957,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/medusa.png?",
-    "icon": "/assets/images/dota/heroes/icons/medusa.png?",
+    "icon": "/assets/images/dota/heroes/icons/medusa_icon.png?",
     "video": "/assets/videos/dota/heroes/medusa.mov",
     "sanitizedName": "medusa",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -7026,7 +7026,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/troll_warlord.png?",
-    "icon": "/assets/images/dota/heroes/icons/troll_warlord.png?",
+    "icon": "/assets/images/dota/heroes/icons/troll_warlord_icon.png?",
     "video": "/assets/videos/dota/heroes/troll_warlord.mov",
     "sanitizedName": "troll-warlord",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -7102,7 +7102,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/centaur.png?",
-    "icon": "/assets/images/dota/heroes/icons/centaur.png?",
+    "icon": "/assets/images/dota/heroes/icons/centaur_icon.png?",
     "video": "/assets/videos/dota/heroes/centaur.mov",
     "sanitizedName": "centaur",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -7193,7 +7193,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/magnataur.png?",
-    "icon": "/assets/images/dota/heroes/icons/magnataur.png?",
+    "icon": "/assets/images/dota/heroes/icons/magnataur_icon.png?",
     "video": "/assets/videos/dota/heroes/magnataur.mov",
     "sanitizedName": "magnataur",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -7267,7 +7267,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/shredder.png?",
-    "icon": "/assets/images/dota/heroes/icons/shredder.png?",
+    "icon": "/assets/images/dota/heroes/icons/shredder_icon.png?",
     "video": "/assets/videos/dota/heroes/shredder.mov",
     "sanitizedName": "shredder",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -7342,7 +7342,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/bristleback.png?",
-    "icon": "/assets/images/dota/heroes/icons/bristleback.png?",
+    "icon": "/assets/images/dota/heroes/icons/bristleback_icon.png?",
     "video": "/assets/videos/dota/heroes/bristleback.mov",
     "sanitizedName": "bristleback",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -7426,7 +7426,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/tusk.png?",
-    "icon": "/assets/images/dota/heroes/icons/tusk.png?",
+    "icon": "/assets/images/dota/heroes/icons/tusk_icon.png?",
     "video": "/assets/videos/dota/heroes/tusk.mov",
     "sanitizedName": "tusk",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -7508,7 +7508,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/skywrath_mage.png?",
-    "icon": "/assets/images/dota/heroes/icons/skywrath_mage.png?",
+    "icon": "/assets/images/dota/heroes/icons/skywrath_mage_icon.png?",
     "video": "/assets/videos/dota/heroes/skywrath_mage.mov",
     "sanitizedName": "skywrath-mage",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -7580,7 +7580,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/abaddon.png?",
-    "icon": "/assets/images/dota/heroes/icons/abaddon.png?",
+    "icon": "/assets/images/dota/heroes/icons/abaddon_icon.png?",
     "video": "/assets/videos/dota/heroes/abaddon.mov",
     "sanitizedName": "abaddon",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -7654,7 +7654,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/elder_titan.png?",
-    "icon": "/assets/images/dota/heroes/icons/elder_titan.png?",
+    "icon": "/assets/images/dota/heroes/icons/elder_titan_icon.png?",
     "video": "/assets/videos/dota/heroes/elder_titan.mov",
     "sanitizedName": "elder-titan",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -7725,7 +7725,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/legion_commander.png?",
-    "icon": "/assets/images/dota/heroes/icons/legion_commander.png?",
+    "icon": "/assets/images/dota/heroes/icons/legion_commander_icon.png?",
     "video": "/assets/videos/dota/heroes/legion_commander.mov",
     "sanitizedName": "legion-commander",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -7805,7 +7805,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/techies.png?",
-    "icon": "/assets/images/dota/heroes/icons/techies.png?",
+    "icon": "/assets/images/dota/heroes/icons/techies_icon.png?",
     "video": "/assets/videos/dota/heroes/techies.mov",
     "sanitizedName": "techies",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -7876,7 +7876,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/ember_spirit.png?",
-    "icon": "/assets/images/dota/heroes/icons/ember_spirit.png?",
+    "icon": "/assets/images/dota/heroes/icons/ember_spirit_icon.png?",
     "video": "/assets/videos/dota/heroes/ember_spirit.mov",
     "sanitizedName": "ember-spirit",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -7952,7 +7952,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/earth_spirit.png?",
-    "icon": "/assets/images/dota/heroes/icons/earth_spirit.png?",
+    "icon": "/assets/images/dota/heroes/icons/earth_spirit_icon.png?",
     "video": "/assets/videos/dota/heroes/earth_spirit.mov",
     "sanitizedName": "earth-spirit",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -8029,7 +8029,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/abyssal_underlord.png?",
-    "icon": "/assets/images/dota/heroes/icons/abyssal_underlord.png?",
+    "icon": "/assets/images/dota/heroes/icons/abyssal_underlord_icon.png?",
     "video": "/assets/videos/dota/heroes/abyssal_underlord.mov",
     "sanitizedName": "abyssal-underlord",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -8096,7 +8096,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/terrorblade.png?",
-    "icon": "/assets/images/dota/heroes/icons/terrorblade.png?",
+    "icon": "/assets/images/dota/heroes/icons/terrorblade_icon.png?",
     "video": "/assets/videos/dota/heroes/terrorblade.mov",
     "sanitizedName": "terrorblade",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -8172,7 +8172,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/phoenix.png?",
-    "icon": "/assets/images/dota/heroes/icons/phoenix.png?",
+    "icon": "/assets/images/dota/heroes/icons/phoenix_icon.png?",
     "video": "/assets/videos/dota/heroes/phoenix.mov",
     "sanitizedName": "phoenix",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -8251,7 +8251,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/oracle.png?",
-    "icon": "/assets/images/dota/heroes/icons/oracle.png?",
+    "icon": "/assets/images/dota/heroes/icons/oracle_icon.png?",
     "video": "/assets/videos/dota/heroes/oracle.mov",
     "sanitizedName": "oracle",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -8340,7 +8340,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/winter_wyvern.png?",
-    "icon": "/assets/images/dota/heroes/icons/winter_wyvern.png?",
+    "icon": "/assets/images/dota/heroes/icons/winter_wyvern_icon.png?",
     "video": "/assets/videos/dota/heroes/winter_wyvern.mov",
     "sanitizedName": "winter-wyvern",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -8419,7 +8419,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/arc_warden.png?",
-    "icon": "/assets/images/dota/heroes/icons/arc_warden.png?",
+    "icon": "/assets/images/dota/heroes/icons/arc_warden_icon.png?",
     "video": "/assets/videos/dota/heroes/arc_warden.mov",
     "sanitizedName": "arc-warden",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -8489,7 +8489,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/monkey_king.png?",
-    "icon": "/assets/images/dota/heroes/icons/monkey_king.png?",
+    "icon": "/assets/images/dota/heroes/icons/monkey_king_icon.png?",
     "video": "/assets/videos/dota/heroes/monkey_king.mov",
     "sanitizedName": "monkey-king",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -8562,7 +8562,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/dark_willow.png?",
-    "icon": "/assets/images/dota/heroes/icons/dark_willow.png?",
+    "icon": "/assets/images/dota/heroes/icons/dark_willow_icon.png?",
     "video": "/assets/videos/dota/heroes/dark_willow.mov",
     "sanitizedName": "dark-willow",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -8635,7 +8635,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/pangolier.png?",
-    "icon": "/assets/images/dota/heroes/icons/pangolier.png?",
+    "icon": "/assets/images/dota/heroes/icons/pangolier_icon.png?",
     "video": "/assets/videos/dota/heroes/pangolier.mov",
     "sanitizedName": "pangolier",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -8704,7 +8704,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/grimstroke.png?",
-    "icon": "/assets/images/dota/heroes/icons/grimstroke.png?",
+    "icon": "/assets/images/dota/heroes/icons/grimstroke_icon.png?",
     "video": "/assets/videos/dota/heroes/grimstroke.mov",
     "sanitizedName": "grimstroke",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -8777,7 +8777,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/hoodwink.png?",
-    "icon": "/assets/images/dota/heroes/icons/hoodwink.png?",
+    "icon": "/assets/images/dota/heroes/icons/hoodwink_icon.png?",
     "video": "/assets/videos/dota/heroes/hoodwink.mov",
     "sanitizedName": "hoodwink",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",
@@ -8857,7 +8857,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/void_spirit.png?",
-    "icon": "/assets/images/dota/heroes/icons/void_spirit.png?",
+    "icon": "/assets/images/dota/heroes/icons/void_spirit_icon.png?",
     "video": "/assets/videos/dota/heroes/void_spirit.mov",
     "sanitizedName": "void-spirit",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -8926,7 +8926,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/snapfire.png?",
-    "icon": "/assets/images/dota/heroes/icons/snapfire.png?",
+    "icon": "/assets/images/dota/heroes/icons/snapfire_icon.png?",
     "video": "/assets/videos/dota/heroes/snapfire.mov",
     "sanitizedName": "snapfire",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -8995,7 +8995,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/mars.png?",
-    "icon": "/assets/images/dota/heroes/icons/mars.png?",
+    "icon": "/assets/images/dota/heroes/icons/mars_icon.png?",
     "video": "/assets/videos/dota/heroes/mars.mov",
     "sanitizedName": "mars",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -9099,7 +9099,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/ringmaster.png?",
-    "icon": "/assets/images/dota/heroes/icons/ringmaster.png?",
+    "icon": "/assets/images/dota/heroes/icons/ringmaster_icon.png?",
     "video": "/assets/videos/dota/heroes/ringmaster.mov",
     "sanitizedName": "ringmaster",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -9170,7 +9170,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/dawnbreaker.png?",
-    "icon": "/assets/images/dota/heroes/icons/dawnbreaker.png?",
+    "icon": "/assets/images/dota/heroes/icons/dawnbreaker_icon.png?",
     "video": "/assets/videos/dota/heroes/dawnbreaker.mov",
     "sanitizedName": "dawnbreaker",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -9264,7 +9264,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/marci.png?",
-    "icon": "/assets/images/dota/heroes/icons/marci.png?",
+    "icon": "/assets/images/dota/heroes/icons/marci_icon.png?",
     "video": "/assets/videos/dota/heroes/marci.mov",
     "sanitizedName": "marci",
     "primaryAttributeImage": "assets/images/dota/type/hero_universal.png",
@@ -9330,7 +9330,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/primal_beast.png?",
-    "icon": "/assets/images/dota/heroes/icons/primal_beast.png?",
+    "icon": "/assets/images/dota/heroes/icons/primal_beast_icon.png?",
     "video": "/assets/videos/dota/heroes/primal_beast.mov",
     "sanitizedName": "primal-beast",
     "primaryAttributeImage": "assets/images/dota/type/hero_strength.png",
@@ -9395,7 +9395,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/muerta.png?",
-    "icon": "/assets/images/dota/heroes/icons/muerta.png?",
+    "icon": "/assets/images/dota/heroes/icons/muerta_icon.png?",
     "video": "/assets/videos/dota/heroes/muerta.mov",
     "sanitizedName": "muerta",
     "primaryAttributeImage": "assets/images/dota/type/hero_intelligence.png",
@@ -9460,7 +9460,7 @@
       }
     },
     "img": "/assets/images/dota/heroes/kez.png?",
-    "icon": "/assets/images/dota/heroes/icons/kez.png?",
+    "icon": "/assets/images/dota/heroes/icons/kez_icon.png?",
     "video": "/assets/videos/dota/heroes/kez.mov",
     "sanitizedName": "kez",
     "primaryAttributeImage": "assets/images/dota/type/hero_agility.png",

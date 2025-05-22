@@ -1,0 +1,139 @@
+<div class="tournaments-container">
+    <div class="mb-4" nz-row>
+        <div nz-col nzXs="24" nzAlign="center">
+            <h1 class="page-title">Campeonatos em Destaque</h1>
+            <p class="page-subtitle">Confira os principais torneios de Dota 2 no cenário competitivo</p>
+        </div>
+    </div>
+
+    <div *ngIf="loading" class="loading-container" nz-row nzJustify="center">
+        <nz-card [nzLoading]="true" class="loading-card"></nz-card>
+    </div>
+
+    <!-- NextLevel Featured League -->
+    <div *ngIf="!loading && nextLevelLeague" class="featured-league-section">
+        <div class="section-title">
+            <span class="highlight-badge">EM DESTAQUE</span>
+            <h2>Campeonato Oficial NextLevel</h2>
+            <p>O maior campeonato de Dota 2 do Brasil!</p>
+        </div>
+        
+        <div class="nextlevel-card">
+            <div class="nextlevel-image" *ngIf="nextLevelLeague.imageUrl" style="background-image: url('{{ nextLevelLeague.imageUrl }}');">
+                <!-- <img [src]="nextLevelLeague.imageUrl" [alt]="nextLevelLeague.displayName || nextLevelLeague.name"> -->
+            </div>
+            <!-- <div class="nextlevel-placeholder" *ngIf="!nextLevelLeague.imageUrl">
+                <span nz-icon nzType="trophy" nzTheme="outline"></span>
+            </div> -->
+            <div class="nextlevel-info">
+                <h3 class="nextlevel-name">{{ nextLevelLeague.displayName || nextLevelLeague.name }}</h3>
+                
+                <div class="nextlevel-tags">
+                    <nz-tag *ngIf="nextLevelLeague.tier" [nzColor]="getTierColor(nextLevelLeague.tier)">
+                        {{ nextLevelLeague.tier }}
+                    </nz-tag>
+                    <nz-tag class="ml-3" *ngIf="nextLevelLeague.region">
+                        {{ getRegionName(nextLevelLeague.region) }}
+                    </nz-tag>
+                </div>
+                
+                <div class="nextlevel-id" *ngIf="nextLevelLeague.leagueId">
+                    ID: {{ nextLevelLeague.leagueId }}
+                </div>
+
+                <div class="nextlevel-description">
+                    <h3>R$ {{ 30000 | number:'1.0-0' }} de premiação</h3>
+                </div>
+                
+                <div class="nextlevel-status" *ngIf="nextLevelLeague.lastMatchAt">
+                    <span class="status-label">Última partida:</span>
+                    <span class="status-value">{{ nextLevelLeague.lastMatchAt | date:'dd/MM/yyyy' }}</span>
+                </div>
+                
+                <div class="nextlevel-actions">
+                    <div class="d-flex" style="flex-wrap: wrap;">
+                        <!-- <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3 mt-3" href="https://discord.gg/cYvUESUgWQ" target="_blank">
+                            Ver Detalhes
+                        </a>
+
+                        <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3 mt-3" [routerLink]="['/dota-meta']" 
+                          [queryParams]="{leagueId: nextLevelLeague.leagueId}">
+                            <span nz-icon nzType="bar-chart" nzTheme="outline"></span>
+                            Ver Meta
+                        </a> -->
+
+                        <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3 mt-3" href="https://discord.gg/cYvUESUgWQ" target="_blank">
+                            <nz-icon nzType="discord" nzTheme="outline" />
+                        </a>
+
+                        <a nz-button nzType="text" nzSize="large" nzShape="round" class="bg-Gray mt-3" href="https://x.com/ns4rt/status/1919549768449036656" target="_blank">
+                            <nz-icon nzType="x" nzTheme="outline" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Other Leagues Section -->
+    <div *ngIf="!loading && otherLeagues.length > 0" class="other-leagues-section">
+        <div class="section-title">
+            <h3>Outros Torneios</h3>
+        </div>
+        
+        <div nz-row [nzGutter]="[24, 24]">
+            <div *ngFor="let league of otherLeagues" nz-col nzXs="24" nzSm="12" nzMd="8" nzLg="6">
+                <div class="league-card in-card" [class.no-image]="!league.imageUrl">
+                    <div class="league-image" *ngIf="league.imageUrl">
+                        <img [src]="league.imageUrl" [alt]="league.displayName || league.name">
+                    </div>
+                    <div class="league-placeholder" *ngIf="!league.imageUrl">
+                        <span nz-icon nzType="trophy" nzTheme="outline"></span>
+                    </div>
+                    <div class="league-info">
+                        <h3 class="league-name">{{ league.displayName || league.name }}</h3>
+                        
+                        <div class="league-tags">
+                            <nz-tag *ngIf="league.tier" [nzColor]="getTierColor(league.tier)">
+                                {{ league.tier }}
+                            </nz-tag>
+                            <nz-tag *ngIf="league.region">
+                                {{ getRegionName(league.region) }}
+                            </nz-tag>
+                        </div>
+                        
+                        <div class="league-id" *ngIf="league.leagueId">
+                            ID: {{ league.leagueId }}
+                        </div>
+                        
+                        <div class="league-status" *ngIf="league.lastMatchAt">
+                            <span class="status-label">Última partida:</span>
+                            <span class="status-value">{{ league.lastMatchAt | date:'dd/MM/yyyy' }}</span>
+                        </div>
+                        
+                        <div class="league-actions">
+                            <button nz-button nzType="primary" [routerLink]="['/dota-meta']" [queryParams]="{leagueId: league.leagueId, days: 60, minMatches: 1}">
+                                <span nz-icon nzType="bar-chart" nzTheme="outline"></span>
+                                Meta
+                            </button>
+                            <button nz-button>
+                                <span nz-icon nzType="team" nzTheme="outline"></span>
+                                Partidas
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div *ngIf="!loading && leagues.length === 0" class="empty-state" nz-row nzJustify="center" nzAlign="middle">
+        <div nz-col nzXs="24" nzSm="16" nzMd="12">
+            <div class="empty-container">
+                <span nz-icon nzType="calendar" nzTheme="outline"></span>
+                <h3>Nenhum Campeonato Encontrado</h3>
+                <p>No momento não há campeonatos em destaque para exibir.</p>
+            </div>
+        </div>
+    </div>
+</div>

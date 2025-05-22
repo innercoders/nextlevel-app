@@ -2,6 +2,118 @@
 
 .dota-meta-container {
     padding: @default-padding;
+
+    .filter-section {
+        .league-tag-container {
+            display: flex;
+            align-items: center;
+
+            .league-tag {
+                font-size: 14px;
+                padding: 6px 12px;
+                border-radius: 16px;
+                
+                .close-icon {
+                    cursor: pointer;
+                    transition: opacity 0.2s;
+                    
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+
+        .filter-controls {
+            .filter-label {
+                margin-bottom: 8px;
+                font-weight: 500;
+                color: rgba(#fff, 0.85);
+            }
+
+            .filter-select {
+                width: 100%;
+                border-radius: 4px;
+            }
+
+            .filter-button-container {
+                display: flex;
+                align-items: flex-end;
+                
+                @media (max-width: 576px) {
+                    margin-top: 16px;
+                }
+
+                .filter-button {
+                    height: 40px;
+                    border-radius: 4px;
+                    margin-top: 24px;
+                    
+                    @media (max-width: 576px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .position-tabs {
+        :global {
+            .ant-tabs-nav {
+                margin-bottom: 0;
+            }
+            
+            .ant-tabs-tab {
+                transition: all 0.3s;
+                
+                &:hover {
+                    color: @primary-color;
+                }
+                
+                &.ant-tabs-tab-active {
+                    background-color: rgba(@primary-color, 0.1);
+                    border-radius: 4px 4px 0 0;
+                }
+            }
+        }
+    }
+
+    .heroes-table {
+        :global {
+            .ant-table-thead > tr > th {
+                background-color: #1f1f1f;
+                color: white;
+                font-weight: 500;
+            }
+            
+            .hero-row {
+                cursor: pointer;
+                transition: background-color 0.2s;
+                
+                &:hover {
+                    background-color: rgba(@primary-color, 0.1);
+                }
+            }
+            
+            .custom-loading {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 24px;
+                
+                .anticon {
+                    font-size: 32px;
+                    margin-bottom: 12px;
+                    color: #1890ff;
+                }
+                
+                .loading-text {
+                    color: rgba(#fff, 0.85);
+                }
+            }
+        }
+    }
 }
 
 .dota-meta-card {

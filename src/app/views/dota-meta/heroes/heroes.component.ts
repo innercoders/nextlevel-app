@@ -5,6 +5,7 @@ import { DotaHero, DotaHeroAbilities, HeroMatchupsRequest, HeroOverrallStatsRequ
 import { DotaMetaService, DotaHelperService } from '@app/service';
 import { DotaPlayerPositions } from '@app/shared';
 import { BestHeroItemsRequest } from 'app/model/request/best-hero-items.request';
+import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
@@ -20,7 +21,8 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 	NzIconModule,
 	NzToolTipModule,
 	NzCollapseModule,
-	RouterModule
+	RouterModule,
+	NzButtonModule
   ],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.less'
@@ -51,9 +53,11 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 
 	ngOnInit() {
 		this.route.params.subscribe((params) => {
-			this.hero = this.dotaHelperService.getHeroData(params['heroId']);
-			this.heroAbilities = this.dotaHelperService.getHeroAbilityData(this.hero.name);
+			this.hero = this.dotaHelperService.getHeroData(params['heroId'], true);
+			this.heroAbilities = this.dotaHelperService.getHeroAbilityData(this.hero.name as string);
 			this.heroId = this.hero.id.toString();
+
+			console.log(this.hero);
 
 			const firstNotDeprecatedFacet: any = this.heroAbilities?.facets.findIndex((facet) => facet.deprecated != '1' && facet.deprecated != 'true');
 			this.selectedFacetId = firstNotDeprecatedFacet + 1;
@@ -66,7 +70,7 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 			document.addEventListener('click', this.handleUserInteraction.bind(this), { once: true });
 
 			if(this.heroVideo) {
-				this.heroVideo.nativeElement.src = this.hero.video;
+				this.heroVideo.nativeElement.src = this.hero.video as string;
 				this.heroVideo.nativeElement.load();
 			}
 		});
