@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { DotaHero } from 'app/model/dota-hero';
+import { DotaHero, DotaHeroSummary } from 'app/model/dota-hero';
 import { DotaHelperService } from 'app/service/dota-helper.service';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { CommonModule } from '@angular/common';
@@ -18,7 +18,7 @@ import { RouterModule } from '@angular/router';
 })
 export class DotaHeroImageComponent implements OnInit {
 
-	@Input() hero?: DotaHero;
+	@Input() hero?: DotaHero | DotaHeroSummary;
 	@Input() selectedFacet?: DotaFacet;
 	@Input() full?: boolean = false;
 

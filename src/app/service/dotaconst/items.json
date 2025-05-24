@@ -11,7 +11,7 @@
     "qual": "component",
     "cost": 2250,
     "behavior": "Point Target",
-    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.\nSe você se Translocar a uma distância maior que o alcance máximo, você será teletransportado a apenas 4/5 desse valor.",
+    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.",
     "attrib": [
       {
         "key": "blink_range",
@@ -47,7 +47,7 @@
     "cost": 6800,
     "behavior": "Point Target",
     "dmg_type": "Magical",
-    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.\nSe você se Translocar a uma distância maior que o alcance máximo, você será teletransportado a apenas 4/5 desse valor.",
+    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.",
     "attrib": [
       {
         "key": "blink_range",
@@ -109,7 +109,7 @@
   "swift_blink": {
     "abilities": [],
     "hint": [
-      "Ativa: Translocação Veloz Teletransporte-se a um ponto alvo que está a até 1200 unidades de distância.\n\nApós o teletransporte, você recebe 40% de velocidade de movimento desobstruído e +35 de Agilidade por 6 segundos.\n\nA Translocação Veloz não poderá ser usada por 3 segundos após sofrer dano de um herói inimigo ou Roshan.",
+      "Ativa: Translocação Veloz Teletransporte-se a um ponto alvo que está a até 1200 unidades de distância.\n\nApós o teletransporte, você recebe 40% de velocidade de movimento, movimentação faseada e +35 de Agilidade por 6 segundos.\n\nA Translocação Veloz não poderá ser usada por 3 segundos após sofrer dano de um herói inimigo ou Roshan.",
       "Em inglês: Swift Blink "
     ],
     "id": 603,
@@ -118,7 +118,7 @@
     "qual": "component",
     "cost": 6800,
     "behavior": "Point Target",
-    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.\nSe você se Translocar a uma distância maior que o alcance máximo, você será teletransportado a apenas 4/5 desse valor.",
+    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.",
     "attrib": [
       {
         "key": "blink_range",
@@ -173,7 +173,7 @@
     "qual": "component",
     "cost": 6800,
     "behavior": "Point Target",
-    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.\nSe você se Translocar a uma distância maior que o alcance máximo, você será teletransportado a apenas 4/5 desse valor.",
+    "notes": "Duplo toque faz com que o usuário transloque-se em direção à fonte aliada.",
     "attrib": [
       {
         "key": "blink_range",
@@ -318,6 +318,8 @@
     "dname": "Cota de Malha",
     "qual": "component",
     "cost": 550,
+    "target_team": "Friendly",
+    "target_type": "Hero",
     "notes": "",
     "attrib": [
       {
@@ -956,7 +958,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "Uma coroa que nunca pode ser removida.",
     "components": null,
     "created": false,
     "charges": false
@@ -1295,7 +1297,7 @@
       {
         "key": "bonus_evasion",
         "display": "+ {value}% de chance de esquiva",
-        "value": "20"
+        "value": "15"
       }
     ],
     "mc": false,
@@ -1717,7 +1719,7 @@
     "mc": false,
     "hc": 75,
     "cd": 10,
-    "lore": "",
+    "lore": "Ambos o caçador e a caça devem pagar o preço em sangue.",
     "components": null,
     "created": false,
     "charges": 1
@@ -2024,7 +2026,7 @@
     "id": 218,
     "img": "/assets/images/dota/items/ward_dispenser.jpg?t=1593393829403",
     "dname": "Sentinelas Observadoras e Reveladoras",
-    "qual": "consumable",
+    "qual": "consumable;laning",
     "cost": 50,
     "behavior": [
       "Point Target",
@@ -2169,11 +2171,6 @@
     "charges": 1
   },
   "courier": {
-    "abilities": [],
-    "hint": [
-      "Usar: Soltar Entregador Solta uma criatura para carregar itens entre a base e heróis da equipe.",
-      "Em inglês: Animal Courier "
-    ],
     "id": 45,
     "img": "/assets/images/dota/items/courier.jpg?t=1593393829403",
     "dname": "Entregador",
@@ -2185,17 +2182,12 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "A perda do entregador é punível com a morte.",
+    "lore": "",
     "components": null,
     "created": false,
     "charges": false
   },
   "flying_courier": {
-    "abilities": [],
-    "hint": [
-      "Usar: Aprimorar Entregador Transforma o Entregador da sua equipe em um Entregador Aéreo, permitindo movimentação livre para carregar itens entre a base e heróis da equipe. \n\nRequer Entregador em jogo e vivo.",
-      "Em inglês: Flying Courier "
-    ],
     "id": 286,
     "img": "/assets/images/dota/items/flying_courier.jpg?t=1593393829403",
     "dname": "Entregador Aéreo",
@@ -2207,7 +2199,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "A montaria esperançosa na qual voam as fortunas da batalha.",
+    "lore": "",
     "components": null,
     "created": false,
     "charges": false
@@ -2371,7 +2363,7 @@
   "phase_boots": {
     "abilities": [],
     "hint": [
-      "Ativa: Fase Fornece 20% de velocidade de movimento adicional para heróis corpo a corpo (10% em heróis de longo alcance) e permite que atravesse unidades e rotacione mais rapidamente por 3 segundos.",
+      "Ativa: Fase Entra em movimentação faseada. Concede 20% de velocidade de movimento adicional para heróis corpo a corpo (10% em heróis de longo alcance) e permite atravessar unidades e rotacionar mais rapidamente por 3 segundos.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
       "Em inglês: Phase Boots "
     ],
@@ -2640,7 +2632,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "Tiara!",
+    "lore": "Um símbolo de benevolência concedido à alta sacerdotisa de Selemene.",
     "components": null,
     "created": false,
     "charges": false
@@ -2818,7 +2810,6 @@
   "recipe_samurai_tabi": {
     "id": 1098,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
-    "dname": "Receita: Tabi de Samurai",
     "cost": 1100,
     "behavior": false,
     "notes": "",
@@ -2832,17 +2823,8 @@
     "charges": false
   },
   "samurai_tabi": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Alterar Atributo Alterna entre +24 de Força , +24 de Agilidade ou +24 de Inteligência , concedendo os bônus correspondentes ao atributo. ",
-      " Inteligência Quando completamente carregada, causa 125 de dano a 2 alvos aleatórios em até 700 unidades de distância a cada 4s.",
-      " Força Quando completamente carregada, ataques têm 20% de chance de causar 80 de dano adicional e enraizar o alvo por 1s. Intervalo entre usos: 4s.",
-      " Agilidade Quando completamente carregada, ao ser atacado, o herói tem 20% de chance de revidar contra um alvo dentro do seu alcance de ataque. Intervalo entre usos: 4s.",
-      "Em inglês: Samurai Tabi "
-    ],
     "id": 1091,
     "img": "/assets/images/dota/items/samurai_tabi.jpg?t=1593393829403",
-    "dname": "Tabi de Samurai",
     "qual": "common",
     "cost": 5250,
     "behavior": [
@@ -2853,7 +2835,6 @@
     "attrib": [
       {
         "key": "bonus_all_stats",
-        "display": "+ {value} a todos os atributos",
         "value": "10"
       },
       {
@@ -2929,7 +2910,6 @@
   "recipe_hermes_sandals": {
     "id": 1092,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
-    "dname": "Receita: Sandálias de Hermes",
     "cost": 500,
     "behavior": false,
     "notes": "",
@@ -2943,15 +2923,8 @@
     "charges": false
   },
   "hermes_sandals": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Grande Fase Quando ativada, o usuário não pode sofrer retardo ou enrizamento. Concede 20% de velocidade de movimento adicional para heróis corpo a corpo (10% para heróis de longo alcance) e permite que atravesse unidades e rotacione mais rapidamente por 4 segundos. Não dissipa enraizamentos em vigor.",
-      "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Hermes Sandals "
-    ],
     "id": 1093,
     "img": "/assets/images/dota/items/hermes_sandals.jpg?t=1593393829403",
-    "dname": "Sandálias de Hermes",
     "qual": "common",
     "cost": 4800,
     "behavior": [
@@ -2962,17 +2935,14 @@
     "attrib": [
       {
         "key": "bonus_movement_speed",
-        "display": "+ {value} de velocidade de movimento",
         "value": "50"
       },
       {
         "key": "bonus_damage_melee",
-        "display": "+ {value} de dano (CORPO A CORPO)",
         "value": "20"
       },
       {
         "key": "bonus_damage_range",
-        "display": "+ {value} de dano (LONGO ALCANCE)",
         "value": "20"
       },
       {
@@ -2989,12 +2959,10 @@
       },
       {
         "key": "bonus_armor",
-        "display": "+ {value} de armadura",
         "value": "5"
       },
       {
         "key": "bonus_agility",
-        "display": "+ {value} de Agilidade",
         "value": "30"
       }
     ],
@@ -3012,7 +2980,6 @@
   "recipe_witches_switch": {
     "id": 1099,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
-    "dname": "Witches Switch Recipe",
     "cost": 625,
     "behavior": false,
     "notes": "",
@@ -3026,17 +2993,8 @@
     "charges": false
   },
   "witches_switch": {
-    "abilities": [
-      {
-        "type": "toggle",
-        "title": "Switch",
-        "description": "When active, Increases allied armor, health regeneration and mana regeneration. When Switched, decreases enemy armor, health regeneration and mana regeneration by the same amount."
-      }
-    ],
-    "hint": [],
     "id": 1100,
     "img": "/assets/images/dota/items/witches_switch.jpg?t=1593393829403",
-    "dname": "Witches Switch",
     "qual": "common",
     "cost": 1900,
     "behavior": "No Target",
@@ -3044,32 +3002,26 @@
     "attrib": [
       {
         "key": "bonus_health_regen",
-        "display": "+ {value} de regeneração de vida",
         "value": "3.5"
       },
       {
         "key": "bonus_mana_regen",
-        "display": "+ {value} de regeneração de mana",
         "value": "2"
       },
       {
         "key": "bonus_armor",
-        "display": "+ {value} de armadura",
         "value": "5"
       },
       {
         "key": "aura_health_regen",
-        "display": "REGENERAÇÃO DE VIDA (AURA): {value}",
         "value": "3"
       },
       {
         "key": "aura_mana_regen",
-        "display": "REGENERAÇÃO DE MANA (AURA): {value}",
         "value": "1.5"
       },
       {
         "key": "aura_armor",
-        "display": "ARMADURA (AURA): {value}",
         "value": "4"
       },
       {
@@ -3092,7 +3044,6 @@
   "recipe_lunar_crest": {
     "id": 1094,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
-    "dname": "Receita: Brasão Lunar",
     "cost": 250,
     "behavior": false,
     "notes": "",
@@ -3106,11 +3057,6 @@
     "charges": false
   },
   "lunar_crest": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Brilho Lunar Quando usado em inimigos, dobra o dano mágico sofrido até um limiar de 375 de dano mágico.\n\nDura 12 segundos.",
-      "Em inglês: Lunar Crest "
-    ],
     "id": 1095,
     "img": "/assets/images/dota/items/lunar_crest.jpg?t=1593393829403",
     "dname": "Brasão Lunar",
@@ -3125,7 +3071,6 @@
     "attrib": [
       {
         "key": "bonus_health",
-        "display": "+ {value} de vida",
         "value": "300"
       },
       {
@@ -3142,7 +3087,6 @@
       },
       {
         "key": "movement_speed",
-        "display": "+ {value} de velocidade de movimento",
         "value": "20"
       },
       {
@@ -3233,8 +3177,8 @@
     ],
     "mc": false,
     "hc": false,
-    "cd": 12,
-    "lore": "",
+    "cd": 10,
+    "lore": "Um amuleto transbordando magias poderosas.",
     "components": [
       "point_booster",
       "diadem"
@@ -3246,7 +3190,7 @@
     "id": 1807,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Khanda",
-    "cost": 1500,
+    "cost": 1300,
     "behavior": false,
     "notes": "",
     "attrib": [],
@@ -3268,7 +3212,7 @@
     "img": "/assets/images/dota/items/angels_demise.jpg?t=1593393829403",
     "dname": "Khanda",
     "qual": "common",
-    "cost": 5900,
+    "cost": 5700,
     "notes": "",
     "attrib": [
       {
@@ -3307,7 +3251,7 @@
     "mc": false,
     "hc": false,
     "cd": 10,
-    "lore": "",
+    "lore": "Uma lâmina afiada o suficiente para cortar a própria magia.",
     "components": [
       "phylactery",
       "tiara_of_selemene"
@@ -3318,7 +3262,6 @@
   "grandmasters_glaive": {
     "id": 655,
     "img": "/assets/images/dota/items/grandmasters_glaive.jpg?t=1593393829403",
-    "dname": "Glaive do Grão-Mestre",
     "qual": "common",
     "cost": 5000,
     "behavior": [
@@ -3477,15 +3420,8 @@
     "charges": 1
   },
   "aetherial_halo": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Martelo Etéreo CANALIZADA — Após uma canalização bem sucedida, invoca um meteoro que atinge uma área de 400 unidades, atordoando inimigos por 0.5 segundos, causando dano no impacto e ao longo do tempo a unidades e estruturas inimigas durante 6 segundos. Unidades que não são estruturas também sofrem 20% de retardo durante a queima. \n\nDano de impacto em estruturas: 95 \nDano ao longo do tempo em estruturas: 60 \n\nDano de impacto em unidades: 150 \nDano ao longo do tempo em unidades: 60 \n\nDuração da canalização: 1.5 segundos.\nTempo do impacto: 0.5 segundos.",
-      "Passiva: Foco Aumenta áreas de efeito de habilidades e itens alvejados em %bonus_aoe%.",
-      "Em inglês: Aethereal Hammer "
-    ],
     "id": 1164,
     "img": "/assets/images/dota/items/aetherial_halo.jpg?t=1593393829403",
-    "dname": "Martelo Etéreo",
     "qual": "common",
     "cost": 5900,
     "behavior": [
@@ -3499,32 +3435,26 @@
     "attrib": [
       {
         "key": "bonus_strength",
-        "display": "+ {value} de Força",
         "value": "25"
       },
       {
         "key": "bonus_agility",
-        "display": "+ {value} de Agilidade",
         "value": "25"
       },
       {
         "key": "bonus_intellect",
-        "display": "+ {value} de Inteligência",
         "value": "40"
       },
       {
         "key": "spell_amp",
-        "display": "+ {value}% de amplificação arcana",
         "value": "12"
       },
       {
         "key": "mana_regen_multiplier",
-        "display": "+ {value}% de amplificação de regeneração de mana",
         "value": "100"
       },
       {
         "key": "spell_lifesteal_amp",
-        "display": "+ {value}% de amplificação de roubo de vida arcano",
         "value": "36"
       },
       {
@@ -3756,7 +3686,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "Uma fonte de sustento espiritual e físico.",
     "components": null,
     "created": false,
     "charges": false
@@ -3769,7 +3699,6 @@
     ],
     "id": 71,
     "img": "/assets/images/dota/items/poor_mans_shield.jpg?t=1593393829403",
-    "dname": "Escudo Desgastado",
     "qual": "common",
     "cost": 0,
     "notes": "Múltiplas fontes de bloqueio de dano não se acumulam.",
@@ -3804,21 +3733,14 @@
     "charges": false
   },
   "satchel": {
-    "abilities": [],
-    "hint": [
-      "Aumenta a XP obtida em 15%.",
-      "Em inglês: Satchel "
-    ],
     "id": 731,
     "img": "/assets/images/dota/items/satchel.jpg?t=1593393829403",
-    "dname": "Bolsa",
     "qual": "common",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
         "key": "bonus_all_stats",
-        "display": "+ {value} a todos os atributos",
         "value": "5"
       },
       {
@@ -4104,7 +4026,7 @@
       {
         "key": "armor",
         "display": "+ {value} de armadura",
-        "value": "2"
+        "value": "1"
       },
       {
         "key": "mana_regen",
@@ -4160,7 +4082,6 @@
   "recipe_wraith_pact": {
     "id": 907,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
-    "dname": "Receita: Pacto Espectral",
     "cost": 400,
     "behavior": false,
     "notes": "",
@@ -4174,12 +4095,6 @@
     "charges": false
   },
   "wraith_pact": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Represália Espectral Invoca um totem controlável que dura 25 segundos, reduzindo em 30% todo o dano físico de inimigos em até 900 unidades de distância e causando 45 de dano por segundo.\n\n O totem emana a Aura de Vladmir ao seu redor e pode ser destruído em 4 ataques. Criaturas causam metade do dano ao totem.",
-      "Passiva: Aura de Vladmir Fornece 24% de roubo de vida, 18% de dano adicional, 2 de regeneração de mana e 3 de armadura adicionais a aliados próximos. O roubo de vida é 50% menor em criaturas.\n\nRaio: 1200 unidades",
-      "Em inglês: Wraith Pact "
-    ],
     "id": 908,
     "img": "/assets/images/dota/items/wraith_pact.jpg?t=1593393829403",
     "dname": "Pacto Espectral",
@@ -4192,12 +4107,10 @@
     "attrib": [
       {
         "key": "bonus_health",
-        "display": "+ {value} de vida",
         "value": "250"
       },
       {
         "key": "bonus_mana",
-        "display": "+ {value} de mana",
         "value": "250"
       },
       {
@@ -4240,7 +4153,7 @@
     "mc": 100,
     "hc": false,
     "cd": 60,
-    "lore": "Um amuleto senciente cujo ânimo abala a coragem até mesmo dos inimigos mais fortes.",
+    "lore": "",
     "components": [
       "vladmir",
       "point_booster"
@@ -4375,7 +4288,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Carga Energética Alveja uma unidade aliada para restaurar instantaneamente 17 de vida e mana por cada carga armazenada. \n\nGanha uma carga automaticamente a cada 8s e sempre que um herói inimigo visível dentro de um raio de 1200 unidades usa uma habilidade.",
-      "Passiva: Bênção Sagrada Amplifica toda cura fornecida por você em 25%.",
+      "Passiva: Bênção Sagrada Amplifica toda cura fornecida por você em 15%.",
       "Em inglês: Holy Locket "
     ],
     "id": 269,
@@ -4401,7 +4314,7 @@
       },
       {
         "key": "heal_increase",
-        "value": "25"
+        "value": "15"
       },
       {
         "key": "max_charges",
@@ -4542,7 +4455,7 @@
     "id": 91,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Urna das Sombras",
-    "cost": 280,
+    "cost": 320,
     "behavior": false,
     "notes": "",
     "attrib": [],
@@ -4564,7 +4477,7 @@
     "img": "/assets/images/dota/items/urn_of_shadows.jpg?t=1593393829403",
     "dname": "Urna das Sombras",
     "qual": "rare",
-    "cost": 880,
+    "cost": 825,
     "behavior": "Unit Target",
     "dispellable": "Yes",
     "target_team": "Both",
@@ -4582,9 +4495,9 @@
         "value": "2"
       },
       {
-        "key": "bonus_health",
-        "display": "+ {value} de vida",
-        "value": "125"
+        "key": "bonus_all_stats",
+        "display": "+ {value} a todos os atributos",
+        "value": "2"
       },
       {
         "key": "soul_radius",
@@ -4616,9 +4529,10 @@
     "cd": 10,
     "lore": "Contém as cinzas de demônios poderosos.",
     "components": [
+      "circlet",
       "sobi_mask",
       "ring_of_protection",
-      "fluffy_hat"
+      ""
     ],
     "created": true,
     "charges": false
@@ -4747,14 +4661,8 @@
     "charges": false
   },
   "caster_rapier": {
-    "abilities": [],
-    "hint": [
-      "Passiva: Eternidade Cai do inventário ao morrer e não pode ser destruída. \n\nNão pode ser usada caso seja pega por um aliado do dono até que ela retorne ao inventário dele. Ela pode ser imediatamente usada por qualquer herói caso um inimigo do dono a pegue e seja morto. Uma Rapieira largada não pode ser pega por um entregador.",
-      "Em inglês: Caster Rapier "
-    ],
     "id": 1801,
     "img": "/assets/images/dota/items/caster_rapier.jpg?t=1593393829403",
-    "dname": "Rapieira Enfeitiçada",
     "qual": "rare",
     "cost": 5600,
     "dispellable": "Strong Dispels Only",
@@ -4763,11 +4671,10 @@
       "Hero",
       "Basic"
     ],
-    "notes": "Se uma Rapieira Enfeitiçada cair e for pega por um inimigo de seu dono original, ela só pode ser largada com a morte de quem a carrega.",
+    "notes": "",
     "attrib": [
       {
         "key": "bonus_spell_amp",
-        "display": "+ {value}% de amplificação arcana",
         "value": "50"
       },
       {
@@ -4782,7 +4689,7 @@
     "mc": false,
     "hc": false,
     "cd": 9,
-    "lore": "É como uma rapieira para magos!",
+    "lore": "",
     "components": null,
     "created": false,
     "charges": false
@@ -6484,7 +6391,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Explosão Ártica Emite uma onda congelante que faz com que inimigos sofram mais 15% de dano arcano durante 16s, além de causar 200 de dano mágico e reduzir a velocidade de movimento em -40% por 4 segundos. Causa 150% de dano a ilusões.\n\nRaio: 900",
-      "Passiva: Aura Congelante Reduz a velocidade de ataque de todas as unidades inimigas em -45 e toda cura, regeneração e roubo de vida em 25%.\n\nMúltiplas instâncias desta aura não se acumulam.\n\nRaio: 1200",
+      "Passiva: Aura Congelante Reduz a velocidade de ataque de todas as unidades inimigas em -45 e restaurações de vida e amplificações de curas recebidas em 25%.\n\nRaio: 1200",
       "Em inglês: Shiva's Guard "
     ],
     "id": 119,
@@ -6553,7 +6460,7 @@
         "value": "400"
       },
       {
-        "key": "hp_regen_degen_aura",
+        "key": "restoration_reduction_aura",
         "value": "25"
       },
       {
@@ -6637,7 +6544,7 @@
     ],
     "mc": false,
     "hc": false,
-    "cd": 35,
+    "cd": 30,
     "lore": "A reluzente cor de rubi da Pedra de Sangue é inconfundível no campo de batalha, já que o seu dono parece ter vitalidade e espírito infinitos.",
     "components": [
       "voodoo_mask",
@@ -6688,7 +6595,7 @@
       {
         "key": "bonus_health_regen",
         "display": "+ {value} de regeneração de vida",
-        "value": "6"
+        "value": "6.5"
       },
       {
         "key": "bonus_mana_regen",
@@ -6847,12 +6754,7 @@
       {
         "key": "mana_regen_multiplier",
         "display": "+ {value}% de amplificação de regeneração de mana",
-        "value": "50"
-      },
-      {
-        "key": "spell_lifesteal_amp",
-        "display": "+ {value}% de amplificação de roubo de vida arcano",
-        "value": "24"
+        "value": "40"
       },
       {
         "key": "burn_dps_buildings",
@@ -7086,12 +6988,7 @@
       {
         "key": "mana_regen_multiplier",
         "display": "+ {value}% de amplificação de regeneração de mana",
-        "value": "50"
-      },
-      {
-        "key": "spell_lifesteal_amp",
-        "display": "+ {value}% de amplificação de roubo de vida arcano",
-        "value": "20"
+        "value": "40"
       }
     ],
     "mc": false,
@@ -7256,14 +7153,14 @@
   "spirit_vessel": {
     "abilities": [],
     "hint": [
-      "Ativa: Libertação da Alma Quando usado em um herói inimigo, reduz 4% da vida atual por segundo, além de reduzir a regeneração de vida, cura, roubo de vida e roubo de vida arcano em 70%. Causa 25 de dano por segundo.\n\n Quando usado em um herói aliado, concede 40 de regeneração de vida por segundo.\n\nDura 8s.\n\nCaso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.\n\nGanha cargas toda vez que o portador ou um herói inimigo morrer dentro de 1400 unidades. Apenas o Receptáculo mais próximo do inimigo que morreu ganhará uma carga.",
+      "Ativa: Libertação da Alma Quando usado em um herói inimigo, reduz 4% da vida atual por segundo, além de reduzir restaurações de vida em 70% e curas recebidas em 70%. Causa 25 de dano por segundo.\n\n Quando usado em um herói aliado, concede 40 de regeneração de vida por segundo.\n\nDura 8s.\n\nCaso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.\n\nGanha cargas toda vez que o portador ou um herói inimigo morrer dentro de 1400 unidades. Apenas o Receptáculo mais próximo do inimigo que morreu ganhará uma carga.",
       "Em inglês: Spirit Vessel "
     ],
     "id": 267,
     "img": "/assets/images/dota/items/spirit_vessel.jpg?t=1593393829403",
     "dname": "Receptáculo Espiritual",
     "qual": "rare",
-    "cost": 2780,
+    "cost": 2725,
     "behavior": "Unit Target",
     "target_team": "Both",
     "target_type": "Hero",
@@ -7276,7 +7173,8 @@
       },
       {
         "key": "bonus_all_stats",
-        "value": "0"
+        "display": "+ {value} a todos os atributos",
+        "value": "10"
       },
       {
         "key": "bonus_armor",
@@ -7286,7 +7184,7 @@
       {
         "key": "bonus_health",
         "display": "+ {value} de vida",
-        "value": "375"
+        "value": "0"
       },
       {
         "key": "soul_radius",
@@ -7313,7 +7211,11 @@
         "value": "8.0"
       },
       {
-        "key": "hp_regen_reduction_enemy",
+        "key": "restoration_reduction_enemy",
+        "value": "70"
+      },
+      {
+        "key": "heal_reduction_enemy",
         "value": "70"
       },
       {
@@ -7331,7 +7233,7 @@
     "lore": "",
     "components": [
       "urn_of_shadows",
-      "vitality_booster"
+      "diadem"
     ],
     "created": true,
     "charges": false
@@ -7500,7 +7402,7 @@
   "blade_mail": {
     "abilities": [],
     "hint": [
-      "Ativa: Retorno de Dano Durante 5.5 segundos, amplifica em 85% o dano refletido de todas as fontes.",
+      "Ativa: Retorno de Dano Durante 5.5s, retorna todo o dano sofrido, aumentando a porcentagem em 85%.",
       "Passiva: Retorno de Dano Sempre que o portador for atacado, reflete 20 de dano + 20% do dano de ataque causado. ",
       "Em inglês: Blade Mail "
     ],
@@ -7655,7 +7557,7 @@
   "eternal_shroud": {
     "abilities": [],
     "hint": [
-      "Passiva: Mortalha Restaura mana equivalente a 20% do dano arcano sofrido, antes de reduções.",
+      "Passiva: Mortalha Restaura mana equivalente a 25% do dano arcano sofrido, antes de reduções.",
       "Passiva: Resistência Eterna Por cada 300 de dano arcano que o herói portador sofrer, ele ganha um acúmulo de Resistência durante 5s, até um máximo de 6. Cada acúmulo aumenta a resistência mágica da Mortalha Eterna em 3.5%.",
       "Em inglês: Eternal Shroud "
     ],
@@ -7695,7 +7597,7 @@
       },
       {
         "key": "mana_restore_pct",
-        "value": "20"
+        "value": "25"
       },
       {
         "key": "max_stacks",
@@ -7848,7 +7750,7 @@
       {
         "key": "evasion",
         "display": "+ {value}% de chance de esquiva",
-        "value": "20"
+        "value": "15"
       },
       {
         "key": "blind_pct",
@@ -8617,7 +8519,7 @@
       {
         "key": "status_resistance",
         "display": "+ {value}% de resistência estática",
-        "value": "20"
+        "value": "15"
       },
       {
         "key": "bonus_attack_speed",
@@ -8631,8 +8533,8 @@
       },
       {
         "key": "hp_regen_amp",
-        "display": "+ {value}% de regen. de vida e amp. de roubo de vida",
-        "value": "25"
+        "display": "+ {value}% de restauração de vida",
+        "value": "20"
       },
       {
         "key": "slow_resistance",
@@ -8686,13 +8588,8 @@
       },
       {
         "key": "hp_regen_amp",
-        "display": "+ {value}% de regen. de vida e amp. de roubo de vida",
-        "value": "25"
-      },
-      {
-        "key": "spell_lifesteal_amp",
-        "display": "+ {value}% de amplificação de roubo de vida arcano",
-        "value": "25"
+        "display": "+ {value}% de restauração de vida",
+        "value": "20"
       },
       {
         "key": "manacost_reduction",
@@ -8748,11 +8645,6 @@
         "key": "spell_amp",
         "display": "+ {value}% de amplificação arcana",
         "value": "12"
-      },
-      {
-        "key": "spell_lifesteal_amp",
-        "display": "+ {value}% de amplificação de roubo de vida arcano",
-        "value": "25"
       },
       {
         "key": "cast_speed_pct",
@@ -8953,49 +8845,33 @@
     "created": true,
     "charges": false
   },
-  "recipe_skadi": {
-    "id": 159,
-    "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
-    "dname": "Receita: Olho de Skadi",
-    "cost": 1050,
-    "behavior": false,
-    "notes": "",
-    "attrib": [],
-    "mc": false,
-    "hc": false,
-    "cd": false,
-    "lore": "",
-    "components": null,
-    "created": false,
-    "charges": false
-  },
   "skadi": {
     "abilities": [],
     "hint": [
-      "Passiva: Ataque Congelante Ataques retardam as velocidades de movimento e ataque de heróis inimigos conforme o tipo da vítima (-25%/-20% corpo a corpo e -50%/-20% longo alcance). Também reduz toda a cura, roubo e vida e regeneração em 40%. Dura 3s.",
+      "Passiva: Ataque Congelante Ataques retardam as velocidades de movimento e ataque de heróis inimigos conforme o tipo da vítima (-25%/-20% corpo a corpo e -50%/-20% longo alcance). Também reduz restaurações de vida em 40% e curas recebidas em 40%. Dura 3s.",
       "Em inglês: Eye of Skadi "
     ],
     "id": 160,
     "img": "/assets/images/dota/items/skadi.jpg?t=1593393829403",
     "dname": "Olho de Skadi",
     "qual": "artifact",
-    "cost": 5300,
+    "cost": 5900,
     "notes": "",
     "attrib": [
       {
         "key": "bonus_all_stats",
         "display": "+ {value} a todos os atributos",
-        "value": "22"
+        "value": "35"
       },
       {
         "key": "bonus_health",
         "display": "+ {value} de vida",
-        "value": "250"
+        "value": "0"
       },
       {
         "key": "bonus_mana",
         "display": "+ {value} de mana",
-        "value": "250"
+        "value": "0"
       },
       {
         "key": "cold_slow_melee",
@@ -9018,6 +8894,10 @@
         "value": "3.0"
       },
       {
+        "key": "restoration_reduction",
+        "value": "40"
+      },
+      {
         "key": "heal_reduction",
         "value": "40"
       }
@@ -9028,7 +8908,7 @@
     "lore": "Um artefato extremamente raro, protegido pelos dragões azulares.",
     "components": [
       "ultimate_orb",
-      "point_booster",
+      "ultimate_orb",
       "orb_of_frost"
     ],
     "created": true,
@@ -9070,8 +8950,8 @@
       },
       {
         "key": "hp_regen_amp",
-        "display": "+ {value}% de regen. de vida e amp. de roubo de vida",
-        "value": "20"
+        "display": "+ {value}% de restauração de vida",
+        "value": "16"
       }
     ],
     "mc": false,
@@ -9089,7 +8969,7 @@
     "id": 163,
     "img": "/assets/images/dota/items/recipe.png?t=1593393829403",
     "dname": "Receita: Elmo do Dominador",
-    "cost": 650,
+    "cost": 1125,
     "behavior": false,
     "notes": "",
     "attrib": [],
@@ -9111,7 +8991,7 @@
     "img": "/assets/images/dota/items/helm_of_the_dominator.jpg?t=1593393829403",
     "dname": "Elmo do Dominador",
     "qual": "artifact",
-    "cost": 2625,
+    "cost": 2550,
     "behavior": "Unit Target",
     "target_team": "Enemy",
     "target_type": [],
@@ -9179,7 +9059,7 @@
     "lore": "O elmo poderoso de um necromante morto.",
     "components": [
       "helm_of_iron_will",
-      "diadem"
+      "crown"
     ],
     "created": true,
     "charges": false
@@ -9210,7 +9090,7 @@
     "img": "/assets/images/dota/items/helm_of_the_overlord.jpg?t=1593393829403",
     "dname": "Elmo do Soberano",
     "qual": "artifact",
-    "cost": 5725,
+    "cost": 5650,
     "behavior": "Unit Target",
     "target_team": "Enemy",
     "target_type": [],
@@ -9279,7 +9159,7 @@
     "mc": false,
     "hc": false,
     "cd": 45,
-    "lore": "O elmo poderoso de um necromante morto.",
+    "lore": "O elmo poderoso de um necromante morto-vivo.",
     "components": [
       "helm_of_the_dominator",
       "ultimate_orb"
@@ -9403,7 +9283,7 @@
       {
         "key": "bonus_intellect",
         "display": "+ {value} de Inteligência",
-        "value": "15"
+        "value": "12"
       },
       {
         "key": "bonus_mana",
@@ -9423,7 +9303,7 @@
         "value": "2.0"
       }
     ],
-    "mc": 100,
+    "mc": 150,
     "hc": false,
     "cd": 18,
     "lore": "Correntes forjadas de maneiras impossíveis para aprisionar um mal muito antigo.",
@@ -9780,7 +9660,7 @@
     "mc": 75,
     "hc": false,
     "cd": 15,
-    "lore": "",
+    "lore": "Outrora confiada a um General Apóstolo das forças expedicionárias dos Fiéis de Rumusque.",
     "components": [
       "diffusal_blade",
       "eagle"
@@ -10152,14 +10032,14 @@
   "orb_of_corrosion": {
     "abilities": [],
     "hint": [
-      "Passiva: Corrosão Os seus ataques reduzem a armadura do alvo em -2 e a velocidade de movimento em -16% (-8% contra alvos corpo a corpo). Também reduz a cura, regeneração de vida, roubo de vida e roubo de vida arcano em 16% durante 3s.",
+      "Passiva: Corrosão Os seus ataques reduzem a armadura do alvo em -2 e a velocidade de movimento em -16% (-8% contra alvos corpo a corpo). Também reduz restaurações de vida em 16%. Dura 3s.",
       "Em inglês: Orb of Corrosion "
     ],
     "id": 569,
     "img": "/assets/images/dota/items/orb_of_corrosion.jpg?t=1593393829403",
     "dname": "Orbe Corrosivo",
     "qual": "rare",
-    "cost": 1000,
+    "cost": 1050,
     "dispellable": "Yes",
     "notes": "A redução de armadura não acumula com os seus aprimoramentos, Desoladora ou Desoladora Infernal.",
     "attrib": [
@@ -10204,14 +10084,14 @@
   "orb_of_frost": {
     "abilities": [],
     "hint": [
-      "Passiva: Congelamento Os seus ataques retardam a velocidade de movimento em -13% (-6% contra alvos corpo a corpo). Também reduz a cura, regeneração de vida, roubo de vida e roubo de vida arcano em 13% durante 3s.",
+      "Passiva: Congelamento Os seus ataques retardam a velocidade de movimento em -13% (-6% contra alvos corpo a corpo). Também reduz restaurações de vida em 13%. Dura 3s.",
       "Em inglês: Orb of Frost "
     ],
     "id": 1575,
     "img": "/assets/images/dota/items/orb_of_frost.jpg?t=1593393829403",
     "dname": "Orbe Congelado",
     "qual": "rare",
-    "cost": 250,
+    "cost": 300,
     "notes": "",
     "attrib": [
       {
@@ -10234,7 +10114,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "Crescendo lentamente desde o início do universo — englobará tudo ao seu fim.",
     "components": null,
     "created": false,
     "charges": false
@@ -10750,7 +10630,7 @@
     "mc": 100,
     "hc": false,
     "cd": 16,
-    "lore": "",
+    "lore": "Criado por um feiticeiro com alguns inimigos demais.",
     "components": [
       "energy_booster",
       "ring_of_protection",
@@ -11054,7 +10934,7 @@
     "mc": false,
     "hc": false,
     "cd": 7,
-    "lore": "Devastadora.",
+    "lore": "Aviso: não há antídoto se for empunhado pela extremidade errada.",
     "components": [
       "witch_blade",
       "mystic_staff"
@@ -11212,7 +11092,7 @@
       {
         "key": "bonus_intellect",
         "display": "+ {value} de Inteligência",
-        "value": "15"
+        "value": "12"
       },
       {
         "key": "bonus_hp",
@@ -11224,7 +11104,7 @@
         "value": "2.0"
       }
     ],
-    "mc": 50,
+    "mc": 100,
     "hc": false,
     "cd": 18,
     "lore": "A essência de Atos, o Lorde da Praga, está guardada nesta varinha de aparência simples.",
@@ -11354,8 +11234,8 @@
       },
       {
         "key": "hp_regen_amp",
-        "display": "+ {value}% de regen. de vida e amp. de roubo de vida",
-        "value": "25"
+        "display": "+ {value}% de restauração de vida",
+        "value": "20"
       },
       {
         "key": "bash_chance_melee",
@@ -11663,7 +11543,7 @@
   "glimmer_cape": {
     "abilities": [],
     "hint": [
-      "Ativa: Cobertura Cintilante Após um atraso de 0.5s, concede invisibilidade, 20 de velocidade de movimento e uma barreira contra dano mágico com 300 de vida a você ou ao herói aliado alvo durante 5 segundos.\n\nPode ser usada durante canalizações.",
+      "Ativa: Cobertura Cintilante Após um atraso de 0.5s, concede invisibilidade, 20 de velocidade de movimento e uma barreira contra dano mágico com 375 de vida a você ou ao herói aliado alvo durante 5 segundos.\n\nPode ser usada durante canalizações.",
       "Em inglês: Glimmer Cape "
     ],
     "id": 254,
@@ -11702,11 +11582,11 @@
       {
         "key": "bonus_magical_armor",
         "display": "+ {value}% de resistência mágica",
-        "value": "25"
+        "value": "20"
       },
       {
         "key": "barrier_block",
-        "value": "300"
+        "value": "375"
       }
     ],
     "mc": 125,
@@ -11721,10 +11601,6 @@
     "charges": false
   },
   "river_painter": {
-    "abilities": [],
-    "hint": [
-      "Derrame este líquido no rio para transformar a água em mercúrio líquido por 900 segundos. Usar este item no rio consumirá uma carga do total no seu arsenal permanentemente, a não ser que o efeito seja substituído por um frasco mais forte antes dos 15 minutos. Frascos só podem ser usados caso tenha cargas no arsenal, que serão consumidas apenas quando o rio for encantado com sucesso, e não se o item for vendido, largado ou destruído durante uma partida. Só é possível usar um frasco no rio se não houver um frasco mais forte aplicado."
-    ],
     "id": 1021,
     "img": "/assets/images/dota/items/river_painter.jpg?t=1593393829403",
     "dname": "Frasco do Rio: Cromado",
@@ -11747,10 +11623,6 @@
     "charges": false
   },
   "river_painter2": {
-    "abilities": [],
-    "hint": [
-      "Derrame este líquido no rio para secar a água por 900 segundos. Usar este item no rio consumirá uma carga do total no seu arsenal permanentemente, a não ser que o efeito seja substituído por um frasco mais forte antes dos 15 minutos. Frascos só podem ser usados caso tenha cargas no arsenal, que serão consumidas apenas quando o rio for encantado com sucesso, e não se o item for vendido, largado ou destruído durante uma partida. Só é possível usar um frasco no rio se não houver um frasco mais forte aplicado."
-    ],
     "id": 1022,
     "img": "/assets/images/dota/items/river_painter2.jpg?t=1593393829403",
     "dname": "Frasco do Rio: Seco",
@@ -11773,10 +11645,6 @@
     "charges": false
   },
   "river_painter3": {
-    "abilities": [],
-    "hint": [
-      "Derrame este líquido no rio para transformar a água em gosma verde por 900 segundos. Usar este item no rio consumirá uma carga do total no seu arsenal permanentemente, a não ser que o efeito seja substituído por um frasco mais forte antes dos 15 minutos. Frascos só podem ser usados caso tenha cargas no arsenal, que serão consumidas apenas quando o rio for encantado com sucesso, e não se o item for vendido, largado ou destruído durante uma partida. Só é possível usar um frasco no rio se não houver um frasco mais forte aplicado."
-    ],
     "id": 1023,
     "img": "/assets/images/dota/items/river_painter3.jpg?t=1593393829403",
     "dname": "Frasco do Rio: Gosma",
@@ -11799,10 +11667,6 @@
     "charges": false
   },
   "river_painter4": {
-    "abilities": [],
-    "hint": [
-      "Derrame este líquido no rio para tornar a água oleosa por 900 segundos. Usar este item no rio consumirá uma carga do total no seu arsenal permanentemente, a não ser que o efeito seja substituído por um frasco mais forte antes dos 15 minutos. Frascos só podem ser usados caso tenha cargas no arsenal, que serão consumidas apenas quando o rio for encantado com sucesso, e não se o item for vendido, largado ou destruído durante uma partida. Só é possível usar um frasco no rio se não houver um frasco mais forte aplicado."
-    ],
     "id": 1024,
     "img": "/assets/images/dota/items/river_painter4.jpg?t=1593393829403",
     "dname": "Frasco do Rio: Óleo",
@@ -11825,10 +11689,6 @@
     "charges": false
   },
   "river_painter5": {
-    "abilities": [],
-    "hint": [
-      "Derrame este líquido no rio para eletrificar a água por 900 segundos. Usar este item no rio consumirá uma carga do total no seu arsenal permanentemente, a não ser que o efeito seja substituído por um frasco mais forte antes dos 15 minutos. Frascos só podem ser usados caso tenha cargas no arsenal, que serão consumidas apenas quando o rio for encantado com sucesso, e não se o item for vendido, largado ou destruído durante uma partida. Só é possível usar um frasco no rio se não houver um frasco mais forte aplicado."
-    ],
     "id": 1025,
     "img": "/assets/images/dota/items/river_painter5.jpg?t=1593393829403",
     "dname": "Frasco do Rio: Elétrico",
@@ -11851,10 +11711,6 @@
     "charges": false
   },
   "river_painter6": {
-    "abilities": [],
-    "hint": [
-      "Derrame este líquido no rio para transformar a água em uma poção roxa borbulhante por 900 segundos. Usar este item no rio consumirá uma carga do total no seu arsenal permanentemente, a não ser que o efeito seja substituído por um frasco mais forte antes dos 15 minutos. Frascos só podem ser usados caso tenha cargas no arsenal, que serão consumidas apenas quando o rio for encantado com sucesso, e não se o item for vendido, largado ou destruído durante uma partida. Só é possível usar um frasco no rio se não houver um frasco mais forte aplicado."
-    ],
     "id": 1026,
     "img": "/assets/images/dota/items/river_painter6.jpg?t=1593393829403",
     "dname": "Frasco do Rio: Poção",
@@ -11877,10 +11733,6 @@
     "charges": false
   },
   "river_painter7": {
-    "abilities": [],
-    "hint": [
-      "Derrame este líquido no rio para transformar a água em sangue por 900 segundos. Usar este item no rio consumirá uma carga do total no seu arsenal permanentemente, a não ser que o efeito seja substituído por um frasco mais forte antes dos 15 minutos. Frascos só podem ser usados caso tenha cargas no arsenal, que serão consumidas apenas quando o rio for encantado com sucesso, e não se o item for vendido, largado ou destruído durante uma partida. Só é possível usar um frasco no rio se não houver um frasco mais forte aplicado."
-    ],
     "id": 1027,
     "img": "/assets/images/dota/items/river_painter7.jpg?t=1593393829403",
     "dname": "Frasco do Rio: Sangue",
@@ -11923,14 +11775,8 @@
     "charges": 1
   },
   "super_blink": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Translocar Teletransporte-se a um ponto alvo que está a até 1200 unidades de distância.",
-      "Em inglês: Super Blink Dagger "
-    ],
     "id": 1029,
     "img": "/assets/images/dota/items/super_blink.jpg?t=1593393829403",
-    "dname": "Super Adaga da Translocação",
     "cost": null,
     "behavior": "Point Target",
     "notes": "",
@@ -11947,7 +11793,7 @@
     "mc": false,
     "hc": false,
     "cd": 15,
-    "lore": "A famosa adaga usada pelo assassino mais rápido a andar pela terra.",
+    "lore": "",
     "components": null,
     "created": false,
     "charges": false
@@ -12273,14 +12119,8 @@
     "charges": false
   },
   "greater_mango": {
-    "abilities": [],
-    "hint": [
-      "Usar: Consumir Manga Incrivelmente Boa Sobrecarrega o seu herói, fazendo-o morrer. No entanto, ao renascer, todos os seus talentos (em ambos os lados) serão destravados.",
-      "Em inglês: Greater Mango "
-    ],
     "id": 295,
     "img": "/assets/images/dota/items/greater_mango.jpg?t=1593393829403",
-    "dname": "Grande Manga",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -12464,7 +12304,6 @@
   "mechanical_arm": {
     "id": 849,
     "img": "/assets/images/dota/items/mechanical_arm.jpg?t=1593393829403",
-    "dname": "Braço Mecânico",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -12492,7 +12331,7 @@
   "craggy_coat": {
     "abilities": [],
     "hint": [
-      "Ativa: Endurecer Concede 12 de armadura adicional, em troca de -30 de velocidade de movimento. Dura 8s.",
+      "Ativa: Endurecer Concede 6 de armadura adicional, em troca de -20 de velocidade de movimento. Dura 6s.",
       "Em inglês: Craggy Coat "
     ],
     "id": 298,
@@ -12511,15 +12350,15 @@
       },
       {
         "key": "move_speed",
-        "value": "30"
+        "value": "20"
       },
       {
         "key": "active_armor",
-        "value": "12"
+        "value": "6"
       },
       {
         "key": "active_duration",
-        "value": "8"
+        "value": "6"
       },
       {
         "key": "bonus_health",
@@ -13168,29 +13007,31 @@
   "helm_of_the_undying": {
     "abilities": [],
     "hint": [
-      "Passiva: Morte Postergada Sobrevive por mais 5 segundos após sofrer um golpe fatal.",
+      "Passiva: Morte Postergada Sobrevive por mais 5 segundos após sofrer um golpe fatal. Caso algum herói inimigo morra em um raio de 1200 unidades, a morte é postergada por mais 5s.",
       "Em inglês: Helm of the Undying "
     ],
     "id": 327,
     "img": "/assets/images/dota/items/helm_of_the_undying.jpg?t=1593393829403",
-    "dname": "Elmo do Morto-Vivo",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
-        "key": "bonus_armor",
-        "display": "+ {value} de armadura",
-        "value": "6"
-      },
-      {
         "key": "duration",
         "value": "5"
+      },
+      {
+        "key": "bonus_kill_duration",
+        "value": "5"
+      },
+      {
+        "key": "kill_radius",
+        "value": "1200"
       }
     ],
     "mc": false,
     "hc": false,
-    "cd": false,
-    "lore": "",
+    "cd": 50,
+    "lore": "O preço pelo seu uso é pago no além-vida.",
     "components": null,
     "created": false,
     "charges": false
@@ -13247,14 +13088,8 @@
     "charges": false
   },
   "horizon": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Golpe Sorrateiro Alveja uma unidade e se teletransporta até ela. Arremessa o inimigo 250 unidades para trás, desarmando-o por 1 segundos.",
-      "Em inglês: Horizon "
-    ],
     "id": 312,
     "img": "/assets/images/dota/items/horizon.jpg?t=1593393829403",
-    "dname": "Horizonte",
     "cost": 0,
     "behavior": "Unit Target",
     "bkbpierce": "Yes",
@@ -13371,7 +13206,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "Um amuleto de batalha comum entre os exércitos que serviam aos Filhos da Luz.",
     "components": null,
     "created": false,
     "charges": false
@@ -13957,7 +13792,7 @@
   "demonicon": {
     "abilities": [],
     "hint": [
-      "Ativa: Invocação Demoníaca Superior Invoca 2 pares de guerreiros e arqueiros demoníacos que duram 75s. O Guerreiro queima mana a cada acerto, revela unidades invisíveis e causa dano mágico a quem o matar. O Arqueiro tem uma habilidade de dissipação básica com retardo e uma aura passiva de velocidade de movimento.",
+      "Ativa: Invocação Demoníaca Superior Invoca 2 pares de guerreiros e arqueiros demoníacos que duram 65s. O Guerreiro queima mana a cada acerto, revela unidades invisíveis e causa dano mágico a quem o matar. O Arqueiro tem uma habilidade de dissipação básica com retardo e uma aura passiva de velocidade de movimento.",
       "Em inglês: Book of the Dead "
     ],
     "id": 370,
@@ -13967,7 +13802,7 @@
       "Instant Cast",
       "No Target"
     ],
-    "notes": "O Guerreiro Demoníaco tem 1.800 de vida, 4 de armadura, 40% de resistência mágica, 380 de velocidade de movimento, 134 de dano de ataque, 50 de queima de mana por acerto, 800 de dano ao morrer e um raio de 1.000 unidades de Visão Verdadeira.\nO Arqueiro Demoníaco tem 1.800 de vida, 4 de armadura, 40% de resistência mágica, 425 de velocidade de movimento, 131 de dano de ataque, uma habilidade de dissipação básica com retardo (15s de intervalo entre usos) e uma aura com 9% de velocidade de movimento.",
+    "notes": "O Guerreiro Demoníaco tem 1.600 de vida, 4 de armadura, 40% de resistência mágica, 380 de velocidade de movimento, 134 de dano de ataque, 50 de queima de mana por acerto, 800 de dano ao morrer e um raio de 1.000 unidades de Visão Verdadeira.\nO Arqueiro Demoníaco tem 1.300 de vida, 4 de armadura, 40% de resistência mágica, 425 de velocidade de movimento, 131 de dano de ataque, uma habilidade de dissipação básica com retardo (15s de intervalo entre usos) e uma aura com 9% de velocidade de movimento.",
     "attrib": [
       {
         "key": "bonus_strength",
@@ -13979,7 +13814,7 @@
       },
       {
         "key": "summon_duration",
-        "value": "75"
+        "value": "65"
       }
     ],
     "mc": false,
@@ -14109,14 +13944,8 @@
     "charges": false
   },
   "dimensional_doorway": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Portal Dimensional Teletransporta instantaneamente para qualquer local no mapa.",
-      "Em inglês: Dimensional Doorway "
-    ],
     "id": 373,
     "img": "/assets/images/dota/items/dimensional_doorway.jpg?t=1593393829403",
-    "dname": "Portal Dimensional",
     "cost": 0,
     "behavior": "Point Target",
     "notes": "",
@@ -14405,19 +14234,17 @@
   "chipped_vest": {
     "abilities": [],
     "hint": [
-      "Passiva: Ao sofrer ataques, retorna 30 do dano a heróis e 20 do dano a criaturas.",
+      "Passiva: Lascar Ao sofrer ataques, retorna 30 do dano a heróis e 20 do dano a criaturas.",
       "Em inglês: Chipped Vest "
     ],
     "id": 565,
     "img": "/assets/images/dota/items/chipped_vest.jpg?t=1593393829403",
-    "dname": "Colete Lascado",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
         "key": "hp_regen",
-        "display": "+ {value} de regeneração de vida",
-        "value": "4"
+        "value": "0"
       },
       {
         "key": "damage_return_hero",
@@ -14437,14 +14264,8 @@
     "charges": false
   },
   "wizard_glass": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Causa 125 de dano em até 2 unidades inimigas aleatórias dentro de 700 unidades de distância.",
-      "Em inglês: Wizard Glass "
-    ],
     "id": 566,
     "img": "/assets/images/dota/items/wizard_glass.jpg?t=1593393829403",
-    "dname": "Cálice do Feiticeiro",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -14454,12 +14275,10 @@
     "attrib": [
       {
         "key": "debuff_amp",
-        "display": "+ {value}% de duração de efeitos negativos",
         "value": "10"
       },
       {
         "key": "cooldown_reduction",
-        "display": "+ {value}% de redução de intervalo",
         "value": "8"
       },
       {
@@ -14484,20 +14303,13 @@
     "charges": false
   },
   "gloves_of_travel": {
-    "abilities": [],
-    "hint": [
-      "Reduz o intervalo entre usos de pergaminhos de teletransporte em 20 segundos e evita que pergaminhos sejam consumidos.",
-      "Em inglês: Gloves of Travel "
-    ],
     "id": 570,
     "img": "/assets/images/dota/items/gloves_of_travel.jpg?t=1593393829403",
-    "dname": "Luvas do Viajante",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
         "key": "attack_speed",
-        "display": "VELOCIDADE DE ATAQUE: {value}",
         "value": "20"
       },
       {
@@ -14588,28 +14400,23 @@
   "venom_gland": {
     "id": 575,
     "img": "/assets/images/dota/items/venom_gland.jpg?t=1593393829403",
-    "dname": "Glândula Venenosa",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
         "key": "primary_attribute",
-        "display": "ATRIBUTO PRIMÁRIO: {value}",
         "value": "10"
       },
       {
         "key": "debuff_amp",
-        "display": "AMPL. DE EFEITOS NEGATIVOS: {value}%",
         "value": "12"
       },
       {
         "key": "damage",
-        "display": "DANO POR SEGUNDO: {value}",
         "value": "25"
       },
       {
         "key": "degen",
-        "display": "REDUÇÃO DE REGEN. DE VIDA: {value}%",
         "value": "25"
       },
       {
@@ -14663,14 +14470,8 @@
     "charges": false
   },
   "gladiator_helm": {
-    "abilities": [],
-    "hint": [
-      "Ao sofrer dano de heróis, você recebe 18 de dano, 5 de armadura e 15 de velocidade de movimento durante 7 segundos.",
-      "Em inglês: Gladiator Helm "
-    ],
     "id": 576,
     "img": "/assets/images/dota/items/gladiator_helm.jpg?t=1593393829403",
-    "dname": "Elmo do Gladiador",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14732,23 +14533,19 @@
   "ancient_perseverance": {
     "id": 578,
     "img": "/assets/images/dota/items/ancient_perseverance.jpg?t=1593393829403",
-    "dname": "Perseverança Ancestral",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
         "key": "damage",
-        "display": "+ {value} de dano",
         "value": "10"
       },
       {
         "key": "hp_regen",
-        "display": "+ {value} de regeneração de vida",
         "value": "7"
       },
       {
         "key": "mana_regen_amp",
-        "display": "+ {value}% de amplificação de regeneração de mana",
         "value": "50"
       }
     ],
@@ -14761,25 +14558,17 @@
     "charges": false
   },
   "star_mace": {
-    "abilities": [],
-    "hint": [
-      "Passiva: Transposição Heróis de ataque corpo a corpo causam 20% do dano de ataque como dano físico em um cone de até 650 unidades ao redor do alvo.",
-      "Em inglês: Star Mace "
-    ],
     "id": 637,
     "img": "/assets/images/dota/items/star_mace.jpg?t=1593393829403",
-    "dname": "Bastão Estelar",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
         "key": "movement_speed_pct",
-        "display": "+ {value}% de velocidade de movimento",
         "value": "10"
       },
       {
         "key": "bonus_mana_regen",
-        "display": "+ {value} de regeneração de mana",
         "value": "1"
       },
       {
@@ -14855,14 +14644,8 @@
     "charges": false
   },
   "oakheart": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Rejuvenescer Alveja um herói aliado e restaura 480 de vida ao longo de 12 segundos.\n\nCaso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.",
-      "Em inglês: Oakheart "
-    ],
     "id": 582,
     "img": "/assets/images/dota/items/oakheart.jpg?t=1593393829403",
-    "dname": "Coração de Carvalho",
     "cost": 0,
     "behavior": [
       "Unit Target",
@@ -14874,7 +14657,6 @@
     "attrib": [
       {
         "key": "strength",
-        "display": "+ {value} de Força",
         "value": "15"
       },
       {
@@ -14895,14 +14677,8 @@
     "charges": false
   },
   "warhammer": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Martelo de Guerra Causa 75 de dano e reduz a armadura do inimigo em 3 por 6 segundos.",
-      "Em inglês: Warhammer "
-    ],
     "id": 674,
     "img": "/assets/images/dota/items/warhammer.jpg?t=1593393829403",
-    "dname": "Martelo de Guerra",
     "cost": 0,
     "behavior": "Unit Target",
     "target_team": "Enemy",
@@ -14914,7 +14690,6 @@
     "attrib": [
       {
         "key": "bonus_strength",
-        "display": "+ {value} de Força",
         "value": "10"
       },
       {
@@ -14996,7 +14771,6 @@
     ],
     "id": 675,
     "img": "/assets/images/dota/items/psychic_headband.jpg?t=1593393829403",
-    "dname": "Diadema Paranormal",
     "cost": 0,
     "behavior": "Unit Target",
     "target_team": "Enemy",
@@ -15008,13 +14782,11 @@
     "attrib": [
       {
         "key": "intelligence_pct",
-        "display": "+ {value}% de Inteligência",
-        "value": "15"
+        "value": "0"
       },
       {
         "key": "cast_range",
-        "display": "+ {value} de alcance de uso",
-        "value": "100"
+        "value": "0"
       },
       {
         "key": "push_length",
@@ -15301,14 +15073,8 @@
     "charges": false
   },
   "overflowing_elixir": {
-    "abilities": [],
-    "hint": [
-      "Restaura 500 de vida e 200 de mana ao longo de 4 segundos. Pode capturar runas.",
-      "Em inglês: Overflowing Elixir "
-    ],
     "id": 588,
     "img": "/assets/images/dota/items/overflowing_elixir.jpg?t=1593393829403",
-    "dname": "Elixir Transbordante",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15368,7 +15134,6 @@
   "assassins_dagger": {
     "id": 824,
     "img": "/assets/images/dota/items/assassins_dagger.jpg?t=1593393829403",
-    "dname": "Adaga do Assassino",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15437,7 +15202,6 @@
   "sample_picker": {
     "id": 826,
     "img": "/assets/images/dota/items/sample_picker.jpg?t=1593393829403",
-    "dname": "Contrato da Assassina",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15465,7 +15229,6 @@
   "icarus_wings": {
     "id": 827,
     "img": "/assets/images/dota/items/icarus_wings.jpg?t=1593393829403",
-    "dname": "Asas de Ícaro",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15538,7 +15301,6 @@
   "light_robes": {
     "id": 836,
     "img": "/assets/images/dota/items/light_robes.jpg?t=1593393829403",
-    "dname": "Vestes Leves",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15637,7 +15399,6 @@
   "fortitude_ring": {
     "id": 839,
     "img": "/assets/images/dota/items/fortitude_ring.jpg?t=1593393829403",
-    "dname": "Anel da Fortitude",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -16180,7 +15941,7 @@
     "mc": 50,
     "hc": false,
     "cd": 19,
-    "lore": "",
+    "lore": "Uma solução perfeita para inimigos fujões.",
     "components": [
       "echo_sabre",
       "diadem"
@@ -16651,7 +16412,7 @@
       "Basic",
       "Tree"
     ],
-    "notes": "Heróis amedrontados têm movimentação desobstruída e não podem sofrer retardo.\nO projétil percorrerá 1 vezes a distância do alcance da habilidade ao rebater.",
+    "notes": "Heróis amedrontados têm movimentação faseada e não podem sofrer retardo.\nO projétil percorrerá 1 vezes a distância do alcance da habilidade ao rebater.",
     "attrib": [
       {
         "key": "AbilityCastRange",
@@ -16988,7 +16749,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "O ar que passa por entre este amuleto faz um som apavorante.",
     "components": null,
     "created": false,
     "charges": false
@@ -17033,7 +16794,7 @@
   "avianas_feather": {
     "abilities": [],
     "hint": [
-      "Passiva: Pássaro Livre Quando o herói portador tem menos de 30% de vida, ganha movimentação alada.",
+      "Passiva: Pássaro Livre Quando o herói portador tem menos de 30% de vida, ganha movimentação desobstruída.",
       "Em inglês: Aviana's Feather "
     ],
     "id": 1160,
@@ -17096,14 +16857,8 @@
     "charges": false
   },
   "horizons_equilibrium": {
-    "abilities": [],
-    "hint": [
-      "Passiva: Equilíbrio O dano causado e sofrido de unidades a mais de 500 unidades de distância é reduzido em 25%.",
-      "Em inglês: Horizon's Equilibrium "
-    ],
     "id": 2098,
     "img": "/assets/images/dota/items/horizons_equilibrium.jpg?t=1593393829403",
-    "dname": "Equilíbrio do Horizonte",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -17117,17 +16872,14 @@
       },
       {
         "key": "attack_lifesteal",
-        "display": "+ {value}% de roubo de vida",
         "value": "24"
       },
       {
         "key": "spell_lifesteal",
-        "display": "+ {value}% de roubo de vida arcano",
         "value": "12"
       },
       {
         "key": "creep_lifesteal_reduction_pct",
-        "display": "REDUÇÃO DE ROUBO DE VIDA (CRIATURAS): {value}%",
         "value": "50"
       }
     ],
@@ -17140,20 +16892,13 @@
     "charges": false
   },
   "blighted_spirit": {
-    "abilities": [],
-    "hint": [
-      "Passiva: Toxinas Sempre que um inimigo ataca você, ele recebe -25 de amplificação de cura/roubo de vida por 3 segundos.",
-      "Em inglês: Blighted Spirit "
-    ],
     "id": 2099,
     "img": "/assets/images/dota/items/blighted_spirit.jpg?t=1593393829403",
-    "dname": "Espírito Amaldiçoado",
     "cost": 0,
     "notes": "",
     "attrib": [
       {
         "key": "magic_resist",
-        "display": "RESISTÊNCIA MÁGICA ADICIONAL: {value}%",
         "value": "15"
       },
       {
@@ -17211,14 +16956,8 @@
     "charges": false
   },
   "turtle_shell": {
-    "abilities": [],
-    "hint": [
-      "Ativa: Tartaruga Silencia e desarma o seu herói por 15 segundos. Reduz todo o dano sofrido em 50%. Efeito removido ao mover-se.",
-      "Em inglês: Turtle Shell "
-    ],
     "id": 2191,
     "img": "/assets/images/dota/items/turtle_shell.jpg?t=1593393829403",
-    "dname": "Casco de Tartaruga",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -17229,7 +16968,6 @@
       },
       {
         "key": "armor",
-        "display": "ARMADURA ADICIONAL: {value}",
         "value": "5"
       },
       {
@@ -17520,7 +17258,7 @@
   "black_grimoire": {
     "abilities": [],
     "hint": [
-      "Usar: Conhecimento Profano Matar e ajudar a matar heróis fortalece o Grimório das Trevas, concedendo cargas. Clique com o botão direito para consumir e ganhar 250 de experiência por carga. Começa a partida em intervalo entre usos.\nEste item não pode ser largado. ",
+      "Usar: Conhecimento Profano Matar e ajudar a matar heróis fortalece o Grimório das Trevas, concedendo cargas. Clique com o botão direito para consumir e ganhar 200 de experiência por carga. Começa a partida em intervalo entre usos.\nEste item não pode ser largado. ",
       "Em inglês: Black Grimoire "
     ],
     "id": 1440,
@@ -17531,7 +17269,7 @@
     "attrib": [
       {
         "key": "xp_per_charge",
-        "value": "250"
+        "value": "200"
       }
     ],
     "mc": false,
@@ -17607,6 +17345,11 @@
         "key": "max_mana",
         "display": "+ {value} de mana",
         "value": "0 / 100 / 160 / 220"
+      },
+      {
+        "key": "evasion",
+        "display": "+ {value}% de chance de esquiva",
+        "value": "0 / 0 / 0 / 15"
       }
     ],
     "mc": false,
@@ -17626,12 +17369,10 @@
     "attrib": [
       {
         "key": "bonus_all_stats",
-        "display": "+ {value} a todos os atributos",
         "value": "6"
       },
       {
         "key": "attack_damage",
-        "display": "+ {value} de dano",
         "value": "12"
       }
     ],
@@ -17656,7 +17397,6 @@
       },
       {
         "key": "mana_regen",
-        "display": "+ {value} de regeneração de mana",
         "value": "1"
       }
     ],
@@ -17681,12 +17421,10 @@
       },
       {
         "key": "evasion",
-        "display": "+ {value}% de chance de esquiva",
         "value": "35"
       },
       {
         "key": "movespeed",
-        "display": "+ {value} de velocidade de movimento",
         "value": "25"
       }
     ],
@@ -17737,12 +17475,10 @@
     "attrib": [
       {
         "key": "heal_increase",
-        "display": "+ {value}% de amplificação das curas concedidas",
         "value": "10 / 15 / 20"
       },
       {
         "key": "vision_bonus",
-        "display": "+ {value} de visão",
         "value": "100 / 150 / 200"
       }
     ],
@@ -17769,7 +17505,12 @@
       {
         "key": "magic_res",
         "display": "+ {value}% de resistência mágica",
-        "value": "0 / 10 / 14 / 18"
+        "value": "0 / 10 / 13 / 16"
+      },
+      {
+        "key": "bonus_cast_range",
+        "display": "+ {value} de alcance de uso",
+        "value": "0 / 0 / 0 / 100"
       }
     ],
     "mc": false,
@@ -17790,12 +17531,17 @@
       {
         "key": "bonus_attack_speed",
         "display": "+ {value} de velocidade de ataque",
-        "value": "10 / 17 / 24 / 35"
+        "value": "10 / 17 / 24 / 31"
       },
       {
         "key": "bonus_night_vision",
         "display": "+ {value} de visão noturna",
         "value": "0 / 150 / 225 / 300"
+      },
+      {
+        "key": "bonus_attack_range",
+        "display": "+ {value} de alcance de ataque (corpo a corpo e longo alcance)",
+        "value": "0 / 0 / 0 / 100"
       }
     ],
     "mc": false,
@@ -17816,12 +17562,17 @@
       {
         "key": "health_bonus",
         "display": "+ {value} de vida",
-        "value": "125 / 165 / 205 / 245"
+        "value": "110 / 150 / 190 / 230"
       },
       {
         "key": "health_regen",
         "display": "+ {value} de regeneração de vida",
         "value": "0 / 4 / 8 / 12"
+      },
+      {
+        "key": "slow_resist",
+        "display": "+ {value}% de resistência a retardos",
+        "value": "0 / 0 / 0 / 25"
       }
     ],
     "mc": false,
@@ -17842,12 +17593,17 @@
       {
         "key": "bonus_damage",
         "display": "+ {value} de dano",
-        "value": "7 / 10 / 13 / 17"
+        "value": "7 / 10 / 13 / 16"
       },
       {
         "key": "armor",
         "display": "+ {value} de armadura",
-        "value": "0 / 4 / 7 / 10"
+        "value": "0 / 4 / 6 / 8"
+      },
+      {
+        "key": "knockback_resist",
+        "display": "+ {value}% de resistência a arremessos",
+        "value": "0 / 0 / 0 / 40"
       }
     ],
     "mc": false,
@@ -17913,8 +17669,8 @@
     "notes": "",
     "attrib": [
       {
-        "key": "slow_resistance",
-        "display": "+ {value}% de resistência a retardos",
+        "key": "health_restoration",
+        "display": "+ {value}% de restauração de vida",
         "value": "20 / 30"
       },
       {
@@ -17972,6 +17728,11 @@
       {
         "key": "bonus_xpm",
         "value": "1000"
+      },
+      {
+        "key": "max_mana_pct",
+        "display": "+ {value}% de mana máx. adicional",
+        "value": "15"
       }
     ],
     "mc": false,
@@ -18057,12 +17818,9 @@
         "value": "8 / 10 / 12"
       },
       {
-        "key": "attack_damage",
-        "value": "0"
-      },
-      {
-        "key": "vision_loss",
-        "value": "0"
+        "key": "bonus_night_vision",
+        "display": "+ {value} de visão noturna adicional",
+        "value": "0 / 0 / 200"
       }
     ],
     "mc": false,
@@ -18186,7 +17944,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "O olho de uma serpente do tamanho de um melão (e tão suculento quanto).",
     "components": null,
     "created": false,
     "charges": false
@@ -18194,7 +17952,7 @@
   "mana_draught": {
     "abilities": [],
     "hint": [
-      "Ativa: Entornar Restaura 30 + 4% do mana máximo do lançador ao longo de 6s. Caso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.\n\nSegure Ctrl para usar em um herói aliado.",
+      "Ativa: Entornar Restaura 60 + 4% do mana máximo do lançador ao longo de 6s. Caso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.\n\nSegure Ctrl para usar em um herói aliado.",
       "Passiva: Envasar Acelera o intervalo entre usos do Frasco de Mana em 30% enquanto estiver na água.",
       "Em inglês: Mana Draught "
     ],
@@ -18211,7 +17969,7 @@
     "attrib": [
       {
         "key": "mana_restore",
-        "value": "30"
+        "value": "60"
       },
       {
         "key": "mana_restore_pct",
@@ -18229,7 +17987,7 @@
     "mc": false,
     "hc": false,
     "cd": 60,
-    "lore": "",
+    "lore": "Uma bebida refrescante, ótima para compartilhar com os amigos.",
     "components": null,
     "created": false,
     "charges": false
@@ -18272,7 +18030,7 @@
     "mc": false,
     "hc": false,
     "cd": 25,
-    "lore": "",
+    "lore": "Os horticultores feéricos de Revtel são conhecidos por ultrapassar os limites da polinização cruzada e da segurança.",
     "components": null,
     "created": false,
     "charges": false
@@ -18280,7 +18038,7 @@
   "crippling_crossbow": {
     "abilities": [],
     "hint": [
-      "Ativa: Disparo na Canela Atinge um inimigo, causando 75 de dano e 80% de retardo, além de reduzir curas em 40% durante 4s. O retardo perde a eficácia gradualmente ao longo da duração.",
+      "Ativa: Disparo na Canela Atinge um inimigo, causando 75 de dano e 80% de retardo, além de reduzir restaurações de vida em 40% durante 4s. O retardo perde a eficácia gradualmente ao longo da duração.",
       "Em inglês: Crippling Crossbow "
     ],
     "id": 1601,
@@ -18319,7 +18077,7 @@
     "mc": 50,
     "hc": false,
     "cd": 12,
-    "lore": "",
+    "lore": "A madeira porosa desta besta imbui cada disparo com uma seiva narcótica poderosa mas de curta duração.",
     "components": null,
     "created": false,
     "charges": false
@@ -18359,7 +18117,7 @@
     "mc": false,
     "hc": false,
     "cd": 30,
-    "lore": "",
+    "lore": "Ao ouvir com atenção, é sempre possível confiar as suas intenções aos ventos.",
     "components": null,
     "created": false,
     "charges": false
@@ -18391,7 +18149,7 @@
     "mc": false,
     "hc": false,
     "cd": 6,
-    "lore": "",
+    "lore": "Uma pegadinha \\\"inofensiva\\\" que foi longe demais.",
     "components": null,
     "created": false,
     "charges": false
@@ -18427,7 +18185,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "Para torturar um feiticeiro, é preciso desenvolver meios muito além do mundano.",
     "components": null,
     "created": false,
     "charges": false
@@ -18459,7 +18217,7 @@
     "mc": false,
     "hc": false,
     "cd": 1,
-    "lore": "",
+    "lore": "Muito perigosa para trabalhos manuais, o único propósito desta lâmina são os assassinatos cruéis.",
     "components": null,
     "created": false,
     "charges": false
@@ -18467,7 +18225,7 @@
   "polliwog_charm": {
     "abilities": [],
     "hint": [
-      "Ativa: Coaxar Aumenta a regeneração de vida de um aliado-alvo em 8 durante 14s. Enquanto em cima da água, a unidade abençoada também se move 10% mais rápido.",
+      "Ativa: Coaxar Aumenta a regeneração de vida de um aliado-alvo em 8 durante 14s. Enquanto estiver em cima d'água, a unidade abençoada também se move 10% mais rápido.",
       "Em inglês: Pollywog Charm "
     ],
     "id": 1606,
@@ -18500,7 +18258,7 @@
     "mc": false,
     "hc": false,
     "cd": 45,
-    "lore": "",
+    "lore": "Um pequeno pingente que vibra quando molhado.",
     "components": null,
     "created": false,
     "charges": false
@@ -18536,7 +18294,7 @@
     "mc": false,
     "hc": false,
     "cd": false,
-    "lore": "",
+    "lore": "Refinamento mortal.",
     "components": null,
     "created": false,
     "charges": false
@@ -18571,7 +18329,7 @@
     "mc": false,
     "hc": false,
     "cd": 40,
-    "lore": "",
+    "lore": "Alguns generais se preocupam bem menos com a sobrevivência dos seus soldados do que a destruição dos seus inimigos.",
     "components": null,
     "created": false,
     "charges": false
@@ -18685,6 +18443,549 @@
     "components": null,
     "created": false,
     "charges": 4
+  },
+  "crystal_raindrop": {
+    "abilities": [],
+    "hint": [
+      "Ativa: Cristalizar Durante os próximos 8s, até 3 instâncias de dano arcano acima de 30 têm o seu dano reduzido em 75.",
+      "Em inglês: Crystal Raindrop "
+    ],
+    "id": 1636,
+    "img": "/assets/images/dota/items/crystal_raindrop.jpg?t=1593393829403",
+    "cost": 0,
+    "behavior": [
+      "Instant Cast",
+      "No Target"
+    ],
+    "notes": "",
+    "attrib": [
+      {
+        "key": "damage_block",
+        "value": "75"
+      },
+      {
+        "key": "damage_block_instances",
+        "value": "3"
+      },
+      {
+        "key": "damage_threshold",
+        "value": "30"
+      },
+      {
+        "key": "buff_duration",
+        "value": "8"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": 70,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "kobold_cup": {
+    "abilities": [],
+    "hint": [
+      "Ativa: Saideira Aumenta a velocidade de movimento de todas as unidades aliadas ao seu redor.",
+      "Em inglês: Kobold Cup "
+    ],
+    "id": 1637,
+    "img": "/assets/images/dota/items/kobold_cup.jpg?t=1593393829403",
+    "cost": 0,
+    "behavior": [
+      "Instant Cast",
+      "No Target"
+    ],
+    "notes": "",
+    "attrib": [
+      {
+        "key": "movespeed_pct",
+        "display": "VELOCIDADE DE MOVIMENTO: {value}%",
+        "value": "10"
+      },
+      {
+        "key": "buff_radius",
+        "display": "RAIO DO EFEITO: {value}",
+        "value": "1000"
+      },
+      {
+        "key": "buff_duration",
+        "display": "DURAÇÃO DO EFEITO: {value}",
+        "value": "6"
+      }
+    ],
+    "mc": 40,
+    "hc": false,
+    "cd": 40,
+    "lore": "O Rei Kobold beberá na hora que ele bem entender.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "dormant_curio": {
+    "abilities": [],
+    "hint": [
+      "Passiva: Potencial Oculto Artefatos neutros fabricados ao segurar um Tesouro Adormecido têm a sua potência aumentada em 30%.",
+      "Em inglês: Dormant Curio "
+    ],
+    "id": 1638,
+    "img": "/assets/images/dota/items/dormant_curio.jpg?t=1593393829403",
+    "cost": 0,
+    "notes": "Amplificará um atributo do próximo artefato em 30%. Não pode afetar intervalos entre usos, custos de mana e alcances de uso.",
+    "attrib": [
+      {
+        "key": "item_potency",
+        "value": "30"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "Querer não é poder.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "sisters_shroud": {
+    "abilities": [],
+    "hint": [
+      "Passiva: Sob o Véu Ao ficar com menos de 50% de vida, ganha 200% de esquiva durante 8s. Durante este efeito, esquivar-se de um ataque reduz a esquiva adicional em 75% do valor atual.",
+      "Passiva: Último Abraço O intervalo entre usos deste item só é zerado caso o portador morra ou mate um herói inimigo.",
+      "Em inglês: Sister's Shroud "
+    ],
+    "id": 1639,
+    "img": "/assets/images/dota/items/sisters_shroud.jpg?t=1593393829403",
+    "cost": 0,
+    "notes": "Não é ativado pelo dano causado por criaturas não controladas por heróis.",
+    "attrib": [
+      {
+        "key": "hp_threshold",
+        "value": "50"
+      },
+      {
+        "key": "evasion_max",
+        "value": "200"
+      },
+      {
+        "key": "evasion_loss",
+        "value": "75"
+      },
+      {
+        "key": "max_duration",
+        "value": "8"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "Uma mortalha que cobriu o sarcófago da Primeira Irmã.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "jidi_pollen_bag": {
+    "abilities": [],
+    "hint": [
+      "Ativa: Polinizar Lança o pólen em todas as unidades inimigas próximas, reduzindo restaurações de vida e causando dano ao longo do tempo com base na vida máxima.",
+      "Em inglês: Jidi Pollen Bag "
+    ],
+    "id": 1640,
+    "img": "/assets/images/dota/items/jidi_pollen_bag.jpg?t=1593393829403",
+    "cost": 0,
+    "behavior": [
+      "Instant Cast",
+      "No Target"
+    ],
+    "notes": "O dano não é letal, e é classificado como remoção de vida.",
+    "attrib": [
+      {
+        "key": "health_regen_loss",
+        "display": "PERDA DE RESTAURAÇÃO DE VIDA: {value}%",
+        "value": "20"
+      },
+      {
+        "key": "hp_damage",
+        "display": "DANO TOTAL POR VIDA MÁX.: {value}%",
+        "value": "12"
+      },
+      {
+        "key": "debuff_radius",
+        "display": "RAIO: {value}",
+        "value": "700"
+      },
+      {
+        "key": "debuff_duration",
+        "display": "DURAÇÃO: {value}",
+        "value": "12"
+      },
+      {
+        "key": "damage_interval",
+        "value": "1"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": 45,
+    "lore": "Muito perigoso. Muito difícil de se encontrar.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "outworld_staff": {
+    "abilities": [],
+    "hint": [
+      "Ativa: Autoexílio Remove o usuário do mundo durante 0.7s, tornando-o invulnerável e desativado. Ao retornar para o mundo, sofre 5% da vida máxima como dano.",
+      "Em inglês: Outworld Staff "
+    ],
+    "id": 1641,
+    "img": "/assets/images/dota/items/outworld_staff.jpg?t=1593393829403",
+    "cost": 0,
+    "behavior": [
+      "Instant Cast",
+      "No Target"
+    ],
+    "notes": "O dano sofrido ao retornar desativa a Adaga de Translocação e outros itens que são calados ao sofrer dano, mas não é letal.",
+    "attrib": [
+      {
+        "key": "invuln_duration",
+        "value": ".7"
+      },
+      {
+        "key": "self_dmg_pct",
+        "value": "5"
+      }
+    ],
+    "mc": 40,
+    "hc": false,
+    "cd": 30,
+    "lore": "Prova de que o sentinela solitário nem sempre foi assim.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "dezun_bloodrite": {
+    "abilities": [],
+    "hint": [
+      "Passiva: Invocação Sangrenta Aumenta as suas áreas de efeito de habilidades e itens em 15%, mas também adiciona um custo de vida equivalente a 35% do custo de mana.",
+      "Em inglês: Dezun Bloodcharm "
+    ],
+    "id": 1642,
+    "img": "/assets/images/dota/items/dezun_bloodrite.jpg?t=1593393829403",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "health_pct",
+        "value": "35"
+      },
+      {
+        "key": "aoe_pct",
+        "value": "15"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "Um portal para uma linhagem perdida de poder, alcançado somente com sangue.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "giant_maul": {
+    "abilities": [],
+    "hint": [
+      "Passiva: Golpe Esmagador Fortalece o seu próximo ataque para causar um acerto crítico. Heróis atingidos com esse ataque fortalecido sofrem redução temporária das velocidades de movimento, ataque e lançamento.",
+      "Em inglês: Giant's Maul "
+    ],
+    "id": 1643,
+    "img": "/assets/images/dota/items/giant_maul.jpg?t=1593393829403",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "crit_multiplier",
+        "display": "DANO CRÍTICO: {value}%",
+        "value": "150"
+      },
+      {
+        "key": "movespeed_slow",
+        "display": "RETARDO DE MOVIMENTO: {value}%",
+        "value": "10"
+      },
+      {
+        "key": "attack_slow",
+        "display": "RETARDO DE ATAQUE: {value}%",
+        "value": "15"
+      },
+      {
+        "key": "cast_slow",
+        "display": "RETARDO DE LANÇAMENTO: {value}%",
+        "value": "20"
+      },
+      {
+        "key": "debuff_duration",
+        "display": "DURAÇÃO: {value}",
+        "value": "4"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": 15,
+    "lore": "Bruto, mas esmagadoramente eficaz.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "divine_regalia": {
+    "abilities": [],
+    "hint": [
+      "Passiva: Exaltação Aumenta todo o dano causado em 20%. Morrer desativa este item neutro permanentemente, e o encantamento atual é perdido.",
+      "Em inglês: Divine Regalia "
+    ],
+    "id": 1644,
+    "img": "/assets/images/dota/items/divine_regalia.jpg?t=1593393829403",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "outgoing_damage",
+        "value": "20"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "Tão magnífica que não tolera o fracasso.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "divine_regalia_broken": {
+    "abilities": [],
+    "hint": [
+      "Passiva: Desdém Você morreu, então não recebe nada.",
+      "Em inglês: Disgraced Regalia "
+    ],
+    "id": 1645,
+    "img": "/assets/images/dota/items/divine_regalia_broken.jpg?t=1593393829403",
+    "cost": 0,
+    "notes": "",
+    "attrib": [],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "Não tolera o fracasso.",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "circlet_of_the_flayed_twins": {
+    "abilities": [],
+    "hint": [
+      "Passiva: Banho de Sangue Converte uma porcentagem do dano sofrido ao longo dos últimos 10s em regeneração de vida, até um limite.",
+      "Em inglês: Circlet of the Flayed Twins "
+    ],
+    "id": 1646,
+    "img": "/assets/images/dota/items/circlet_of_the_flayed_twins.jpg?t=1593393829403",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "damage_to_regen",
+        "display": "DANO PARA REGEN. DE VIDA: {value}%",
+        "value": "10"
+      },
+      {
+        "key": "damage_time",
+        "value": "10"
+      },
+      {
+        "key": "max_regen",
+        "display": "REGENERAÇÃO MÁXIMA: {value}",
+        "value": "12"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "enhancement_fierce": {
+    "id": 1647,
+    "img": "/assets/images/dota/items/enhancement_fierce.jpg?t=1593393829403",
+    "dname": "Ferocidade",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "movement_speed",
+        "display": "+ {value} de velocidade de movimento",
+        "value": "30"
+      },
+      {
+        "key": "bonus_night_vision",
+        "display": "+ {value} de visão noturna adicional",
+        "value": "250"
+      },
+      {
+        "key": "bonus_damage",
+        "display": "+ {value} de dano",
+        "value": "15"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "enhancement_dominant": {
+    "id": 1648,
+    "img": "/assets/images/dota/items/enhancement_dominant.jpg?t=1593393829403",
+    "dname": "Dominância",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "attack_speed",
+        "display": "+ {value} de velocidade de ataque",
+        "value": "25"
+      },
+      {
+        "key": "magic_resist",
+        "display": "+ {value}% de resistência mágica",
+        "value": "15"
+      },
+      {
+        "key": "bonus_health",
+        "display": "+ {value} de vida",
+        "value": "205"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "enhancement_restorative": {
+    "id": 1649,
+    "img": "/assets/images/dota/items/enhancement_restorative.jpg?t=1593393829403",
+    "dname": "Restauração",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "bonus_mana",
+        "display": "+ {value} de mana",
+        "value": "200"
+      },
+      {
+        "key": "bonus_hp_regen",
+        "display": "+ {value} de regeneração de vida",
+        "value": "8"
+      },
+      {
+        "key": "heal_amp",
+        "display": "+ {value}% de amplificação de cura",
+        "value": "10"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "enhancement_thick": {
+    "id": 1650,
+    "img": "/assets/images/dota/items/enhancement_thick.jpg?t=1593393829403",
+    "dname": "Espessura",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "bonus_health",
+        "display": "+ {value} de vida",
+        "value": "240"
+      },
+      {
+        "key": "bonus_mana_regen",
+        "display": "+ {value} de regeneração de mana",
+        "value": "3"
+      },
+      {
+        "key": "bonus_armor",
+        "display": "+ {value} de armadura",
+        "value": "7"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "enhancement_curious": {
+    "id": 1651,
+    "img": "/assets/images/dota/items/enhancement_curious.jpg?t=1593393829403",
+    "dname": "Potencial",
+    "cost": 0,
+    "notes": "",
+    "attrib": [
+      {
+        "key": "item_potency",
+        "display": "+ {value}% de potência do artefato",
+        "value": "30"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
+  },
+  "furion_gold_bag": {
+    "abilities": [],
+    "hint": [
+      "Contém ouro."
+    ],
+    "id": 1652,
+    "img": "/assets/images/dota/items/furion_gold_bag.jpg?t=1593393829403",
+    "dname": "Bolsa de Ouro",
+    "cost": 0,
+    "behavior": [
+      "No Target",
+      "Instant Cast"
+    ],
+    "notes": "",
+    "attrib": [
+      {
+        "key": "gold_bag_duration",
+        "value": "15"
+      }
+    ],
+    "mc": false,
+    "hc": false,
+    "cd": false,
+    "lore": "",
+    "components": null,
+    "created": false,
+    "charges": false
   },
   "diffusal_blade_2": {
     "id": 196,

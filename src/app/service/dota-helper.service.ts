@@ -1,4 +1,7 @@
 import { Injectable } from '@angular/core';
+import { DotaHero, DotaItem, DotaHeroAbilities, DotaHeroSummary } from '@app/model';
+import { Observable, of } from 'rxjs';
+
 import heroesData from './dotaconst/heroes.json';
 import heroesAliases from './dotaconst/heroes_aliases.json';
 import itemsData from './dotaconst/items.json';
@@ -6,9 +9,6 @@ import itemIdsData from './dotaconst/item_ids.json';
 import heroAbilitiesData from './dotaconst/hero_abilities.json';
 import abilityIdsData from './dotaconst/ability_ids.json';
 import abilitiesData from './dotaconst/abilities.json';
-import { DotaHero, DotaItem, DotaHeroAbilities, DotaHeroSummary } from '@app/model';
-import { DotaPlayerPositions } from '@app/shared';
-import { Observable, of } from 'rxjs';
 
 @Injectable({
 	providedIn: 'root'
@@ -159,10 +159,6 @@ export class DotaHelperService {
 
 				return heroData;
 			});
-		}
-
-		if(hero.video) {
-			hero.video_webm = hero.video.replace('.mov', '.webm');
 		}
 
 		if(getPreviousNext) {

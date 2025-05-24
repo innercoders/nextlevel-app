@@ -55,4 +55,15 @@ export interface DotaHero {
 }
 
 // Define a more memory-efficient subset of DotaHero for listings
-export type DotaHeroSummary = Pick<DotaHero, 'id' | 'name' | 'icon' | 'img' | 'localized_name' | 'roles' | 'roleLevels' | 'sanitizedName'>;
+export type DotaHeroSummary = Pick<DotaHero, 
+  'id' | 
+  'name' | 
+  'icon' | 
+  'img' | 
+  'localized_name' | 
+  'roles' | 
+  'roleLevels' | 
+  'sanitizedName' |
+  'positionImage' |
+  'positionLabel'
+>;

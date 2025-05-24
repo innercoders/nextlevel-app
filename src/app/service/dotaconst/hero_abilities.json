@@ -208,7 +208,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_unique_bloodseeker_5",
+        "name": "special_bonus_hp_175",
         "level": 1
       },
       {
@@ -253,11 +253,21 @@
       {
         "id": 1,
         "name": "bloodseeker_bloodrush",
+        "deprecated": "true",
         "icon": "speed",
         "color": "Gray",
         "gradient_id": 1,
         "title": "Correndo Pelas Veias",
         "description": "O Bloodseeker pode impulsionar a velocidade de movimento da <b><font color='#F2A93E'>Sede</font></b> temporariamente."
+      },
+      {
+        "id": 2,
+        "name": "bloodseeker_old_blood",
+        "icon": "debuff",
+        "color": "Gray",
+        "gradient_id": 1,
+        "title": "Sangue Ancestral",
+        "description": "A <b><font color='#F2A93E'>Fúria por Sangue</font></b> silencia o alvo e pode ser usada em inimigos. Aumenta o dano de ataque base, em vez do dano arcano."
       }
     ]
   },
@@ -342,7 +352,7 @@
         "color": "Blue",
         "gradient_id": 2,
         "title": "Sobrecarga Arcana",
-        "description": "Ativar a <b><font color='#F2A93E'>Aura Arcana</font></b> aumenta temporariamente a amplificação arcana, mas também os custos de mana da Crystal Maiden. Durante esse período, a Crystal Maiden restaura o mana dos seus aliados ao usar habilidades."
+        "description": "Ativar a <b><font color='#F2A93E'>Aura Arcana</font></b> aumenta temporariamente a amplificação arcana, mas também os custos de mana da Crystal Maiden. Durante esse período, a Crystal Maiden restaura o seu mana e dos seus aliados ao usar habilidades."
       }
     ]
   },
@@ -421,7 +431,7 @@
       "generic_hidden",
       "generic_hidden",
       "earthshaker_echo_slam",
-      "earthshaker_spirit_cairn"
+      "earthshaker_slugger"
     ],
     "talents": [
       {
@@ -465,19 +475,29 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Acúmulo Tectônico",
-        "description": "Aumenta o raio do <b><font color='#F2A93E'>Tremor Secundário</font></b> em +50 unidades a cada +10 níveis do herói."
+        "description": "Aumenta o raio do <b><font color='#F2A93E'>Tremor Secundário</font></b> em +40 unidades para cada nível do <b><font color='#F2A93E'>Batida Ecoante</font></b>."
       },
       {
         "id": 1,
         "name": "earthshaker_slugger",
+        "deprecated": "true",
         "icon": "movement",
         "color": "Yellow",
         "gradient_id": 1,
-        "title": "Arremessador",
+        "title": "Faceta Arremessador",
         "description": "Inimigos mortos por Encantar Totem e demais habilidades do Earthshaker são arremessados, causando dano a inimigos atingidos.",
         "abilities": [
           "earthshaker_slugger"
         ]
+      },
+      {
+        "id": 2,
+        "name": "earthshaker_reverberating_ridge",
+        "icon": "ricochet",
+        "color": "Gray",
+        "gradient_id": 2,
+        "title": "Cume Ressonante",
+        "description": "Heróis inimigos atordoados pela <b><font color='#F2A93E'>Fissura</font></b> emitem um eco contra cada inimigo próximo."
       }
     ]
   },
@@ -512,7 +532,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_juggernaut_blade_fury_cooldown",
+        "name": "special_bonus_unique_juggernaut",
         "level": 3
       },
       {
@@ -634,7 +654,7 @@
         "color": "Gray",
         "gradient_id": 3,
         "title": "Ater-raiz-sagem",
-        "description": "Ao aterrissar do <b><font color='#F2A93E'>Salto</font></b>, enraíza alvos em uma área de +250 unidades durante =1.1 =1.4 =1.7 =2.0s."
+        "description": "Ao aterrissar do <b><font color='#F2A93E'>Salto</font></b>, enraíza alvos em uma área de +250 unidades durante =1.5 =1.75 =2.0 =2.25s."
       }
     ]
   },
@@ -737,7 +757,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_agility_20",
+        "name": "special_bonus_agility_15",
         "level": 3
       },
       {
@@ -803,7 +823,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_phantom_lancer",
+        "name": "special_bonus_unique_phantom_lancer_lance_illusion_damage",
         "level": 3
       },
       {
@@ -910,7 +930,7 @@
         "color": "Blue",
         "gradient_id": 2,
         "title": "Bola Curva",
-        "description": "O <b><font color='#F2A93E'>Orbe Ilusório</font></b> pode ser curvado em qualquer direção. Move-se mais rápido e dura mais."
+        "description": "O <b><font color='#F2A93E'>Orbe Ilusório</font></b> pode ser curvado em qualquer direção. Move-se mais rápido, causa mais dano e dura mais."
       }
     ]
   },
@@ -1048,7 +1068,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Dínamo",
-        "description": "Razor ganha 1% de amplificação arcana para cada 20 pontos de dano de ataque.",
+        "description": "Razor ganha 1.25% de amplificação arcana para cada 20 pontos de dano de ataque.",
         "abilities": [
           "razor_dynamo"
         ]
@@ -1102,6 +1122,7 @@
       {
         "id": 0,
         "name": "sand_king_sandshroud",
+        "deprecated": "true",
         "icon": "vision",
         "color": "Gray",
         "gradient_id": 3,
@@ -1111,11 +1132,30 @@
       {
         "id": 1,
         "name": "sand_king_dust_devil",
+        "deprecated": "true",
         "icon": "speed",
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Redemoinho de Poeira",
         "description": "A <b><font color='#F2A93E'>Tempestade de Areia</font></b> segue o Sand King quando ele se move."
+      },
+      {
+        "id": 2,
+        "name": "sand_king_obscurity",
+        "icon": "no_vision",
+        "color": "Yellow",
+        "gradient_id": 3,
+        "title": "Areia nos Olhos",
+        "description": "Quando o Sand King atacar inimigos na <b><font color='#F2A93E'>Tempestade de Areia</font></b>, ele aplica uma cegueira ao alvo."
+      },
+      {
+        "id": 3,
+        "name": "sand_king_pinpoint",
+        "icon": "area_of_effect",
+        "color": "Red",
+        "gradient_id": 1,
+        "title": "Fim da Picada",
+        "description": "Cria uma explosão da <b><font color='#F2A93E'>Finalização Cáustica</font></b> em torno de cada herói inimigo atingido pelo raio interno da <b><font color='#F2A93E'>Ferroada</font></b>."
       }
     ]
   },
@@ -1439,8 +1479,8 @@
         "icon": "speed",
         "color": "Yellow",
         "gradient_id": 2,
-        "title": "Vento de Cauda",
-        "description": "<b><font color='#F2A93E'>Correr nos Ventos</font></b> concede velocidade de movimento adicional à Windranger e aliados próximos."
+        "title": "",
+        "description": ""
       },
       {
         "id": 1,
@@ -1449,7 +1489,7 @@
         "icon": "focus_fire",
         "color": "Yellow",
         "gradient_id": 2,
-        "title": "Disparos Concentrados",
+        "title": "Faceta dos Disparos Concentrados",
         "description": "Os <b><font color='#F2A93E'>Disparos Concentrados</font></b> atacam rapidamente um único alvo."
       },
       {
@@ -1494,7 +1534,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_mp_regen_175",
+        "name": "special_bonus_unique_zeus",
         "level": 1
       },
       {
@@ -1506,7 +1546,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_zeus",
+        "name": "special_bonus_unique_zeus_6",
         "level": 2
       },
       {
@@ -1608,7 +1648,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Bebida a Domicílio",
-        "description": "Quando <b><font color='#F2A93E'>X Marca o Local</font></b> retorna o seu alvo, todos os aliados próximos ganham o efeito aprimorado do atraso de dano do golão do <b><font color='#F2A93E'>Rum do Almirante</font></b> concedido pelo <b><font color='#F2A93E'>Navio Fantasma</font></b>."
+        "description": "Quando <b><font color='#F2A93E'>X Marca o Local</font></b> retornar o seu alvo, Kunkka e os aliados próximos do ponto de retorno ganham o efeito do <b><font color='#F2A93E'>Rum do Almirante</font></b> concedido pelo <b><font color='#F2A93E'>Navio Fantasma</font></b>."
       }
     ]
   },
@@ -1726,6 +1766,7 @@
       {
         "id": 0,
         "name": "lich_frostbound",
+        "deprecated": "1",
         "icon": "snowflake",
         "color": "Blue",
         "gradient_id": 0,
@@ -1740,6 +1781,15 @@
         "gradient_id": 0,
         "title": "Friagem Crescente",
         "description": "Quando um inimigo for morto pelo <b><font color='#F2A93E'>Congelamento em Cadeia</font></b> ou sob efeito do <b><font color='#F2A93E'>Escudo Congelado</font></b>, aumenta a duração dessas habilidades."
+      },
+      {
+        "id": 2,
+        "name": "lich_cryophobia",
+        "icon": "vision",
+        "color": "Red",
+        "gradient_id": 0,
+        "title": "Mau-Olhado",
+        "description": "O Olhar Penetrante aplica um efeito persistente, que causará dano adicional sempre que o Lich causar dano mágico ao alvo, além de amplificar retardos de movimento."
       }
     ]
   },
@@ -1880,7 +1930,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Super Serpente Sentinela",
-        "description": "Cria uma única <b><font color='#F2A93E'>Serpente Sentinela</font></b> com =10x dos valores de dano e recompensa e =10x de vida."
+        "description": "Cria uma única <b><font color='#F2A93E'>Serpente Sentinela</font></b> com =12x de dano e =10x dos valores de vida e recompensa."
       }
     ]
   },
@@ -2063,6 +2113,7 @@
       {
         "id": 0,
         "name": "witch_doctor_headhunter",
+        "deprecated": "1",
         "icon": "ricochet",
         "color": "Gray",
         "gradient_id": 3,
@@ -2087,6 +2138,15 @@
         "gradient_id": 0,
         "title": "Morte Fendida",
         "description": "A <b><font color='#F2A93E'>Sentinela da Morte</font></b> ataca múltiplos alvos por vez, com dano reduzido."
+      },
+      {
+        "id": 3,
+        "name": "witch_doctor_malpractice",
+        "icon": "nuke",
+        "color": "Red",
+        "gradient_id": 2,
+        "title": "Erro Médico",
+        "description": "Inimigos que morrerem sob efeito de <b><font color='#F2A93E'>Amaldiçoar</font></b> explodem."
       }
     ]
   },
@@ -2625,7 +2685,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Submissão",
-        "description": "A Queen of Pain retorna dano arcano de volta para inimigos.",
+        "description": "A Queen of Pain retorna dano arcano de volta para inimigos. O roubo de vida de Súcubo também se aplica a reflexões de dano puro e mágico.",
         "abilities": [
           "queenofpain_bondage"
         ]
@@ -2663,7 +2723,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_venomancer_gale_plagueward",
+        "name": "special_bonus_attack_base_damage_50",
         "level": 3
       },
       {
@@ -2692,7 +2752,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Carona Envenenada",
-        "description": "Pode fixar <b><font color='#F2A93E'>Sentinelas de Praga</font></b> em aliados, e tem cargas adicionais."
+        "description": "Quando a <b><font color='#F2A93E'>Bola de Veneno</font></b> atingir heróis inimigos, cria +2 <b><font color='#F2A93E'>Sentinelas de Praga</font></b> ao redor deles. <b><font color='#F2A93E'>Sentinelas de Praga</font></b> também causam dano do <b><font color='#F2A93E'>Choque Séptico</font></b> com base no seu dano de ataque."
       }
     ]
   },
@@ -2747,8 +2807,8 @@
         "icon": "armor",
         "color": "Green",
         "gradient_id": 0,
-        "title": "Impunidade Temporal",
-        "description": "Previne todo o dano por um breve momento após usar o <b><font color='#F2A93E'>Andar Temporal</font></b>."
+        "title": "",
+        "description": ""
       },
       {
         "id": 1,
@@ -3060,7 +3120,7 @@
         "color": "Purple",
         "gradient_id": 2,
         "title": "Recompensas da Ruína",
-        "description": "Pugna recebe 1.25% de amplificação arcana para cada torre destruída."
+        "description": "Pugna recebe 1.5% de amplificação arcana para cada torre destruída."
       }
     ]
   },
@@ -3254,7 +3314,7 @@
         "icon": "armor",
         "color": "Gray",
         "gradient_id": 3,
-        "title": "Órbita Lunar",
+        "title": "",
         "description": ""
       },
       {
@@ -3347,7 +3407,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Dragão Congelante",
-        "description": "Os ataques do Dragon Knight têm efeitos que causam retardo e redução de cura. Ataques são fortalecidos durante a <b><font color='#F2A93E'>Forma de Dragão Ancestral</font></b>."
+        "description": "Os ataques do Dragon Knight têm efeitos que causam retardo e redução de restaurações de vida. Ataques são fortalecidos durante a <b><font color='#F2A93E'>Forma de Dragão Ancestral</font></b>."
       }
     ]
   },
@@ -3451,7 +3511,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_clockwerk_flare_damage",
+        "name": "special_bonus_unique_clockwerk_2",
         "level": 3
       },
       {
@@ -3481,6 +3541,15 @@
         "gradient_id": 2,
         "title": "Expansão Mecânica",
         "description": "As <b><font color='#F2A93E'>Engrenagens Elétricas</font></b> são formadas em um raio maior."
+      },
+      {
+        "id": 2,
+        "name": "rattletrap_junk_mail",
+        "icon": "armor",
+        "color": "Yellow",
+        "gradient_id": 1,
+        "title": "Malhação",
+        "description": "O Clockwerk pode consumir Cotas de Malha para ganhar permanentemente +=4 de armadura."
       }
     ]
   },
@@ -3574,7 +3643,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_furion_teleportation_barrier",
+        "name": "special_bonus_unique_furion_8",
         "level": 2
       },
       {
@@ -3602,16 +3671,29 @@
         "color": "Green",
         "gradient_id": 0,
         "title": "Mudas Calmantes",
-        "description": "Aliados dentro e próximos do exterior de <b><font color='#F2A93E'>Brotar</font></b> são curados ao longo do tempo."
+        "description": "Após usar <b><font color='#F2A93E'>Brotar</font></b>, todas as árvores em um raio de +1200 unidades curam aliados próximos."
       },
       {
         "id": 1,
         "name": "furion_ironwood_treant",
+        "deprecated": "true",
         "icon": "siege",
         "color": "Blue",
         "gradient_id": 2,
         "title": "Treant Galho-de-Ferro",
         "description": "O <b><font color='#F2A93E'>Chamado da Natureza</font></b> cria apenas =1 =1 =1 =1 treant, que tem mais vida, dano, velocidade de movimento, visão, e é uma unidade reforçada."
+      },
+      {
+        "id": 2,
+        "name": "furion_natures_profit",
+        "icon": "gold",
+        "color": "Yellow",
+        "gradient_id": 2,
+        "title": "Brotando Bufunfa",
+        "description": "Sempre que o Nature's Prophet matar um herói inimigo, ou algum morrer próximo dele, uma árvore de dinheiro é criada no seu lugar, espalhando bolsas de ouro que podem ser coletadas.",
+        "abilities": [
+          "furion_natures_profit"
+        ]
       }
     ]
   },
@@ -3667,8 +3749,8 @@
         "icon": "armor",
         "color": "Yellow",
         "gradient_id": 3,
-        "title": "Devorador de Cadáveres",
-        "description": "O Lifestealer ganha 1 de vida sempre que matar uma criatura, e 15 de vida sempre que matar um herói.",
+        "title": "",
+        "description": "",
         "abilities": [
           "life_stealer_corpse_eater"
         ]
@@ -3809,7 +3891,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_attack_range_75",
+        "name": "special_bonus_attack_range_60",
         "level": 2
       },
       {
@@ -4102,7 +4184,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_strength_20",
+        "name": "special_bonus_strength_15",
         "level": 3
       },
       {
@@ -4167,7 +4249,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_broodmother_5",
+        "name": "special_bonus_unique_broodmother_2",
         "level": 2
       },
       {
@@ -4175,7 +4257,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_broodmother_2",
+        "name": "special_bonus_unique_broodmother_5",
         "level": 3
       },
       {
@@ -4227,7 +4309,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_attack_damage_20",
+        "name": "special_bonus_attack_damage_25",
         "level": 1
       },
       {
@@ -4484,23 +4566,20 @@
       {
         "id": 0,
         "name": "batrider_buff_on_displacement",
-        "icon": "speed",
-        "color": "Yellow",
-        "gradient_id": 1,
+        "icon": "nuke",
+        "color": "Red",
+        "gradient_id": 0,
         "title": "Animação Ardente",
-        "description": "O Batrider ganha velocidade de movimento e amplificação arcana ao deslocar inimigos.",
-        "abilities": [
-          "batrider_stoked"
-        ]
+        "description": "O <b><font color='#F2A93E'>Rastro de Chamas</font></b> também incendeia o Batrider. Ele ganha velocidade de movimento e amplificação arcana gradualmente, mas queima parte da sua vida máxima por segundo."
       },
       {
         "id": 1,
         "name": "batrider_arsonist",
-        "icon": "siege",
-        "color": "Red",
-        "gradient_id": 0,
+        "icon": "damage",
+        "color": "Yellow",
+        "gradient_id": 1,
         "title": "Incendiário",
-        "description": "O <b><font color='#F2A93E'>Napalm Pegajoso</font></b> causa dano a estruturas."
+        "description": "Aumenta o nível máximo do <b><font color='#F2A93E'>Napalm Pegajoso</font></b>. No nível =5, faz com que cada ataque aplique 1 acúmulo de <b><font color='#F2A93E'>Napalm Pegajoso</font></b>."
       }
     ]
   },
@@ -4531,7 +4610,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_chen_7",
+        "name": "special_bonus_unique_chen_divine_favor_healing",
         "level": 3
       },
       {
@@ -4731,7 +4810,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Barganha do Diabo",
-        "description": "O Doom pode vender itens por 90% do seu valor, mas os seus custos de recompra para renascer são aumentados em 20%.",
+        "description": "O Doom pode vender itens por 85% do seu valor, mas os seus custos de recompra para renascer são aumentados em 20%.",
         "abilities": [
           "doom_bringer_devils_bargain"
         ]
@@ -5089,7 +5168,7 @@
         "color": "Green",
         "gradient_id": 2,
         "title": "Dividendos",
-        "description": "O Alchemist ganha ++75 de OPM para cada Cetro de Aghanim que ele tenha concedido a aliados."
+        "description": "O Alchemist ganha ++70 de OPM para cada Cetro de Aghanim que ele tenha concedido a aliados."
       }
     ]
   },
@@ -5122,7 +5201,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_invoker_11",
+        "name": "special_bonus_unique_invoker_facet_orb_level",
         "level": 2
       },
       {
@@ -5149,50 +5228,30 @@
     "facets": [
       {
         "id": 0,
-        "name": "invoker_agnostic",
-        "deprecated": "true",
-        "icon": "invoker_passive",
-        "color": "Purple",
-        "gradient_id": 0,
-        "title": "Agnóstico",
-        "description": "Os seus orbes concedem <b><font color='#7998b5'>dano ao longo do tempo</font></b>, <b><font color='#d671a9'>velocidade de ataque</font></b> e <b><font color='#cabe68'>dano de ataque</font></b> passivamente."
-      },
-      {
-        "id": 1,
-        "name": "invoker_elitist",
-        "deprecated": "true",
-        "icon": "invoker_active",
-        "color": "Gray",
-        "gradient_id": 0,
-        "title": "Elitista",
-        "description": "Os seus orbes ativos concedem <b><font color='#7998b5'>roubo de vida</font></b>, <b><font color='#d671a9'>velocidade de movimento</font></b> e <b><font color='#cabe68'>amplificação arcana</font></b>."
-      },
-      {
-        "id": 2,
         "name": "invoker_quas_focus",
         "icon": "invoker_quas",
         "color": "Blue",
         "gradient_id": 0,
         "title": "Aluno de Koryx",
-        "description": "<b><font color='#7998b5'>Quas</font></b> recebe um nível máximo adicional. Quando o Invoker atingir o nível 6, <b><font color='#7998b5'>Quas</font></b> recebe um nível adicional.<br><br>Quando a <b><font color='#F2A93E'>Onda de Frio</font></b> é ativada, cura e restaura mana do Invoker.<br><br>O <b><font color='#92acf5'>Cetro de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Andar Fantasma</font></b> e concede 2 níveis adicionais atual e máximo para <b><font color='#7998b5'>Quas</font></b>, aumentando para 10.<br><br>O <b><font color='#92acf5'>Fragmento de Aghanim</font></b> aprimora a <b><font color='#F2A93E'>Parede de Gelo</font></b>."
+        "description": "<b><font color='#7998b5'>Quas</font></b> recebe um nível máximo adicional. Quando o Invoker atingir o nível 6, <b><font color='#7998b5'>Quas</font></b> recebe um nível adicional.<br><br>O <b><font color='#92acf5'>Cetro de Aghanim</font></b> aprimora a <b><font color='#F2A93E'>Parede de Gelo</font></b>.<br><br>O <b><font color='#92acf5'>Fragmento de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Andar Fantasma</font></b>."
       },
       {
-        "id": 3,
+        "id": 1,
         "name": "invoker_wex_focus",
         "icon": "invoker_wex",
         "color": "Purple",
         "gradient_id": 0,
         "title": "Mente de Tornarus",
-        "description": "<b><font color='#d671a9'>Wex</font></b> recebe um nível máximo adicional. Quando o Invoker atingir o nível 6, <b><font color='#d671a9'>Wex</font></b> recebe um nível adicional.<br><br><b><font color='#F2A93E'>Alacridade</font></b> concede alcance de ataque adicional quando usada no Invoker ou unidades de longo alcance sob o seu controle.<br><br>O <b><font color='#92acf5'>Cetro de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Tornado</font></b> e concede 2 níveis adicionais atual e máximo para <b><font color='#d671a9'>Wex</font></b>, aumentando para 10.<br><br>O <b><font color='#92acf5'>Fragmento de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Pulso Eletromagnético</font></b>."
+        "description": "<b><font color='#d671a9'>Wex</font></b> recebe um nível máximo adicional. Quando o Invoker atingir o nível 6, <b><font color='#d671a9'>Wex</font></b> recebe um nível adicional.<br><br>O <b><font color='#92acf5'>Cetro de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Tornado</font></b>.<br><br>O <b><font color='#92acf5'>Fragmento de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Pulso Eletromagnético</font></b>."
       },
       {
-        "id": 4,
+        "id": 2,
         "name": "invoker_exort_focus",
         "icon": "invoker_exort",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Agente de Gallaron",
-        "description": "<b><font color='#cabe68'>Exort</font></b> recebe um nível máximo adicional. Quando o Invoker atingir o nível 6, <b><font color='#cabe68'>Exort</font></b> recebe um nível adicional.<br><br>Aumenta o raio e a distância percorrida pelo <b><font color='#F2A93E'>Meteoro do Caos</font></b>.<br><br>O <b><font color='#92acf5'>Cetro de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Raio Solar</font></b> e concede 2 níveis adicionais atual e máximo para <b><font color='#cabe68'>Exort</font></b>, aumentando para 10.<br><br>O <b><font color='#92acf5'>Fragmento de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Raio Solar</font></b>."
+        "description": "<b><font color='#cabe68'>Exort</font></b> recebe um nível máximo adicional. Quando o Invoker atingir o nível 6, <b><font color='#cabe68'>Exort</font></b> recebe um nível adicional.<br><br>O <b><font color='#92acf5'>Cetro de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Raio Solar</font></b>.<br><br>O <b><font color='#92acf5'>Fragmento de Aghanim</font></b> aprimora o <b><font color='#F2A93E'>Raio Solar</font></b>."
       }
     ]
   },
@@ -5223,7 +5282,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_silencer_glaives_bounces",
+        "name": "special_bonus_unique_silencer_5",
         "level": 3
       },
       {
@@ -5243,6 +5302,7 @@
       {
         "id": 0,
         "name": "silencer_irrepressible",
+        "deprecated": "1",
         "icon": "silencer",
         "color": "Purple",
         "gradient_id": 1,
@@ -5255,11 +5315,33 @@
       {
         "id": 1,
         "name": "silencer_reverberating_silence",
+        "deprecated": "1",
         "icon": "debuff",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Silêncio Reverberante",
         "description": "Na primeira vez que o <b><font color='#F2A93E'>Silêncio Global</font></b> for encerrado em uma unidade, ele é aplicado novamente."
+      },
+      {
+        "id": 2,
+        "name": "silencer_spread_the_knowledge",
+        "icon": "ricochet",
+        "color": "Purple",
+        "gradient_id": 1,
+        "title": "Divisão Sináptica",
+        "description": "Aumenta o nível máximo das <b><font color='#F2A93E'>Glaives da Sabedoria</font></b>. No nível =5, as <b><font color='#F2A93E'>Glaives da Sabedoria</font></b> saltam +1 vez para um alvo aleatório em até +450 unidades de distância."
+      },
+      {
+        "id": 3,
+        "name": "silencer_oppressive_silence",
+        "icon": "debuff",
+        "color": "Gray",
+        "gradient_id": 3,
+        "title": "Sofrimento Silencioso",
+        "description": "O Silencer sofre menos dano de alvos silenciados, e causa mais dano a eles.",
+        "abilities": [
+          "silencer_oppressive_silence"
+        ]
       }
     ]
   },
@@ -5278,7 +5360,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_mp_250",
+        "name": "special_bonus_mp_200",
         "level": 1
       },
       {
@@ -5432,7 +5514,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_attack_speed_100",
+        "name": "special_bonus_attack_speed_110",
         "level": 3
       },
       {
@@ -5786,8 +5868,7 @@
       "treant_living_armor",
       "treant_eyes_in_the_forest",
       "treant_natures_guise",
-      "treant_overgrowth",
-      "treant_innate_attack_damage"
+      "treant_overgrowth"
     ],
     "talents": [
       {
@@ -5831,7 +5912,10 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Poder Primitivo",
-        "description": "O Treant ganha ++6 de dano de ataque base por nível de herói."
+        "description": "O Treant ganha +{s:attack_damage_per_level} de dano de ataque base por nível de herói.",
+        "abilities": [
+          "treant_innate_attack_damage"
+        ]
       },
       {
         "id": 1,
@@ -6019,6 +6103,14 @@
       {
         "name": "special_bonus_unique_rubick_5",
         "level": 4
+      },
+      {
+        "name": "rubick_hidden3",
+        "level": 5
+      },
+      {
+        "name": "rubick_hidden4",
+        "level": 5
       }
     ],
     "facets": [
@@ -6065,7 +6157,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_disruptor_7",
+        "name": "special_bonus_unique_disruptor",
         "level": 2
       },
       {
@@ -6073,7 +6165,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_disruptor",
+        "name": "special_bonus_unique_disruptor_7",
         "level": 3
       },
       {
@@ -6093,7 +6185,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Tempestade de Trovões",
-        "description": "O <b><font color='#F2A93E'>Golpe do Trovão</font></b> também atinge todos os inimigos dentro do <b><font color='#F2A93E'>Campo Cinético</font></b>."
+        "description": "O <b><font color='#F2A93E'>Golpe do Trovão</font></b> também atinge todos os inimigos dentro do <b><font color='#F2A93E'>Campo Cinético</font></b>. Dobra a duração do retardo do <b><font color='#F2A93E'>Golpe do Trovão</font></b>."
       },
       {
         "id": 1,
@@ -6106,6 +6198,15 @@
         "abilities": [
           "disruptor_kinetic_fence"
         ]
+      },
+      {
+        "id": 2,
+        "name": "disruptor_conduit",
+        "icon": "vortex_out",
+        "color": "Gray",
+        "gradient_id": 0,
+        "title": "Transferência",
+        "description": "A <b><font color='#F2A93E'>Repulsão Eletromagnética</font></b> pode ser ativada manualmente e usada em aliados, causando dano proporcional à vida atual do Disruptor."
       }
     ]
   },
@@ -6170,7 +6271,7 @@
         "color": "Red",
         "gradient_id": 2,
         "title": "Embalo",
-        "description": "Pelos primeiros =15s da Vendeta, o Nyx move-se com Ímpeto e caminho desobstruído."
+        "description": "Pelos primeiros =15s da <b><font color='#F2A93E'>Vendeta</font></b>, o Nyx Assassin move-se com Ímpeto e caminho desobstruído."
       }
     ]
   },
@@ -6214,7 +6315,7 @@
         "level": 4
       },
       {
-        "name": "special_bonus_unique_naga_siren_net_breaks",
+        "name": "special_bonus_agility_25",
         "level": 4
       }
     ],
@@ -6238,7 +6339,7 @@
         "color": "Green",
         "gradient_id": 2,
         "title": "Dilúvio",
-        "description": "A Naga Siren pode lançar água em torno de si e das suas ilusões, causando dano a inimigos e reduzindo a resistência estática.",
+        "description": "A Naga Siren pode lançar água em torno de si e das suas ilusões, causando dano a inimigos e limitando a velocidade de movimento máxima deles.",
         "abilities": [
           "naga_siren_deluge"
         ]
@@ -6312,7 +6413,7 @@
         "color": "Gray",
         "gradient_id": 3,
         "title": "Revocar",
-        "description": "Em inglês: Recall \n \nApós uma curta pausa, teletransporta o herói aliado alvo para a sua posição. Se o herói aliado alvo sofrer dano de um jogador durante esse tempo, a habilidade é interrompida. Quando usada, aumenta a velocidade de movimento do alvo. Após o teletransporte, aplica a Magia do Chakra e a velocidade de movimento adicional a ambos o Keeper of the Light e o alvo do teletransporte.\n\nO uso alternativo, por sua vez, teletransporta o Keeper of the Light para o aliado-alvo.\n\nO nível da habilidade é igual ao nível da Forma Espiritual .",
+        "description": "Em inglês: Recall \n \nApós uma curta pausa, teletransporta o herói aliado alvo para a sua posição. Se o herói aliado alvo sofrer dano de um jogador durante esse tempo, a habilidade é interrompida. Quando usada, aumenta a velocidade de movimento do alvo. Após o teletransporte, aplica a velocidade de movimento adicional a ambos o Keeper of the Light e o alvo do teletransporte, que também recebe uma Magia do Chakra .\n\nO uso alternativo, por sua vez, teletransporta o Keeper of the Light para o aliado-alvo.\n\nO nível da habilidade é igual ao nível da Forma Espiritual .",
         "abilities": [
           "keeper_of_the_light_recall"
         ]
@@ -6328,7 +6429,7 @@
       "wisp_spirits_out",
       "wisp_relocate",
       "wisp_tether_break",
-      "wisp_sight_seer"
+      "wisp_essence_conduction"
     ],
     "talents": [
       {
@@ -6729,7 +6830,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Counter-Strike",
-        "description": "Aumenta o dano da <b><font color='#F2A93E'>Arma de Dois Gumes</font></b> quando o Centaur for atacado."
+        "description": "Aumenta o dano da <b><font color='#F2A93E'>Arma de Dois Gumes</font></b> quando o Centaur for atacado por inimigos."
       },
       {
         "id": 1,
@@ -6796,8 +6897,8 @@
         "icon": "movement",
         "color": "Gray",
         "gradient_id": 3,
-        "title": "Quebrando Barreiras",
-        "description": "<b><font color='#F2A93E'>Empalar</font></b> causa dano adicional ao empurrar inimigos através de árvores e desníveis."
+        "title": "",
+        "description": ""
       },
       {
         "id": 1,
@@ -7070,7 +7171,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_skywrath_2",
+        "name": "special_bonus_unique_skywrath_6",
         "level": 1
       },
       {
@@ -7090,7 +7191,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_skywrath_6",
+        "name": "special_bonus_unique_skywrath_2",
         "level": 4
       },
       {
@@ -7184,11 +7285,21 @@
       {
         "id": 1,
         "name": "abaddon_mephitic_shroud",
+        "deprecated": "true",
         "icon": "barrier",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Sudário Mefítico",
         "description": "O <b><font color='#F2A93E'>Escudo Afótico</font></b> absorve mais dano e reflete parte do dano sofrido, em vez de explodir ao final."
+      },
+      {
+        "id": 2,
+        "name": "abaddon_mists_of_fate",
+        "icon": "phantom_ass_dagger",
+        "color": "Blue",
+        "gradient_id": 1,
+        "title": "Névoa Nociva",
+        "description": "Faz com que a <b><font color='#F2A93E'>Espiral da Neblina</font></b> também cause =40 =60 =80 =100% de dano de ataque e aplique efeitos de itens e habilidades. Aumenta o dano a si próprio ao alvejar inimigos."
       }
     ]
   },
@@ -7385,7 +7496,7 @@
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Corrente do Bem",
-        "description": "As <b><font color='#F2A93E'>Correntes de Fogo</font></b> podem afetar um inimigo adicional. Ativar a habilidade também usa as <b><font color='#F2A93E'>Correntes de Fogo</font></b> em torno de cada <b><font color='#F2A93E'>Resquício Flamejante</font></b>."
+        "description": "As <b><font color='#F2A93E'>Correntes de Fogo</font></b> podem afetar dois inimigos adicionais. Ativar a habilidade também usa as <b><font color='#F2A93E'>Correntes de Fogo</font></b> em torno de cada <b><font color='#F2A93E'>Resquício Flamejante</font></b>."
       }
     ]
   },
@@ -7761,7 +7872,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_attack_damage_30",
+        "name": "special_bonus_attack_damage_35",
         "level": 1
       },
       {
@@ -7907,7 +8018,7 @@
         "color": "Blue",
         "gradient_id": 1,
         "title": "Réplica Rúnica",
-        "description": "A <b><font color='#F2A93E'>Duplicata Tempestuosa</font></b> é infundida com os efeitos de Runas de Poder por =12s quando criada.<br><br>Nível 1 — Runa de Invisibilidade.<br><br>Nível 2 — Runas de Invisibilidade e Arcana.<br><br>Nível 3 — Runas de Invisibilidade, Arcana e Ímpeto."
+        "description": "A <b><font color='#F2A93E'>Duplicata Tempestuosa</font></b> é infundida com os efeitos de Runas de Poder por =12s quando criada.<br><br>Nível 1 — Runa Arcana.<br><br>Nível 2 — Runas Arcana e de Invisibilidade.<br><br>Nível 3 — Runas Arcana, de Invisibilidade e de Ímpeto."
       },
       {
         "id": 3,
@@ -8036,6 +8147,7 @@
       {
         "id": 0,
         "name": "monkey_king_wukongs_faithful",
+        "deprecated": "true",
         "icon": "summons",
         "color": "Red",
         "gradient_id": 2,
@@ -8050,6 +8162,18 @@
         "gradient_id": 4,
         "title": "Passeio Símio",
         "description": "Aumenta o nível máximo da <b><font color='#F2A93E'>Dança da Árvore</font></b>. No nível =5, remove o intervalo entre usos."
+      },
+      {
+        "id": 2,
+        "name": "monkey_king_transfiguration",
+        "icon": "summons",
+        "color": "Red",
+        "gradient_id": 2,
+        "title": "Troca de Guarda",
+        "description": "O Monkey King pode se transformar em um dos seus soldados durante o Comando de Wukong .",
+        "abilities": [
+          "monkey_king_transfiguration"
+        ]
       }
     ]
   },
@@ -8254,7 +8378,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Belas Artes",
-        "description": "A <b><font color='#F2A93E'>Pincelada do Destino</font></b> pode ser vetorizada para manipular o caminho da tinta."
+        "description": "A <b><font color='#F2A93E'>Pincelada do Destino</font></b> lança uma trilha curvada espelhada da mão direita."
       }
     ]
   },
@@ -8333,19 +8457,19 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_mp_regen_175",
+        "name": "special_bonus_mp_regen_150",
         "level": 1
-      },
-      {
-        "name": "special_bonus_unique_void_spirit_2",
-        "level": 1
-      },
-      {
-        "name": "special_bonus_unique_void_spirit_7",
-        "level": 2
       },
       {
         "name": "special_bonus_unique_void_spirit_4",
+        "level": 1
+      },
+      {
+        "name": "special_bonus_unique_void_spirit_resonant_pulse_barrier",
+        "level": 2
+      },
+      {
+        "name": "special_bonus_unique_void_spirit_2",
         "level": 2
       },
       {
@@ -8431,7 +8555,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_snapfire_mortimer_kisses_impact_damage",
+        "name": "special_bonus_unique_snapfire_firesnap_cookie_additional_charge",
         "level": 3
       },
       {
@@ -8828,7 +8952,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_muerta_dead_shot_charges",
+        "name": "special_bonus_unique_muerta_pierce_the_veil_duration",
         "level": 3
       },
       {
@@ -8840,7 +8964,7 @@
         "level": 4
       },
       {
-        "name": "special_bonus_magic_resistance_25",
+        "name": "special_bonus_unique_muerta_dead_shot_charges",
         "level": 4
       }
     ],
@@ -8857,6 +8981,7 @@
       {
         "id": 1,
         "name": "muerta_ofrenda",
+        "deprecated": "true",
         "icon": "teleport",
         "color": "Yellow",
         "gradient_id": 0,
@@ -8865,6 +8990,15 @@
         "abilities": [
           "muerta_ofrenda"
         ]
+      },
+      {
+        "id": 2,
+        "name": "muerta_slingshot",
+        "icon": "ricochet",
+        "color": "Red",
+        "gradient_id": 1,
+        "title": "Saque Rápido",
+        "description": "Amedrontamentos do <b><font color='#F2A93E'>Rebatiro</font></b> aumentam a chance de <b><font color='#F2A93E'>Pistoleira</font></b>.<br><br>Disparos secundários de <b><font color='#F2A93E'>Pistoleira</font></b> reduzem o intervalo entre usos do <b><font color='#F2A93E'>Rebatiro</font></b>. "
       }
     ]
   },
@@ -8884,7 +9018,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_ringmaster_box_cast_range",
+        "name": "special_bonus_unique_ringmaster_dagger_impact_damage",
         "level": 1
       },
       {
@@ -8989,7 +9123,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_mp_regen_150",
+        "name": "special_bonus_unique_kez_raptor_dance_radius",
         "level": 1
       },
       {
@@ -8997,7 +9131,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_kez_ravens_veil_mark_parry_bonus",
+        "name": "special_bonus_unique_kez_raptor_dance_strikes",
         "level": 2
       },
       {
@@ -9005,7 +9139,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_kez_falcon_rush_evasion",
+        "name": "special_bonus_unique_kez_talon_toss_attack_factor",
         "level": 3
       },
       {
@@ -9034,7 +9168,7 @@
         "color": "Blue",
         "gradient_id": 3,
         "title": "Marca Sombria",
-        "description": "Ativar uma marca de Sai dos Shodo saindo da invisibilidade causa dano crítico adicional.",
+        "description": "Ativar uma marca de Sai dos Shodo saindo da invisibilidade causa dano crítico adicional. Aumenta a duração da invisibilidade do Véu do Corvo.",
         "abilities": [
           "kez_shadowhawk_passive"
         ]

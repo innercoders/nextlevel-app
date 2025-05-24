@@ -81,8 +81,8 @@
                     [nzScroll]="{ y: '700px' }">
                     <thead>
                         <tr>
-                            <th>ID</th>
-                            <th width="200px">Placar</th>
+                            <th [nzWidth]="'150px'">ID</th>
+                            <th [nzWidth]="'125px'">Placar</th>
                             <th>Heróis</th>
                         </tr>
                     </thead>
@@ -116,10 +116,12 @@
                             </td>
                             <td>
                                 <div class="in-horizontal">
-                                    <img [src]="player.dotaHero?.img" width="40" *ngFor="let player of match.players | slice:0:5">
+                                    <img class="cursor-pointer" [src]="player.dotaHero?.img" nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name" 
+                                        width="40" *ngFor="let player of match.players | slice:0:5" routerLink="/dota-meta/hero/{{ player.dotaHero?.sanitizedName }}">
                                 </div>
                                 <div class="in-horizontal">
-                                    <img [src]="player.dotaHero?.img" width="40" *ngFor="let player of match.players | slice:5:10">
+                                    <img class="cursor-pointer" [src]="player.dotaHero?.img" nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name" 
+                                        width="40" *ngFor="let player of match.players | slice:5:10" routerLink="/dota-meta/hero/{{ player.dotaHero?.sanitizedName }}">
                                 </div>
                             </td>
                         </tr>

@@ -7665,11 +7665,9 @@
       "helm_of_the_dominator": [
         "Redução da regeneração de vida da aura (de 5 para 4,25)"
       ],
-      "vladmir": [],
       "dust": [
         "Redução do custo (de 90 para 80 de ouro)"
-      ],
-      "royal_jelly": []
+      ]
     },
     "heroes": {
       "beastmaster": {
@@ -7712,10 +7710,7 @@
   },
   "7_26a": {
     "general": [],
-    "items": {
-      "ancient_janggo": [],
-      "spirit_vessel": []
-    },
+    "items": {},
     "heroes": {
       "dragon_knight": {
         "general": [
@@ -8221,19 +8216,9 @@
       "necronomicon": [
         "Redução da regeneração de mana (de 3/3,5/4 para 2/3/4)"
       ],
-      "helm_of_the_dominator": [],
-      "vladmir": [],
-      "ancient_janggo": [],
-      "guardian_greaves": [],
-      "crimson_guard": [],
-      "blade_mail": [],
-      "monkey_king_bar": [],
-      "orchid": [],
       "shadow_amulet": [
         "Redução do custo (de 1.400 para 1.000 de ouro)"
       ],
-      "invis_sword": [],
-      "silver_edge": [],
       "wraith_band": [
         "Redução de Agilidade/Força/Inteligência (de 6/3/3 para 5/2/2)"
       ],
@@ -8247,15 +8232,12 @@
       "sobi_mask": [
         "Redução do custo (de 225 para 175 de ouro)"
       ],
-      "tranquil_boots": [],
-      "bloodstone": [],
       "yasha": [
         "Aumento da amplificação arcana (de 14% para 16%)"
       ],
       "kaya": [
         "Aumento da amplificação arcana (14% → 16%)"
       ],
-      "octarine_core": [],
       "veil_of_discord": [
         "Redução da amplificação arcana (20% → 18%)"
       ],
@@ -10549,110 +10531,25 @@
     "items": {
       "revenants_brooch": [
         "Novo item",
-        "Requer Lâmina do Bruxo, Cajado Místico e uma receita de 800 de ouro (custo total: 6.200 de ouro)",
-        "+45 de Inteligência",
-        "+40 de velocidade de ataque",
-        "+8 de armadura",
-        "+300 de velocidade de projéteis",
-        "Ativa: os seus próximos 5 ataques têm Impacto Verdadeiro e causam dano mágico adicional. Pode atacar unidades etéreas. Expira após 15s. Custo de mana: 250. Intervalo entre usos: 45s",
-        "Não funciona contra estruturas. Quando ativa, não causa dano a alvos imunes a magia",
-        "Passiva: faz com que o seu próximo ataque aplique um veneno por 4s, retardando o alvo em 25% e causando 1x a sua Inteligência como dano por segundo. Só pode ativar uma vez a cada 9 segundos"
+        "Não funciona contra estruturas. Quando ativa, não causa dano a alvos imunes a magia"
       ],
       "wraith_pact": [
-        "Novo item",
-        "Requer Oferenda de Vladmir, Amplificador de Pontos e uma receita de 400 de ouro (custo total: 4.200 de ouro)",
-        "+250 de vida",
-        "+250 de mana",
-        "Passiva: Aura de Vladmir. Fornece 15% de roubo de vida, 18% de dano adicional, 1,75 de regeneração de mana e 3 de armadura a aliados em até 1.200 unidades de distância",
-        "Ativa: pode ser usada em até 350 unidades de distância para invocar um totem que reduz em 25% todo o dano de inimigos em até 900 unidades de distância (ataques e habilidades) e causa 25 de dano por segundo. O totem pode ser movido com 150 de velocidade de movimento. Dura 25s e pode ser destruído em 5 ataques de heróis (ou 10 de criaturas). Custo de mana: 100. Intervalo entre usos: 60s"
+        "Novo item"
       ],
       "boots": [
-        "Novo item",
-        "Requer Botas Serenas, Tambor de Resistência e uma receita de 1.500 de ouro (custo total: 4.125 de ouro)",
-        "+8 de Força",
-        "+8 de Inteligência",
-        "+65 de velocidade de movimento",
-        "+15 de regeneração de vida",
-        "8 cargas. Ganha uma carga a cada 3 minutos",
-        "Ativa: consome uma carga e fornece +50 de velocidade de ataque e +15% de movimento a aliados em até 1.200 unidades de distância durante 6 segundos. Pelos primeiros 2 segundos, aliados não podem sofrer retardo de outras habilidades. Não acumulável com a habilidade ativa do Tambor de Resistência",
-        "Passiva: Aura da Rapidez. Concede +20 de velocidade de movimento para aliados em até 1.200 unidades de distância. Não acumulável com a aura do Tambor de Resistência"
+        "Novo item"
       ],
       "bloodstone": [
-        "Item reformulado",
-        "Antes:",
-        "Requer: Máscara de Vudu, Kaya e Amplificador Espiritual (custo total: 5.750 de ouro)",
-        "+16 de Inteligência",
-        "+425 de vida",
-        "+425 de mana",
-        "+8% de dano arcano",
-        "+15% de roubo de vida arcano (heróis)",
-        "+3% de roubo de vida arcano (criaturas)",
-        "+100% de amplificação de regeneração de mana",
-        "+30% de amplificação de roubo de vida arcano",
-        "Ativa: Pacto de Sangue. Converte 30% do seu mana máximo em regeneração de vida ao longo de 2 segundos. Intervalo entre usos: 85s. Custo: 30% do seu mana máximo",
-        "Passiva: Bateria de Mana. Cada carga fornece 0,2 de regeneração de mana e 0,35% de amplificação arcana. Ganha 1 carga a cada morte próxima. Perde 3 cargas sempre que você morrer. Começa com 14 cargas",
-        "Agora:",
-        "Requer: Amplificador Espiritual, Máscara de Vudu e uma receita de 900 de ouro (custo total: 4.600 de ouro)",
-        "+550 de vida",
-        "+550 de mana",
-        "+25% de roubo de vida arcano (heróis)",
-        "+5% de roubo de vida arcano (criaturas)",
-        "Ativa: Pacto de Sangue. Dobra o roubo de vida arcano da Pedra de Sangue e converte em mana a mesma porcentagem do dano causado. Dura 6 segundos. Custa 10% da sua vida atual para ativar. Quando ativada, concede o efeito Esgotado, que ignora outros efeitos do Pacto de Sangue durante 40 segundos. Intervalo entre usos: 40s"
+        "Item reformulado"
       ],
       "orchid": [
-        "Item reformulado",
-        "Antes:",
-        "Requer: 2 Cajados do Oblívio e uma receita de 475 de ouro (custo total: 3.475 de ouro)",
-        "+20 de Inteligência",
-        "+30 de dano de ataque",
-        "+25 de velocidade de ataque",
-        "+4 de regeneração de mana",
-        "Ativa: Queima de Alma. Silencia a unidade-alvo por 5 segundos. Ao fim do silenciamento, causa 30% do dano sofrido como dano mágico adicional. Custo de mana: 100. Intervalo entre usos: 18s",
-        "Agora:",
-        "Requer: Soqueira, Claymore e Pedra do Vazio (custo total: 3.175 de ouro)",
-        "+40 de velocidade de ataque",
-        "+30 de dano de ataque",
-        "+3 de regeneração de mana",
-        "Ativa: Queima de Alma. Silencia a unidade-alvo por 5 segundos. Ao fim do silenciamento, causa 30% do dano sofrido como dano mágico adicional. Custo de mana: 100. Intervalo entre usos: 18s"
+        "Item reformulado"
       ],
       "bloodthorn": [
-        "Item reformulado",
-        "Antes:",
-        "Requer: Orquídea Malevolente, Pedra do Ímpeto e uma receita de 800 de ouro (custo total: 6.275 de ouro)",
-        "+25 de Inteligência",
-        "+90 de velocidade de ataque",
-        "+30 de dano",
-        "+5,5 de regeneração de mana",
-        "Ativa: Rasgar Alma. Silencia a unidade-alvo por 5 segundos. Ao fim do silenciamento, causa 30% de todo o dano sofrido ao alvo como dano mágico. Todos os ataques no alvo silenciado recebem Impacto Verdadeiro e 100% de chance de causar 130% de dano crítico",
-        "Agora:",
-        "Requer: Orquídea Malevolente, Assassina de Magos e uma receita de 925 de ouro (custo total: 6.500 de ouro)",
-        "+20 de Inteligência",
-        "+60 de velocidade de ataque",
-        "+50 de dano",
-        "+5 de regeneração de mana",
-        "+20% de resistência mágica",
-        "Ativa: Rasgar Alma. Silencia a unidade-alvo por 5 segundos. Ao fim do silenciamento, causa 30% de todo o dano sofrido ao alvo como dano mágico. Todos os ataques no alvo silenciado recebem Impacto Verdadeiro e 100% de chance de causar 130% de dano crítico",
-        "Passiva: Assassina de Magos. Coloca um efeito negativo em inimigos ao atacá-los, fazendo com que causem menos 35% de dano arcano durante 6 segundos"
+        "Item reformulado"
       ],
       "ethereal_blade": [
-        "Item reformulado",
-        "Antes:",
-        "Requer: Canto da Águia, Cetro Fantasma e uma receita de 1.000 de ouro (custo total: 4.300 de ouro)",
-        "+40 de Agilidade",
-        "+10 de Força",
-        "+10 de Inteligência",
-        "Ativa: Explosão de Éter. Converte o alvo para forma etérea, imunizando-o de dano físico enquanto o incapacita de atacar e aumenta em 40% o dano mágico sofrido. Dura 4 segundos em aliados e 4 segundos em inimigos. Intervalo entre usos: 20s",
-        "Alvos inimigos também sofrem 80% de retardo de movimento, além de sofrerem o valor do seu atributo primário x1,5 + 125 como dano mágico",
-        "Agora:",
-        "Requer: Kaya, Cetro Fantasma e uma receita de 1.100 de ouro (custo total: 4.650 de ouro)",
-        "+25 de Inteligência",
-        "+5 de Agilidade",
-        "+5 de Força",
-        "+24% de amplificação de roubo de vida arcano",
-        "+12% de amplificação arcana",
-        "+75% de amplificação de regeneração de mana",
-        "Ativa: Explosão de Éter. Converte o alvo para forma etérea, imunizando-o de dano físico enquanto o incapacita de atacar e aumenta em 40% o dano mágico sofrido. Dura 4 segundos em aliados e 4 segundos em inimigos. Intervalo entre usos: 22s",
-        "Alvos inimigos também sofrem 80% de retardo de movimento, além de sofrerem o valor do atributo primário do alvo x1,5 + 125 como dano mágico"
+        "Item reformulado"
       ],
       "aghanims_shard": [
         "Agora, pode ser comprado aos 15 minutos"
@@ -10993,6 +10890,7 @@
         "Redução da recompensa de XP (28 → 26)",
         "Aumento da taxa de rotação (0,5 → 0,9s)",
         "Agora tem 200 de mana",
+        "Nova habilidade: Decolar. Pode ser alternada para ganhar movimentação desobstruída em troca de 50% de velocidade de movimento. A Harpia Exploradora fica desarmada enquanto estiver voando. Custo de mana máximo por segundo: 2,5%. Custo de mana inicial: 20",
         "Agora possui a habilidade Perfurante",
         "Redução do dano de ataque (30–37 → 30–36)",
         "Redução da vida (550 → 500)",
@@ -11746,6 +11644,7 @@
           "Redução do intervalo entre usos (16/12/8/4 → 13/10/7/4s)"
         ],
         "talents": [
+          "Alteração do Talento Nível 10 (+15 de velocidade de ataque → +2,5s de duração p/ Agilidade adicional da Investida Fantasma)",
           "Alteração do Talento Nível 15 (+16% de esquiva → +15 de Força)"
         ]
       },
@@ -12059,7 +11958,7 @@
       },
       "troll_warlord": {
         "troll_warlord_battle_trance": [
-          "Agora, concede movimentação desobstruída"
+          "Agora, concede movimentação faseada"
         ],
         "talents": [
           "Alteração do Talento Nível 20 (+20% de esquiva → -15s de intervalo entre usos para Transe de Batalha)",
@@ -13620,7 +13519,7 @@
       },
       "lina": {
         "lina_flame_cloak": [
-          "Reformulação do Cetro de Aghanim. Concede uma nova habilidade: Capa Ardente — Lina recebe movimentação alada, aumenta o seu dano arcano em 30% e a resistência mágica em 35%. Intervalo entre usos: 25s. Não pode ser dissipada"
+          "Reformulação do Cetro de Aghanim. Concede uma nova habilidade: Capa Ardente — Lina recebe movimentação desobstruída, aumenta o seu dano arcano em 30% e a resistência mágica em 35%. Intervalo entre usos: 25s. Não pode ser dissipada"
         ]
       },
       "lone_druid": {
@@ -15829,7 +15728,7 @@
       "Adição dos Portais Gêmeos: duas estruturas nos cantos do mapa. Qualquer jogador pode canalizar um Portal Gêmeo por três segundos para se teletransportar até o outro",
       "<br>",
       "Remoção do covil de Roshan do rio",
-      "Adição de dois covis de Roshan nos cantos do mapa. Ao anoitecer e ao amanhecer, Roshan usa os Portais Gêmeos para teletransportar-se para o outro covil — ele fica no covil dos Iluminados de dia, e no dos Temidos de noite. Enquanto está mudando de covil, Roshan recebe +200 de velocidade de movimento, movimentação desobstruída e causa um arremesso de 200 de dano mágico (ignora imunidades a efeitos)",
+      "Adição de dois covis de Roshan nos cantos do mapa. Ao anoitecer e ao amanhecer, Roshan usa os Portais Gêmeos para teletransportar-se para o outro covil — ele fica no covil dos Iluminados de dia, e no dos Temidos de noite. Enquanto está mudando de covil, Roshan recebe +200 de velocidade de movimento, movimentação faseada e causa um arremesso de 200 de dano mágico (ignora imunidades a efeitos)",
       "O minimapa indica o covil atual esperado de Roshan",
       "Roshan não larga mais um Fragmento de Aghanim ao morrer pela segunda vez",
       "Agora, Roshan larga Queijo a partir da sua segunda morte",
@@ -23543,7 +23442,7 @@
         "Novo item",
         "Novo item de classe 4",
         "Concede +25% de esquiva e +30 de velocidade de movimento",
-        "Passiva: Pássaro Livre. Quando o herói portador tem menos de 30% de vida, ganha movimentação alada (mas não visão aérea)"
+        "Passiva: Pássaro Livre. Quando o herói portador tem menos de 30% de vida, ganha movimentação desobstruída (mas não visão desobstruída)"
       ],
       "rattlecage": [
         "Novo item",
@@ -24078,7 +23977,7 @@
           "Aumento do dano crítico (150/190/230/270% → 150/200/250/300%)"
         ],
         "mars_bulwark": [
-          "Agora, concede movimentação desobstruída quando ativado",
+          "Agora, concede movimentação faseada quando ativado",
           "Agora, o redirecionamento de projéteis também protege aliados em até 200 unidades na frente de Marte"
         ],
         "mars_arena_of_blood": [
@@ -26128,7 +26027,7 @@
         ],
         "hero_facet": [
           "O Bane ganha 40/50/60/70 de velocidade de ataque ao atacar unidades afetadas pelo Pesadelo",
-          "Transforma-se em uma habilidade de alvo vetorizado. A unidade afetada anda com movimentação alada rumo à direção alvejada, com 75 de velocidade. Caso o efeito seja transmitido ao atacar, a nova unidade afetada também se moverá na direção original"
+          "Transforma-se em uma habilidade de alvo vetorizado. A unidade afetada anda com movimentação desobstruída rumo à direção alvejada, com 75 de velocidade. Caso o efeito seja transmitido ao atacar, a nova unidade afetada também se moverá na direção original"
         ],
         "bane_nightmare": [
           "Não concede mais velocidade de ataque adicional por padrão"
@@ -27078,10 +26977,6 @@
         "hero_innate_Title": [
           "Habilidade Nativa"
         ],
-        "hero_innate_wisp_sight_seer": [
-          "Nova habilidade Nativa. Passiva, não pode ser aprimorada",
-          "A equipe de Io canaliza vigias 1s mais rápido. Aumenta em 300 unidades o raio de visão dos vigias sob o controle da sua equipe"
-        ],
         "hero_facet": [
           "Concede 35/60/85/110 de velocidade de ataque e 8/10/12/14% de amplificação arcana",
           "Inalterado",
@@ -27270,10 +27165,6 @@
         ],
         "hero_innate_Title": [
           "Habilidade Nativa"
-        ],
-        "hero_innate_leshrac_defilement": [
-          "Nova habilidade Nativa. Passiva, não pode ser aprimorada",
-          "Aumenta a área de efeito das habilidades de Leshrac em 0,5 unidade para cada ponto de Inteligência"
         ],
         "hero_facet": [
           "Os ataques de Leshrac restauram mana equivalente a 10/14/18/22% do dano causado. Aprimorada com o nível do Pulso de Nova. Não restaura mana ao atacar unidades sem mana",
@@ -27556,8 +27447,6 @@
           "Isso significa que a equipe de Marci começa com entregadores aéreos"
         ],
         "hero_facet": [
-          "É a terceira habilidade básica de Marci quando esta faceta for escolhida",
-          "Alteração do dano adicional (6/12/24/48 fixos → 12/18/24/30% do dano base)",
           "Alteração do Talento Nível 25: \\\"+65 de dano para Parceria\\\" → \\\"+20% de dano para Parceria\\\"",
           "Nova terceira habilidade básica de Marci quando esta faceta for escolhida",
           "Passivamente, concede a Marci 10/15/20/25% de roubo de vida e aumenta o dano de ataque em 12/18/24/30% do dano base",
@@ -27798,7 +27687,7 @@
           "Agora, requer o Cetro de Aghanim para afetar unidades imunes a efeitos",
           "Pode afetar unidades adormecidas e invulneráveis mesmo sem o Cetro de Aghanim, semelhante a Enredar",
           "Aumento do alcance máximo (1.400 → 1.600 unidades)",
-          "Alvos sendo Fisgados têm movimentação desobstruída e alada",
+          "Alvos sendo Fisgados têm movimentação faseada e desobstruída",
           "Alteração da duração da canalização (5s → duração restante de Enredar)"
         ],
         "naga_siren_song_of_the_siren": [
@@ -28683,7 +28572,7 @@
         ],
         "hero_innate_spectre_spectral": [
           "Nova habilidade Nativa. Passiva, não pode ser aprimorada",
-          "A Spectre e as suas ilusões têm movimentação desobstruída permanentemente"
+          "A Spectre e as suas ilusões têm movimentação faseada permanentemente"
         ],
         "hero_facet": [
           "Causa 40% do dano ao alvo caso esteja próximo somente de aliados não heróis",
@@ -29462,9 +29351,6 @@
           "Nova segunda habilidade básica do Wraith King quando esta faceta for escolhida",
           "Passivamente, os ataques do Wraith King aplicam uma maldição que, após 3 segundos, causa 20/40/60/80 de dano puro e dano físico equivalente a 70% do ataque original. O dano da maldição ativa o roubo de vida do Espírito Vampírico. Intervalo entre usos da maldição em heróis: 18/16/14/12s. Intervalo entre usos da maldição em criaturas: 6s. Ilusões do Wraith King não se beneficiam da Lâmina Espectral",
           "O intervalo entre usos da maldição é redefinido em todos os inimigos em um raio de 900 unidades de distância ao Ressuscitar"
-        ],
-        "skeleton_king_hellfire_blast": [
-          "Não faz mais os esqueletos focarem o alvo da habilidade, nem concede velocidade de ataque adicional"
         ],
         "skeleton_king_mortal_strike": [
           "Fragmento de Aghanim | Agora, também concede +150% de dano crítico durante a forma de espectro"
@@ -30334,11 +30220,6 @@
           "Redução do Talento Nível 15: +40 → \\\"+35 de dano por herói para Desigualdade Esmagadora\\\""
         ]
       },
-      "leshrac": {
-        "leshrac_defilement": [
-          "Redução da área de efeito por Inteligência (0,5 → 0,4)"
-        ]
-      },
       "life_stealer": {
         "talents": [
           "Redução do Talento Nível 25: +1,5s → \\\"+1,0s de duração para Fúria/Irrestrito\\\"",
@@ -30386,7 +30267,6 @@
       },
       "marci": {
         "hero_facet": [
-          "Aumento do roubo de vida (10/15/20/25% → 12/18/24/30%)",
           "Aumento do roubo de vida (10/15/20/25% → 12/18/24/30%)",
           "Aumento da armadura adicional (4/6/8/10 → 4/7/10/13)"
         ],
@@ -31081,11 +30961,6 @@
         ]
       },
       "life_stealer": {
-        "hero_facet": [
-          "Redução da vida máxima adicional por vítima (+2 → +1)",
-          "Não concede mais vida máxima ao matar unidades do tipo Outro (sentinelas, engrenagens etc.)",
-          "Agora, concede +5 de vida máxima ao matar heróis"
-        ],
         "life_stealer_open_wounds": [
           "Redução do retardo máximo (50% → 35/40/45/50%)"
         ]
@@ -31901,10 +31776,6 @@
         "hero_facet": [
           "Agora, o efeito do arremesso é aplicado em vítimas de qualquer habilidade do Earthshaker, não somente Encantar Totem"
         ],
-        "earthshaker_spirit_cairn": [
-          "Nova habilidade Nativa. Passiva, não pode ser aprimorada",
-          "Quando o Earthshaker morrer, uma fissura com raio de 75 unidades é criada no seu lugar. Essa fissura bloqueia a movimentação, concede visão e permite que o Earthshaker continue a ganhar experiência ao seu redor"
-        ],
         "earthshaker_aftershock": [
           "Não é mais uma habilidade Nativa",
           "Alteração da escala do dano causado (35/70/100/130/160 → 70/100/130/160)",
@@ -32147,7 +32018,7 @@
           "Aumenta o nível máximo de Invocar Lobos em 2, mas reduz o nível máximo do Uivo e do Impulso Feroz em 1",
           "Aumento linear do dano e vida para os níveis 5 e 6",
           "A partir do nível 5, os lobos ganham Jarretar, um modificador de ataque que aplica um enraizamento de 0,5s e faz com que os próximos 4 ataques de unidades sob controle do Lycan causem 50 de dano físico adicional. Intervalo entre usos: 8s",
-          "A partir do nível 6, os lobos ganham Encalçar. Quando ativada, os lobos recebem uma explosão de energia, ganhando movimentação acelerada e desobstruída, 100% de esquiva e 20 de velocidade de ataque. Duração: 8s. Intervalo entre usos: 50s",
+          "A partir do nível 6, os lobos ganham Encalçar. Quando ativada, os lobos recebem uma explosão de energia, ganhando movimentação acelerada e faseada, 100% de esquiva e 20 de velocidade de ataque. Duração: 8s. Intervalo entre usos: 50s",
           "Fragmento de Aghanim | Lobos invocados pelo Fragmento são aprimorados ao subir o nível de Invocar Lobos para além do nível 4"
         ]
       },
@@ -32853,7 +32724,6 @@
       },
       "windrunner": {
         "hero_facet": [
-          "Renomeação da faceta (Vento de Cauda → Disparos Concentrados)",
           "Não concede mais velocidade de movimento adicional para a Windranger e aliados próximos",
           "Aumento da duração (8s → 9s)",
           "Agora, a área de efeito é igual ao alcance de ataque da Windranger + 150 unidades"
@@ -33064,9 +32934,6 @@
         ],
         "invoker_invoke": [
           "Agora, pode ser usada durante canalizações e não quebra invisibilidades"
-        ],
-        "hero_facet": [
-          "Aumento da amplificação arcana por instância (2/3/4/5/6/7/8% → 3/4/5/6/7/8/9%)"
         ],
         "talents": [
           "Alteração do Talento Nível 15: \\\"+50 de velocidade de ataque para Espíritos Forjados\\\" → \\\"+1 Espírito Forjado\\\""
@@ -33912,12 +33779,6 @@
         ],
         "luna_lucent_beam": [
           "Redução do dano do raio (80/160/240/320 → 75/150/225/300)"
-        ]
-      },
-      "marci": {
-        "hero_facet": [
-          "Redução do dano de ataque base adicional (12/18/24/30% → 10/15/20/25%)",
-          "Redução do limiar de alcance para aliados (2.500 → 1.750 unidades)"
         ]
       },
       "mars": {
@@ -36139,26 +36000,6 @@
           "O Cetro de Aghanim ainda concede +1 nível para todos os orbes, mas também concede um nível adicional para o orbe da faceta selecionada, permitindo atingir o nível 10",
           "Por padrão, um Invoker nível 30 terá dois orbes no nível 7 e o orbe da faceta no nível 8. Comprar o Cetro de Aghanim aprimorará esses níveis para 8 e 10, respectivamente"
         ],
-        "hero_facet": [
-          "Quando o Invoker atingir o nível 6, ele ganha um nível adicional de Quas sem gastar um ponto de habilidade. Também aumenta o nível máximo para 8",
-          "Cetro de Aghanim | Concede 1 nível atual adicional, e aumenta o nível máximo para 10",
-          "Cura o Invoker em 13–130 de vida (dependendo do nível de Quas) sempre que a Onda de Frio for ativada",
-          "Agora, o efeito de cura é exclusivo desta faceta",
-          "Pode ser aprimorado pelo Cetro de Aghanim. Quando usado, o efeito também é aplicado a todos os heróis aliados e espíritos forjados em até 600 unidades de distância. Aliados e espíritos têm 0,5s de atraso de desvanecimento e 20s de duração",
-          "Pode ser aprimorada pelo Fragmento de Aghanim. Heróis inimigos que ficarem em cima da Parede de Gelo por mais de 3s são congelados, tornando-se enraizados por 1,5s e sofrendo 300 de dano mágico. Também aumenta a grossura da parede em 40 unidades e o comprimento em 160 unidades",
-          "Quando o Invoker atingir o nível 6, ele ganha um nível adicional de Wex sem gastar um ponto de habilidade. Também aumenta o nível máximo para 8",
-          "Cetro de Aghanim | Concede 1 nível atual adicional, e aumenta o nível máximo para 10",
-          "Concede 50–140 de alcance de ataque adicional (dependendo do nível de Wex) quando usada no Invoker ou qualquer unidade de longo alcance sob o seu controle",
-          "Pode ser aprimorado pelo Cetro de Aghanim. O Tornado cria ciclones menores ao longo do caminho a cada 300 unidades percorridas. Cada ciclone dura até 4s após o fim do tornado, causando 120 de dano por segundo em um raio de 150 unidades. Ciclones concedem visão terrestre de 50 unidades ao seu redor. Intervalo de dano: 0,25s. O dano de múltiplos ciclones é acumulável. Ciclones causam metade do dano contra criaturas",
-          "Pode ser aprimorado pelo Fragmento de Aghanim. Aumenta o dano da queima (60% → 90%) e puxa unidades para o centro em uma velocidade de 150 unidades por segundo",
-          "Inalterado em relação ao aprimoramento anterior do Fragmento, mas agora é exclusivo desta faceta",
-          "Quando o Invoker atingir o nível 6, ele ganha um nível adicional de Exort sem gastar um ponto de habilidade. Também aumenta o nível máximo para 8",
-          "Cetro de Aghanim | Concede 1 nível atual adicional, e aumenta o nível máximo para 10",
-          "Aumenta o raio do meteoro em 30 unidades e a distância percorrida em 200 unidades",
-          "Agora, o Cetro de Aghanim concede Cataclismo apenas com esta faceta. Reduz o intervalo entre usos (100s → 60s), distância mínima/máxima (160/200 → 90/180 unidades) e o dano do Raio Solar (100% → 75%)",
-          "Pode ser aprimorado pelo Fragmento de Aghanim. Faz com que o Raio Solar invoque um Espírito Forjado do nível atual na posição do herói inimigo atingido",
-          "Este efeito invoca 1 espírito por Raio Solar, não importa quantos heróis forem atingidos ou a quantidade atual de Forjar Espírito. Isso também vale para os Raios Solares criados pelo Cataclismo, invocando 2 espíritos caso ambos os raios atinjam um mesmo herói"
-        ],
         "invoker_quas": [
           "Agora, cada orbe ativo concede 1/2/3/4/5/6/7/8/9/10 de regeneração de vida por padrão",
           "Agora, aprimorar um nível de Quas concede +1 de Força por padrão"
@@ -36400,9 +36241,6 @@
       "leshrac": {
         "hero_facet": [
           "Aumento da restauração de mana por dano (10/14/18/22% → 10/18/26/34%)"
-        ],
-        "leshrac_defilement": [
-          "Aumento da área de efeito por Inteligência (0,4 → 0,7)"
         ],
         "talents": [
           "Alteração do Talento Nível 15: \\\"+10% de velocidade de movimento durante o Pulso de Nova\\\" → \\\"+10% de redução de dano durante o Pulso de Nova\\\"",
@@ -37993,12 +37831,6 @@
         ]
       },
       "invoker": {
-        "hero_facet": [
-          "Agora, quando a Onda de Frio é ativada, também restaura 5 de mana do Invoker, além da cura existente com base no nível de Quas",
-          "Cetro de Aghanim | Aumento da duração em aliados (20s → 30s)",
-          "Aumento do alcance de ataque adicional (50/60/70/80/90/100/110/120/130/140 → 60/70/80/90/100/110/120/130/140/150 unidades)",
-          "Cetro de Aghanim | Aumento do intervalo entre usos do Cataclismo (60s → 75s)"
-        ],
         "invoker_forge_spirit": [
           "Alteração da escala do alcance de ataque (300/365/430/495/560/625/690/755/820/885 → 305/360/415/470/525/580/635/690/745/800 unidades)"
         ]
@@ -38752,6 +38584,1828 @@
         ],
         "skeleton_king_reincarnation": [
           "Aumento do custo de mana (200 → 225)"
+        ]
+      }
+    }
+  },
+  "7_39": {
+    "general": [
+      "Objetivos do mapa",
+      "<span class=\\\"Subtitle\\\">Tormenta</span>",
+      "Aumento do tempo do primeiro nascimento (15 → 20 minutos)",
+      "Tormenta: Escudo Inabalável: redução da vida da barreira base (2.100 → 2.000)",
+      "Tormenta: Escudo Inabalável: redução do ganho de regeneração da barreira por minuto de jogo (5 → 3,5 minutos)",
+      "Aos 20 minutos: 2.500 + 140 de regeneração → 2.400 + 110 de regeneração. Aos 40 minutos: 2.900 + 240 de regeneração → 2.800 + 180 de regeneração",
+      "<br>",
+      "<span class=\\\"Subtitle\\\">Roshan</span>",
+      "Porrada: aumento da duração em heróis (2s → 4s)",
+      "Porrada: aumento da duração em unidades não heroicas (4s →  8s)",
+      "Rugido Vingativo: aumento da duração do efeito negativo de dano sofrido amplificado (8s → 12s)",
+      "Rugido Vingativo: aumento do limiar de vida para ativação (80% → 85%)",
+      "Rugido Vingativo: agora, é usado mesmo caso Roshan esteja silenciado ou atordoado",
+      "Rugido Vingativo: agora, concede uma dissipação poderosa a Roshan quando usado",
+      "Rugido Vingativo: agora, ativa uma mensagem visível para todos (similar à de quando o Estandarte de Roshan é posicionado)",
+      "Força do Imortal: aumento da armadura adicional por minuto (0,375 → 0,4)",
+      "Força do Imortal: aumento do dano de ataque adicional por minuto (6 → 7)",
+      "Alterações no terreno",
+      "Reposicionamento do acampamento pequeno da trilha segura dos Iluminados um pouco para o norte, e adição de árvores acima dele",
+      "Reposicionamento e ajuste de diversas árvores na área de acampamentos da trilha segura dos Iluminados.",
+      "Ligeiro reposicionamento ao oeste da torre de nível 2 da trilha de cima dos Iluminados e do penhasco à direita dela.",
+      "Reposicionamento da rampa para o triângulo dos Iluminados próximo à torre nível 2, movida para o norte",
+      "Reposicionamento das rampas no lado direito do triângulo dos Iluminados para o nordeste, e ajuste das árvores ao redor",
+      "Adição de rampa ligando o triângulo dos Iluminados e a parte de trás da torre de nível 2 da trilha do meio dos Iluminados",
+      "Ligeiro ajuste da torre de nível 2 da trilha do meio dos Iluminados para longe dos triângulos, e reposicionamento das árvores ao redor",
+      "Adição de caminho entre as árvores à direita do torre de nível 2 da trilha do meio dos Iluminados",
+      "Ligeiro ajuste ao sudoeste para as rampas e acampamentos difíceis e ancestrais do triângulo dos Iluminados",
+      "Ligeira redução no tamanho da rampa da trilha do meio dos Iluminados para o rio",
+      "Ligeiro ajuste para cima da rampa ao sudeste do covil de Roshan de baixo",
+      "<br>",
+      "Adição de caminho entre a torre de nível 1 da trilha de baixo dos Temidos e a Fonte de Lótus",
+      "Adição e reposicionamento de diversas árvores próximas à torre de nível 2 da trilha do meio dos Temidos",
+      "Remoção de diversas árvores entre os dois acampamentos neutros na região da trilha segura dos Temidos",
+      "Ligeiro ajuste da Runa de Recompensas dos Temidos para a direita",
+      "Ligeiro ajuste ao norte para a escada ligando o triângulo dos Temidos e o rio, e ligeiro reposicionamento e simplificação do covil de Roshan de baixo para cima, removendo as suas pequenas saliências intransitáveis",
+      "Ligeiro ajuste do Vigia do triângulo dos Temidos para cima",
+      "<br>",
+      "Reposicionamento da Fonte de Lótus da trilha de baixo ao noroeste, e ajuste de diversos caminhos entre as árvores",
+      "Reposicionamento da Fonte de Lótus da trilha de cima ao norte, e ajuste de alguns caminhos entre as árvores",
+      "<br>",
+      "Ajuste do covil de Roshan de cima para se aproximar do centro das rampas dos Iluminados e Temidos",
+      "Ligeiro ajuste do covil de Roshan de baixo em direção ao centro do mapa",
+      "Ligeira rotação do covil de Roshan de baixo para ficar mais voltado para o centro do mapa",
+      "Correção de ponto morto no covil de Roshan de baixo",
+      "<br>",
+      "Redução dos tempos para acumulação dos acampamentos inundados próximo às Runas de Recompensas",
+      "<br>",
+      "Agora, Vigias não podem ser ativados antes do início da partida",
+      "Agora, Vigias não exibem mais o raio de visão potencial ao posicionar Sentinelas",
+      "Agora, Vigias só exibem a sua área de visão em potencial ao segurar Alt",
+      "Alterações gerais",
+      "Remoção das amplificações de roubo de vida e roubo de vida arcano, e criação de um novo atributo par agregá-las: restauração de vida",
+      "Concede um aumento percentual à vida obtida por roubo de vida, roubo de vida arcano e regeneração de vida",
+      "Também reduz esses valores quando negativa",
+      "Fontes positivas e negativas de restauração de vida acumulam-se reduzidamente",
+      "\\\"Acumular-se reduzidamente\\\" é o mesmo comportamento da esquiva e resistência mágica. Dadas N fontes positivas de restauração de vida, o resultado final será calculado como: 1 - (1 - n0) × (1 - n1) × ...<br><br>Por exemplo, caso você tenha uma Sange (16%) e um item neutro de classe 4 com o encantamento de Rispidez (20%), a sua restauração de vida total será de 1 - (1 - 0,16) × (1 - 0,2) = 32,8%. Ou seja, múltiplas fontes menores são menos eficazes do que uma única fonte maior.<br><br>Fontes negativas de restauração de vida acumulam-se da mesma forma, e então os valores positivos e negativos são somados para calcular a sua restauração de vida final.",
+      "Restaurações de vida não podem ficar abaixo de -100%, nem acima de 100%",
+      "<br>",
+      "Agora, fontes de amplificação de cura acumulam-se aditivamente, em vez de reduzidamente",
+      "Isso inclui ambas as amplificações de cura recebida e concedida",
+      "Amplificações de vida não podem ficar abaixo de -100%, mas não têm limite superior",
+      "<br>",
+      "Agora, efeitos que enraízam e desarmam são considerados efeitos de prisão, e terão o efeito de estado \\\"Preso\\\" acima do herói ",
+      "Exemplo: Congelamento da Crystal Maiden"
+    ],
+    "items": {
+      "blink": [
+        "Habilidade ativa (Translocar) | Não possui mais um alcance adicional"
+      ],
+      "overwhelming_blink": [
+        "Habilidade ativa (Translocação Esmagadora) | Não possui mais um alcance adicional"
+      ],
+      "swift_blink": [
+        "Habilidade ativa (Translocação Veloz) | Não possui mais um alcance adicional"
+      ],
+      "arcane_blink": [
+        "Habilidade ativa (Translocação Arcana) | Não possui mais um alcance adicional"
+      ],
+      "kaya": [
+        "Não concede mais +20% de amplificação de roubo de vida arcano",
+        "Redução da amplificação de regeneração de mana (+50% → +40%)",
+        "\\\"+25% de amplificações de roubo de vida, roubo de vida arcano e regeneração de vida\\\" → \\\"+20% de restauração de vida\\\""
+      ],
+      "yasha": [
+        "Não concede mais +25% de amplificação de roubo de vida arcano"
+      ],
+      "meteor_hammer": [
+        "Não concede mais amplificação de roubo de vida arcano",
+        "Redução da amplificação de regeneração de mana (+50% → +40%)"
+      ],
+      "sange": [
+        "\\\"+20% de amplificações de roubo de vida e regeneração de vida\\\" → \\\"+16% de restauração de vida\\\"",
+        "\\\"+25% de amplificações de roubo de vida e regeneração de vida\\\" → \\\"+20% de restauração de vida\\\"",
+        "Redução da resistência estática adicional (+20% → +15%)"
+      ],
+      "abyssal_blade": [
+        "\\\"+25% de amplificações de roubo de vida e regeneração de vida\\\" → \\\"+20% de restauração de vida\\\""
+      ],
+      "orb_of_frost": [
+        "Aumento do custo (250 → 300 de ouro)",
+        "Habilidade passiva (Congelamento) | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 13%, reduz restaurações de vida em 13%",
+        "Habilidade passiva (Congelamento) | O retardo e a redução de restaurações de vida não se acumulam mais com o Orbe Corrosivo e o Olho de Skadi"
+      ],
+      "orb_of_corrosion": [
+        "Aumento do custo total (1.000 → 1.050 de ouro)",
+        "Habilidade passiva (Corrrosão) | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 16%, reduz restaurações de vida em 16%",
+        "Habilidade passiva (Corrosão) | O retardo e a redução de restaurações de vida não se acumulam mais com o Orbe Congelado e o Olho de Skadi"
+      ],
+      "skadi": [
+        "Alteração da receita",
+        "Agora, requer um segundo Orbe Supremo (2.800) em vez de um Amplificador de Pontos (1.200)",
+        "Não requer mais uma receita de 1.050 de ouro (aumento do custo total: 5.300 → 5.900 de ouro)",
+        "Não concede mais +250 de vida e +250 de mana",
+        "Aumento do adicional a todos os atributos (+22 → +35)",
+        "Habilidade passiva (Ataque Congelante) | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 40%, reduz restaurações de vida e amplificações de cura em 40%",
+        "Habilidade passiva (Ataque Congelante) | O retardo e a redução de restaurações de vida não se acumulam mais com o Orbe Congelado e o Orbe Corrosivo"
+      ],
+      "shivas_guard": [
+        "Habilidade passiva (Aura Congelante) | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 25%, reduz restaurações de vida e curas recebidas em 25%"
+      ],
+      "bloodstone": [
+        "Habilidade ativa (Pacto de Sangue) | Redução do intervalo entre usos (35s → 30s)"
+      ],
+      "eternal_shroud": [
+        "Habilidade passiva (Mortalha) | Aumento da restauração de mana (20% → 25%)"
+      ],
+      "helm_of_the_dominator": [
+        "Alteração da receita",
+        "Agora, requer Coroa (450) em vez de Diadema (1.000)",
+        "Aumento do custo da receita (650 → 1.125 de ouro — redução do custo total: 2.625 → 2.550 de ouro)",
+        "Atributos inalterados"
+      ],
+      "helm_of_the_overlord": [
+        "Redução do custo total (5.725 → 5.650 de ouro)"
+      ],
+      "glimmer_cape": [
+        "Redução da resistência mágica adicional (+25% → +20%)",
+        "Habilidade ativa (Cobertura Cintilante) | Aumento da barreira (300 → 375)"
+      ],
+      "holy_locket": [
+        "Habilidade passiva (Bênção Sagrada) | Redução da amplificação de cura (25% → 15%)"
+      ],
+      "sphere": [
+        "Aumento da regeneração de vida adicional (+6 → +6,5)"
+      ],
+      "phylactery": [
+        "Habilidade passiva (Fortalecer Habilidade) | Redução do intervalo entre usos (12s → 10s)"
+      ],
+      "angels_demise": [
+        "Redução do custo da receita (1.500 → 1.300 de ouro). Redução do custo total (5.900 → 5.700 de ouro)"
+      ],
+      "rod_of_atos": [
+        "Redução da Inteligência adicional (+15 → +12)",
+        "Habilidade ativa (Incapacitar) | Aumento do custo de mana (50 → 100)"
+      ],
+      "gungir": [
+        "Redução da Inteligência adicional (+15 → +12)",
+        "Habilidade ativa (Correntes Eternas) | Aumento do custo de mana (100 → 150)"
+      ],
+      "talisman_of_evasion": [
+        "Redução da esquiva adicional (+20% → +15%)"
+      ],
+      "radiance": [
+        "Redução da esquiva adicional (+20% → +15%)"
+      ],
+      "urn_of_shadows": [
+        "Alteração da receita",
+        "Agora, requer Tiara (155) em vez de Chapéu Fofinho (250)",
+        "Aumento do custo da receita (280 → 320 de ouro — redução do custo total: 880 → 825 de ouro)",
+        "Não concede mais +125 de vida",
+        "Agora, concede +2 a todos os atributos"
+      ],
+      "spirit_vessel": [
+        "Alteração da receita",
+        "Agora, requer Diadema (1.000) em vez de Amplificador de Vitalidade (1.000)",
+        "Custo da receita inalterado. Redução do custo total (2.780 → 2.725 — devido à alteração da Urna das Sombras)",
+        "Não concede mais +375 de vida",
+        "Agora, concede +10 a todos os atributos",
+        "Habilidade ativa (Libertação da Alma) | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 70%, reduz restaurações de vida e amplificações de cura em 70%"
+      ],
+      "vladmir": [
+        "Redução da armadura adicional (+2 → +1)"
+      ],
+      "orb_of_destruction": [
+        "Remoção do item"
+      ],
+      "unstable_wand": [
+        "Remoção do item"
+      ],
+      "trusty_shovel": [
+        "Remoção do item"
+      ],
+      "chipped_vest": [
+        "Readição como um item neutro de classe 1",
+        "Passiva: Lascar — Ao sofrer ataques, retorna 30 do dano a heróis e 20 do dano a criaturas"
+      ],
+      "dormant_curio": [
+        "Novo artefato neutro de classe 1",
+        "Passiva: Potencial Oculto — Artefatos neutros escolhidos ao segurar um Tesouro Adormecido têm a sua potência aumentada em 30%",
+        "Concede o encantamento \\\"Potencial\\\", que aprimora alguns atributos do próximo artefato escolhido durante a fabricação que não o Tesouro Adormecido. Atributos aprimorados terão um ícone especial na descrição para indicar que foram aprimorados pelo Tesouro Adormecido. Todos os aprimoramentos serão listados aqui na seção de cada item",
+        "Este encantamento ficará ligado ao próximo artefato escolhido que não o Tesouro Adormecido, e assim permanecerá enquanto você mantiver o artefato aprimorado. Selecionar um novo artefato removerá o encantamento \\\"Potencial\\\"",
+        "Este encantamento não pode ser salvo com a faceta Esconderijo de Spoon, dos Techies"
+      ],
+      "kobold_cup": [
+        "Novo artefato neutro de classe 1",
+        "Ativa: Saideira — Aumenta em 10% a velocidade de movimento de todos os aliados em até 1.000 unidades de distância. Duração: 6s. Custo de mana: 40. Intervalo entre usos: 40s"
+      ],
+      "sisters_shroud": [
+        "Novo artefato neutro de classe 1",
+        "Passiva: Sob o Véu — Ao ficar com menos de 50% de vida, ganha 200% de esquiva adicional durante 8s. Durante este efeito, esquivar-se de um ataque reduz a esquiva adicional em 0,25x o valor atual ",
+        "Ou seja, o efeito concederá +200/50/12,5/3,125/0,78% de esquiva após 0/1/2/3/4 ataques esquivados. Ativado apenas a partir de fontes de dano controladas por jogadores e Roshan",
+        "Passiva: Último Abraço — O intervalo entre usos deste item só é zerado caso o portador morra ou mate um herói inimigo"
+      ],
+      "gossamer_cape": [
+        "Remoção do item"
+      ],
+      "iron_talon": [
+        "Remoção do item"
+      ],
+      "misericorde": [
+        "O Tesouro Adormecido aumenta o dano por incremento da Piedade Sombria (3 → 3,9)"
+      ],
+      "essence_ring": [
+        "O Tesouro Adormecido aumenta a vida concedida pela Essência Vital (240 → 312)"
+      ],
+      "mana_draught": [
+        "Movido da classe 1 para 2",
+        "Habilidade ativa (Entornar) | Aumento do mana base restaurado (30 → 60)",
+        "O Tesouro Adormecido aumenta o mana máximo restaurado (4% → 5,2%)"
+      ],
+      "poor_mans_shield": [
+        "Readição como um item neutro de classe 2",
+        "Passiva: Bloqueio de Dano — Concede 50% de chance de bloquear 30 de dano de ataques sofridos em heróis corpo a corpo e 20 de dano em heróis de longo alcance. 100% de chance contra ataques de heróis",
+        "O Tesouro Adormecido aumenta o bloqueio de dano (30/20 → 39/26)"
+      ],
+      "searing_signet": [
+        "O Tesouro Adormecido aumenta o dano total da Queima Arcana (72 → 93,6)"
+      ],
+      "pogo_stick": [
+        "O Tesouro Adormecido aumenta a distância do salto da Arrancada (300 → 390 unidades)"
+      ],
+      "nemesis_curse": [
+        "Remoção do item"
+      ],
+      "ninja_gear": [
+        "Remoção do item"
+      ],
+      "gale_guard": [
+        "O Tesouro Adormecido aumenta a vida da barreira do Escudo Ciclonal (250 → 325)"
+      ],
+      "gunpowder_gauntlets": [
+        "O Tesouro Adormecido aumenta o dano mágico adicional do Ataque Bombástico (120 → 156)"
+      ],
+      "jidi_pollen_bag": [
+        "Novo artefato neutro de classe 3",
+        "Ativa: Polinizar — Lança o pólen em todas os inimigos em até 700 unidades de distância, reduzindo restaurações de vida em 20% durante 12s e causando dano ao longo do tempo com base na vida máxima do alvo. Intervalo de dano: 1s. Sem custo de mana. Intervalo entre usos: 45s ",
+        "O dano não é letal, e é classificado como remoção de vida (não cancela a Adaga de Translocação)",
+        "O Tesouro Adormecido aumenta a vida máxima total causada como dano (12% → 15,6%)"
+      ],
+      "psychic_headband": [
+        "Readição como um item neutro de classe 3",
+        "Ativa: Empurrão Paranormal — Empurra a unidade-alvo inimiga em 400 unidades de distância para longe de você. Alcance de uso: 600 unidades. Sem custo de mana. Intervalo entre usos: 20s",
+        "O Tesouro Adormecido aumenta a distância do empurrão (400 → 520 unidades)"
+      ],
+      "serrated_shiv": [
+        "O Tesouro Adormecido aumenta a vida atual causada como dano pela Peixeira (8% → 10,4%)",
+        "O Tesouro Adormecido aumenta o dano causado a Roshan pela Peixeira (200 → 260)"
+      ],
+      "whisper_of_the_dread": [
+        "O Tesouro Adormecido aumenta o dano arcano adicional da Visão em Túnel (10% → 13%)"
+      ],
+      "ceremonial_robe": [
+        "Remoção do item"
+      ],
+      "mind_breaker": [
+        "Remoção do item"
+      ],
+      "ogre_seal_totem": [
+        "Remoção do item"
+      ],
+      "crippling_crossbow": [
+        "Habilidade ativa (Disparo na Canela) | \\\"40% de reduções de cura, regeneração de vida, roubo de vida e e roubo de vida arcano\\\" → \\\"40% de redução de restaurações de vida\\\"",
+        "O Tesouro Adormecido aumenta a redução de restaurações de vida (40% → 52%)"
+      ],
+      "dezun_bloodrite": [
+        "Novo artefato neutro de classe 4",
+        "Passiva: Invocação Sangrenta — Aumenta as suas áreas de efeito de habilidades e itens em 15%, mas adiciona um custo de vida equivalente a 35% do custo de mana",
+        "O Tesouro Adormecido aumenta o adicional às áreas de efeito (15%→ 19,5%)"
+      ],
+      "giant_maul": [
+        "Novo artefato neutro de classe 4",
+        "Passiva: Golpe Esmagador — O seu próximo ataque causa um acerto crítico com 150% do seu dano de ataque. Heróis atingidos com esse ataque fortalecido sofrem redução temporária das velocidades de movimento (10%), ataque (15%) e lançamento (20%) durante 4s. Sem custo de mana. Intervalo entre usos: 15s",
+        "O Tesouro Adormecido aumenta o dano crítico (150% → 195%)"
+      ],
+      "magnifying_monocle": [
+        "O Tesouro Adormecido aumenta os adicionais de alcance de uso (125 → 162,5 unidades) e ataque (100 → 130 unidades) da Visão Keen"
+      ],
+      "outworld_staff": [
+        "Novo artefato neutro de classe 4",
+        "Ativa: Autoexílio — Remove o usuário do mundo durante 0,7s, tornando-o invulnerável e desativado. Ao retornar para o mundo, sofre 5% da vida máxima como dano. O dano não é letal, mas cancela a Adaga de Translocação e outros itens similares após o efeito. Custo de mana: 40. Intervalo entre usos: 30s ",
+        "Botas Serenas não são canceladas por este dano",
+        "O Tesouro Adormecido aumenta a duração (0,7s → 0,91s)"
+      ],
+      "pyrrhic_cloak": [
+        "O Tesouro Adormecido aumenta o dano refletido pela Retribuição (75% → 97,5%)"
+      ],
+      "panic_button": [
+        "Remoção do item"
+      ],
+      "pirate_hat": [
+        "Remoção do item"
+      ],
+      "demonicon": [
+        "Habilidade ativa (Invocação Demoníaca Superior) | Redução da duração (75s → 65s)",
+        "Redução da vida do Guerreiro Demoníaco (1.800 → 1.600)",
+        "Alteração do tipo de dano do Guerreiro Demoníaco (Normal → Acanhado) ",
+        "Unidades Acanhadas causam menos 25% de dano contra heróis",
+        "Redução da vida do Arqueiro Demoníaco (1.800 → 1.300)",
+        "Alteração do tipo de dano do Arqueiro Demoníaco (Normal → Perfurante) ",
+        "Unidades Perfurantes causam mais 50% de dano contra unidades não heroicas, mas causam menos 50% de dano a heróis e unidades reforçadas (estruturas e criaturas de cerco)",
+        "O Tesouro Adormecido aumenta a duração da Invocação Demoníaca Superior (65s → 84,5s)"
+      ],
+      "divine_regalia": [
+        "Novo artefato neutro de classe 5",
+        "Passiva: Exaltação — Aumenta todo o dano causado em 20%. Morrer desativa este item neutro permanentemente, removendo o encantamento atual e transformando-se em uma Regalia Arruinada ",
+        "Encantamentos retidos com a faceta Esconderijo de Spoon dos Techies não são afetados, exceto pelo último encantamento de classe 5 obtido. O encantamento \\\"Potencial\\\" obtido com o artefato Tesouro Adormecido também é removido",
+        "O Tesouro Adormecido aumenta o multiplicador de dano (20%→ 26%)",
+        "Novo artefato neutro de classe 5",
+        "Passiva: Desdém — Não concede nada àquele que ousou morrer",
+        "Exibido apenas para heróis que morreram com o artefato Regalia Divina",
+        "Como o quarto compartimento é reservado para o seu artefato atual ao refabricar itens, é possível refabricar uma Regalia Arruinada com um encantamento de classe 5 válido",
+        "A Regalia Divina normal ainda pode reaparecer entre as três outras opções"
+      ],
+      "fallen_sky": [
+        "O Tesouro Adormecido aumenta o dano ao longo do tempo do Impacto Celeste (60 → 78), dano de impacto em estruturas (75→ 97,5) e dano de impacto em unidades (150 → 195)"
+      ],
+      "helm_of_the_undying": [
+        "Readição como um item neutro de classe 5",
+        "Passiva: Morte Postergada — Sobrevive por mais cinco segundos após sofrer um golpe fatal. Heróis inimigos mortos em até 1.200 unidades de distância estendem este efeito em mais cinco segundos. Intervalo entre usos: 50s ",
+        "Tem prioridade sobre a habilidade Nativa \\\"Espírito Vampírico\\\" do Wraith King, mas não sobre a Reencarnação ou a Égide do Imortal",
+        "O Tesouro Adormecido aumenta a duração base (5s → 6,5s)"
+      ],
+      "minotaur_horn": [
+        "O Tesouro Adormecido aumenta a duração do Avatar Inferior (2s → 2,6s)"
+      ],
+      "spider_legs": [
+        "O Tesouro Adormecido aumenta a velocidade de movimento adicional da Disparada (20% → 26%)"
+      ],
+      "desolator": [
+        "O Tesouro Adormecido aumenta a redução de armadura da Corrupção Superior (13 → 16,9)"
+      ],
+      "unrelenting_eye": [
+        "O Tesouro Adormecido aumenta a resistência a retardos (100% → 130%)"
+      ],
+      "enhancement_alert": [
+        "Redução da velocidade de ataque adicional (10/17/24/35 → 10/17/24/31)",
+        "Agora, também concede +100 de alcance de ataque (corpo a corpo e longo alcance) na classe 4"
+      ],
+      "enhancement_brawny": [
+        "Redução da vida adicional (125/165/205/245 → 110/150/190/230)",
+        "Agora, também concede +25% de resistência a retardos na classe 4"
+      ],
+      "enhancement_mystical": [
+        "Redução da resistência mágica adicional (0/10/14/18% → 0/10/13/16%)",
+        "Agora, também concede +100 de alcance de uso na classe 4"
+      ],
+      "enhancement_quickened": [
+        "Agora, também concede +15% de esquiva na classe 4"
+      ],
+      "enhancement_tough": [
+        "Redução do dano adicional (7/10/13/17 → 7/10/13/16)",
+        "Redução da armadura adicional (0/4/7/10 → 0/4/6/8)",
+        "Agora, também concede +40% de resistência a arremessos na classe 4 ",
+        "Reduz a distância empurrada por movimentações forçadas de efeitos inimigos em 40%"
+      ],
+      "enhancement_vampiric": [
+        "Agora, também concede +200 de visão noturna adicional na classe 4"
+      ],
+      "enhancement_crude": [
+        "Não concede mais +20/30% de resistência a retardos",
+        "Agora, concede +20/30% de restaurações de vida"
+      ],
+      "enhancement_wise": [
+        "Agora, também concede +15% de mana máximo"
+      ]
+    },
+    "heroes": {
+      "misc": [
+        "Alterações em artefatos",
+        "Alterações em encantamentos"
+      ],
+      "abaddon": {
+        "general": [
+          "Remoção da faceta Sudário Mefítico"
+        ],
+        "hero_facet": [
+          "A Espiral da Neblina também causa 40/60/80/100% do dano de ataque e aplica efeitos de itens e habilidades. Aumento do dano causado a si próprio quando usada contra inimigos (40% → 70%)",
+          "O dano causado a si próprio não é afetado pelo dano de ataque (mesmo efeito anterior do Fragmento de Aghanim)"
+        ],
+        "abaddon_withering_mist": [
+          "Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 35%, reduz restaurações de vida em 35%"
+        ],
+        "abaddon_death_coil": [
+          "Não é mais aprimorável pelo Fragmento de Aghanim"
+        ],
+        "abaddon_aphotic_shield": [
+          "Agora, é aprimorável pelo Fragmento de Aghanim",
+          "75% do dano absorvido é causado contra inimigos próximos"
+        ]
+      },
+      "alchemist": {
+        "hero_facet": [
+          "Redução do OPM por Cetro de Aghanim (+75 → +70)"
+        ],
+        "alchemist_corrosive_weaponry": [
+          "Redução do máximo de acúmulos (10/12/14/16 → 7/10/13/16)",
+          "Aumento do retardo de movimento por acúmulo (1,5/2/2,5/3% → 2/2,5/3/3,5%)",
+          "Aumento da redução de dano de ataque base por acúmulo (1,5/2/2,5/3% → 2/2,5/3/3,5%)"
+        ]
+      },
+      "ancient_apparition": {
+        "ancient_apparition_ice_vortex": [
+          "Redução do alcance de uso (1.500 → 1.200 unidades)",
+          "Redução do raio (300 → 275 unidades)"
+        ],
+        "ancient_apparition_ice_blast": [
+          "Fragmento de Aghanim | Redução da duração do atordoamento do Pé Frio (60% → 50%)"
+        ],
+        "talents": [
+          "Redução do Talento Nível 20: +5s → \\\"+4s de congelamento para Explosão de Gelo\\\""
+        ]
+      },
+      "antimage": {
+        "talents": [
+          "Aumento do Talento Nível 15: +5%/15% → \\\"+7,5%/15% de retardo de movimento mín./máx. para Opressor\\\"",
+          "Aumento do Talento Nível 20: +0,7s → \\\"+0,8s para o atordoamento do Vácuo de Mana\\\""
+        ]
+      },
+      "arc_warden": {
+        "hero_facet": [
+          "Alteração da runa do primeiro nível (Invisibilidade → Arcana)",
+          "Os demais níveis seguem inalterados"
+        ],
+        "talents": [
+          "Redução do Talento Nível 20: -7s → \\\"-5s de intervalo entre usos para Campo Magnético\\\"",
+          "Aumento do Talento Nível 20: +40% → \\\"+50% de dano para Espectro Elétrico\\\"",
+          "Aumento do Talento Nível 25: -1s → \\\"-1,1s de atraso para Espectro Elétrico\\\""
+        ]
+      },
+      "axe": {
+        "hero_facet": [
+          "Aumento da armadura adicional (+5 → +6)",
+          "Aumento do valor total (17/18/19/20 → 18/19/20/21)"
+        ],
+        "axe_battle_hunger": [
+          "Aumento do retardo de movimento (15/20/25/30% → 18/22/26/30%)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 20: +25 → \\\"+30 de dano para Contraespiral\\\""
+        ]
+      },
+      "bane": {
+        "bane_enfeeble": [
+          "Redução do intervalo entre usos (28/21/14/7s → 22/17/12/7s)"
+        ]
+      },
+      "batrider": {
+        "general": [
+          "Redução da velocidade de movimento base (330 → 320)"
+        ],
+        "hero_facet": [
+          "Também incendeia o Batrider. Ele queima 2% da vida máxima por segundo, mas ganha velocidade de movimento e amplificação arcana gradualmente ao longo da duração. Velocidade de movimento adicional máxima: 25/30/35/40%. Amplificação arcana adicional máxima: 20%",
+          "Os valores adicionais máximos são alcançados ao final da duração do Rastro de Chamas e não persistem. O aumento dos valores e o dano a si próprio são aplicados a cada 0,1s. O dano causado a si não aumenta ao longo do tempo, e ele é mágico e não letal",
+          "Aumenta o nível máximo do Napalm Pegajoso para 5",
+          "Redução da quantidade de níveis de \\\"+2 a todos os atributos\\\" (7 → 6)",
+          "No nível 5, faz com que cada ataque do Batrider aplique um acúmulo de Napalm Pegajoso"
+        ],
+        "batrider_sticky_napalm": [
+          "Agora, aplica dois acúmulos por uso",
+          "Aumento do limite de acúmulos (10 → 20)",
+          "Todos os valores por acúmulo foram reduzidos pela metade",
+          "O dano de aplicação permanece o mesmo",
+          "Redução do dano por acúmulo (5/10/15/20 → 2,5/5/7,5/10)",
+          "Redução do retardo de movimento por acúmulo (1,5/3/4,5/6% → 0,75/1,5/2,25/3%)",
+          "Redução do retardo da taxa de rotação por acúmulo (10/30/50/70% → 5/15/25/35%)",
+          "Reformulação do aprimoramento com o Fragmento de Aghanim",
+          "Remove o limite de 20 acúmulos e permite que o Napalm Pegajoso cause 35% de dano a estruturas"
+        ],
+        "batrider_flaming_lasso": [
+          "Não é mais aprimorável pelo Fragmento de Aghanim"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 25: 2 → \\\"Explosão de Chamas aplica 4 cargas de Napalm Pegajoso\\\"",
+          "Redução do Talento Nível 25: +20 → \\\"+10 de dano para Napalm Pegajoso\\\""
+        ]
+      },
+      "beastmaster": {
+        "general": [
+          "Redução da Agilidade base (22 → 19)",
+          "Redução do dano no primeiro nível em 1 (53–57 → 52–56)"
+        ],
+        "beastmaster_drums_of_slom": [
+          "Redução da quantidade de acúmulos concedidos ao usar o Rugido Primitivo (10/15/20 → 10)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 15: +10 → \\\"+15 de velocidade de ataque para Fera Interior\\\""
+        ]
+      },
+      "bloodseeker": {
+        "general": [
+          "Remoção da faceta Correndo Pelas Veias"
+        ],
+        "hero_facet": [
+          "Substitui 15/20/25/30% de amplificação arcana por 10/15/20/25% de amplificação do dano base. Agora, a habilidade também silencia o alvo e pode ser usada em inimigos. Reduz o alcance de uso (800 → 400 unidades). Aumenta o custo de mana (0 → 60)",
+          "O Talento Nível 20 que reduz o dano por vida máxima não se aplica quando usada em inimigos. O aprimoramento do Cetro de Aghanim também afeta apenas o Bloodseeker e não concede dano adicional a inimigos",
+          "Alteração do Talento Nível 10: \\\"+15% de amplificação arcana para Fúria por Sangue\\\" → \\\"+15% de amplificação do dano base para Fúria por Sangue\\\""
+        ],
+        "talents": [
+          "Alteração do Talento Nível 10: \\\"+25 de velocidade de ataque para Fúria por Sangue\\\" → \\\"+175 de vida\\\""
+        ]
+      },
+      "bounty_hunter": {
+        "bounty_hunter_wind_walk_ally": [
+          "Redução do tempo de desvanecimento em aliados (1s → 0,5s)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 10: +20 → \\\"+25 de dano\\\""
+        ]
+      },
+      "brewmaster": {
+        "brewmaster_thunder_clap": [
+          "Aprimoramento do ponto de lançamento (0,4s → 0,35s)",
+          "Alteração da escala do intervalo entre usos (16/15/14/13s → 18/16/14/12s)",
+          "Aumento do dano causado (75/150/225/300 → 80/160/240/320)"
+        ],
+        "brewmaster_cinder_brew": [
+          "Redução do intervalo entre usos (22/19/16/13s → 19/17/15/13s)"
+        ],
+        "brewmaster_primal_split": [
+          "Aumento do dano de ataque do Elemental da Terra em 5/10/15",
+          "Redução do dano adicional contra estruturas da habilidade Demolir do Elemental da Terra (80/140/200 → 50/100/150)",
+          "Agora, o Ciclone do Elemental da Tempestade causa 75 de dano quando a unidade aterrissar",
+          "Aumento da velocidade de movimento adicional do Andar dos Ventos do Elemental da Tempestade (20/30/40% → 25/35/45%)",
+          "Aumento do raio da Imolação Permanente do Elemental do Fogo (220 → 250 unidades)"
+        ],
+        "brewmaster_primal_split_info": [
+          "(15–25/45–55/75–85 → 20–30/55–65/90–100)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 20: +100 → \\\"+110 de velocidade de ataque\\\""
+        ]
+      },
+      "bristleback": {
+        "hero_facet": [
+          "Aumento do cone de visão (90 → 110 graus)"
+        ],
+        "bristleback_viscous_nasal_goo": [
+          "Redução da perda de armadura base (2/2/3/3 → 1,5/2/2,5/3)",
+          "Redução do retardo base de movimento (15% → 10%)"
+        ],
+        "bristleback_quill_spray": [
+          "Adição de modo de uso automático. Clique com o botão direito na habilidade para fazer o Bristleback usá-la automaticamente sempre que possível"
+        ]
+      },
+      "broodmother": {
+        "broodmother_spiders_milk": [
+          "O efeito não pode mais ser dissipado"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 10: +0,5% → \\\"+1,5% de cura por vida do herói para Leite de Aranha\\\"",
+          "Alteração do Talento Nível 15: \\\"-5s de recarga de Tecer Teia\\\" → \\\"+12 de dano de ataque adicional p/ Mordida Incapacitante\\\"",
+          "Alteração do Talento Nível 20: \\\"+12 de dano de ataque adicional p/ Mordida Incapacitante\\\" → \\\"-6s de recarga de Tecer Teia\\\""
+        ]
+      },
+      "centaur": {
+        "hero_facet": [
+          "Agora, também conta o dano sofrido por inimigos que não são heróis"
+        ],
+        "centaur_double_edge": [
+          "Aumento do alcance de uso (150 → 175 unidades)"
+        ]
+      },
+      "chaos_knight": {
+        "hero_facet": [
+          "Aumento do percentual de alcance da divisão com base no alcance de uso (60% → 70%)"
+        ],
+        "chaos_knight_chaos_bolt": [
+          "Aumento do dano máximo (150/230/310/390 → 155/240/325/410)"
+        ]
+      },
+      "chen": {
+        "general": [
+          "Aumento do dano base em 2",
+          "Aumento do dano no primeiro nível (46–56 → 48–58)"
+        ],
+        "chen_holy_persuasion": [
+          "Aumento do dano adicional (2/7/11/15 → 4/8/12/16)",
+          "Agora, unidades existentes recebem os benefícios imediatamente caso Chen suba o nível ou aprimore a Persuasão Sagrada. Criaturas mantêm a porcentagem de vida atual",
+          "Não é mais aprimorável pelo Cetro de Aghanim"
+        ],
+        "chen_divine_favor": [
+          "Agora, as unidades teletransportadas até Chen também recebem o efeito quando a habilidade é usada no próprio Chen"
+        ],
+        "chen_hand_of_god": [
+          "Agora, é aprimorável pelo Cetro de Aghanim",
+          "Reduz o intervalo entre usos em 40s. A Mão de Deus torna-se uma habilidade canalizada. Após a cura inicial, Chen pode continuar a canalização por até 6s para conceder imunidade a efeitos com 60% de resistência mágica a todos os aliados em até 800 unidades de distância, exceto a si próprio. Este efeito também triplica a cura ao longo do tempo da Mão de Deus para todas as unidades dentro do alcance da imunidade a efeitos",
+          "O raio da canalização é afetado por adicionais de área de efeito"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 15: +12 → \\\"+14 de dano para Persuasão Sagrada\\\"",
+          "Aumento do Talento Nível 20: +1.200 → \\\"+1.300 de vida mínima para Persuasão Sagrada\\\"",
+          "Alteração do Talento Nível 20: \\\"-30s de intervalo entre usos para Mão de Deus\\\" → \\\"+20% de amplificação de cura para Favor Divino\\\""
+        ]
+      },
+      "clinkz": {
+        "clinkz_burning_army": [
+          "Redução do intervalo entre usos (80s → 70s)"
+        ],
+        "talents": [
+          "Redução do Talento Nível 15: +75 → \\\"+60 de alcance de ataque\\\""
+        ]
+      },
+      "rattletrap": {
+        "hero_facet": [
+          "O Clockwerk pode consumir Cotas de Malha, cada uma concedendo permanentemente +4 de armadura. Acumulável sem limites"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 20: \\\"+75 de dano para Foguete Sinalizador\\\" → \\\"+70 de queima de mana para Engrenagens Elétricas\\\""
+        ]
+      },
+      "crystal_maiden": {
+        "hero_facet": [
+          "Redução da restauração de mana para aliados (25% → 15%)",
+          "Agora, também restaura uma porcentagem do mana da própria Crystal Maiden",
+          "A ativação não interrompe mais o movimento"
+        ]
+      },
+      "dark_seer": {
+        "general": [
+          "Redução do ganho de Agilidade (1,8 → 1,5)"
+        ],
+        "dark_seer_normal_punch": [
+          "Aumento do intervalo entre usos (9s → 10s)"
+        ]
+      },
+      "dark_willow": {
+        "dark_willow_pixie_dust": [
+          "Aumento da regeneração de vida adicional (100% → 150%)",
+          "Aumento da regeneração de mana adicional (100% → 150%)"
+        ],
+        "dark_willow_shadow_realm": [
+          "Redução do intervalo entre usos (22/20/18/16s → 21/19/17/15s)"
+        ]
+      },
+      "dawnbreaker": {
+        "general": [
+          "Redução do dano base em 5",
+          "Redução do dano no primeiro nível (54–58 → 49–53)"
+        ],
+        "hero_facet": [
+          "Agora, concederá a velocidade de ataque mesmo caso Quebra-Estrelas seja interrompida"
+        ],
+        "dawnbreaker_break_of_dawn": [
+          "Reformulação da habilidade",
+          "Passiva, não pode ser aprimorada",
+          "Sempre que o sol nascer, a Dawnbreaker ganha 25% de dano base e 20% de visão adicionais, que são perdidos gradualmente ao longo do dia, chegando a 0% à noite"
+        ],
+        "dawnbreaker_fire_wreath": [
+          "Fragmento de Aghanim | Agora, também destrói árvores na frente da Dawnbreaker"
+        ]
+      },
+      "dazzle": {
+        "dazzle_shallow_grave": [
+          "Alteração da escala do alcance de uso (700/800/900/1.000 → 900 unidades)",
+          "Aumento da duração (3,5/4/4,5/5s → 4/4,5/5/5,5s)",
+          "Aumento da amplificação de cura a cada 10% de vida faltante (2/4/6/8% → 3/5/7/9%)"
+        ]
+      },
+      "death_prophet": {
+        "death_prophet_carrion_swarm": [
+          "Aumento do dano causado (85/165/245/325 → 100/175/250/325)"
+        ],
+        "death_prophet_silence": [
+          "Aumento da velocidade do projétil (1.200 → 1.400)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 15: +75 → \\\"+100 à área de efeito de Silenciar\\\""
+        ]
+      },
+      "disruptor": {
+        "hero_facet": [
+          "Agora, também aumenta a duração do retardo (0,4s → 0,8s)",
+          "Correção de erro que causava a exibição incorreta da largura da parede nas descrições",
+          "Costumava exibir o raio de 350 unidades do Campo Cinético, em vez da largura de 1.200 unidades",
+          "Aumenta o nível máximo da Repulsão Eletromagnética para 4, aprimorada com o nível da Tempestade Eletrostática",
+          "Pode ser ativada manualmente e usada em aliados, causando dano igual a 10% da vida atual do Disruptor. Após ser ativada desta forma, entra em um intervalo entre usos de 26/20/14/8s. Alcance de uso: 600 unidades. Custo de mana: 50"
+        ],
+        "disruptor_thunder_strike": [
+          "Fragmento de Aghanim | Redução da duração da dormência (5s → 4s)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 15: \\\"+1,5s de duração para Tempestade Eletrostática\\\" → \\\"+60 de DPS para Tempestade Eletrostática\\\"",
+          "Alteração do Talento Nível 20: \\\"+0,6s de atordoamento para Golpe do Trovão\\\" → \\\"+150 ao raio/arremesso da Repulsão Eletromagnética\\\"",
+          "Redução do Talento Nível 20: +2s → \\\"+1,5s de duração para Campo Cinético\\\""
+        ]
+      },
+      "doom_bringer": {
+        "hero_facet": [
+          "Redução da porcentagem de revenda de itens (90% → 85%)"
+        ],
+        "doom_bringer_doom": [
+          "Redução do custo de mana (150/225/300 → 150/200/250)",
+          "Cetro de Aghanim | Aumento do raio (300 → 350 unidades)"
+        ]
+      },
+      "dragon_knight": {
+        "hero_facet": [
+          "Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 14/21/28/35%, reduz restaurações de vida em 14/21/28/35%"
+        ]
+      },
+      "drow_ranger": {
+        "drow_ranger_frost_arrows": [
+          "Cetro de Aghanim | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 10% por acúmulo, reduz restaurações de vida em 10% por acúmulo"
+        ],
+        "drow_ranger_glacier": [
+          "Aumento da distância do arremesso (175 → 225 unidades)"
+        ]
+      },
+      "earthshaker": {
+        "general": [
+          "Terra Batida | Remoção da habilidade Nativa"
+        ],
+        "hero_facet": [
+          "Alteração da escala do aumento de raio (+50 unidades a cada 10 níveis do herói → +40 unidades a cada nível da Batida Ecoante)",
+          "Heróis inimigos atordoados pela Fissura emitem um eco contra cada inimigo em até 400 unidades de distância, causando dano equivalente a 60% do eco do nível atual da Batida Ecoante",
+          "54/60/66 de dano, mais 30 com o Talento Nível 20"
+        ],
+        "earthshaker_slugger": [
+          "Agora, é uma habilidade Nativa",
+          "Redução do dano por criatura morta (40/60/80/100 → 30/45/60/75)"
+        ],
+        "earthshaker_slugger_info": [
+          "Quase nenhum valor foi alterado, e ainda é aprimorada com o nível da Batida Ecoante"
+        ],
+        "earthshaker_aftershock": [
+          "Redução do raio (350 → 300 unidades)"
+        ],
+        "earthshaker_echo_slam": [
+          "Redução do dano do eco (90/110/130 → 90/100/110)"
+        ]
+      },
+      "elder_titan": {
+        "hero_facet": [
+          "Redução da redução de armadura por segundo (1 → 0,8)",
+          "Redução da redução de resistência mágica por segundo (1% → 0,8%)"
+        ],
+        "elder_titan_ancestral_spirit": [
+          "O Espírito Astral não retorna mais ao Elder Titan automaticamente ao colidir com ele, apenas ao término da duração ou ao usar a habilidade de Retorno"
+        ]
+      },
+      "ember_spirit": {
+        "hero_facet": [
+          "Aumento da quantidade de unidades adicionais (1 → 2)",
+          "Aumento das unidades afetadas (3 → 4)"
+        ]
+      },
+      "enchantress": {
+        "hero_facet": [
+          "Aumento do alcance de ataque adicional (60/120/180/240 → 100/150/200/250)"
+        ],
+        "enchantress_impetus": [
+          "Alteração da escala do custo de mana (50 → 40/45/50/55)"
+        ]
+      },
+      "enigma": {
+        "enigma_demonic_conversion": [
+          "Alteração da escala do dano das aparições (20/28/38/47 → 16/27/38/49)"
+        ]
+      },
+      "faceless_void": {
+        "talents": [
+          "Aumento do Talento Nível 10: +7 → \\\"+9 de DPS por intervalo afetado na Dilatação Temporal\\\"",
+          "Aumento do Talento Nível 15: +30 → \\\"+35 de dano para Tranca Temporal\\\"",
+          "Aumento do Talento Nível 20: -1s → \\\"-1,25s de intervalo entre usos para Andar Temporal\\\"",
+          "Aumento do Talento Nível 20: +80 → \\\"+100 de vel. de ataque durante a Cronosfera/Zona Temporal\\\""
+        ]
+      },
+      "grimstroke": {
+        "hero_facet": [
+          "O Grimstroke lança uma trilha curvada espelhada da outra mão. Cada inimigo pode ser atingido por apenas uma trilha, mas o dano adicional é cumulativo para ambas"
+        ],
+        "grimstroke_dark_artistry": [
+          "Agora, o comportamento vetorizado, anteriormente exclusivo da faceta Belas Artes, vem ativado por padrão",
+          "Substituição dos 20/30/40/50 de dano adicional por unidade por dois valores separados: 20/40/60/80 por herói e 10/20/30/40 por criatura",
+          "Ilusões contam como criaturas"
+        ],
+        "grimstroke_soul_chain": [
+          "Caso o efeito seja encerrado no alvo primário mais cedo devido à resistência estática, ele também será encerrado no alvo secundário"
+        ],
+        "grimstroke_soul_chain_info": [
+          "Anteriormente, o alvo secundário permaneceria acorrentado"
+        ]
+      },
+      "gyrocopter": {
+        "general": [
+          "Redução da armadura base em 1"
+        ],
+        "hero_facet": [
+          "Aumento da duração da velocidade de movimento (4s → 4,5s)"
+        ]
+      },
+      "hoodwink": {
+        "hero_facet": [
+          "Não aumenta mais a duração para 3,5/4/4,5/5s"
+        ],
+        "hoodwink_acorn_shot": [
+          "Redução do custo de mana (85/90/95/100 → 70/80/90/100)"
+        ],
+        "hoodwink_scurry": [
+          "Aumento da duração do efeito (2/2,5/3/3,5s → 3,5/4/4,5/5s)"
+        ]
+      },
+      "huskar": {
+        "huskar_inner_fire": [
+          "Fragmento de Aghanim | Aumento do retardo de movimento (40% → 50%)"
+        ]
+      },
+      "invoker": {
+        "general": [
+          "Aumento do dano base em 4",
+          "Aumento do dano no primeiro nível (35–41 → 39–45)",
+          "Redução do ganho de Inteligência (4,7 → 4)",
+          "Cetro de Aghanim | Não concede mais +2 níveis para o orbe da faceta e +1 aos demais. Agora, concede apenas +1 nível para todos os orbes",
+          "O nível adicional para o orbe da faceta foi movido para o Talento Nível 15",
+          "Remoção dos aprimoramentos básicos exclusivos de uma faceta: restauração de vida e mana para a Onda de Frio (Aluno de Koryx), alcance de ataque adicional para Alacridade (Mente de Tornarus) e aumento do tamanho/distância percorrida para o Meteoro do Caos (Agente de Gallaron)"
+        ],
+        "hero_facet": [
+          "Cetro de Aghanim | Não concede mais o segundo nível adicional",
+          "Não restaura mais mana ou vida",
+          "Cetro de Aghanim | Agora, concede o antigo aprimoramento do Fragmento (reformulado)",
+          "Cetro de Aghanim | Torna-se uma habilidade de alvo vetorizado, criando um Bloco de Gelo no seu lugar. Após um atraso de 1,3s, o Bloco de Gelo aparece, criando uma área com 150 unidades de largura no seu caminho. Inimigos que ficarem em cima do Bloco de Gelo por mais de 2,5s são congelados, tornando-se enraizados por 1,5 + (0,1 × Quas) segundos e sofrendo dano mágico igual a 75 + (25 × Quas)",
+          "1,6/1,7/1,8/1,9/2,0/2,1/2,2/2,3/2,4/2,5s de enraizamento e 100/125/150/175/200/225/250/275/300/325 de dano",
+          "Cetro de Aghanim | Alcance de uso: 600 unidades. O Bloco de Gelo pode congelar a mesma unidade múltiplas vezes caso ela saia da área e retorne. Manter-se dentro do bloco impedirá novos enraizamentos",
+          "Não é mais aprimorável pelo Cetro de Aghanim",
+          "Agora, é aprimorável pelo Fragmento de Aghanim",
+          "Aumenta o raio do retardo em 150 unidades e aplica o dano por segundo da Parede de Gelo a todos os inimigos afetados",
+          "Cetro de Aghanim | Não concede mais o segundo nível adicional",
+          "Não concede mais alcance de ataque adicional ao Invoker e às suas unidades controladas",
+          "Cetro de Aghanim | Aumento do intervalo entre nascimento de ciclones (300 → 400 unidades)",
+          "Cetro de Aghanim | Alteração da escala do dano por segundo dos ciclones (120 → 50 + 10 × Wex)",
+          "60/70/80/90/100/110/120/130/140/150",
+          "Cetro de Aghanim | Alteração da escala da duração (4s→ 3s + 0,2s × Quas)",
+          "3,2/3,4/3,6/3,8/4,0/4,2/4,4/4,6/4,8/5s",
+          "Cetro de Aghanim | Não concede mais o segundo nível adicional",
+          "Não aumenta mais o tamanho e a distância percorrida",
+          "Cetro de Aghanim | Aumento do intervalo entre usos do Cataclismo (75s → 90s)"
+        ],
+        "invoker_wex": [
+          "Agora, também concede +1/2/3/4/5/6/7/8/9/10 de velocidade de ataque por instância"
+        ],
+        "invoker_exort": [
+          "Aumento do dano de ataque por instância (1/3/5/7/9/11/13/15/17/19 → 2/4/6/8/10/12/14/16/18/20)"
+        ],
+        "invoker_cold_snap": [
+          "Aumento do dano do congelamento em 20"
+        ],
+        "invoker_cold_snap_info": [
+          "(8/16/24/32/40/48/56/64/72/80 → 28/36/44/52/60/68/76/84/92/100)"
+        ],
+        "invoker_sun_strike": [
+          "Redução do dano causado (150 + 50 × Exort → 125 + 50 × Exort)"
+        ],
+        "invoker_sun_strike_info": [
+          "(200/250/300/350/400/450/500/550/600/650 → 175/225/275/325/375/425/475/525/575/625)"
+        ],
+        "invoker_forge_spirit": [
+          "Alteração da escala da duração (10/20/30/40/50/60/70/80/90/100s → 24/30/36/42/48/54/60/66/72/78s)"
+        ],
+        "invoker_ice_wall": [
+          "Agora, o intervalo de dano por segundo é único para cada unidade, em vez de persistente para a parede inteira. Como resultado, agora, a primeira instância de dano é causada instantaneamente",
+          "Aprimoramento do intervalo de dano (1s → 0,5s)",
+          "Alteração da escala do dano por segundo (8 × Exort → 25 + 5 × Exort)",
+          "(8/16/24/32/40/48/56/64/72/80 → 30/35/40/45/50/55/60/65/70/75)",
+          "Agora, a largura da parede voltou a ser afetada por adicionais de área de efeito"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 15: \\\"-4s de intervalo entre usos para Raio Solar\\\" → \\\"+1 nível para o Orbe da faceta\\\"",
+          "Aumento do Talento Nível 20: +30 → \\\"+35 de dano/velocidade para Alacridade\\\""
+        ]
+      },
+      "wisp": {
+        "general": [
+          "Vigilância | Remoção da habilidade Nativa"
+        ],
+        "wisp_essence_conduction": [
+          "Nova habilidade Nativa. Passiva, não pode ser aprimorada",
+          "Itens consumíveis e habilidades de itens que restauram vida e mana ao longo do tempo afetam Io com o dobro da velocidade. A quantidade total de vida e mana restaurados é inalterada",
+          "Aplica-se ao Bálsamo de Cura, Tango, Poção de Clareza, Garrafa, Urna das Sombras, Receptáculo Espiritual, Frasco de Mana e Amuleto do Girino",
+          "Exemplo: a Poção de Clareza restaura 150 de mana ao longo de 25s. Para Io, essa mesma restauração ocorrerá ao longo de 12,5s"
+        ],
+        "wisp_spirits": [
+          "Cetro de Aghanim | Aumento do retardo de movimento (15% → 25%)"
+        ],
+        "wisp_relocate": [
+          "Redução do intervalo entre usos (100/90/80s → 90/80/70s)"
+        ]
+      },
+      "jakiro": {
+        "jakiro_liquid_ice": [
+          "Alteração da escala do dano adicional (12/18/24/30 → 8/16/24/32)"
+        ],
+        "jakiro_macropyre": [
+          "Redução da duração da persistência (2s → 1s)",
+          "Cetro de Aghanim | Não aumenta mais a largura das chamas em 70 unidades"
+        ]
+      },
+      "juggernaut": {
+        "juggernaut_blade_fury": [
+          "O intervalo entre tiques de dano não é mais baseado na velocidade de ataque do Juggernaut. Em vez disso, ocorrem cinco tiques por segundo",
+          "Alteração da escala de dano (40/45/50/55 por tique → 80/110/140/170 por segundo)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 20: \\\"-3s de intervalo entre usos para Fúria da Lâmina\\\" → \\\"+90 de DPS para Fúria da Lâmina\\\""
+        ]
+      },
+      "keeper_of_the_light": {
+        "hero_facet": [
+          "Agora, a Magia do Chakra só é aplicada ao alvo teletransportado",
+          "A velocidade de movimento adicional ainda é aplicada a ambos o Keeper of the Light e o alvo"
+        ],
+        "keeper_of_the_light_spirit_form": [
+          "Redução do alcance de uso adicional (125/250/375 → 100/200/300 unidades)"
+        ],
+        "talents": [
+          "Redução do Talento Nível 15: -3s → \\\"-2s de intervalo entre usos para Magia do Chakra\\\""
+        ]
+      },
+      "kez": {
+        "general": [
+          "Aumento da regeneração de vida base (1 → 1,5)",
+          "Aumento da velocidade de ataque base (100 → 110)"
+        ],
+        "hero_facet": [
+          "Não concede mais redução de intervalo entre usos",
+          "Redução do crítico adicional saindo da invisibilidade (40/60/80/100% → 30/45/60/75%)",
+          "Agora, também aumenta a duração do efeito (7/8/9s → 8/9/10s)"
+        ],
+        "kez_switch_weapons": [
+          "A Katana não aumenta mais o dano em 12%",
+          "Agora, a Katana aumenta o dano obtido pela Agilidade em 20%"
+        ],
+        "kez_echo_slash": [
+          "Alteração da escala do intervalo entre usos (20/18/16/14s → 21/18/15/12s)",
+          "Redução do dano adicional a heróis (25/45/65/85 → 20/40/60/80)"
+        ],
+        "kez_grappling_claw": [
+          "Não concede mais roubo de vida",
+          "Redução do custo de mana (50 → 40)",
+          "Redução do intervalo entre usos (16/13/10/7s → 13/11/9/7s)",
+          "Redução do alcance de uso (700/800/900/1.000 → 650/750/850/950 unidades)",
+          "Alteração da escala do retardo de movimento (80% → 70/80/90/100%)",
+          "Agora, o retardo dura 0,7/0,8/0,9/1s fixo, em vez da duração percorrida por Kez"
+        ],
+        "kez_kazurai_katana": [
+          "Não aplica mais redução de regeneração de vida",
+          "Alteração da escala do dano causado por segundo (6/7/8/9% → 5/7/9/11%)",
+          "Alteração da escala da duração (5/6/7/8s → 7s)",
+          "Aumento do dano total com a alteração da duração (30/42/56/72% → 35/49/63/77%)",
+          "Agora, tem um componente ativo reformulado como parte da habilidade base",
+          "Kez empala o alvo, desferindo um ataque contra ele e zerando a velocidade de movimento e a taxa de rotação da vítima durante 0,6s. 50% dos acúmulos de sangramento da Katana dos Kazurai também são irrompidos, causando dano ao alvo. Alcance de uso: 200 unidades. Custo de mana: 50. Intervalo entre usos: 20/15/10/5s",
+          "Este ataque pode ativar modificadores de ataque. Os acúmulos que seriam criados pelo empalamento não são adicionados ao dano irrompido, mas sim adicionados em seguida como um acúmulo normal de sangramento. A versão anterior incluía esses acúmulos no empalamento",
+          "Fragmento de Aghanim | Reformulação do aprimoramento",
+          "Adiciona 100% de roubo de vida ao dano do ataque causado pelo empalamento. Caso o empalamento ocorra por trás do alvo (em um cone de 105 graus), o retardo é substituído por um atordoamento, e aumenta a quantidade de acúmulos de sangramento irrompidos (50% → 100%)"
+        ],
+        "kez_raptor_dance": [
+          "Substituição do 1s de canalização por um ponto de lançamento de 1s (continua não podendo ser interrompida por Kez)",
+          "Aumento da quantidade de golpes (2/3/4 → 4)",
+          "Alteração da escala do dano base (75 → 30/60/90)",
+          "Alteração da escala do dano total (150/225/300 → 120/240/360)",
+          "Redução da vida máxima como dano (4% → 3%)",
+          "Alteração da escala de dano total por vida máxima (8/12/16% → 12%)",
+          "Agora, o roubo de vida contra ilusões é reduzido em 80%, semelhante à penalidade de roubo de vida contra criaturas"
+        ],
+        "kez_raptor_dance_info": [
+          "Ou seja, não entrará em intervalo caso a habilidade seja interrompida, e é afetada por aprimoramentos de velocidade de lançamento (como Yasha e Kaya)"
+        ],
+        "kez_falcon_rush": [
+          "Agora, o efeito também concede 15/30/45/60% de resistência a retardos",
+          "Redução do dano dos ataques secundários (100% → 45/55/65/75%)",
+          "O alcance do avanço não é mais aumentado por adicionais de área de efeito",
+          "Alteração da escala do intervalo entre usos (20/18/16/14s → 21/18/15/12s)"
+        ],
+        "kez_talon_toss": [
+          "Não possui mais uma área de efeito, atingindo apenas o alvo",
+          "Agora, desfere um ataque com Impacto Verdadeiro e dano fixo, em vez de desferir um ataque físico",
+          "Ou seja, pode ativar e aplicar modificadores de ataque, mas não afeta unidades imunes a ataques (como unidades etéreas)",
+          "Alteração da escala do dano causado (75/125/175/225 → 60/120/180/240)",
+          "Aumento da duração do silenciamento (1,75/2/2,25/2,5s → 2/2,25/2,5/2,75s)",
+          "Redução do intervalo entre usos (16/13/10/7s → 13/11/9/7s)"
+        ],
+        "kez_shodo_sai": [
+          "Aumento da chance de marcar (17% → 18%)",
+          "A marca não concede mais Impacto Verdadeiro",
+          "Não concede mais atordoamento ou acerto crítico adicionais a por marcas geradas ao aparar um herói inimigo",
+          "Como resultado, não há mais um visual distinto para marcas concedidas desta forma"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 10: \\\"+1,5 de regeneração de mana\\\" → \\\"+50 ao raio da Dança do Raptor\\\"",
+          "Alteração do Talento Nível 15: \\\"Véu do Corvo aplica marca com adicional de bloqueio\\\" → \\\"+1 golpe para Dança do Raptor\\\"",
+          "Alteração do Talento Nível 20: \\\"+50% de esquiva para Avanço Falcoado\\\" → \\\"Adiciona 50% do dano de ataque a Desgarrar\\\" (sempre usa os valores de ataque da Sai)",
+          "Redução do Talento Nível 20: +5% → \\\"+4% de DPS para a Katana dos Kazurai\\\""
+        ]
+      },
+      "kunkka": {
+        "hero_facet": [
+          "Agora, ao retornar o alvo, Kunkka sempre recebe o Rum do Almirante do Navio Fantasma"
+        ]
+      },
+      "legion_commander": {
+        "legion_commander_outfight_them": [
+          "Agora, é aprimorada junto ao Duelo",
+          "Agora, em vez de aumentar curas, regeneração de vida, roubo de vida e roubo de vida arcano em 50%, aumenta restaurações de vida em 30/40/50/60%",
+          "Agora, aplica-se ao atacar heróis inimigos com nível igual ou superior ao seu, em vez de apenas níveis superiores"
+        ]
+      },
+      "leshrac": {
+        "hero_facet": [
+          "Não é mais aprimorada com o nível do Pulso de Nova",
+          "Alteração da escala do dano por mana (14/21/28/35% → 25%)"
+        ],
+        "leshrac_split_earth": [
+          "Fragmento de Aghanim | Redução dos usos adicionais (3 → 2)"
+        ]
+      },
+      "lich": {
+        "general": [
+          "Remoção da faceta Dando Um Gelo"
+        ],
+        "hero_facet": [
+          "O Olhar Penetrante aplica um Mau-Olhado, que causará 10/15/20/25 de dano adicional sempre que o Lich causar dano mágico ao alvo, além de amplificar retardos de movimento em 50%. Após a canalização, o Mau-Olhado ainda persiste pelo dobro da duração",
+          "Habilidades e itens que não ativam outras habilidades (Granada de Sangue, Resplendor etc.) não ativam o dano mágico adicional"
+        ],
+        "lich_sinister_gaze": [
+          "Aumento do mana drenado por segundo (15% → 20%)",
+          "Não tem mais uma duração adicional contra criaturas"
+        ],
+        "lich_chain_frost": [
+          "Agora, o orbe persiste por 2s caso não haja alvos válidos para rebater, e pode voltar a saltar caso encontre algum novo alvo durante esse período",
+          "Agora, rebatidas podem causar dano e retardo a Roshan",
+          "Anteriormente, só afetava Roshan caso fosse o alvo original"
+        ],
+        "lich_ice_spire": [
+          "Redução da quantidade de ataques de heróis para destruir (5 → 4)",
+          "Redução da quantidade de ataques de criaturas para destruir (10 → 8)"
+        ]
+      },
+      "life_stealer": {
+        "general": [
+          "Redução da Força base (25 → 23)",
+          "Redução do dano no primeiro nível em 2 (41–47 → 39–45)"
+        ],
+        "hero_facet": [
+          "Agora, o efeito de dano ao longo do tempo não pode ser dissipado"
+        ],
+        "life_stealer_feast": [
+          "Alteração da escala da cura por vida máxima da vítima (1,5/2/2,5/3% → 2/2,25/2,5/2,75%)",
+          "Alteração da escala do dano causado por vida máxima (1,5/2/2,5/3% → 2/2,25/2,5/2,75%)"
+        ],
+        "life_stealer_infest": [
+          "Redução da perda de vida máxima da criatura por segundo (2/1/0% → 1,5/0,75/0%)"
+        ]
+      },
+      "lina": {
+        "lina_combustion": [
+          "Aumento do dano do sobreaquecimento (10/30/50/70 → 15/35/55/75)"
+        ],
+        "lina_laguna_blade": [
+          "Aumento do dano causado (500/700/900 → 500/750/1.000)"
+        ]
+      },
+      "lion": {
+        "lion_finger_of_death": [
+          "Redução do intervalo entre usos (140/90/40s → 130/85/40s)",
+          "Cetro de Aghanim | Aumento do intervalo entre usos (80/50/20s → 90/60/30s)"
+        ]
+      },
+      "lone_druid": {
+        "lone_druid_spirit_bear": [
+          "Agora, a Visão Verdadeira passiva da Gema da Visão Verdadeira funcionará quando portada pelo Espírito Urso"
+        ]
+      },
+      "lycan": {
+        "hero_facet": [
+          "Aumento da vida adicional por lobo (60/115/170/225 → 60/120/180/240)"
+        ],
+        "lycan_wolf_bite": [
+          "Agora, também pode ser usada em criaturas heroicas aliadas"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 20: +6s → \\\"+7s de duração para Transfiguração\\\""
+        ]
+      },
+      "magnataur": {
+        "magnataur_shockwave": [
+          "Redução da duração do retardo (0,7/0,8/0,9/1s → 0,4/0,6/0,8/1s)"
+        ],
+        "magnataur_skewer": [
+          "Fragmento de Aghanim | Aumento do dano por árvore (30 → 40)",
+          "Fragmento de Aghanim | Aumento do dano por desnível (125 → 150)"
+        ]
+      },
+      "marci": {
+        "general": [
+          "Aumento do ganho de Agilidade (1,8 → 2,2)",
+          "Aumento do ganho de dano por nível (+3 → +3,2)"
+        ],
+        "marci_grapple": [
+          "Alteração da escala do dano causado (75/150/225/300 → 60/150/240/330)"
+        ],
+        "marci_companion_run": [
+          "Redução do custo de mana (75/90/105/120 → 70/80/90/100)"
+        ]
+      },
+      "mars": {
+        "mars_dauntless": [
+          "Aumento da regeneração de vida por inimigo a mais (50% → 70%)",
+          "Redução do raio (900 → 700 unidades)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 10: +10% → \\\"+20% de regen. por inimigo para Destemor\\\""
+        ]
+      },
+      "medusa": {
+        "medusa_mystic_snake": [
+          "Redução do dano base (90/150/210/270 → 90/140/190/240)",
+          "Alteração da escala do ganho de mana (14/15/16/17% → 15%)"
+        ],
+        "medusa_gorgon_grasp": [
+          "Aumento do custo de mana (40/60/80/100 → 65/85/105/125)"
+        ],
+        "medusa_stone_gaze": [
+          "Aumento do custo de mana (200 → 250)"
+        ]
+      },
+      "meepo": {
+        "general": [
+          "Redução da armadura base em 1"
+        ],
+        "hero_facet": [
+          "Aumento dos atributos dos clones (85% → 90%)"
+        ]
+      },
+      "mirana": {
+        "hero_facet": [
+          "Aumento da duração do enraizamento (1,1/1,4/1,7/2s → 1,5/1,75/2/2,25s)"
+        ]
+      },
+      "monkey_king": {
+        "general": [
+          "Remoção da faceta Fiéis de Wukong"
+        ],
+        "hero_facet": [
+          "Durante o Comando de Wukong, o Monkey King ganha a habilidade Troca de Guarda, que lhe permite se transformar em qualquer um dos seus soldados. Quando usada, o Monkey King toma o lugar do soldado mais próximo do local-alvo durante 1,5s, deixando outro para trás. Enquanto transfigurado, o Monkey King é indistinguível dos outros soldados e invulnerável, mas não pode emitir comandos. Ponto de lançamento: 0,3s. Custo de mana: 25. Intervalo entre usos: 3s",
+          "A habilidade Troca de Guarda aparece no lugar do Comando de Wukong e começa em um intervalo de 0,5s. Não pode ser usada enquanto enraizado e não pode alvejar soldados criados pelo efeito do Cetro de Aghanim. O Monkey King dissipa projéteis ao se transformar.<br><br>O soldado escolhido exibe um pequeno anel ao seu redor, visível apenas para a equipe do Monkey King. Ao término do efeito, o Monkey King volta ao normal, sem criar um novo soldado no seu lugar"
+        ],
+        "monkey_king_primal_spring": [
+          "Redução do alcance de uso (1.000 → 800 unidades)"
+        ],
+        "monkey_king_jingu_mastery": [
+          "Redução da duração do contador (7/8/9/10s → 5,5/7/8,5/10s)"
+        ]
+      },
+      "morphling": {
+        "general": [
+          "Redução do ganho de Força (3,2 → 2,6)",
+          "Redução da regeneração de mana base (0,5 → 0)"
+        ],
+        "morphling_morph_agi": [
+          "Redução da taxa de troca (5/10/15/20 → 4/8/12/16)"
+        ],
+        "morphling_morph_str": [
+          "Redução da taxa de troca (5/10/15/20 → 4/8/12/16)"
+        ],
+        "morphling_replicate": [
+          "Aumento do intervalo entre usos da sub-habilidade de Morfose (1s → 2s)"
+        ],
+        "talents": [
+          "Redução do Talento Nível 20: +20 → \\\"+15 de Agilidade\\\""
+        ]
+      },
+      "muerta": {
+        "general": [
+          "Remoção da faceta Oferenda"
+        ],
+        "hero_facet": [
+          "Sempre que um inimigo for amedrontado, aumenta a chance para os disparos secundários de Pistoleira em 50% durante 5s",
+          "Disparos secundários de Pistoleira reduzem o intervalo entre usos do Rebatiro em 1s",
+          "Também afeta o tempo de restauração de cargas"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 20: \\\"2 cargas de Rebatiro\\\" → \\\"+2s de duração para Além do Véu\\\"",
+          "Alteração do Talento Nível 25: \\\"+25% de resistência mágica\\\" → \\\"2 cargas de Rebatiro\\\""
+        ]
+      },
+      "naga_siren": {
+        "general": [
+          "Aumento da Agilidade base (21 → 22)",
+          "Aumento do dano no primeiro nível em 1 (44–46 → 45–47)"
+        ],
+        "naga_siren_ensnare": [
+          "Cetro de Aghanim | Agora, também aplica uma quebra ao alvo"
+        ],
+        "hero_facet": [
+          "Não reduz mais a resistência estática de inimigos",
+          "Aumento do dano causado (80/140/200/260 → 80/150/220/290)",
+          "Redução da velocidade de movimento máxima (240 → 230)"
+        ],
+        "naga_siren_song_of_the_siren": [
+          "Redução do intervalo entre usos (180/140/100s → 160/130/100s)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 25: \\\"Enredar aplica quebra\\\" → \\\"+25 de Agilidade\\\""
+        ]
+      },
+      "furion": {
+        "general": [
+          "Redução do alcance de ataque (620 → 600 unidades)",
+          "Remoção da faceta Treant Galho-de-Ferro"
+        ],
+        "hero_facet": [
+          "Reformulação da mecânica de cura. Agora, encanta todas as árvores em até 1.200 unidades de distância de Brotar. Cada árvore encantada emite uma aura de cura com 175 unidades de raio. Não cura mais estruturas",
+          "Aumento da cura por segundo (10/20/30/40 → 14/26/38/50)",
+          "Alteração do Talento Nível 15: \\\"+100 de barreira para o Teletransporte\\\" → \\\"+30% de cura por segundo para Brotar\\\"",
+          "Sempre que o Nature's Prophet matar um herói inimigo, ou algum morrer em até 750 unidades de distância, uma árvore de dinheiro é criada no seu lugar após 2s. Cada árvore cria duas bolsas de ouro, que podem ser coletadas por qualquer herói. Cada bolsa concede ouro equivalente 1,5 vezes o nível do herói morto. Árvores de dinheiro duram 3s",
+          "As bolsas de ouro são criadas em um raio de 200–250 unidades de distância da árvore e desaparecem após 15s no chão. Essas bolsas são coletadas automaticamente por heróis em até 50 unidades de distância. Árvores de dinheiro concedem o dobro de cura para Tangos, de forma similar à Árvore Galho-de-Ferro",
+          "Alteração do Talento Nível 15: \\\"+100 de barreira para o Teletransporte\\\" → \\\"+1 bolsa de ouro por tique de Brotar Bufunfa\\\""
+        ],
+        "furion_sprout": [
+          "Redução do dano causado (70/140/210/280 → 70/135/200/265)"
+        ],
+        "furion_teleportation": [
+          "Redução da barreira (100/150/200/250 → 70/130/190/250)"
+        ]
+      },
+      "necrolyte": {
+        "necrolyte_sadist": [
+          "Aumento da regeneração de mana por vítima (3/4,5/6/7,5 → 3,5/5/6,5/8)"
+        ],
+        "necrolyte_death_pulse": [
+          "Aumento da cura (55/80/105/130 → 70/90/110/130)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 10: \\\"+125 de alcance de uso para Foice da Morte\\\" → \\\"-2,5s de intervalo entre usos para Mortalha Fantasmagórica\\\""
+        ]
+      },
+      "night_stalker": {
+        "hero_facet": [
+          "Agora, o nível 5 também aumenta o retardo de movimento (50% → 60%)",
+          "Agora, o nível 5 também aumenta o retardo de ataque (50 → 60)"
+        ],
+        "talents": [
+          "Redução do Talento Nível 20: +20 → \\\"+15 de Força\\\""
+        ]
+      },
+      "nyx_assassin": {
+        "nyx_assassin_nyxth_sense": [
+          "Aumento do raio (350 → 400 unidades)"
+        ],
+        "nyx_assassin_spiked_carapace": [
+          "Redução do intervalo entre usos (23/18/13/8s → 20/16/12/8s)"
+        ]
+      },
+      "ogre_magi": {
+        "general": [
+          "Aumento da Força base (23 → 25)",
+          "Aumento do dano no primeiro nível em 2 (67–73 → 69–75)"
+        ],
+        "ogre_magi_ignite": [
+          "Alteração da escala do retardo (20/23/26/29% → 25%)"
+        ]
+      },
+      "omniknight": {
+        "omniknight_hammer_of_purity": [
+          "Redução do custo de mana (30/35/40/45 → 0)",
+          "Agora, reduz brevemente a velocidade de movimento do alvo em 75% por 0,2s",
+          "Agora, também aumenta o alcance de ataque em 75 unidades para desferir o golpe"
+        ]
+      },
+      "oracle": {
+        "general": [
+          "Aumento do alcance de ataque (620 → 625 unidades)"
+        ],
+        "oracle_prognosticate": [
+          "Agora, também prevê qual runa de poder nascerá",
+          "Agora, pressionar Alt exibirá qual runa nascerá, e quanto tempo falta",
+          "Nada será exibido sobre a área da runa caso a próxima runa esteja para nascer no lado oposto"
+        ],
+        "oracle_fates_edict": [
+          "Alteração da escala do alcance de uso (500/600/700/800 → 700 unidades)"
+        ]
+      },
+      "obsidian_destroyer": {
+        "talents": [
+          "Redução do Talento Nível 10: +250 → \\\"+200 de mana\\\"",
+          "Redução do Talento Nível 15: +1% → \\\"+0,8% do mana atual como velocidade de movimento\\\"",
+          "Redução do Talento Nível 20: +0,2 → \\\"+0,15 para o multiplicador do Eclipse da Sanidade\\\""
+        ]
+      },
+      "pangolier": {
+        "hero_facet": [
+          "Aumento do aumento mínimo de dano/barreira (25% → 30%)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 15: +80 → \\\"+90 de barreira por herói p/ Escudo Estrondoso\\\""
+        ]
+      },
+      "phantom_assassin": {
+        "phantom_assassin_blur": [
+          "Agora, é uma habilidade Nativa. Aprimorada com o nível de Coup de Grace",
+          "Não é mais dissipada quando próxima de postos avançados, vigias ou estruturas da base (exceto torres ou o Ancestral)",
+          "Agora, é dissipada ao atacar Roshan ou quartéis inimigos",
+          "Agora, é aprimorável pelo Fragmento de Aghanim",
+          "Reduz o intervalo entre usos (60/55/50/45s → 50/45/40/35s). Sempre que a Phantom Assassin matar um herói, avança o intervalo entre usos das suas habilidades em 60% do intervalo máximo de cada"
+        ],
+        "phantom_assassin_blur_info": [
+          "Valores inalterados"
+        ],
+        "phantom_assassin_immaterial": [
+          "Agora, é uma habilidade básica",
+          "Alteração da escala da esquiva adicional (20% + 1% por nível do herói → 20/30/40/50%)"
+        ],
+        "phantom_assassin_fan_of_knives": [
+          "Agora, é concedida pelo Cetro de Aghanim",
+          "Aumento do dano causado por vida máxima (28% → 30%)",
+          "Aumento da duração da quebra (3s → 4s)",
+          "Redução do intervalo entre usos (20s → 14s)"
+        ]
+      },
+      "phantom_lancer": {
+        "general": [
+          "Aumento da regeneração de vida base (1,5 → 2)"
+        ],
+        "phantom_lancer_spirit_lance": [
+          "Não é mais aprimorável pelo Cetro de Aghanim"
+        ],
+        "phantom_lancer_phantom_edge": [
+          "Agora, é aprimorável pelo Cetro de Aghanim",
+          "Aumenta a distância máxima de investida em 625 unidades. Sempre que o Phantom Lancer atravessar inimigos em uma Investida, ele cria ilusões da Justaposição para atacá-los"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 20: \\\"+300 de alcance para Investida Fantasma\\\" → \\\"+15% de dano para a ilusão da Lança Espiritual\\\""
+        ]
+      },
+      "phoenix": {
+        "hero_facet": [
+          "Aumento do dano/cura máximo (150% → 160%)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 20: +0,5s → \\\"+0,6s de atordoamento para Supernova\\\""
+        ]
+      },
+      "puck": {
+        "hero_facet": [
+          "Agora, também faz com que o orbe cause 5% do seu dano a cada 0,5s no seu raio de dano"
+        ]
+      },
+      "pudge": {
+        "pudge_rot": [
+          "Cetro de Aghanim | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 20%, reduz restaurações de vida em 20%"
+        ]
+      },
+      "pugna": {
+        "hero_facet": [
+          "Aumento da amplificação arcana por torre destruída (1,25% → 1,5%)"
+        ],
+        "pugna_decrepify": [
+          "Aumento do alcance de uso (475/550/625/700 → 550/600/650/700 unidades)"
+        ]
+      },
+      "queenofpain": {
+        "hero_facet": [
+          "Aumento do dano do dano arcano retornado (15% → 20%)"
+        ],
+        "queenofpain_shadow_strike": [
+          "Alteração da escala do retardo de movimento (20/35/50/65% → 25/35/45/55%)"
+        ]
+      },
+      "razor": {
+        "hero_facet": [
+          "Aumento da amplificação arcana por dano de ataque adicional (1% → 1,25%)"
+        ]
+      },
+      "riki": {
+        "talents": [
+          "Aumento do Talento Nível 10: +8% → \\\"+10% de velocidade de movimento para Manto e Adaga\\\"",
+          "Aumento do Talento Nível 25: -1s → \\\"-1,25s de desvanecimento para Manto e Adaga\\\""
+        ]
+      },
+      "ringmaster": {
+        "ringmaster_dark_carnival_souvenirs": [
+          "Caso o Mestre Circense não tenha uma lembrancinha, ele receberá uma ao morrer (em vez de ao renascer)",
+          "O Mestre Circense não receberá mais uma lembrancinha caso ele não tenha nenhuma e seja morto por uma criatura neutra ou Roshan"
+        ],
+        "ringmaster_the_box": [
+          "Aumento do custo de mana (80 → 120)",
+          "Alteração da escala da velocidade de movimento adicional (5/10/15/20% → 0/8/16/24%)"
+        ],
+        "ringmaster_impalement": [
+          "Redução do dano do impacto (75 → 50)"
+        ],
+        "ringmaster_spotlight": [
+          "Redução da perda de vida máxima por ilusões (50% → 30%)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 10: \\\"+200 de alcance de uso para Escapismo\\\" → \\\"+75 para o dano de impacto do Arremesso de Facas\\\""
+        ]
+      },
+      "rubick": {
+        "rubick_telekinesis": [
+          "Redução do intervalo entre usos (24/21/18/15s → 23/20/17/14s)"
+        ],
+        "rubick_spell_steal": [
+          "Certas habilidades alternáveis sem custos de vida ou mana não são mais roubáveis"
+        ],
+        "rubick_spell_steal_info": [
+          "Isso inclui Baluarte (Marte), Disparo Dividido (Medusa), Investida Fantasma (Phantom Lancer) e Pistoleira (Muerta)"
+        ]
+      },
+      "sand_king": {
+        "general": [
+          "Remoção das facetas Mortalha Arenosa e Redemoinho de Poeira"
+        ],
+        "hero_facet": [
+          "Quando o Sand King atacar inimigos na Tempestade de Areia, ele aplica 20/30/40/50% de cegueira ao alvo. Duração da cegueira: 5s",
+          "Cada herói inimigo atingido pelo raio interno da Ferroada emite instantaneamente uma explosão da Finalização Cáustica com 50% do dano",
+          "Não se aplica às Ferroadas criadas pelo Cetro de Aghanim"
+        ],
+        "sandking_caustic_finale": [
+          "Aumento do dano base (15/35/55/75 → 20/40/60/80)",
+          "Redução da vida máxima do inimigo morto como dano (4/8/12/16% → 3/7/11/15%)"
+        ],
+        "sandking_sand_storm": [
+          "Aumento do raio (350/400/450/500 → 425/500/575/650 unidades)",
+          "Voltou a conceder invisibilidade por padrão (0,7s de desvanecimento)"
+        ],
+        "sandking_scorpion_strike": [
+          "Alteração da escala do raio (225/255/285/315 → 230/250/270/290 unidades)",
+          "Alteração da escala do dano adicional (35/70/105/140 → 50/75/100/125)"
+        ],
+        "talents": [
+          "Redução do Talento Nível 20: 100 → \\\"+75 ao raio base/incremental do Epicentro\\\"",
+          "Alteração do Talento Nível 25: \\\"35% de retardo e cegueira para Tempestade de Areia\\\" → \\\"45% de retardo para Tempestade de Areia\\\""
+        ]
+      },
+      "shadow_demon": {
+        "shadow_demon_menace": [
+          "Aumento da amplificação de dano por acúmulo (2% → 2,5%)"
+        ]
+      },
+      "nevermore": {
+        "hero_facet": [
+          "Aumento do retardo de movimento por acúmulo (3/6/9/12% → 6/8/10/12%)"
+        ],
+        "nevermore_necromastery": [
+          "Agora, matar heróis concede três almas"
+        ],
+        "nevermore_frenzy": [
+          "Aumento do intervalo entre usos (16s → 21s)",
+          "Aumento do custo de mana (60 → 60/65/70/75)",
+          "Alteração da escala da duração (7,5/8/8,5/9s → 8s)",
+          "Agora, também concede 5/7/9/11% de velocidade de movimento adicional"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 15: \\\"Aura da Presença afeta estruturas\\\" → \\\"+2 de redução de armadura para Aura da Presença\\\""
+        ]
+      },
+      "shadow_shaman": {
+        "hero_facet": [
+          "Aumento do multiplicador de dano (10x → 12x)",
+          "Aumento do dano (500/850/1.200 → 600/1.020/1.440). Os valores de vida e recompensa ainda são multiplicados por dez"
+        ],
+        "shadow_shaman_mass_serpent_ward": [
+          "Agora, quando criadas, as sentinelas priorizam o herói inimigo mais próximo dentro do alcance de ataque"
+        ]
+      },
+      "silencer": {
+        "general": [
+          "Remoção das facetas Irreprimível e Silêncio Reverberante"
+        ],
+        "hero_facet": [
+          "Aumenta o nível máximo de Glaives da Sabedoria para 5",
+          "Redução da quantidade de níveis de \\\"+2 a todos os atributos\\\" (7 → 6)",
+          "No nível 5, as glaives saltam uma vez para um alvo aleatório em até 450 unidades de distância. O salto prioriza heróis e custa mana como o ataque original",
+          "O Silencer sofre menos 10/15/20/25% de dano de alvos silenciados, e causa mais 10/15/20/25% de dano a eles. Aprimorada com o nível do Silêncio Global"
+        ],
+        "silencer_glaives_of_wisdom": [
+          "Não é mais aprimorável pelo Fragmento de Aghanim"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 20: \\\"1 rebatida para Glaives da Sabedoria\\\" → \\\"+40s de roubo de Int. para Glaives da Sabedoria\\\""
+        ]
+      },
+      "skywrath_mage": {
+        "general": [
+          "Aumento da Inteligência base (23 → 25)",
+          "Aumento do dano no primeiro nível em 2 (39–49 → 41–51)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 10: \\\"+0,5x p/ multiplicador de Inteligência de Energia Arcana\\\" → \\\"+125 de alcance de uso para Energia Arcana\\\"",
+          "Alteração do Talento Nível 25: \\\"Energia Arcana ignora imunidade a magias\\\" → \\\"+1,5x p/ multiplicador de Inteligência de Energia Arcana\\\""
+        ]
+      },
+      "slardar": {
+        "general": [
+          "Redução da armadura base em 1"
+        ],
+        "slardar_seaborn_sentinel": [
+          "Aumento da armadura adicional (1/2/3/4 → 3/4/5/6)",
+          "Cetro de Aghanim | Redução da armadura adicional (11 → 10)",
+          "Aumento da armadura adicional total com o Cetro (12/13/14/15 → 13/14/15/16)"
+        ]
+      },
+      "slark": {
+        "slark_essence_shift": [
+          "Redução da duração (20/40/60/80s → 15/35/55/75s)"
+        ],
+        "slark_depth_shroud": [
+          "Redução do alcance de uso (600 → 400 unidades)"
+        ]
+      },
+      "snapfire": {
+        "snapfire_buckshot": [
+          "Aumento do dano adicional dos ataques automáticos que não pegam de raspão (25% → 30%)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 20: \\\"+60 para o dano de impacto das Beijocas de Mortimer\\\" → \\\"2 cargas para Biscoito Energético\\\""
+        ]
+      },
+      "sniper": {
+        "sniper_take_aim": [
+          "Alteração da escala do alcance de ataque adicional (200 → 100/150/200/250 unidades)",
+          "Não aumenta mais o tempo de armadura",
+          "Enquanto ativa, aumenta o alcance de visão do Sniper em 500/750/1.000/1.250 unidades, mas restringe o seu campo de visão a um cone de 140 graus",
+          "Ainda compartilha visão com a equipe"
+        ]
+      },
+      "spectre": {
+        "spectre_desolate": [
+          "Redução do raio (400 → 350 unidades)"
+        ],
+        "spectre_haunt_single": [
+          "Alteração da escala da duração (5/6/7s → 6s)"
+        ],
+        "spectre_haunt": [
+          "Redução da duração (7s → 6s)"
+        ]
+      },
+      "spirit_breaker": {
+        "spirit_breaker_planar_pocket": [
+          "Reformulação da habilidade",
+          "Agora, a habilidade alveja uma unidade. Barathrum ganha 75% de resistência mágica e distorce a realidade em torno do herói selecionado, fazendo com que qualquer habilidade alvejada contra ele por heróis inimigos seja redirecionada para o Spirit Breaker. Pode ser usada tanto em heróis aliados quanto inimigos, mas redireciona apenas as habilidades lançadas por inimigos do Spirit Breaker. Alcance de uso: 700 unidades",
+          "A Conexão de Io é a única exceção",
+          "Habilidades redirecionadas não são consideradas refletidas. Caso o Spirit Breaker esteja sob efeitos, por exemplo, da Couraça Ressonante do Orbe de Lótus, habilidades redirecionadas serão refletidas de volta para o inimigo",
+          "Caso a habilidade redirecionada tenha interações distintas com aliados e inimigos, o Spirit Breaker sempre receberá a interação como inimigo",
+          "Exemplo: o Decreto do Destino do Oracle desarmará o Spirit Breaker, mesmo caso a habilidade tenha sido redirecionada de um aliado do Oracle",
+          "Aumento do intervalo entre usos (20s → 25s)",
+          "Aumento do custo de mana (75 → 100)",
+          "Redução da duração (7s → 6s)",
+          "Agora, somente pode ser dissipado por dissipações poderosas"
+        ]
+      },
+      "techies": {
+        "general": [
+          "Aumento da velocidade de movimento base (300 → 310)"
+        ]
+      },
+      "templar_assassin": {
+        "templar_assassin_meld": [
+          "Redução da redução de armadura (5/6/7/8 → 3,5/5/6,5/8)",
+          "Redução do dano adicional (70/125/180/235 → 55/105/155/205)"
+        ],
+        "templar_assassin_psionic_trap": [
+          "Fragmento de Aghanim | Redução da duração mínima do silenciamento (1s → 0,25s)"
+        ],
+        "talents": [
+          "Redução do Talento Nível 10: +2,5s → \\\"+2s de duração para o efeito de Mesclar\\\"",
+          "Alteração do Talento Nível 15: \\\"+100 de alcance para ataques/divisões de Lâminas Psíquicas\\\" → \\\"+3 de redução de armadura para Mesclar\\\""
+        ]
+      },
+      "terrorblade": {
+        "general": [
+          "Redução da regeneração de vida base (1,5 → 0,5)"
+        ],
+        "terrorblade_reflection": [
+          "Aumento do custo de mana (45/50/55/60 → 60/65/70/75)"
+        ],
+        "terrorblade_metamorphosis": [
+          "Alteração da escala do dano adicional (30/40/50/60 → 20/40/60/80)"
+        ],
+        "terrorblade_demon_zeal": [
+          "Redução da velocidade de movimento adicional (100 → 60)"
+        ]
+      },
+      "shredder": {
+        "shredder_exposure_therapy": [
+          "Aumento do ganho de mana por árvore destruída (4/5/6/7 → 4/6/8/10)"
+        ],
+        "shredder_flamethrower": [
+          "Aumento do dano causado a estruturas (40% → 50%)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 10: +0,2 → \\\"+0,25 de regeneração por acúmulo de Armadura Reativa\\\"",
+          "Aumento do Talento Nível 20: +7 → \\\"+10 de cura por árvore destruída p/ Terapia de Exposição\\\""
+        ]
+      },
+      "tinker": {
+        "general": [
+          "Redução da armadura base em 2"
+        ],
+        "tinker_march_of_the_machines": [
+          "Redução do dano causado (17/26/35/44 → 13/22/31/40)"
+        ]
+      },
+      "tiny": {
+        "tiny_tree_grab": [
+          "Redução do alcance de ataque (350 → 300 unidades)"
+        ],
+        "tiny_grow": [
+          "Aumento da redução da velocidade de ataque (30% → 35%)"
+        ],
+        "tiny_avalanche": [
+          "Redução do dano causado (100/200/300/400 → 100/190/280/370)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 15: +70 → \\\"+100 de dano para Avalanche\\\""
+        ]
+      },
+      "treant": {
+        "treant_natures_guise": [
+          "Redução do intervalo após sofrer dano (3s → 2,75s)"
+        ],
+        "treant_living_armor": [
+          "Aumento da duração (15/20/25/30s → 18/22/26/30s)"
+        ],
+        "treant_overgrowth": [
+          "Redução do intervalo entre usos (120/110/100s → 110/100/90s)"
+        ]
+      },
+      "troll_warlord": {
+        "troll_warlord_berserkers_rage": [
+          "Aumento do dano da mutilação (5/10/15/20 → 10/15/20/25)"
+        ]
+      },
+      "abyssal_underlord": {
+        "hero_facet": [
+          "Não perde mais transposição ao morrer",
+          "Alteração do tipo de dano do Guerreiro Demoníaco (Normal → Acanhado)",
+          "Unidades Acanhadas causam menos 25% de dano contra heróis",
+          "Alteração do tipo de dano do Arqueiro Demoníaco (Normal → Perfurante)",
+          "Unidades Perfurantes causam mais 50% de dano contra unidades não heroicas, mas causam menos 50% de dano a heróis e unidades reforçadas (estruturas e criaturas de cerco)"
+        ]
+      },
+      "undying": {
+        "general": [
+          "Aumento do dano base em 2",
+          "Aumento do dano no primeiro nível (53–61 → 55–63)"
+        ],
+        "undying_soul_rip": [
+          "Alteração da escala do dano/cura por unidade (15/25/35/45 → 14/26/38/50)"
+        ]
+      },
+      "ursa": {
+        "talents": [
+          "Aumento do Talento Nível 15: +20% → \\\"+25% de resistência estática para Enfurecer\\\""
+        ]
+      },
+      "vengefulspirit": {
+        "general": [
+          "Aumento da Agilidade base (21 → 23)",
+          "Aumento do dano no nível 1 em 2 (47–53 → 49–55)"
+        ],
+        "vengefulspirit_magic_missile": [
+          "Aumento da duração do atordoamento (1,1/1,3/1,5/1,7s → 1,2/1,4/1,6/1,8s)"
+        ],
+        "talents": [
+          "Aumento do Talento Nível 20: 20% → \\\"Onda Aterrorizante rouba 25% do dano e armadura afetados\\\""
+        ]
+      },
+      "venomancer": {
+        "hero_facet": [
+          "Permite às Sentinelas de Praga causar dano do Choque Séptico com base no dano delas",
+          "Quando a Bola de Veneno atingir heróis inimigos, cria duas Sentinelas de Praga ao redor deles, com base no nível atual da Sentinela de Praga"
+        ],
+        "venomancer_sepsis": [
+          "Cetro de Aghanim | Não concede mais às Sentinelas de Praga a habilidade de causar dano do Choque Séptico (funcionalidade movida para a faceta Carona Envenenada)",
+          "Cetro de Aghanim | Aumento do dano base por efeito (20% → 25%)"
+        ],
+        "venomancer_plague_ward": [
+          "Aumento da vida das sentinelas (120/230/340/450 → 150/250/350/450)",
+          "Alteração da escala da recompensa em ouro (15/17/19/21 → 10/14/18/22)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 20: \\\"Bola de Veneno cria Sentinelas de Praga\\\" → \\\"+50 de dano base\\\""
+        ]
+      },
+      "viper": {
+        "viper_poison_attack": [
+          "Redução do custo de mana (24 → 22)"
+        ],
+        "viper_viper_strike": [
+          "Aumento do retardo de ataque (80/120/160 → 100/140/180)"
+        ]
+      },
+      "visage": {
+        "talents": [
+          "Aumento do Talento Nível 25: 10 → \\\"Manto do Coveiro concede +15 de armadura\\\""
+        ]
+      },
+      "void_spirit": {
+        "general": [
+          "Aumento da Agilidade base (19 → 21)",
+          "Aumento do dano no primeiro nível em 1 (51–55 → 52–56)"
+        ],
+        "void_spirit_intrinsic_edge": [
+          "Agora, a descrição exibe os valores atuais de regeneração de vida, armadura, regeneração de mana e resistência mágica concedidos pela habilidade"
+        ],
+        "void_spirit_aether_remnant": [
+          "Aumento do dano causado (85/135/185/235 → 90/140/190/240)",
+          "A interação com Aghanim's Shard foi alterada",
+          "Cria um caminho de vigilância adicional, que rotaciona em torno do resquício, concedendo Visão Verdadeira em um raio de 475 unidades. O resquício não é mais ativado por criaturas: em vez disso, elas sofrem 50% de dano por segundo enquanto estiverem em um dos caminhos"
+        ],
+        "void_spirit_resonant_pulse": [
+          "Aumento do dano causado (60/105/150/195 → 60/110/160/210)"
+        ],
+        "void_spirit_resonant_pulse_info": [
+          "Redução do dano total com o talento (130/175/220/265 no nível 15 → 100/150/200/250 no nível 10)"
+        ],
+        "talents": [
+          "Alteração do Talento Nível 10: \\\"+50 de dano para Resquício Etéreo\\\" → \\\"+40 de dano para o Pulso Ressonante\\\"",
+          "Redução do Talento Nível 10: +1,75 → \\\"+1,5 de regeneração de mana\\\"",
+          "Alteração do Talento Nível 15: \\\"+70 de dano para o Pulso Ressonante\\\" → \\\"+60 de dano para Resquício Etéreo\\\"",
+          "Alteração do Talento Nível 15: \\\"Resquício fornece Visão Verdadeira de 475 unidades\\\" → \\\"+20% de barreira para o Pulso Ressonante\\\"",
+          "Afeta ambos os valores base e por herói atingido",
+          "Redução do Talento Nível 20: 4s → \\\"3s para recuperar cargas de Projeção Astral\\\""
+        ]
+      },
+      "warlock": {
+        "warlock_fatal_bonds": [
+          "Não se aplica mais a inimigos na névoa de guerra (uma vez aplicada, o dano continuará atingindo inimigos na névoa)"
+        ],
+        "warlock_shadow_word": [
+          "Redução do raio de efeito (300 → 225 unidades)"
+        ]
+      },
+      "windrunner": {
+        "hero_facet": [
+          "Aumento do dano adicional por herói (12/20/28/36 → 40)",
+          "Redução da duração do dano adicional (6s → 3/4/5/6s)"
+        ],
+        "windrunner_powershot": [
+          "Aumento do alcance de uso (2.600 → 3.000 unidades)"
+        ],
+        "windrunner_powershot_info": [
+          "Agora, é igual ao alcance da flecha"
+        ],
+        "windrunner_focusfire": [
+          "Redução da redução de dano (30% → 25%)"
+        ],
+        "windrunner_gale_force": [
+          "Redução do alcance de uso (1.500 → 1.200 unidades)",
+          "Redução do raio (1.000 → 900 unidades)"
+        ]
+      },
+      "winter_wyvern": {
+        "talents": [
+          "Aumento do Talento Nível 10: +30 → \\\"+35 de dano\\\"",
+          "Redução do Talento Nível 15: +400 → \\\"+300 ao raio de Explosão Estilhaçante\\\"",
+          "Redução do Talento Nível 25: 1,5s → \\\"1,25s de atordoamento para Explosão Estilhaçante\\\""
+        ]
+      },
+      "witch_doctor": {
+        "general": [
+          "Remoção da faceta Caçador de Cabeças"
+        ],
+        "hero_facet": [
+          "Inimigos que morrerem enquanto Amaldiçoados causam dano equivalente a 75% do que seria a próxima grande instância de dano, atingindo todos os inimigos em uma área de 800 unidades. Isso ocorre mesmo caso o inimigo morra na última instância de dano",
+          "Não funciona ao matar ilusões. Envia projéteis em direção aos inimigos dentro do raio. Velocidade do projétil: 1.200. O projétil pode ser anulado"
+        ],
+        "witch_doctor_paralyzing_cask": [
+          "Não causa mais dano adicional contra criaturas",
+          "Aumento do dano base (50 → 55/70/85/100)",
+          "Agora, causa 20 de dano adicional a cada salto por padrão",
+          "Alteração da escala das rebatidas (2/4/6/8 → 3/4/5/6)"
+        ]
+      },
+      "skeleton_king": {
+        "general": [
+          "Redução da velocidade de movimento base (315 → 310)",
+          "Redução da Inteligência base (18 → 16)"
+        ],
+        "hero_facet": [
+          "Agora, os acúmulos consideram negações (exceto de esqueletos)"
+        ],
+        "skeleton_king_vampiric_spirit": [
+          "Redução do roubo de vida (16/24/32/40% → 10/20/30/40%)",
+          "Não congela mais o intervalo entre usos da Reencarnação durante o Postergamento Espectral"
+        ],
+        "skeleton_king_reincarnation": [
+          "Não pode mais ser ativada quando sob o efeito do Postergamento Espectral do Espírito Vampírico (por motivos cerimoniais)"
+        ]
+      },
+      "zuus": {
+        "talents": [
+          "Alteração do Talento Nível 10: \\\"+1,75 de regeneração de mana\\\" → \\\"+1 alvo para Salto Divino\\\"",
+          "Alteração do Talento Nível 15: \\\"+1 alvo para Salto Divino\\\" → \\\"-0,4s de intervalo entre usos para Arco Elétrico\\\"",
+          "Aumento do Talento Nível 25: +1% → \\\"+1,5% de dano para Campo Estático\\\""
         ]
       }
     }

@@ -3,7 +3,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { DotaHelperService, DotaMatchService } from '@app/service';
-import { DotaMatch, DotaMatchPlayer, DotaItem } from '@app/model';
+import { DotaMatch, DotaMatchPlayer, DotaItem, DotaHero } from '@app/model';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { DotaHeroImageComponent } from '@app/shared';
 import { BaseChartDirective } from 'ng2-charts';
@@ -55,7 +55,7 @@ export class DotaMatchComponent implements OnInit {
 			this.dotaMatch = match;
 
 			this.dotaMatch.players.forEach(player => {
-				player.dotaHero = this.dotaHelperService.getHeroData(player.heroId);
+				player.dotaHero = this.dotaHelperService.getHeroData(player.heroId) as DotaHero;
 				let heroAbilities = this.dotaHelperService.getHeroAbilityData(player.dotaHero.name);
 
 				player.dotaHero.positionImage = this.getPositionImage(player.position);
