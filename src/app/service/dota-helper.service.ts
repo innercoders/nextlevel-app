@@ -164,6 +164,15 @@ export class DotaHelperService {
 		if(getPreviousNext) {
 			hero.previousHero = this.findPreviousHero(hero.localized_name);
 			hero.nextHero = this.findNextHero(hero.localized_name);
+
+			hero.dotaHeroAbilities = [];
+
+			if(hero.abilities) {
+				hero.abilities.forEach((ability: any) => {
+					let abilityData = this.getAbilityDataById(ability.id);
+					hero.dotaHeroAbilities.push(abilityData);
+				});
+			};
 		}
 
 		return hero;

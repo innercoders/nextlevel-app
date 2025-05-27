@@ -10,8 +10,8 @@
 
                         <div class="in-horizontal center">
                             <a nz-button nzType="text" nzSize="large" nzShape="round" class="mr-3 mt-3 bg-Gray" routerLink="/about-us">
-                                <nz-icon nzType="discord" nzTheme="outline" />
-                                Mais informações
+                                <nz-icon nzType="info-circle" nzTheme="outline" />
+                                Veja mais
                             </a>
                         </div>
                     </div>
@@ -49,12 +49,12 @@
             </div>
 
             <div class="in-card p-3">
-                <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3 mt-3" href="https://discord.gg/cYvUESUgWQ" target="_blank">
+                <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3" href="https://discord.gg/cYvUESUgWQ" target="_blank">
                     <nz-icon nzType="discord" nzTheme="outline" />
                     Mais informações
                 </a>
 
-                <a nz-button nzType="text" nzSize="large" nzShape="round" class="bg-Gray mt-3" href="https://x.com/ns4rt/status/1924766684189229369" target="_blank">
+                <a nz-button nzType="text" nzSize="large" nzShape="round" class="bg-Gray" href="https://x.com/ns4rt/status/1924766684189229369" target="_blank">
                     <nz-icon nzType="x" nzTheme="outline" />
                     NS_ART
                 </a>
@@ -81,9 +81,9 @@
                     [nzScroll]="{ y: '700px' }">
                     <thead>
                         <tr>
-                            <th [nzWidth]="'150px'">ID</th>
-                            <th [nzWidth]="'125px'">Placar</th>
-                            <th>Heróis</th>
+                            <th>ID</th>
+                            <th>Placar</th>
+                            <th [nzWidth]="'300px'">Heróis</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -106,9 +106,9 @@
                             </td>
                             <td>
                                 <div class="in-horizontal">
-                                    <span class="text-success mr-2">{{ match.radiantTeamScore || 0 }}</span> 
+                                    <span class="text-success mr-2">{{ match.radiantKills ? match.radiantKills[match.radiantKills.length - 1] : 0 }}</span> 
                                     <span class="text-muted">:</span>
-                                    <span class="text-danger ml-2">{{ match.direTeamScore || 0 }}</span>
+                                    <span class="text-danger ml-2">{{ match.direKills ? match.direKills[match.direKills.length - 1] : 0 }}</span>
                                 </div>
                                 <div class="text-muted">
                                     {{ match.averageMmr }} MMR
@@ -117,11 +117,11 @@
                             <td>
                                 <div class="in-horizontal">
                                     <img class="cursor-pointer" [src]="player.dotaHero?.img" nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name" 
-                                        width="40" *ngFor="let player of match.players | slice:0:5" routerLink="/dota-meta/hero/{{ player.dotaHero?.sanitizedName }}">
+                                        width="40" *ngFor="let player of match.players | slice:0:5" routerLink="/dota-meta/heroes/{{ player.dotaHero?.sanitizedName }}">
                                 </div>
                                 <div class="in-horizontal">
                                     <img class="cursor-pointer" [src]="player.dotaHero?.img" nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name" 
-                                        width="40" *ngFor="let player of match.players | slice:5:10" routerLink="/dota-meta/hero/{{ player.dotaHero?.sanitizedName }}">
+                                        width="40" *ngFor="let player of match.players | slice:5:10" routerLink="/dota-meta/heroes/{{ player.dotaHero?.sanitizedName }}">
                                 </div>
                             </td>
                         </tr>

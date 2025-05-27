@@ -62,3 +62,23 @@
 	}
 
 } 
+
+.league-tag-container {
+	display: flex;
+	align-items: center;
+
+	.league-tag {
+		font-size: 14px;
+		padding: 6px 12px;
+		border-radius: 16px;
+		
+		.close-icon {
+			cursor: pointer;
+			transition: opacity 0.2s;
+			
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}

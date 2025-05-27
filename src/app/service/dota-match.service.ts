@@ -50,7 +50,7 @@ export class DotaMatchService extends NlService {
         return this.http.get<MatchesResponse>(endpoint, { params });
     }
 
-    findMatches(page: number = 1, limit: number = 10, status?: string, includeHeroes?: string, excludeHeroes?: string): Observable<MatchesResponse> {
+    findMatches(page: number = 1, limit: number = 10, status?: string, includeHeroes?: string, excludeHeroes?: string, leagueId?: number): Observable<MatchesResponse> {
         let params = new HttpParams()
             .set('page', page.toString())
             .set('limit', limit.toString());
@@ -65,6 +65,10 @@ export class DotaMatchService extends NlService {
         
         if (excludeHeroes) {
             params = params.set('excludeHeroes', excludeHeroes);
+        }
+        
+        if (leagueId) {
+            params = params.set('leagueId', leagueId.toString());
         }
         
         return this.http.get<MatchesResponse>(`${this.baseAPI}/api/v1/dota-matches`, { params });

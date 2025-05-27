@@ -6,7 +6,7 @@
       "Em inglês: Blink Dagger "
     ],
     "id": 1,
-    "img": "/assets/images/dota/items/blink.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blink.png?t=1593393829403",
     "dname": "Adaga de Translocação",
     "qual": "component",
     "cost": 2250,
@@ -41,7 +41,7 @@
       "Em inglês: Overwhelming Blink "
     ],
     "id": 600,
-    "img": "/assets/images/dota/items/overwhelming_blink.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/overwhelming_blink.png?t=1593393829403",
     "dname": "Translocação Esmagadora",
     "qual": "component",
     "cost": 6800,
@@ -113,7 +113,7 @@
       "Em inglês: Swift Blink "
     ],
     "id": 603,
-    "img": "/assets/images/dota/items/swift_blink.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/swift_blink.png?t=1593393829403",
     "dname": "Translocação Veloz",
     "qual": "component",
     "cost": 6800,
@@ -168,7 +168,7 @@
       "Em inglês: Arcane Blink "
     ],
     "id": 604,
-    "img": "/assets/images/dota/items/arcane_blink.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/arcane_blink.png?t=1593393829403",
     "dname": "Translocação Arcana",
     "qual": "component",
     "cost": 6800,
@@ -270,7 +270,7 @@
   },
   "blades_of_attack": {
     "id": 2,
-    "img": "/assets/images/dota/items/blades_of_attack.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blades_of_attack.png?t=1593393829403",
     "dname": "Garras de Ataque",
     "qual": "component",
     "cost": 450,
@@ -292,7 +292,7 @@
   },
   "broadsword": {
     "id": 3,
-    "img": "/assets/images/dota/items/broadsword.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/broadsword.png?t=1593393829403",
     "dname": "Espada Larga",
     "qual": "component",
     "cost": 1000,
@@ -314,7 +314,7 @@
   },
   "chainmail": {
     "id": 4,
-    "img": "/assets/images/dota/items/chainmail.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/chainmail.png?t=1593393829403",
     "dname": "Cota de Malha",
     "qual": "component",
     "cost": 550,
@@ -338,7 +338,7 @@
   },
   "claymore": {
     "id": 5,
-    "img": "/assets/images/dota/items/claymore.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/claymore.png?t=1593393829403",
     "dname": "Claymore",
     "qual": "component",
     "cost": 1350,
@@ -360,7 +360,7 @@
   },
   "helm_of_iron_will": {
     "id": 6,
-    "img": "/assets/images/dota/items/helm_of_iron_will.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/helm_of_iron_will.png?t=1593393829403",
     "dname": "Elmo da Vontade Férrea",
     "qual": "component",
     "cost": 975,
@@ -392,7 +392,7 @@
       "Em inglês: Javelin "
     ],
     "id": 7,
-    "img": "/assets/images/dota/items/javelin.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/javelin.png?t=1593393829403",
     "dname": "Lança",
     "qual": "component",
     "cost": 900,
@@ -417,7 +417,7 @@
   },
   "mithril_hammer": {
     "id": 8,
-    "img": "/assets/images/dota/items/mithril_hammer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mithril_hammer.png?t=1593393829403",
     "dname": "Martelo de Mítrio",
     "qual": "component",
     "cost": 1600,
@@ -439,7 +439,7 @@
   },
   "platemail": {
     "id": 9,
-    "img": "/assets/images/dota/items/platemail.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/platemail.png?t=1593393829403",
     "dname": "Armadura de Placas",
     "qual": "secret_shop",
     "cost": 1400,
@@ -461,7 +461,7 @@
   },
   "quarterstaff": {
     "id": 10,
-    "img": "/assets/images/dota/items/quarterstaff.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/quarterstaff.png?t=1593393829403",
     "dname": "Bastão",
     "qual": "component",
     "cost": 875,
@@ -494,7 +494,7 @@
       "Em inglês: Quelling Blade "
     ],
     "id": 11,
-    "img": "/assets/images/dota/items/quelling_blade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/quelling_blade.png?t=1593393829403",
     "dname": "Machado Supressor",
     "qual": "component",
     "cost": 100,
@@ -531,7 +531,7 @@
       "Em inglês: Faerie Fire "
     ],
     "id": 237,
-    "img": "/assets/images/dota/items/faerie_fire.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/faerie_fire.png?t=1593393829403",
     "dname": "Fogo de Fada",
     "qual": "consumable",
     "cost": 65,
@@ -568,7 +568,7 @@
       "Em inglês: Infused Raindrop "
     ],
     "id": 265,
-    "img": "/assets/images/dota/items/infused_raindrop.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/infused_raindrop.png?t=1593393829403",
     "dname": "Gotas Infundidas",
     "qual": "component",
     "cost": 225,
@@ -607,7 +607,7 @@
       "Em inglês: Wind Lace "
     ],
     "id": 244,
-    "img": "/assets/images/dota/items/wind_lace.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/wind_lace.png?t=1593393829403",
     "dname": "Fita Eólica",
     "qual": "component",
     "cost": 225,
@@ -629,7 +629,7 @@
   },
   "ring_of_protection": {
     "id": 12,
-    "img": "/assets/images/dota/items/ring_of_protection.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ring_of_protection.png?t=1593393829403",
     "dname": "Anel de Proteção",
     "qual": "component",
     "cost": 175,
@@ -656,7 +656,7 @@
       "Em inglês: Stout Shield "
     ],
     "id": 182,
-    "img": "/assets/images/dota/items/stout_shield.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/stout_shield.png?t=1593393829403",
     "dname": "Escudo Robusto",
     "qual": "component",
     "cost": 100,
@@ -691,7 +691,7 @@
       "Em inglês: Moon Shard "
     ],
     "id": 247,
-    "img": "/assets/images/dota/items/moon_shard.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/moon_shard.png?t=1593393829403",
     "dname": "Fragmento Lunar",
     "qual": "consumable",
     "cost": 4000,
@@ -735,7 +735,7 @@
   },
   "gauntlets": {
     "id": 13,
-    "img": "/assets/images/dota/items/gauntlets.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gauntlets.png?t=1593393829403",
     "dname": "Manoplas da Força",
     "qual": "component",
     "cost": 140,
@@ -757,7 +757,7 @@
   },
   "slippers": {
     "id": 14,
-    "img": "/assets/images/dota/items/slippers.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/slippers.png?t=1593393829403",
     "dname": "Sapatilhas da Agilidade",
     "qual": "component",
     "cost": 140,
@@ -779,7 +779,7 @@
   },
   "mantle": {
     "id": 15,
-    "img": "/assets/images/dota/items/mantle.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mantle.png?t=1593393829403",
     "dname": "Manto da Inteligência",
     "qual": "component",
     "cost": 140,
@@ -806,7 +806,7 @@
       "Em inglês: Iron Branch "
     ],
     "id": 16,
-    "img": "/assets/images/dota/items/branches.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/branches.png?t=1593393829403",
     "dname": "Galho de Ferro",
     "qual": "consumable",
     "cost": 50,
@@ -833,7 +833,7 @@
   },
   "belt_of_strength": {
     "id": 17,
-    "img": "/assets/images/dota/items/belt_of_strength.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/belt_of_strength.png?t=1593393829403",
     "dname": "Cinturão da Força",
     "qual": "component",
     "cost": 450,
@@ -855,7 +855,7 @@
   },
   "boots_of_elves": {
     "id": 18,
-    "img": "/assets/images/dota/items/boots_of_elves.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/boots_of_elves.png?t=1593393829403",
     "dname": "Braçadeira Élfica",
     "qual": "component",
     "cost": 450,
@@ -877,7 +877,7 @@
   },
   "robe": {
     "id": 19,
-    "img": "/assets/images/dota/items/robe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/robe.png?t=1593393829403",
     "dname": "Túnica dos Magos",
     "qual": "component",
     "cost": 450,
@@ -899,7 +899,7 @@
   },
   "circlet": {
     "id": 20,
-    "img": "/assets/images/dota/items/circlet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/circlet.png?t=1593393829403",
     "dname": "Tiara",
     "qual": "component",
     "cost": 155,
@@ -921,7 +921,7 @@
   },
   "crown": {
     "id": 261,
-    "img": "/assets/images/dota/items/crown.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/crown.png?t=1593393829403",
     "dname": "Coroa",
     "qual": "component",
     "cost": 450,
@@ -943,7 +943,7 @@
   },
   "diadem": {
     "id": 1122,
-    "img": "/assets/images/dota/items/diadem.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/diadem.png?t=1593393829403",
     "dname": "Diadema",
     "qual": "component",
     "cost": 1000,
@@ -965,7 +965,7 @@
   },
   "ogre_axe": {
     "id": 21,
-    "img": "/assets/images/dota/items/ogre_axe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ogre_axe.png?t=1593393829403",
     "dname": "Machado do Ogro",
     "qual": "component",
     "cost": 1000,
@@ -987,7 +987,7 @@
   },
   "blade_of_alacrity": {
     "id": 22,
-    "img": "/assets/images/dota/items/blade_of_alacrity.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blade_of_alacrity.png?t=1593393829403",
     "dname": "Lâmina da Alacridade",
     "qual": "component",
     "cost": 1000,
@@ -1009,7 +1009,7 @@
   },
   "staff_of_wizardry": {
     "id": 23,
-    "img": "/assets/images/dota/items/staff_of_wizardry.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/staff_of_wizardry.png?t=1593393829403",
     "dname": "Cajado da Feitiçaria",
     "qual": "component",
     "cost": 1000,
@@ -1031,7 +1031,7 @@
   },
   "ultimate_orb": {
     "id": 24,
-    "img": "/assets/images/dota/items/ultimate_orb.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ultimate_orb.png?t=1593393829403",
     "dname": "Orbe Supremo",
     "qual": "secret_shop",
     "cost": 2800,
@@ -1053,7 +1053,7 @@
   },
   "gloves": {
     "id": 25,
-    "img": "/assets/images/dota/items/gloves.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gloves.png?t=1593393829403",
     "dname": "Luvas de Ímpeto",
     "qual": "component",
     "cost": 450,
@@ -1075,7 +1075,7 @@
   },
   "blitz_knuckles": {
     "id": 485,
-    "img": "/assets/images/dota/items/blitz_knuckles.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blitz_knuckles.png?t=1593393829403",
     "dname": "Soqueira",
     "qual": "component",
     "cost": 1000,
@@ -1102,7 +1102,7 @@
       "Em inglês: Morbid Mask "
     ],
     "id": 26,
-    "img": "/assets/images/dota/items/lifesteal.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/lifesteal.png?t=1593393829403",
     "dname": "Máscara Mórbida",
     "qual": "component",
     "cost": 900,
@@ -1129,7 +1129,7 @@
       "Em inglês: Voodoo Mask "
     ],
     "id": 473,
-    "img": "/assets/images/dota/items/voodoo_mask.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/voodoo_mask.png?t=1593393829403",
     "dname": "Máscara de Vudu",
     "qual": "component",
     "cost": 700,
@@ -1151,7 +1151,7 @@
   },
   "ring_of_regen": {
     "id": 27,
-    "img": "/assets/images/dota/items/ring_of_regen.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ring_of_regen.png?t=1593393829403",
     "dname": "Anel de Regeneração",
     "qual": "component",
     "cost": 175,
@@ -1173,7 +1173,7 @@
   },
   "sobi_mask": {
     "id": 28,
-    "img": "/assets/images/dota/items/sobi_mask.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/sobi_mask.png?t=1593393829403",
     "dname": "Máscara do Sábio",
     "qual": "component",
     "cost": 175,
@@ -1200,7 +1200,7 @@
       "Em inglês: Boots of Speed "
     ],
     "id": 29,
-    "img": "/assets/images/dota/items/boots.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/boots.png?t=1593393829403",
     "dname": "Botas de Velocidade",
     "qual": "component",
     "cost": 500,
@@ -1229,7 +1229,7 @@
       "Em inglês: Gem of True Sight "
     ],
     "id": 30,
-    "img": "/assets/images/dota/items/gem.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gem.png?t=1593393829403",
     "dname": "Gema da Visão Verdadeira",
     "qual": "component",
     "cost": 900,
@@ -1262,7 +1262,7 @@
   },
   "cloak": {
     "id": 31,
-    "img": "/assets/images/dota/items/cloak.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/cloak.png?t=1593393829403",
     "dname": "Manto",
     "qual": "component",
     "cost": 800,
@@ -1288,7 +1288,7 @@
   },
   "talisman_of_evasion": {
     "id": 32,
-    "img": "/assets/images/dota/items/talisman_of_evasion.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/talisman_of_evasion.png?t=1593393829403",
     "dname": "Talismã de Evasão",
     "qual": "secret_shop",
     "cost": 1300,
@@ -1315,7 +1315,7 @@
       "Em inglês: Cheese "
     ],
     "id": 33,
-    "img": "/assets/images/dota/items/cheese.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/cheese.png?t=1593393829403",
     "dname": "Queijo",
     "qual": "consumable",
     "cost": 1000,
@@ -1349,7 +1349,7 @@
       "Em inglês: Magic Stick "
     ],
     "id": 34,
-    "img": "/assets/images/dota/items/magic_stick.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/magic_stick.png?t=1593393829403",
     "dname": "Graveto Mágico",
     "qual": "component",
     "cost": 200,
@@ -1403,7 +1403,7 @@
       "Em inglês: Magic Wand "
     ],
     "id": 36,
-    "img": "/assets/images/dota/items/magic_wand.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/magic_wand.png?t=1593393829403",
     "dname": "Varinha Mágica",
     "qual": "common",
     "cost": 450,
@@ -1450,7 +1450,7 @@
       "Em inglês: Ghost Scepter "
     ],
     "id": 37,
-    "img": "/assets/images/dota/items/ghost.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ghost.png?t=1593393829403",
     "dname": "Cetro Fantasma",
     "qual": "component",
     "cost": 1500,
@@ -1490,7 +1490,7 @@
       "Em inglês: Clarity "
     ],
     "id": 38,
-    "img": "/assets/images/dota/items/clarity.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/clarity.png?t=1593393829403",
     "dname": "Poção de Clareza",
     "qual": "consumable",
     "cost": 50,
@@ -1527,7 +1527,7 @@
       "Em inglês: Enchanted Mango "
     ],
     "id": 216,
-    "img": "/assets/images/dota/items/enchanted_mango.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enchanted_mango.png?t=1593393829403",
     "dname": "Manga Encantada",
     "qual": "consumable",
     "cost": 65,
@@ -1564,7 +1564,7 @@
       "Em inglês: Healing Lotus "
     ],
     "id": 4204,
-    "img": "/assets/images/dota/items/famango.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/famango.png?t=1593393829403",
     "dname": "Lótus Restaurador",
     "qual": "consumable",
     "cost": 0,
@@ -1596,7 +1596,7 @@
       "Em inglês: Great Healing Lotus "
     ],
     "id": 4205,
-    "img": "/assets/images/dota/items/great_famango.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/great_famango.png?t=1593393829403",
     "dname": "Lótus Restaurador Grande",
     "qual": "consumable",
     "cost": 0,
@@ -1632,7 +1632,7 @@
       "Em inglês: Greater Healing Lotus "
     ],
     "id": 4206,
-    "img": "/assets/images/dota/items/greater_famango.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/greater_famango.png?t=1593393829403",
     "dname": "Lótus Restaurador Maior",
     "qual": "consumable",
     "cost": 0,
@@ -1667,7 +1667,7 @@
       "Em inglês: Blood Grenade "
     ],
     "id": 1123,
-    "img": "/assets/images/dota/items/blood_grenade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blood_grenade.png?t=1593393829403",
     "dname": "Granada de Sangue",
     "qual": "consumable",
     "cost": 50,
@@ -1730,7 +1730,7 @@
       "Usar: Lamber os Beiços Experimente!"
     ],
     "id": 1154,
-    "img": "/assets/images/dota/items/royale_with_cheese.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/royale_with_cheese.png?t=1593393829403",
     "dname": "Bloco de Queijo",
     "qual": "consumable",
     "cost": 2,
@@ -1783,7 +1783,7 @@
       "Em inglês: Healing Salve "
     ],
     "id": 39,
-    "img": "/assets/images/dota/items/flask.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/flask.png?t=1593393829403",
     "dname": "Bálsamo de Cura",
     "qual": "consumable",
     "cost": 100,
@@ -1824,7 +1824,7 @@
       "Em inglês: Dust of Appearance "
     ],
     "id": 40,
-    "img": "/assets/images/dota/items/dust.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dust.png?t=1593393829403",
     "dname": "Areia da Revelação",
     "qual": "consumable",
     "cost": 80,
@@ -1872,7 +1872,7 @@
       "Em inglês: Bottle "
     ],
     "id": 41,
-    "img": "/assets/images/dota/items/bottle.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/bottle.png?t=1593393829403",
     "dname": "Garrafa",
     "qual": "common",
     "cost": 675,
@@ -1932,7 +1932,7 @@
       "Em inglês: Observer Ward "
     ],
     "id": 42,
-    "img": "/assets/images/dota/items/ward_observer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ward_observer.png?t=1593393829403",
     "dname": "Sentinela Observadora",
     "qual": "consumable",
     "cost": 0,
@@ -1976,7 +1976,7 @@
       "Em inglês: Sentry Ward "
     ],
     "id": 43,
-    "img": "/assets/images/dota/items/ward_sentry.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ward_sentry.png?t=1593393829403",
     "dname": "Sentinela Reveladora",
     "qual": "consumable",
     "cost": 50,
@@ -2024,7 +2024,7 @@
       "Em inglês: Observer and Sentry Wards "
     ],
     "id": 218,
-    "img": "/assets/images/dota/items/ward_dispenser.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ward_dispenser.png?t=1593393829403",
     "dname": "Sentinelas Observadoras e Reveladoras",
     "qual": "consumable;laning",
     "cost": 50,
@@ -2103,7 +2103,7 @@
       "Em inglês: Tango "
     ],
     "id": 44,
-    "img": "/assets/images/dota/items/tango.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tango.png?t=1593393829403",
     "dname": "Tango",
     "qual": "consumable",
     "cost": 90,
@@ -2140,7 +2140,7 @@
       "Em inglês: Tango (Shared) "
     ],
     "id": 241,
-    "img": "/assets/images/dota/items/tango_single.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tango_single.png?t=1593393829403",
     "dname": "Tango (compartilhado)",
     "qual": "consumable",
     "cost": 30,
@@ -2172,7 +2172,7 @@
   },
   "courier": {
     "id": 45,
-    "img": "/assets/images/dota/items/courier.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/courier.png?t=1593393829403",
     "dname": "Entregador",
     "qual": "consumable",
     "cost": 50,
@@ -2189,7 +2189,7 @@
   },
   "flying_courier": {
     "id": 286,
-    "img": "/assets/images/dota/items/flying_courier.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/flying_courier.png?t=1593393829403",
     "dname": "Entregador Aéreo",
     "qual": "consumable",
     "cost": 100,
@@ -2211,7 +2211,7 @@
       "Em inglês: Town Portal Scroll "
     ],
     "id": 46,
-    "img": "/assets/images/dota/items/tpscroll.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tpscroll.png?t=1593393829403",
     "dname": "Pergaminho de Teletransporte",
     "qual": "consumable",
     "cost": 100,
@@ -2272,7 +2272,7 @@
       "Em inglês: Boots of Travel "
     ],
     "id": 48,
-    "img": "/assets/images/dota/items/travel_boots.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/travel_boots.png?t=1593393829403",
     "dname": "Botas de Teletransporte",
     "qual": "common",
     "cost": 2500,
@@ -2317,7 +2317,7 @@
       "Em inglês: Boots of Travel 2 "
     ],
     "id": 220,
-    "img": "/assets/images/dota/items/travel_boots_2.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/travel_boots_2.png?t=1593393829403",
     "dname": "Botas de Teletransporte II",
     "qual": "common",
     "cost": 4500,
@@ -2368,7 +2368,7 @@
       "Em inglês: Phase Boots "
     ],
     "id": 50,
-    "img": "/assets/images/dota/items/phase_boots.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/phase_boots.png?t=1593393829403",
     "dname": "Botas de Fase",
     "qual": "common",
     "cost": 1500,
@@ -2441,7 +2441,7 @@
   },
   "demon_edge": {
     "id": 51,
-    "img": "/assets/images/dota/items/demon_edge.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/demon_edge.png?t=1593393829403",
     "dname": "Lâmina Demoníaca",
     "qual": "secret_shop",
     "cost": 2200,
@@ -2463,7 +2463,7 @@
   },
   "eagle": {
     "id": 52,
-    "img": "/assets/images/dota/items/eagle.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/eagle.png?t=1593393829403",
     "dname": "Canto da Águia",
     "qual": "secret_shop",
     "cost": 2800,
@@ -2485,7 +2485,7 @@
   },
   "reaver": {
     "id": 53,
-    "img": "/assets/images/dota/items/reaver.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/reaver.png?t=1593393829403",
     "dname": "Devastador",
     "qual": "secret_shop",
     "cost": 2800,
@@ -2507,7 +2507,7 @@
   },
   "relic": {
     "id": 54,
-    "img": "/assets/images/dota/items/relic.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/relic.png?t=1593393829403",
     "dname": "Relíquia Sagrada",
     "qual": "secret_shop",
     "cost": 3400,
@@ -2529,7 +2529,7 @@
   },
   "hyperstone": {
     "id": 55,
-    "img": "/assets/images/dota/items/hyperstone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/hyperstone.png?t=1593393829403",
     "dname": "Pedra do Ímpeto",
     "qual": "secret_shop",
     "cost": 2000,
@@ -2551,7 +2551,7 @@
   },
   "ring_of_health": {
     "id": 56,
-    "img": "/assets/images/dota/items/ring_of_health.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ring_of_health.png?t=1593393829403",
     "dname": "Anel de Vida",
     "qual": "component",
     "cost": 700,
@@ -2573,7 +2573,7 @@
   },
   "ring_of_tarrasque": {
     "id": 279,
-    "img": "/assets/images/dota/items/ring_of_tarrasque.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ring_of_tarrasque.png?t=1593393829403",
     "dname": "Anel do Tarrasque",
     "qual": "component",
     "cost": 1800,
@@ -2595,7 +2595,7 @@
   },
   "void_stone": {
     "id": 57,
-    "img": "/assets/images/dota/items/void_stone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/void_stone.png?t=1593393829403",
     "dname": "Pedra do Vazio",
     "qual": "component",
     "cost": 700,
@@ -2617,7 +2617,7 @@
   },
   "tiara_of_selemene": {
     "id": 1802,
-    "img": "/assets/images/dota/items/tiara_of_selemene.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tiara_of_selemene.png?t=1593393829403",
     "dname": "Tiara de Selemene",
     "qual": "component",
     "cost": 1800,
@@ -2639,7 +2639,7 @@
   },
   "mystic_staff": {
     "id": 58,
-    "img": "/assets/images/dota/items/mystic_staff.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mystic_staff.png?t=1593393829403",
     "dname": "Cajado Místico",
     "qual": "secret_shop",
     "cost": 2800,
@@ -2661,7 +2661,7 @@
   },
   "energy_booster": {
     "id": 59,
-    "img": "/assets/images/dota/items/energy_booster.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/energy_booster.png?t=1593393829403",
     "dname": "Amplificador de Energia",
     "qual": "secret_shop",
     "cost": 800,
@@ -2683,7 +2683,7 @@
   },
   "point_booster": {
     "id": 60,
-    "img": "/assets/images/dota/items/point_booster.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/point_booster.png?t=1593393829403",
     "dname": "Amplificador de Pontos",
     "qual": "secret_shop",
     "cost": 1200,
@@ -2710,7 +2710,7 @@
   },
   "vitality_booster": {
     "id": 61,
-    "img": "/assets/images/dota/items/vitality_booster.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/vitality_booster.png?t=1593393829403",
     "dname": "Amplificador de Vitalidade",
     "qual": "secret_shop",
     "cost": 1000,
@@ -2732,7 +2732,7 @@
   },
   "fluffy_hat": {
     "id": 593,
-    "img": "/assets/images/dota/items/fluffy_hat.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/fluffy_hat.png?t=1593393829403",
     "dname": "Chapéu Fofinho",
     "qual": "secret_shop",
     "cost": 250,
@@ -2760,7 +2760,7 @@
       "Em inglês: Power Treads "
     ],
     "id": 63,
-    "img": "/assets/images/dota/items/power_treads.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/power_treads.png?t=1593393829403",
     "dname": "Coturnos do Poder",
     "qual": "common",
     "cost": 1400,
@@ -2824,7 +2824,7 @@
   },
   "samurai_tabi": {
     "id": 1091,
-    "img": "/assets/images/dota/items/samurai_tabi.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/samurai_tabi.png?t=1593393829403",
     "qual": "common",
     "cost": 5250,
     "behavior": [
@@ -2924,7 +2924,7 @@
   },
   "hermes_sandals": {
     "id": 1093,
-    "img": "/assets/images/dota/items/hermes_sandals.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/hermes_sandals.png?t=1593393829403",
     "qual": "common",
     "cost": 4800,
     "behavior": [
@@ -2994,7 +2994,7 @@
   },
   "witches_switch": {
     "id": 1100,
-    "img": "/assets/images/dota/items/witches_switch.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/witches_switch.png?t=1593393829403",
     "qual": "common",
     "cost": 1900,
     "behavior": "No Target",
@@ -3058,7 +3058,7 @@
   },
   "lunar_crest": {
     "id": 1095,
-    "img": "/assets/images/dota/items/lunar_crest.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/lunar_crest.png?t=1593393829403",
     "dname": "Brasão Lunar",
     "qual": "common",
     "cost": 2275,
@@ -3129,7 +3129,7 @@
       "Em inglês: Phylactery "
     ],
     "id": 1107,
-    "img": "/assets/images/dota/items/phylactery.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/phylactery.png?t=1593393829403",
     "dname": "Filactério",
     "qual": "common",
     "cost": 2600,
@@ -3209,7 +3209,7 @@
       "Em inglês: Khanda "
     ],
     "id": 1808,
-    "img": "/assets/images/dota/items/angels_demise.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/angels_demise.png?t=1593393829403",
     "dname": "Khanda",
     "qual": "common",
     "cost": 5700,
@@ -3261,7 +3261,7 @@
   },
   "grandmasters_glaive": {
     "id": 655,
-    "img": "/assets/images/dota/items/grandmasters_glaive.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/grandmasters_glaive.png?t=1593393829403",
     "qual": "common",
     "cost": 5000,
     "behavior": [
@@ -3386,7 +3386,7 @@
       "Em inglês: Hand of Midas "
     ],
     "id": 65,
-    "img": "/assets/images/dota/items/hand_of_midas.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/hand_of_midas.png?t=1593393829403",
     "dname": "Mão de Midas",
     "qual": "common",
     "cost": 2200,
@@ -3421,7 +3421,7 @@
   },
   "aetherial_halo": {
     "id": 1164,
-    "img": "/assets/images/dota/items/aetherial_halo.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/aetherial_halo.png?t=1593393829403",
     "qual": "common",
     "cost": 5900,
     "behavior": [
@@ -3516,7 +3516,7 @@
   },
   "oblivion_staff": {
     "id": 67,
-    "img": "/assets/images/dota/items/oblivion_staff.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/oblivion_staff.png?t=1593393829403",
     "dname": "Cajado do Oblívio",
     "qual": "common",
     "cost": 1625,
@@ -3573,7 +3573,7 @@
       "Em inglês: Witch Blade "
     ],
     "id": 534,
-    "img": "/assets/images/dota/items/witch_blade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/witch_blade.png?t=1593393829403",
     "dname": "Lâmina do Bruxo",
     "qual": "common",
     "cost": 2775,
@@ -3631,7 +3631,7 @@
   },
   "pers": {
     "id": 69,
-    "img": "/assets/images/dota/items/pers.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pers.png?t=1593393829403",
     "dname": "Perseverança",
     "qual": "common",
     "cost": 1400,
@@ -3661,7 +3661,7 @@
   },
   "cornucopia": {
     "id": 1125,
-    "img": "/assets/images/dota/items/cornucopia.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/cornucopia.png?t=1593393829403",
     "dname": "Cornucópia",
     "qual": "common",
     "cost": 1200,
@@ -3698,7 +3698,7 @@
       "Em inglês: Poor Man's Shield "
     ],
     "id": 71,
-    "img": "/assets/images/dota/items/poor_mans_shield.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/poor_mans_shield.png?t=1593393829403",
     "qual": "common",
     "cost": 0,
     "notes": "Múltiplas fontes de bloqueio de dano não se acumulam.",
@@ -3734,7 +3734,7 @@
   },
   "satchel": {
     "id": 731,
-    "img": "/assets/images/dota/items/satchel.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/satchel.png?t=1593393829403",
     "qual": "common",
     "cost": 0,
     "notes": "",
@@ -3774,7 +3774,7 @@
   },
   "bracer": {
     "id": 73,
-    "img": "/assets/images/dota/items/bracer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/bracer.png?t=1593393829403",
     "dname": "Braçadeira",
     "qual": "common",
     "cost": 505,
@@ -3839,7 +3839,7 @@
   },
   "wraith_band": {
     "id": 75,
-    "img": "/assets/images/dota/items/wraith_band.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/wraith_band.png?t=1593393829403",
     "dname": "Tiara Assombrada",
     "qual": "common",
     "cost": 505,
@@ -3900,7 +3900,7 @@
   },
   "null_talisman": {
     "id": 77,
-    "img": "/assets/images/dota/items/null_talisman.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/null_talisman.png?t=1593393829403",
     "dname": "Talismã Nulo",
     "qual": "common",
     "cost": 505,
@@ -3967,7 +3967,7 @@
       "Em inglês: Mekansm "
     ],
     "id": 79,
-    "img": "/assets/images/dota/items/mekansm.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mekansm.png?t=1593393829403",
     "dname": "Mekansm",
     "qual": "rare",
     "cost": 1775,
@@ -4017,7 +4017,7 @@
       "Em inglês: Vladmir's Offering "
     ],
     "id": 81,
-    "img": "/assets/images/dota/items/vladmir.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/vladmir.png?t=1593393829403",
     "dname": "Oferenda de Vladmir",
     "qual": "rare",
     "cost": 2200,
@@ -4096,7 +4096,7 @@
   },
   "wraith_pact": {
     "id": 908,
-    "img": "/assets/images/dota/items/wraith_pact.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/wraith_pact.png?t=1593393829403",
     "dname": "Pacto Espectral",
     "qual": "rare",
     "cost": 3800,
@@ -4185,7 +4185,7 @@
       "Em inglês: Buckler "
     ],
     "id": 86,
-    "img": "/assets/images/dota/items/buckler.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/buckler.png?t=1593393829403",
     "dname": "Broquel",
     "qual": "rare",
     "cost": 425,
@@ -4238,7 +4238,7 @@
       "Em inglês: Ring of Basilius "
     ],
     "id": 88,
-    "img": "/assets/images/dota/items/ring_of_basilius.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ring_of_basilius.png?t=1593393829403",
     "dname": "Anel de Basílio",
     "qual": "rare",
     "cost": 425,
@@ -4292,7 +4292,7 @@
       "Em inglês: Holy Locket "
     ],
     "id": 269,
-    "img": "/assets/images/dota/items/holy_locket.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/holy_locket.png?t=1593393829403",
     "dname": "Pingente Sagrado",
     "qual": "rare",
     "cost": 2250,
@@ -4378,7 +4378,7 @@
       "Em inglês: Pipe of Insight "
     ],
     "id": 90,
-    "img": "/assets/images/dota/items/pipe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pipe.png?t=1593393829403",
     "dname": "Cachimbo de Introspecção",
     "qual": "rare",
     "cost": 3725,
@@ -4474,7 +4474,7 @@
       "Em inglês: Urn of Shadows "
     ],
     "id": 92,
-    "img": "/assets/images/dota/items/urn_of_shadows.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/urn_of_shadows.png?t=1593393829403",
     "dname": "Urna das Sombras",
     "qual": "rare",
     "cost": 825,
@@ -4560,7 +4560,7 @@
       "Em inglês: Headdress "
     ],
     "id": 94,
-    "img": "/assets/images/dota/items/headdress.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/headdress.png?t=1593393829403",
     "dname": "Cocar",
     "qual": "rare",
     "cost": 425,
@@ -4613,7 +4613,7 @@
       "Em inglês: Scythe of Vyse "
     ],
     "id": 96,
-    "img": "/assets/images/dota/items/sheepstick.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/sheepstick.png?t=1593393829403",
     "dname": "Foice de Vyse",
     "qual": "rare",
     "cost": 5200,
@@ -4662,7 +4662,7 @@
   },
   "caster_rapier": {
     "id": 1801,
-    "img": "/assets/images/dota/items/caster_rapier.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/caster_rapier.png?t=1593393829403",
     "qual": "rare",
     "cost": 5600,
     "dispellable": "Strong Dispels Only",
@@ -4717,7 +4717,7 @@
       "Em inglês: Orchid Malevolence "
     ],
     "id": 98,
-    "img": "/assets/images/dota/items/orchid.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/orchid.png?t=1593393829403",
     "dname": "Orquídea Malevolente",
     "qual": "rare",
     "cost": 3275,
@@ -4799,7 +4799,7 @@
       "Em inglês: Bloodthorn "
     ],
     "id": 250,
-    "img": "/assets/images/dota/items/bloodthorn.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/bloodthorn.png?t=1593393829403",
     "dname": "Espinho Sangrento",
     "qual": "epic",
     "cost": 6625,
@@ -4890,7 +4890,7 @@
       "Em inglês: Echo Sabre "
     ],
     "id": 252,
-    "img": "/assets/images/dota/items/echo_sabre.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/echo_sabre.png?t=1593393829403",
     "dname": "Sabre Ecoante",
     "qual": "artifact",
     "cost": 2700,
@@ -4956,7 +4956,7 @@
       "Em inglês: Eul's Scepter of Divinity "
     ],
     "id": 100,
-    "img": "/assets/images/dota/items/cyclone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/cyclone.png?t=1593393829403",
     "dname": "Cetro Divino de Eul",
     "qual": "rare",
     "cost": 2600,
@@ -5025,7 +5025,7 @@
       "Em inglês: Wind Waker "
     ],
     "id": 610,
-    "img": "/assets/images/dota/items/wind_waker.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/wind_waker.png?t=1593393829403",
     "dname": "Domador Eólico",
     "qual": "rare",
     "cost": 6800,
@@ -5097,7 +5097,7 @@
       "Em inglês: Aether Lens "
     ],
     "id": 232,
-    "img": "/assets/images/dota/items/aether_lens.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/aether_lens.png?t=1593393829403",
     "dname": "Lente do Éter",
     "qual": "rare",
     "cost": 2275,
@@ -5153,7 +5153,7 @@
       "Em inglês: Force Staff "
     ],
     "id": 102,
-    "img": "/assets/images/dota/items/force_staff.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/force_staff.png?t=1593393829403",
     "dname": "Cajado de Força",
     "qual": "rare",
     "cost": 2200,
@@ -5223,7 +5223,7 @@
       "Em inglês: Hurricane Pike "
     ],
     "id": 263,
-    "img": "/assets/images/dota/items/hurricane_pike.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/hurricane_pike.png?t=1593393829403",
     "dname": "Lança Furacão",
     "qual": "epic",
     "cost": 4450,
@@ -5331,7 +5331,7 @@
       "Em inglês: Dagon "
     ],
     "id": 104,
-    "img": "/assets/images/dota/items/dagon.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dagon.png?t=1593393829403",
     "dname": "Dagon",
     "qual": "rare",
     "cost": 2850,
@@ -5402,7 +5402,7 @@
       "Em inglês: Dagon "
     ],
     "id": 201,
-    "img": "/assets/images/dota/items/dagon_2.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dagon_2.png?t=1593393829403",
     "dname": "Dagon",
     "qual": "rare",
     "cost": 4000,
@@ -5469,7 +5469,7 @@
       "Em inglês: Dagon "
     ],
     "id": 202,
-    "img": "/assets/images/dota/items/dagon_3.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dagon_3.png?t=1593393829403",
     "dname": "Dagon",
     "qual": "rare",
     "cost": 5150,
@@ -5536,7 +5536,7 @@
       "Em inglês: Dagon "
     ],
     "id": 203,
-    "img": "/assets/images/dota/items/dagon_4.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dagon_4.png?t=1593393829403",
     "dname": "Dagon",
     "qual": "rare",
     "cost": 6300,
@@ -5603,7 +5603,7 @@
       "Em inglês: Dagon "
     ],
     "id": 204,
-    "img": "/assets/images/dota/items/dagon_5.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dagon_5.png?t=1593393829403",
     "dname": "Dagon",
     "qual": "rare",
     "cost": 7450,
@@ -5686,7 +5686,7 @@
       "Em inglês: Necronomicon "
     ],
     "id": 106,
-    "img": "/assets/images/dota/items/necronomicon.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/necronomicon.png?t=1593393829403",
     "dname": "Necronomicon",
     "qual": "rare",
     "cost": 2050,
@@ -5774,7 +5774,7 @@
       "Em inglês: Necronomicon "
     ],
     "id": 193,
-    "img": "/assets/images/dota/items/necronomicon_2.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/necronomicon_2.png?t=1593393829403",
     "dname": "Necronomicon",
     "qual": "rare",
     "cost": 3300,
@@ -5861,7 +5861,7 @@
       "Em inglês: Necronomicon "
     ],
     "id": 194,
-    "img": "/assets/images/dota/items/necronomicon_3.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/necronomicon_3.png?t=1593393829403",
     "dname": "Necronomicon",
     "qual": "rare",
     "cost": 4550,
@@ -5948,7 +5948,7 @@
       "Em inglês: Aghanim's Scepter "
     ],
     "id": 108,
-    "img": "/assets/images/dota/items/ultimate_scepter.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ultimate_scepter.png?t=1593393829403",
     "dname": "Cetro de Aghanim",
     "qual": "rare",
     "cost": 4200,
@@ -6008,7 +6008,7 @@
       "Em inglês: Aghanim's Blessing "
     ],
     "id": 271,
-    "img": "/assets/images/dota/items/ultimate_scepter_2.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ultimate_scepter_2.png?t=1593393829403",
     "dname": "Bênção de Aghanim",
     "qual": "rare",
     "cost": 5800,
@@ -6031,7 +6031,7 @@
       "Em inglês: Aghanim's Blessing - Roshan "
     ],
     "id": 727,
-    "img": "/assets/images/dota/items/ultimate_scepter_roshan.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ultimate_scepter_roshan.png?t=1593393829403",
     "dname": "Bênção de Aghanim — Roshan",
     "qual": "rare",
     "cost": 5800,
@@ -6053,7 +6053,7 @@
       "Em inglês: Aghanim's Shard "
     ],
     "id": 609,
-    "img": "/assets/images/dota/items/aghanims_shard.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/aghanims_shard.png?t=1593393829403",
     "dname": "Fragmento de Aghanim",
     "qual": "rare",
     "cost": 1400,
@@ -6074,7 +6074,7 @@
       "Em inglês: Aghanim's Shard "
     ],
     "id": 725,
-    "img": "/assets/images/dota/items/aghanims_shard_roshan.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/aghanims_shard_roshan.png?t=1593393829403",
     "dname": "Fragmento de Aghanim — Consumível",
     "qual": "rare",
     "cost": 1400,
@@ -6112,7 +6112,7 @@
       "Em inglês: Refresher Orb "
     ],
     "id": 110,
-    "img": "/assets/images/dota/items/refresher.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/refresher.png?t=1593393829403",
     "dname": "Orbe Restaurador",
     "qual": "rare",
     "cost": 5000,
@@ -6170,7 +6170,7 @@
       "Em inglês: Assault Cuirass "
     ],
     "id": 112,
-    "img": "/assets/images/dota/items/assault.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/assault.png?t=1593393829403",
     "dname": "Couraça de Combate",
     "qual": "epic",
     "cost": 5125,
@@ -6234,7 +6234,7 @@
   },
   "heart": {
     "id": 114,
-    "img": "/assets/images/dota/items/heart.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/heart.png?t=1593393829403",
     "dname": "Coração do Tarrasque",
     "qual": "epic",
     "cost": 5200,
@@ -6285,7 +6285,7 @@
       "Em inglês: Black King Bar (BKB) "
     ],
     "id": 116,
-    "img": "/assets/images/dota/items/black_king_bar.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/black_king_bar.png?t=1593393829403",
     "dname": "Bastão Preto da Realeza",
     "qual": "epic",
     "cost": 4050,
@@ -6340,7 +6340,7 @@
       "Em inglês: Aegis of the Immortal "
     ],
     "id": 117,
-    "img": "/assets/images/dota/items/aegis.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/aegis.png?t=1593393829403",
     "dname": "Égide do Imortal",
     "qual": "artifact",
     "cost": 0,
@@ -6395,7 +6395,7 @@
       "Em inglês: Shiva's Guard "
     ],
     "id": 119,
-    "img": "/assets/images/dota/items/shivas_guard.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/shivas_guard.png?t=1593393829403",
     "dname": "Proteção de Shiva",
     "qual": "epic",
     "cost": 5175,
@@ -6494,7 +6494,7 @@
       "Em inglês: Bloodstone "
     ],
     "id": 121,
-    "img": "/assets/images/dota/items/bloodstone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/bloodstone.png?t=1593393829403",
     "dname": "Pedra de Sangue",
     "qual": "epic",
     "cost": 4400,
@@ -6578,7 +6578,7 @@
       "Em inglês: Linken's Sphere "
     ],
     "id": 123,
-    "img": "/assets/images/dota/items/sphere.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/sphere.png?t=1593393829403",
     "dname": "Esfera de Linken",
     "qual": "epic",
     "cost": 4800,
@@ -6649,7 +6649,7 @@
       "Em inglês: Lotus Orb "
     ],
     "id": 226,
-    "img": "/assets/images/dota/items/lotus_orb.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/lotus_orb.png?t=1593393829403",
     "dname": "Orbe de Lótus",
     "qual": "epic",
     "cost": 3850,
@@ -6718,7 +6718,7 @@
       "Em inglês: Meteor Hammer "
     ],
     "id": 223,
-    "img": "/assets/images/dota/items/meteor_hammer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/meteor_hammer.png?t=1593393829403",
     "dname": "Martelo Meteorítico",
     "qual": "epic",
     "cost": 2850,
@@ -6823,7 +6823,7 @@
       "Em inglês: Nullifier "
     ],
     "id": 225,
-    "img": "/assets/images/dota/items/nullifier.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/nullifier.png?t=1593393829403",
     "dname": "Anulador",
     "qual": "epic",
     "cost": 4375,
@@ -6902,7 +6902,7 @@
       "Em inglês: Aeon Disk "
     ],
     "id": 256,
-    "img": "/assets/images/dota/items/aeon_disk.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/aeon_disk.png?t=1593393829403",
     "dname": "Disco dos Éons",
     "qual": "epic",
     "cost": 3000,
@@ -6969,7 +6969,7 @@
   },
   "kaya": {
     "id": 259,
-    "img": "/assets/images/dota/items/kaya.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/kaya.png?t=1593393829403",
     "dname": "Kaya",
     "qual": "epic",
     "cost": 2100,
@@ -7009,7 +7009,7 @@
       "Em inglês: Trident "
     ],
     "id": 369,
-    "img": "/assets/images/dota/items/trident.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/trident.png?t=1593393829403",
     "dname": "Tridente",
     "cost": 6301,
     "notes": "",
@@ -7080,7 +7080,7 @@
   },
   "combo_breaker": {
     "id": 276,
-    "img": "/assets/images/dota/items/combo_breaker.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/combo_breaker.png?t=1593393829403",
     "cost": null,
     "behavior": false,
     "notes": "",
@@ -7100,7 +7100,7 @@
       "Em inglês: Refresher Shard "
     ],
     "id": 260,
-    "img": "/assets/images/dota/items/refresher_shard.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/refresher_shard.png?t=1593393829403",
     "dname": "Fragmento Restaurador",
     "qual": "consumable",
     "cost": 1000,
@@ -7157,7 +7157,7 @@
       "Em inglês: Spirit Vessel "
     ],
     "id": 267,
-    "img": "/assets/images/dota/items/spirit_vessel.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/spirit_vessel.png?t=1593393829403",
     "dname": "Receptáculo Espiritual",
     "qual": "rare",
     "cost": 2725,
@@ -7245,7 +7245,7 @@
       "Em inglês: Vanguard "
     ],
     "id": 125,
-    "img": "/assets/images/dota/items/vanguard.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/vanguard.png?t=1593393829403",
     "dname": "Vanguarda",
     "qual": "epic",
     "cost": 1700,
@@ -7309,7 +7309,7 @@
       "Em inglês: Crimson Guard "
     ],
     "id": 242,
-    "img": "/assets/images/dota/items/crimson_guard.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/crimson_guard.png?t=1593393829403",
     "dname": "Proteção Carmesim",
     "qual": "epic",
     "cost": 3725,
@@ -7407,7 +7407,7 @@
       "Em inglês: Blade Mail "
     ],
     "id": 127,
-    "img": "/assets/images/dota/items/blade_mail.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blade_mail.png?t=1593393829403",
     "dname": "Cota de Lâminas",
     "qual": "epic",
     "cost": 2300,
@@ -7461,7 +7461,7 @@
   },
   "soul_booster": {
     "id": 129,
-    "img": "/assets/images/dota/items/soul_booster.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/soul_booster.png?t=1593393829403",
     "dname": "Amplificador Espiritual",
     "qual": "epic",
     "cost": 3000,
@@ -7497,7 +7497,7 @@
       "Em inglês: Hood of Defiance "
     ],
     "id": 131,
-    "img": "/assets/images/dota/items/hood_of_defiance.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/hood_of_defiance.png?t=1593393829403",
     "dname": "Capuz da Audácia",
     "qual": "epic",
     "cost": 0,
@@ -7562,7 +7562,7 @@
       "Em inglês: Eternal Shroud "
     ],
     "id": 692,
-    "img": "/assets/images/dota/items/eternal_shroud.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/eternal_shroud.png?t=1593393829403",
     "dname": "Mortalha Eterna",
     "qual": "epic",
     "cost": 3700,
@@ -7624,7 +7624,7 @@
       "Em inglês: Caster Rapier "
     ],
     "id": 133,
-    "img": "/assets/images/dota/items/rapier.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/rapier.png?t=1593393829403",
     "dname": "Rapieira Divina",
     "qual": "epic",
     "cost": 5600,
@@ -7679,7 +7679,7 @@
       "Em inglês: Monkey King Bar (MKB) "
     ],
     "id": 135,
-    "img": "/assets/images/dota/items/monkey_king_bar.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/monkey_king_bar.png?t=1593393829403",
     "dname": "Bastão do Rei Macaco",
     "qual": "epic",
     "cost": 4700,
@@ -7723,7 +7723,7 @@
       "Em inglês: Radiance "
     ],
     "id": 137,
-    "img": "/assets/images/dota/items/radiance.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/radiance.png?t=1593393829403",
     "dname": "Resplendor",
     "qual": "epic",
     "cost": 4700,
@@ -7778,7 +7778,7 @@
   },
   "butterfly": {
     "id": 139,
-    "img": "/assets/images/dota/items/butterfly.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/butterfly.png?t=1593393829403",
     "dname": "Borboleta",
     "qual": "epic",
     "cost": 5450,
@@ -7840,7 +7840,7 @@
       "Em inglês: Daedalus "
     ],
     "id": 141,
-    "img": "/assets/images/dota/items/greater_crit.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/greater_crit.png?t=1593393829403",
     "dname": "Dédalo",
     "qual": "epic",
     "cost": 5100,
@@ -7894,7 +7894,7 @@
       "Em inglês: Skull Basher "
     ],
     "id": 143,
-    "img": "/assets/images/dota/items/basher.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/basher.png?t=1593393829403",
     "dname": "Esmagador de Crânios",
     "qual": "epic",
     "cost": 2875,
@@ -7970,7 +7970,7 @@
       "Em inglês: Battle Fury "
     ],
     "id": 145,
-    "img": "/assets/images/dota/items/bfury.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/bfury.png?t=1593393829403",
     "dname": "Fúria de Batalha",
     "qual": "epic",
     "cost": 3900,
@@ -8067,7 +8067,7 @@
       "Em inglês: Manta Style "
     ],
     "id": 147,
-    "img": "/assets/images/dota/items/manta.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/manta.png?t=1593393829403",
     "dname": "Machado Ilusório",
     "qual": "epic",
     "cost": 4650,
@@ -8173,7 +8173,7 @@
       "Passiva: Golpe Crítico Concede 30% de chance de causar 160% de dano a cada ataque."
     ],
     "id": 149,
-    "img": "/assets/images/dota/items/lesser_crit.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/lesser_crit.png?t=1593393829403",
     "dname": "Cristális",
     "qual": "epic",
     "cost": 2000,
@@ -8231,7 +8231,7 @@
       "Em inglês: Dragon Lance "
     ],
     "id": 236,
-    "img": "/assets/images/dota/items/dragon_lance.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dragon_lance.png?t=1593393829403",
     "dname": "Lança Dracônica",
     "qual": "artifact",
     "cost": 1900,
@@ -8287,7 +8287,7 @@
       "Em inglês: Armlet of Mordiggian "
     ],
     "id": 151,
-    "img": "/assets/images/dota/items/armlet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/armlet.png?t=1593393829403",
     "dname": "Bracelete de Mordiggian",
     "qual": "epic",
     "cost": 2500,
@@ -8358,7 +8358,7 @@
       "Em inglês: Shadow Blade "
     ],
     "id": 152,
-    "img": "/assets/images/dota/items/invis_sword.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/invis_sword.png?t=1593393829403",
     "dname": "Lâmina das Sombras",
     "qual": "epic",
     "cost": 3350,
@@ -8430,7 +8430,7 @@
       "Em inglês: Silver Edge "
     ],
     "id": 249,
-    "img": "/assets/images/dota/items/silver_edge.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/silver_edge.png?t=1593393829403",
     "dname": "Lâmina de Prata",
     "qual": "epic",
     "cost": 5800,
@@ -8500,7 +8500,7 @@
   },
   "sange_and_yasha": {
     "id": 154,
-    "img": "/assets/images/dota/items/sange_and_yasha.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/sange_and_yasha.png?t=1593393829403",
     "dname": "Sange e Yasha",
     "qual": "artifact",
     "cost": 4200,
@@ -8555,7 +8555,7 @@
   },
   "kaya_and_sange": {
     "id": 273,
-    "img": "/assets/images/dota/items/kaya_and_sange.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/kaya_and_sange.png?t=1593393829403",
     "dname": "Kaya e Sange",
     "qual": "artifact",
     "cost": 4200,
@@ -8610,7 +8610,7 @@
   },
   "yasha_and_kaya": {
     "id": 277,
-    "img": "/assets/images/dota/items/yasha_and_kaya.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/yasha_and_kaya.png?t=1593393829403",
     "dname": "Yasha e Kaya",
     "qual": "artifact",
     "cost": 4200,
@@ -8671,7 +8671,7 @@
       "Em inglês: Satanic "
     ],
     "id": 156,
-    "img": "/assets/images/dota/items/satanic.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/satanic.png?t=1593393829403",
     "dname": "Satânico",
     "qual": "artifact",
     "cost": 5050,
@@ -8746,7 +8746,7 @@
       "Em inglês: Mjollnir "
     ],
     "id": 158,
-    "img": "/assets/images/dota/items/mjollnir.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mjollnir.png?t=1593393829403",
     "dname": "Mjollnir",
     "qual": "artifact",
     "cost": 5500,
@@ -8852,7 +8852,7 @@
       "Em inglês: Eye of Skadi "
     ],
     "id": 160,
-    "img": "/assets/images/dota/items/skadi.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/skadi.png?t=1593393829403",
     "dname": "Olho de Skadi",
     "qual": "artifact",
     "cost": 5900,
@@ -8932,7 +8932,7 @@
   },
   "sange": {
     "id": 162,
-    "img": "/assets/images/dota/items/sange.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/sange.png?t=1593393829403",
     "dname": "Sange",
     "qual": "artifact",
     "cost": 2100,
@@ -8988,7 +8988,7 @@
       "Em inglês: Helm of the Dominator "
     ],
     "id": 164,
-    "img": "/assets/images/dota/items/helm_of_the_dominator.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/helm_of_the_dominator.png?t=1593393829403",
     "dname": "Elmo do Dominador",
     "qual": "artifact",
     "cost": 2550,
@@ -9087,7 +9087,7 @@
       "Em inglês: Helm of the Overlord "
     ],
     "id": 635,
-    "img": "/assets/images/dota/items/helm_of_the_overlord.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/helm_of_the_overlord.png?t=1593393829403",
     "dname": "Elmo do Soberano",
     "qual": "artifact",
     "cost": 5650,
@@ -9174,7 +9174,7 @@
       "Em inglês: Maelstrom "
     ],
     "id": 166,
-    "img": "/assets/images/dota/items/maelstrom.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/maelstrom.png?t=1593393829403",
     "dname": "Maelstrom",
     "qual": "artifact",
     "cost": 2950,
@@ -9254,7 +9254,7 @@
       "Em inglês: Gleipnir "
     ],
     "id": 1466,
-    "img": "/assets/images/dota/items/gungir.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gungir.png?t=1593393829403",
     "dname": "Gleipnir",
     "qual": "artifact",
     "cost": 4550,
@@ -9321,7 +9321,7 @@
       "Passiva: Roubo de Alma A Desoladora ganha +2 de dano sempre que um herói inimigo morrer sob efeito da sua Corrupção , até um máximo de 30 de dano."
     ],
     "id": 168,
-    "img": "/assets/images/dota/items/desolator.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/desolator.png?t=1593393829403",
     "dname": "Desoladora",
     "qual": "artifact",
     "cost": 3500,
@@ -9385,7 +9385,7 @@
   },
   "yasha": {
     "id": 170,
-    "img": "/assets/images/dota/items/yasha.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/yasha.png?t=1593393829403",
     "dname": "Yasha",
     "qual": "artifact",
     "cost": 2100,
@@ -9426,7 +9426,7 @@
       "Em inglês: Mask of Madness "
     ],
     "id": 172,
-    "img": "/assets/images/dota/items/mask_of_madness.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mask_of_madness.png?t=1593393829403",
     "dname": "Máscara da Loucura",
     "qual": "artifact",
     "cost": 1900,
@@ -9499,7 +9499,7 @@
       "Em inglês: Diffusal Blade "
     ],
     "id": 174,
-    "img": "/assets/images/dota/items/diffusal_blade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/diffusal_blade.png?t=1593393829403",
     "dname": "Lâmina Difusora",
     "qual": "artifact",
     "cost": 2500,
@@ -9586,7 +9586,7 @@
       "Em inglês: Disperser  "
     ],
     "id": 1097,
-    "img": "/assets/images/dota/items/disperser.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/disperser.png?t=1593393829403",
     "dname": "Dispersora",
     "qual": "artifact",
     "cost": 6100,
@@ -9691,7 +9691,7 @@
       "Em inglês: Ethereal Blade "
     ],
     "id": 176,
-    "img": "/assets/images/dota/items/ethereal_blade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ethereal_blade.png?t=1593393829403",
     "dname": "Lâmina Etérea",
     "qual": "epic",
     "cost": 5375,
@@ -9799,7 +9799,7 @@
       "Em inglês: Soul Ring "
     ],
     "id": 178,
-    "img": "/assets/images/dota/items/soul_ring.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/soul_ring.png?t=1593393829403",
     "dname": "Anel da Alma",
     "qual": "common",
     "cost": 805,
@@ -9865,7 +9865,7 @@
       "Em inglês: Arcane Boots "
     ],
     "id": 180,
-    "img": "/assets/images/dota/items/arcane_boots.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/arcane_boots.png?t=1593393829403",
     "dname": "Botas Arcanas",
     "qual": "rare",
     "cost": 1400,
@@ -9920,7 +9920,7 @@
       "Em inglês: Octarine Core "
     ],
     "id": 235,
-    "img": "/assets/images/dota/items/octarine_core.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/octarine_core.png?t=1593393829403",
     "dname": "Núcleo Octarina",
     "qual": "rare",
     "cost": 4800,
@@ -9969,7 +9969,7 @@
       "Em inglês: Orb of Venom "
     ],
     "id": 181,
-    "img": "/assets/images/dota/items/orb_of_venom.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/orb_of_venom.png?t=1593393829403",
     "dname": "Orbe Venenoso",
     "qual": "component",
     "cost": 350,
@@ -10004,7 +10004,7 @@
       "Em inglês: Blight Stone "
     ],
     "id": 240,
-    "img": "/assets/images/dota/items/blight_stone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blight_stone.png?t=1593393829403",
     "dname": "Orbe Enferrujado",
     "qual": "component",
     "cost": 300,
@@ -10036,7 +10036,7 @@
       "Em inglês: Orb of Corrosion "
     ],
     "id": 569,
-    "img": "/assets/images/dota/items/orb_of_corrosion.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/orb_of_corrosion.png?t=1593393829403",
     "dname": "Orbe Corrosivo",
     "qual": "rare",
     "cost": 1050,
@@ -10088,7 +10088,7 @@
       "Em inglês: Orb of Frost "
     ],
     "id": 1575,
-    "img": "/assets/images/dota/items/orb_of_frost.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/orb_of_frost.png?t=1593393829403",
     "dname": "Orbe Congelado",
     "qual": "rare",
     "cost": 300,
@@ -10137,7 +10137,7 @@
   },
   "falcon_blade": {
     "id": 596,
-    "img": "/assets/images/dota/items/falcon_blade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/falcon_blade.png?t=1593393829403",
     "dname": "Lâmina do Falcão",
     "qual": "rare",
     "cost": 1125,
@@ -10178,7 +10178,7 @@
       "Em inglês: Mage Slayer "
     ],
     "id": 598,
-    "img": "/assets/images/dota/items/mage_slayer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mage_slayer.png?t=1593393829403",
     "dname": "Assassina de Magos",
     "qual": "rare",
     "cost": 2800,
@@ -10266,7 +10266,7 @@
       "Em inglês: Drum of Endurance "
     ],
     "id": 185,
-    "img": "/assets/images/dota/items/ancient_janggo.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ancient_janggo.png?t=1593393829403",
     "dname": "Tambor de Resistência",
     "qual": "rare",
     "cost": 1625,
@@ -10347,7 +10347,7 @@
       "Em inglês: Boots of Bearing "
     ],
     "id": 931,
-    "img": "/assets/images/dota/items/boots_of_bearing.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/boots_of_bearing.png?t=1593393829403",
     "dname": "Botas Vigorosas",
     "qual": "rare",
     "cost": 4225,
@@ -10420,7 +10420,7 @@
       "Em inglês: Medallion of Courage "
     ],
     "id": 187,
-    "img": "/assets/images/dota/items/medallion_of_courage.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/medallion_of_courage.png?t=1593393829403",
     "dname": "Medalhão de Coragem",
     "qual": "rare",
     "cost": 1025,
@@ -10488,7 +10488,7 @@
       "Em inglês: Solar Crest "
     ],
     "id": 229,
-    "img": "/assets/images/dota/items/solar_crest.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/solar_crest.png?t=1593393829403",
     "dname": "Brasão Solar",
     "qual": "rare",
     "cost": 2575,
@@ -10586,7 +10586,7 @@
       "Em inglês: Pavise "
     ],
     "id": 1128,
-    "img": "/assets/images/dota/items/pavise.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pavise.png?t=1593393829403",
     "dname": "Blindagem",
     "qual": "rare",
     "cost": 1400,
@@ -10646,7 +10646,7 @@
       "Em inglês: Smoke of Deceit "
     ],
     "id": 188,
-    "img": "/assets/images/dota/items/smoke_of_deceit.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/smoke_of_deceit.png?t=1593393829403",
     "dname": "Fumaça da Enganação",
     "qual": "consumable",
     "cost": 50,
@@ -10693,7 +10693,7 @@
       "Em inglês: Tome of Knowledge "
     ],
     "id": 257,
-    "img": "/assets/images/dota/items/tome_of_knowledge.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tome_of_knowledge.png?t=1593393829403",
     "dname": "Tomo do Conhecimento",
     "qual": "consumable",
     "cost": 75,
@@ -10743,7 +10743,7 @@
       "Em inglês: Veil of Discord "
     ],
     "id": 190,
-    "img": "/assets/images/dota/items/veil_of_discord.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/veil_of_discord.png?t=1593393829403",
     "dname": "Véu da Discórdia",
     "qual": "rare",
     "cost": 1725,
@@ -10817,7 +10817,7 @@
       "Em inglês: Revenant's Brooch "
     ],
     "id": 911,
-    "img": "/assets/images/dota/items/revenants_brooch.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/revenants_brooch.png?t=1593393829403",
     "dname": "Broche do Regressor",
     "qual": "rare",
     "cost": 3300,
@@ -10878,7 +10878,7 @@
       "Em inglês: Parasma "
     ],
     "id": 1806,
-    "img": "/assets/images/dota/items/devastator.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/devastator.png?t=1593393829403",
     "dname": "Parasma",
     "qual": "rare",
     "cost": 5975,
@@ -10967,7 +10967,7 @@
       "Em inglês: Guardian Greaves "
     ],
     "id": 231,
-    "img": "/assets/images/dota/items/guardian_greaves.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/guardian_greaves.png?t=1593393829403",
     "dname": "Grevas Guardiãs",
     "qual": "rare",
     "cost": 5050,
@@ -11076,7 +11076,7 @@
       "Em inglês: Rod of Atos "
     ],
     "id": 206,
-    "img": "/assets/images/dota/items/rod_of_atos.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/rod_of_atos.png?t=1593393829403",
     "dname": "Bastão de Atos",
     "qual": "rare",
     "cost": 2250,
@@ -11136,7 +11136,7 @@
       "Em inglês: Iron Talon "
     ],
     "id": 239,
-    "img": "/assets/images/dota/items/iron_talon.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/iron_talon.png?t=1593393829403",
     "qual": "common",
     "cost": 0,
     "behavior": "Unit Target",
@@ -11204,7 +11204,7 @@
       "Em inglês: Abyssal Blade "
     ],
     "id": 208,
-    "img": "/assets/images/dota/items/abyssal_blade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/abyssal_blade.png?t=1593393829403",
     "dname": "Lâmina Abissal",
     "qual": "epic",
     "cost": 6250,
@@ -11297,7 +11297,7 @@
       "Em inglês: Heaven's Halberd "
     ],
     "id": 210,
-    "img": "/assets/images/dota/items/heavens_halberd.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/heavens_halberd.png?t=1593393829403",
     "dname": "Alabarda Celestial",
     "qual": "artifact",
     "cost": 2600,
@@ -11364,7 +11364,7 @@
       "Em inglês: Ring of Aquila "
     ],
     "id": 212,
-    "img": "/assets/images/dota/items/ring_of_aquila.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ring_of_aquila.png?t=1593393829403",
     "dname": "Anel de Áquila",
     "cost": null,
     "behavior": [
@@ -11422,7 +11422,7 @@
       "Em inglês: Tranquil Boots "
     ],
     "id": 214,
-    "img": "/assets/images/dota/items/tranquil_boots.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tranquil_boots.png?t=1593393829403",
     "dname": "Botas Serenas",
     "qual": "rare",
     "cost": 900,
@@ -11490,7 +11490,7 @@
       "Em inglês: Shadow Amulet "
     ],
     "id": 215,
-    "img": "/assets/images/dota/items/shadow_amulet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/shadow_amulet.png?t=1593393829403",
     "dname": "Amuleto das Sombras",
     "cost": 1000,
     "behavior": [
@@ -11547,7 +11547,7 @@
       "Em inglês: Glimmer Cape "
     ],
     "id": 254,
-    "img": "/assets/images/dota/items/glimmer_cape.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/glimmer_cape.png?t=1593393829403",
     "dname": "Capa Cintilante",
     "qual": "rare",
     "cost": 2150,
@@ -11602,7 +11602,7 @@
   },
   "river_painter": {
     "id": 1021,
-    "img": "/assets/images/dota/items/river_painter.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/river_painter.png?t=1593393829403",
     "dname": "Frasco do Rio: Cromado",
     "qual": "component",
     "cost": 0,
@@ -11624,7 +11624,7 @@
   },
   "river_painter2": {
     "id": 1022,
-    "img": "/assets/images/dota/items/river_painter2.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/river_painter2.png?t=1593393829403",
     "dname": "Frasco do Rio: Seco",
     "qual": "component",
     "cost": 0,
@@ -11646,7 +11646,7 @@
   },
   "river_painter3": {
     "id": 1023,
-    "img": "/assets/images/dota/items/river_painter3.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/river_painter3.png?t=1593393829403",
     "dname": "Frasco do Rio: Gosma",
     "qual": "component",
     "cost": 0,
@@ -11668,7 +11668,7 @@
   },
   "river_painter4": {
     "id": 1024,
-    "img": "/assets/images/dota/items/river_painter4.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/river_painter4.png?t=1593393829403",
     "dname": "Frasco do Rio: Óleo",
     "qual": "component",
     "cost": 0,
@@ -11690,7 +11690,7 @@
   },
   "river_painter5": {
     "id": 1025,
-    "img": "/assets/images/dota/items/river_painter5.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/river_painter5.png?t=1593393829403",
     "dname": "Frasco do Rio: Elétrico",
     "qual": "component",
     "cost": 0,
@@ -11712,7 +11712,7 @@
   },
   "river_painter6": {
     "id": 1026,
-    "img": "/assets/images/dota/items/river_painter6.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/river_painter6.png?t=1593393829403",
     "dname": "Frasco do Rio: Poção",
     "qual": "component",
     "cost": 0,
@@ -11734,7 +11734,7 @@
   },
   "river_painter7": {
     "id": 1027,
-    "img": "/assets/images/dota/items/river_painter7.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/river_painter7.png?t=1593393829403",
     "dname": "Frasco do Rio: Sangue",
     "qual": "component",
     "cost": 0,
@@ -11756,7 +11756,7 @@
   },
   "mutation_tombstone": {
     "id": 1028,
-    "img": "/assets/images/dota/items/mutation_tombstone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mutation_tombstone.png?t=1593393829403",
     "dname": "Lápide",
     "qual": "consumable",
     "cost": 0,
@@ -11776,7 +11776,7 @@
   },
   "super_blink": {
     "id": 1029,
-    "img": "/assets/images/dota/items/super_blink.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/super_blink.png?t=1593393829403",
     "cost": null,
     "behavior": "Point Target",
     "notes": "",
@@ -11800,7 +11800,7 @@
   },
   "pocket_tower": {
     "id": 1030,
-    "img": "/assets/images/dota/items/pocket_tower.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pocket_tower.png?t=1593393829403",
     "dname": "Torre de Bolso",
     "cost": null,
     "behavior": "Point Target",
@@ -11816,7 +11816,7 @@
   },
   "pocket_roshan": {
     "id": 1032,
-    "img": "/assets/images/dota/items/pocket_roshan.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pocket_roshan.png?t=1593393829403",
     "dname": "Roshan de Bolso",
     "qual": "rare",
     "cost": 1000,
@@ -11841,7 +11841,7 @@
   },
   "keen_optic": {
     "id": 287,
-    "img": "/assets/images/dota/items/keen_optic.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/keen_optic.png?t=1593393829403",
     "dname": "Visor Keen",
     "cost": 0,
     "notes": "",
@@ -11872,7 +11872,7 @@
       "Em inglês: Grove Bow "
     ],
     "id": 288,
-    "img": "/assets/images/dota/items/grove_bow.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/grove_bow.png?t=1593393829403",
     "dname": "Arco do Arvoredo",
     "cost": 0,
     "notes": "",
@@ -11909,7 +11909,7 @@
       "Em inglês: Quickening Charm "
     ],
     "id": 289,
-    "img": "/assets/images/dota/items/quickening_charm.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/quickening_charm.png?t=1593393829403",
     "dname": "Amuleto da Aceleração",
     "cost": 0,
     "notes": "",
@@ -11935,7 +11935,7 @@
   },
   "philosophers_stone": {
     "id": 290,
-    "img": "/assets/images/dota/items/philosophers_stone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/philosophers_stone.png?t=1593393829403",
     "dname": "Pedra Filosofal",
     "cost": 0,
     "notes": "",
@@ -11973,7 +11973,7 @@
       "Em inglês: Force Boots "
     ],
     "id": 291,
-    "img": "/assets/images/dota/items/force_boots.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/force_boots.png?t=1593393829403",
     "dname": "Botas de Força",
     "cost": 0,
     "behavior": "Unit Target",
@@ -12018,7 +12018,7 @@
       "Em inglês: Stygian Desolator "
     ],
     "id": 292,
-    "img": "/assets/images/dota/items/desolator_2.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/desolator_2.png?t=1593393829403",
     "cost": 0,
     "bkbpierce": "Yes",
     "notes": "A redução de armadura funciona em estruturas.",
@@ -12051,7 +12051,7 @@
       "Em inglês: Phoenix Ash "
     ],
     "id": 293,
-    "img": "/assets/images/dota/items/phoenix_ash.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/phoenix_ash.png?t=1593393829403",
     "dname": "Cinzas de Fênix",
     "cost": 0,
     "notes": "",
@@ -12076,7 +12076,7 @@
       "Em inglês: Seer Stone "
     ],
     "id": 294,
-    "img": "/assets/images/dota/items/seer_stone.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/seer_stone.png?t=1593393829403",
     "dname": "Pedra do Augúrio",
     "cost": 0,
     "behavior": [
@@ -12120,7 +12120,7 @@
   },
   "greater_mango": {
     "id": 295,
-    "img": "/assets/images/dota/items/greater_mango.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/greater_mango.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -12143,7 +12143,7 @@
       "Em inglês: Elixir "
     ],
     "id": 302,
-    "img": "/assets/images/dota/items/elixer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/elixer.png?t=1593393829403",
     "dname": "Elixir",
     "cost": 0,
     "behavior": [
@@ -12178,7 +12178,7 @@
   },
   "vampire_fangs": {
     "id": 297,
-    "img": "/assets/images/dota/items/vampire_fangs.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/vampire_fangs.png?t=1593393829403",
     "dname": "Presas Vampíricas",
     "cost": 0,
     "notes": "",
@@ -12218,7 +12218,7 @@
       "Em inglês: Arcanist's Armor "
     ],
     "id": 829,
-    "img": "/assets/images/dota/items/force_field.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/force_field.png?t=1593393829403",
     "dname": "Proteção do Arcanista",
     "cost": 0,
     "behavior": [
@@ -12266,7 +12266,7 @@
       "Passiva: Temperamental Na próxima vez que for atacado por um herói a até 400 unidades de distância, exploda causando 250 de dano a todos os inimigos em até 400 unidades de distância, fazendo-os errar 100% dos seus ataques por 2 segundos."
     ],
     "id": 834,
-    "img": "/assets/images/dota/items/black_powder_bag.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/black_powder_bag.png?t=1593393829403",
     "dname": "Adereço Explosivo",
     "cost": 0,
     "notes": "",
@@ -12303,7 +12303,7 @@
   },
   "mechanical_arm": {
     "id": 849,
-    "img": "/assets/images/dota/items/mechanical_arm.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mechanical_arm.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -12335,7 +12335,7 @@
       "Em inglês: Craggy Coat "
     ],
     "id": 298,
-    "img": "/assets/images/dota/items/craggy_coat.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/craggy_coat.png?t=1593393829403",
     "dname": "Proteção Rochosa",
     "cost": 0,
     "behavior": [
@@ -12380,7 +12380,7 @@
       "Em inglês: Greater Faerie Fire "
     ],
     "id": 299,
-    "img": "/assets/images/dota/items/greater_faerie_fire.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/greater_faerie_fire.png?t=1593393829403",
     "dname": "Grande Fogo de Fada",
     "qual": "consumable",
     "cost": 0,
@@ -12417,7 +12417,7 @@
       "Em inglês: Timeless Relic "
     ],
     "id": 300,
-    "img": "/assets/images/dota/items/timeless_relic.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/timeless_relic.png?t=1593393829403",
     "dname": "Relíquia Atemporal",
     "cost": 0,
     "notes": "",
@@ -12448,7 +12448,7 @@
       "Em inglês: Mirror Shield "
     ],
     "id": 301,
-    "img": "/assets/images/dota/items/mirror_shield.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mirror_shield.png?t=1593393829403",
     "dname": "Escudo Espelhado",
     "cost": 0,
     "notes": "",
@@ -12482,7 +12482,7 @@
       "Em inglês: Iron Branch "
     ],
     "id": 304,
-    "img": "/assets/images/dota/items/ironwood_tree.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ironwood_tree.png?t=1593393829403",
     "dname": "Árvore Galho-de-Ferro",
     "cost": 0,
     "behavior": "Point Target",
@@ -12513,7 +12513,7 @@
       "Em inglês: Mango Tree "
     ],
     "id": 328,
-    "img": "/assets/images/dota/items/mango_tree.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mango_tree.png?t=1593393829403",
     "dname": "Mangueira",
     "qual": "consumable",
     "cost": null,
@@ -12540,7 +12540,7 @@
       "Em inglês: Royal Jelly "
     ],
     "id": 305,
-    "img": "/assets/images/dota/items/royal_jelly.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/royal_jelly.png?t=1593393829403",
     "dname": "Geleia Real",
     "qual": "consumable",
     "cost": 0,
@@ -12597,7 +12597,7 @@
       "Aumenta os dois atributos não primários."
     ],
     "id": 306,
-    "img": "/assets/images/dota/items/pupils_gift.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pupils_gift.png?t=1593393829403",
     "dname": "Presente do Pupilo",
     "cost": 0,
     "notes": "Concede dois terços do valor para cada atributo para heróis Universais.",
@@ -12623,7 +12623,7 @@
       "Em inglês: Tome of Aghanim "
     ],
     "id": 307,
-    "img": "/assets/images/dota/items/tome_of_aghanim.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tome_of_aghanim.png?t=1593393829403",
     "dname": "Tomo de Aghanim",
     "cost": 0,
     "behavior": [
@@ -12654,7 +12654,7 @@
       "Em inglês: Repair Kit "
     ],
     "id": 308,
-    "img": "/assets/images/dota/items/repair_kit.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/repair_kit.png?t=1593393829403",
     "dname": "Kit de Reparo",
     "qual": "consumable",
     "cost": 0,
@@ -12699,7 +12699,7 @@
       "Em inglês: Mind Breaker "
     ],
     "id": 309,
-    "img": "/assets/images/dota/items/mind_breaker.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mind_breaker.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -12732,7 +12732,7 @@
       "Em inglês: Third Eye "
     ],
     "id": 310,
-    "img": "/assets/images/dota/items/third_eye.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/third_eye.png?t=1593393829403",
     "dname": "Terceiro Olho",
     "cost": 0,
     "notes": "",
@@ -12767,7 +12767,7 @@
       "Em inglês: Spell Prism "
     ],
     "id": 311,
-    "img": "/assets/images/dota/items/spell_prism.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/spell_prism.png?t=1593393829403",
     "dname": "Prisma Enfeitiçado",
     "cost": 0,
     "notes": "",
@@ -12803,7 +12803,7 @@
       "Em inglês: Prince's Knife "
     ],
     "id": 325,
-    "img": "/assets/images/dota/items/princes_knife.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/princes_knife.png?t=1593393829403",
     "dname": "Faca do Príncipe",
     "cost": 0,
     "notes": "",
@@ -12837,7 +12837,7 @@
       "Em inglês: Witless Shako "
     ],
     "id": 330,
-    "img": "/assets/images/dota/items/witless_shako.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/witless_shako.png?t=1593393829403",
     "dname": "Barretina Desmiolada",
     "cost": 0,
     "notes": "",
@@ -12868,7 +12868,7 @@
       "Em inglês: Imp Claw "
     ],
     "id": 334,
-    "img": "/assets/images/dota/items/imp_claw.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/imp_claw.png?t=1593393829403",
     "dname": "Garra de Duende",
     "cost": 0,
     "notes": "",
@@ -12897,7 +12897,7 @@
       "Em inglês: Flicker "
     ],
     "id": 335,
-    "img": "/assets/images/dota/items/flicker.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/flicker.png?t=1593393829403",
     "dname": "Tremeluzente",
     "cost": 0,
     "behavior": [
@@ -12935,7 +12935,7 @@
       "Em inglês: Telescope "
     ],
     "id": 336,
-    "img": "/assets/images/dota/items/spy_gadget.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/spy_gadget.png?t=1593393829403",
     "dname": "Telescópio",
     "cost": 0,
     "notes": "",
@@ -12975,7 +12975,7 @@
       "Em inglês: Spider Legs "
     ],
     "id": 326,
-    "img": "/assets/images/dota/items/spider_legs.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/spider_legs.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13011,7 +13011,7 @@
       "Em inglês: Helm of the Undying "
     ],
     "id": 327,
-    "img": "/assets/images/dota/items/helm_of_the_undying.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/helm_of_the_undying.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13046,7 +13046,7 @@
       "Em inglês: Vambrace "
     ],
     "id": 331,
-    "img": "/assets/images/dota/items/vambrace.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/vambrace.png?t=1593393829403",
     "dname": "Avambraço",
     "qual": "common",
     "cost": 0,
@@ -13089,7 +13089,7 @@
   },
   "horizon": {
     "id": 312,
-    "img": "/assets/images/dota/items/horizon.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/horizon.png?t=1593393829403",
     "cost": 0,
     "behavior": "Unit Target",
     "bkbpierce": "Yes",
@@ -13121,7 +13121,7 @@
       "Em inglês: Fusion Rune "
     ],
     "id": 313,
-    "img": "/assets/images/dota/items/fusion_rune.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/fusion_rune.png?t=1593393829403",
     "dname": "Runa Fundida",
     "cost": 0,
     "behavior": [
@@ -13152,7 +13152,7 @@
       "Em inglês: Ocean Heart "
     ],
     "id": 354,
-    "img": "/assets/images/dota/items/ocean_heart.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ocean_heart.png?t=1593393829403",
     "dname": "Coração do Oceano",
     "cost": 0,
     "notes": "",
@@ -13186,7 +13186,7 @@
       "Em inglês: Spark of Courage "
     ],
     "id": 1124,
-    "img": "/assets/images/dota/items/spark_of_courage.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/spark_of_courage.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13213,7 +13213,7 @@
   },
   "broom_handle": {
     "id": 355,
-    "img": "/assets/images/dota/items/broom_handle.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/broom_handle.png?t=1593393829403",
     "dname": "Cabo de Vassoura",
     "cost": 0,
     "notes": "",
@@ -13249,7 +13249,7 @@
       "Em inglês: Trusty Shovel "
     ],
     "id": 356,
-    "img": "/assets/images/dota/items/trusty_shovel.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/trusty_shovel.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Point Target",
@@ -13284,7 +13284,7 @@
   },
   "nether_shawl": {
     "id": 357,
-    "img": "/assets/images/dota/items/nether_shawl.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/nether_shawl.png?t=1593393829403",
     "dname": "Xale das Profundezas",
     "cost": 0,
     "notes": "",
@@ -13320,7 +13320,7 @@
       "Em inglês: Dragon Scale "
     ],
     "id": 358,
-    "img": "/assets/images/dota/items/dragon_scale.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dragon_scale.png?t=1593393829403",
     "dname": "Escama de Dragão",
     "cost": 0,
     "notes": "",
@@ -13349,7 +13349,7 @@
       "Em inglês: Essence Ring "
     ],
     "id": 359,
-    "img": "/assets/images/dota/items/essence_ring.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/essence_ring.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13389,7 +13389,7 @@
       "Em inglês: Clumsy Net "
     ],
     "id": 360,
-    "img": "/assets/images/dota/items/clumsy_net.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/clumsy_net.png?t=1593393829403",
     "dname": "Rede Desajeitada",
     "cost": 0,
     "behavior": "Unit Target",
@@ -13429,7 +13429,7 @@
       "Em inglês: Enchanted Quiver "
     ],
     "id": 361,
-    "img": "/assets/images/dota/items/enchanted_quiver.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enchanted_quiver.png?t=1593393829403",
     "dname": "Aljava Encantada",
     "cost": 0,
     "notes": "",
@@ -13462,7 +13462,7 @@
       "Em inglês: Ninja Gear "
     ],
     "id": 362,
-    "img": "/assets/images/dota/items/ninja_gear.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ninja_gear.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13511,7 +13511,7 @@
       "Em inglês: Illusionist's Cape "
     ],
     "id": 363,
-    "img": "/assets/images/dota/items/illusionsts_cape.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/illusionsts_cape.png?t=1593393829403",
     "dname": "Capa do Ilusionista",
     "cost": 0,
     "behavior": [
@@ -13573,7 +13573,7 @@
       "Em inglês: Havoc Hammer "
     ],
     "id": 364,
-    "img": "/assets/images/dota/items/havoc_hammer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/havoc_hammer.png?t=1593393829403",
     "dname": "Martelo da Destruição",
     "cost": 0,
     "behavior": [
@@ -13640,7 +13640,7 @@
       "Em inglês: Magic Lamp "
     ],
     "id": 365,
-    "img": "/assets/images/dota/items/panic_button.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/panic_button.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13667,7 +13667,7 @@
   },
   "apex": {
     "id": 366,
-    "img": "/assets/images/dota/items/apex.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/apex.png?t=1593393829403",
     "dname": "Apogeu",
     "cost": 0,
     "notes": "Concede +24 para cada atributo para heróis Universais.",
@@ -13697,7 +13697,7 @@
       "Em inglês: Ballista "
     ],
     "id": 367,
-    "img": "/assets/images/dota/items/ballista.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ballista.png?t=1593393829403",
     "dname": "Balista",
     "cost": 0,
     "notes": "",
@@ -13737,7 +13737,7 @@
       "Em inglês: Woodland Striders "
     ],
     "id": 368,
-    "img": "/assets/images/dota/items/woodland_striders.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/woodland_striders.png?t=1593393829403",
     "dname": "Botinas Florestais",
     "cost": 0,
     "behavior": [
@@ -13796,7 +13796,7 @@
       "Em inglês: Book of the Dead "
     ],
     "id": 370,
-    "img": "/assets/images/dota/items/demonicon.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/demonicon.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13832,7 +13832,7 @@
       "Em inglês: Fallen Sky "
     ],
     "id": 371,
-    "img": "/assets/images/dota/items/fallen_sky.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/fallen_sky.png?t=1593393829403",
     "cost": 0,
     "behavior": "Point Target",
     "notes": "",
@@ -13914,7 +13914,7 @@
       "Em inglês: Pirate Hat "
     ],
     "id": 372,
-    "img": "/assets/images/dota/items/pirate_hat.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pirate_hat.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13945,7 +13945,7 @@
   },
   "dimensional_doorway": {
     "id": 373,
-    "img": "/assets/images/dota/items/dimensional_doorway.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dimensional_doorway.png?t=1593393829403",
     "cost": 0,
     "behavior": "Point Target",
     "notes": "",
@@ -13965,7 +13965,7 @@
       "Em inglês: Ex Machina "
     ],
     "id": 374,
-    "img": "/assets/images/dota/items/ex_machina.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ex_machina.png?t=1593393829403",
     "dname": "Ex Machina",
     "cost": 0,
     "behavior": [
@@ -13989,7 +13989,7 @@
   },
   "faded_broach": {
     "id": 375,
-    "img": "/assets/images/dota/items/faded_broach.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/faded_broach.png?t=1593393829403",
     "dname": "Broche Desbotado",
     "cost": 0,
     "notes": "",
@@ -14015,7 +14015,7 @@
   },
   "paladin_sword": {
     "id": 376,
-    "img": "/assets/images/dota/items/paladin_sword.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/paladin_sword.png?t=1593393829403",
     "dname": "Espada Paladina",
     "cost": 0,
     "notes": "",
@@ -14059,7 +14059,7 @@
       "Em inglês: Minotaur Horn "
     ],
     "id": 377,
-    "img": "/assets/images/dota/items/minotaur_horn.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/minotaur_horn.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -14095,7 +14095,7 @@
       "Em inglês: Orb of Destruction "
     ],
     "id": 378,
-    "img": "/assets/images/dota/items/orb_of_destruction.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/orb_of_destruction.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14134,7 +14134,7 @@
       "Passiva: Nivelar Ataques causam mais 35% de dano contra estruturas."
     ],
     "id": 379,
-    "img": "/assets/images/dota/items/the_leveller.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/the_leveller.png?t=1593393829403",
     "dname": "Niveladora",
     "cost": 0,
     "notes": "",
@@ -14167,7 +14167,7 @@
       "Em inglês: Arcane Ring "
     ],
     "id": 349,
-    "img": "/assets/images/dota/items/arcane_ring.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/arcane_ring.png?t=1593393829403",
     "dname": "Anel Arcano",
     "cost": 0,
     "behavior": [
@@ -14207,7 +14207,7 @@
   },
   "titan_sliver": {
     "id": 381,
-    "img": "/assets/images/dota/items/titan_sliver.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/titan_sliver.png?t=1593393829403",
     "dname": "Lasca Titânica",
     "cost": 0,
     "notes": "",
@@ -14238,7 +14238,7 @@
       "Em inglês: Chipped Vest "
     ],
     "id": 565,
-    "img": "/assets/images/dota/items/chipped_vest.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/chipped_vest.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14265,7 +14265,7 @@
   },
   "wizard_glass": {
     "id": 566,
-    "img": "/assets/images/dota/items/wizard_glass.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/wizard_glass.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -14304,7 +14304,7 @@
   },
   "gloves_of_travel": {
     "id": 570,
-    "img": "/assets/images/dota/items/gloves_of_travel.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gloves_of_travel.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14327,7 +14327,7 @@
   },
   "elven_tunic": {
     "id": 573,
-    "img": "/assets/images/dota/items/elven_tunic.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/elven_tunic.png?t=1593393829403",
     "dname": "Túnica Élfica",
     "cost": 0,
     "notes": "",
@@ -14363,7 +14363,7 @@
       "Em inglês: Cloak of Flames "
     ],
     "id": 574,
-    "img": "/assets/images/dota/items/cloak_of_flames.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/cloak_of_flames.png?t=1593393829403",
     "dname": "Capa Flamejante",
     "cost": 0,
     "notes": "",
@@ -14399,7 +14399,7 @@
   },
   "venom_gland": {
     "id": 575,
-    "img": "/assets/images/dota/items/venom_gland.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/venom_gland.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14439,7 +14439,7 @@
       "Em inglês: Trickster Cloak "
     ],
     "id": 571,
-    "img": "/assets/images/dota/items/trickster_cloak.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/trickster_cloak.png?t=1593393829403",
     "dname": "Capa do Trapaceiro",
     "cost": 0,
     "behavior": [
@@ -14471,7 +14471,7 @@
   },
   "gladiator_helm": {
     "id": 576,
-    "img": "/assets/images/dota/items/gladiator_helm.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gladiator_helm.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14507,7 +14507,7 @@
       "Em inglês: Possessed Mask "
     ],
     "id": 577,
-    "img": "/assets/images/dota/items/possessed_mask.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/possessed_mask.png?t=1593393829403",
     "dname": "Máscara Possuída",
     "cost": 0,
     "notes": "Concede 1/3 do valor para cada atributo para heróis Universais.",
@@ -14532,7 +14532,7 @@
   },
   "ancient_perseverance": {
     "id": 578,
-    "img": "/assets/images/dota/items/ancient_perseverance.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ancient_perseverance.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14559,7 +14559,7 @@
   },
   "star_mace": {
     "id": 637,
-    "img": "/assets/images/dota/items/star_mace.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/star_mace.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14603,7 +14603,7 @@
       "Em inglês: Penta-Edged Sword "
     ],
     "id": 638,
-    "img": "/assets/images/dota/items/penta_edged_sword.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/penta_edged_sword.png?t=1593393829403",
     "dname": "Espada Pentalaminada",
     "cost": 0,
     "notes": "",
@@ -14645,7 +14645,7 @@
   },
   "oakheart": {
     "id": 582,
-    "img": "/assets/images/dota/items/oakheart.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/oakheart.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Unit Target",
@@ -14678,7 +14678,7 @@
   },
   "warhammer": {
     "id": 674,
-    "img": "/assets/images/dota/items/warhammer.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/warhammer.png?t=1593393829403",
     "cost": 0,
     "behavior": "Unit Target",
     "target_team": "Enemy",
@@ -14720,7 +14720,7 @@
       "Em inglês: Bullwhip "
     ],
     "id": 680,
-    "img": "/assets/images/dota/items/bullwhip.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/bullwhip.png?t=1593393829403",
     "dname": "Chicote",
     "cost": 0,
     "behavior": [
@@ -14770,7 +14770,7 @@
       "Em inglês: Psychic Headband "
     ],
     "id": 675,
-    "img": "/assets/images/dota/items/psychic_headband.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/psychic_headband.png?t=1593393829403",
     "cost": 0,
     "behavior": "Unit Target",
     "target_team": "Enemy",
@@ -14812,7 +14812,7 @@
       "Em inglês: Ceremonial Robe "
     ],
     "id": 676,
-    "img": "/assets/images/dota/items/ceremonial_robe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ceremonial_robe.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14848,7 +14848,7 @@
       "Em inglês: Quicksilver Amulet "
     ],
     "id": 686,
-    "img": "/assets/images/dota/items/quicksilver_amulet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/quicksilver_amulet.png?t=1593393829403",
     "dname": "Amuleto de Mercúrio",
     "cost": 0,
     "notes": "",
@@ -14898,7 +14898,7 @@
       "Em inglês: Book of Shadows "
     ],
     "id": 677,
-    "img": "/assets/images/dota/items/book_of_shadows.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/book_of_shadows.png?t=1593393829403",
     "dname": "Livro das Sombras",
     "cost": 0,
     "behavior": "Unit Target",
@@ -14937,7 +14937,7 @@
       "Em inglês: Giant's Ring "
     ],
     "id": 678,
-    "img": "/assets/images/dota/items/giants_ring.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/giants_ring.png?t=1593393829403",
     "dname": "Anel do Gigante",
     "cost": 0,
     "target_team": "Enemy",
@@ -14984,7 +14984,7 @@
       "Em inglês: Shadow of Vengeance "
     ],
     "id": 679,
-    "img": "/assets/images/dota/items/vengeances_shadow.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/vengeances_shadow.png?t=1593393829403",
     "dname": "Sombra da Vingança",
     "cost": 0,
     "notes": "",
@@ -15026,7 +15026,7 @@
       "Passiva: Raio Engarrafado Eletrocuta 2 alvos inimigos em até 700 unidades de distância, causando 175 de dano e 40% de retardo por 0.4s. Ocorre a cada 3.5 segundos."
     ],
     "id": 585,
-    "img": "/assets/images/dota/items/stormcrafter.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/stormcrafter.png?t=1593393829403",
     "dname": "Tormentador",
     "cost": 0,
     "notes": "",
@@ -15074,7 +15074,7 @@
   },
   "overflowing_elixir": {
     "id": 588,
-    "img": "/assets/images/dota/items/overflowing_elixir.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/overflowing_elixir.png?t=1593393829403",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15102,7 +15102,7 @@
   },
   "mysterious_hat": {
     "id": 589,
-    "img": "/assets/images/dota/items/mysterious_hat.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mysterious_hat.png?t=1593393829403",
     "dname": "Pingente de Fada",
     "cost": 0,
     "notes": "",
@@ -15133,7 +15133,7 @@
   },
   "assassins_dagger": {
     "id": 824,
-    "img": "/assets/images/dota/items/assassins_dagger.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/assassins_dagger.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15165,7 +15165,7 @@
       "Em inglês: Ascetic's Cap "
     ],
     "id": 825,
-    "img": "/assets/images/dota/items/ascetic_cap.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ascetic_cap.png?t=1593393829403",
     "dname": "Chapéu do Asceta",
     "cost": 0,
     "notes": "",
@@ -15201,7 +15201,7 @@
   },
   "sample_picker": {
     "id": 826,
-    "img": "/assets/images/dota/items/sample_picker.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/sample_picker.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15228,7 +15228,7 @@
   },
   "icarus_wings": {
     "id": 827,
-    "img": "/assets/images/dota/items/icarus_wings.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/icarus_wings.png?t=1593393829403",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15269,7 +15269,7 @@
       "Em inglês: Brigand's Blade "
     ],
     "id": 828,
-    "img": "/assets/images/dota/items/misericorde.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/misericorde.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15300,7 +15300,7 @@
   },
   "light_robes": {
     "id": 836,
-    "img": "/assets/images/dota/items/light_robes.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/light_robes.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15329,7 +15329,7 @@
       "Em inglês: Witchbane "
     ],
     "id": 837,
-    "img": "/assets/images/dota/items/heavy_blade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/heavy_blade.png?t=1593393829403",
     "dname": "Perdição da Bruxa",
     "cost": 0,
     "behavior": "Unit Target",
@@ -15370,7 +15370,7 @@
       "Em inglês: Pig Pole "
     ],
     "id": 838,
-    "img": "/assets/images/dota/items/unstable_wand.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/unstable_wand.png?t=1593393829403",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15398,7 +15398,7 @@
   },
   "fortitude_ring": {
     "id": 839,
-    "img": "/assets/images/dota/items/fortitude_ring.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/fortitude_ring.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -15438,7 +15438,7 @@
       "Em inglês: Tumbler's Toy "
     ],
     "id": 840,
-    "img": "/assets/images/dota/items/pogo_stick.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pogo_stick.png?t=1593393829403",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15475,7 +15475,7 @@
       "Em inglês: Fae Grenade "
     ],
     "id": 835,
-    "img": "/assets/images/dota/items/paintball.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/paintball.png?t=1593393829403",
     "dname": "Granada Feérica",
     "cost": 0,
     "behavior": "Unit Target",
@@ -15516,7 +15516,7 @@
       "Em inglês: Seeds of Serenity "
     ],
     "id": 945,
-    "img": "/assets/images/dota/items/seeds_of_serenity.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/seeds_of_serenity.png?t=1593393829403",
     "dname": "Sementes Serenas",
     "cost": 0,
     "behavior": [
@@ -15565,7 +15565,7 @@
       "Em inglês: Lance of Pursuit "
     ],
     "id": 946,
-    "img": "/assets/images/dota/items/lance_of_pursuit.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/lance_of_pursuit.png?t=1593393829403",
     "dname": "Lança Perseguidora",
     "cost": 0,
     "notes": "",
@@ -15615,7 +15615,7 @@
       "Em inglês: Occult Bracelet "
     ],
     "id": 947,
-    "img": "/assets/images/dota/items/occult_bracelet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/occult_bracelet.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15650,7 +15650,7 @@
   },
   "tome_of_omniscience": {
     "id": 948,
-    "img": "/assets/images/dota/items/tome_of_omniscience.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tome_of_omniscience.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15682,7 +15682,7 @@
       "Em inglês: Ogre Seal Totem "
     ],
     "id": 949,
-    "img": "/assets/images/dota/items/ogre_seal_totem.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ogre_seal_totem.png?t=1593393829403",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15738,7 +15738,7 @@
   },
   "wand_of_the_brine": {
     "id": 940,
-    "img": "/assets/images/dota/items/wand_of_the_brine.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/wand_of_the_brine.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -15787,7 +15787,7 @@
   },
   "slime_vial": {
     "id": 938,
-    "img": "/assets/images/dota/items/slime_vial.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/slime_vial.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -15861,7 +15861,7 @@
       "Em inglês: Harpoon "
     ],
     "id": 939,
-    "img": "/assets/images/dota/items/harpoon.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/harpoon.png?t=1593393829403",
     "dname": "Arpão",
     "cost": 4700,
     "behavior": "Unit Target",
@@ -15955,7 +15955,7 @@
       "Passiva: Reciprocidade Quando atacado, o herói revida contra um alvo dentro do seu alcance de ataque. Intervalo entre usos: 5s."
     ],
     "id": 950,
-    "img": "/assets/images/dota/items/defiant_shell.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/defiant_shell.png?t=1593393829403",
     "dname": "Casco Rebelde",
     "cost": 0,
     "notes": "",
@@ -15983,7 +15983,7 @@
   },
   "arcane_scout": {
     "id": 968,
-    "img": "/assets/images/dota/items/arcane_scout.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/arcane_scout.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -16026,7 +16026,7 @@
   },
   "barricade": {
     "id": 969,
-    "img": "/assets/images/dota/items/barricade.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/barricade.png?t=1593393829403",
     "cost": 0,
     "behavior": "Point Target",
     "notes": "",
@@ -16066,7 +16066,7 @@
   },
   "eye_of_the_vizier": {
     "id": 990,
-    "img": "/assets/images/dota/items/eye_of_the_vizier.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/eye_of_the_vizier.png?t=1593393829403",
     "dname": "Olho do Vizir",
     "cost": 0,
     "notes": "",
@@ -16097,7 +16097,7 @@
   },
   "manacles_of_power": {
     "id": 998,
-    "img": "/assets/images/dota/items/manacles_of_power.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/manacles_of_power.png?t=1593393829403",
     "cost": 0,
     "behavior": "Unit Target",
     "target_team": "Enemy",
@@ -16135,7 +16135,7 @@
   },
   "bottomless_chalice": {
     "id": 1000,
-    "img": "/assets/images/dota/items/bottomless_chalice.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/bottomless_chalice.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -16188,7 +16188,7 @@
   },
   "wand_of_sanctitude": {
     "id": 1017,
-    "img": "/assets/images/dota/items/wand_of_sanctitude.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/wand_of_sanctitude.png?t=1593393829403",
     "cost": 0,
     "behavior": "Point Target",
     "notes": "",
@@ -16233,7 +16233,7 @@
       "Em inglês: Specialist's Array "
     ],
     "id": 1076,
-    "img": "/assets/images/dota/items/specialists_array.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/specialists_array.png?t=1593393829403",
     "dname": "Kit do Especialista",
     "cost": 0,
     "notes": "",
@@ -16274,7 +16274,7 @@
       "Em inglês: Dagger of Ristul "
     ],
     "id": 1077,
-    "img": "/assets/images/dota/items/dagger_of_ristul.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dagger_of_ristul.png?t=1593393829403",
     "dname": "Adaga de Ristul",
     "cost": 0,
     "behavior": [
@@ -16315,7 +16315,7 @@
       "Ativa: Honrar os Mortos Coloque esta oferenda em um altar para honrar os mortos com uma memória daqueles que foram deixados para trás."
     ],
     "id": 4300,
-    "img": "/assets/images/dota/items/ofrenda.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ofrenda.png?t=1593393829403",
     "dname": "Memória Querida",
     "cost": 0,
     "behavior": "Unit Target",
@@ -16343,7 +16343,7 @@
       "Ativa: Cavar Busca oferendas para os mortos no mapa."
     ],
     "id": 4301,
-    "img": "/assets/images/dota/items/ofrenda_shovel.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ofrenda_shovel.png?t=1593393829403",
     "dname": "Pá Clarividente",
     "cost": 0,
     "behavior": [
@@ -16366,7 +16366,7 @@
       "Ativa: Promessa Eterna Sinalize aos espíritos do outro reino o seu compromisso em honrá-los. Caso todos na batalha façam uma Promessa Eterna antes do início da luta, talvez os mortos possam ouvir."
     ],
     "id": 4302,
-    "img": "/assets/images/dota/items/ofrenda_pledge.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ofrenda_pledge.png?t=1593393829403",
     "dname": "Fardo dos Ancestrais",
     "cost": 0,
     "behavior": "Point Target",
@@ -16399,7 +16399,7 @@
       "Ativa: Rebatiro Dispara um tiro fantasmagórigo certeiro em uma unidade ou árvore. Quando a bala atinge o alvo, ela causa 300 de dano e -100% de retardo por 0.5s, para então rebater na direção alvejada. A rebatida causa dano a todas as unidades atravessadas, parando ao atingir um herói. Heróis atingidos pela rebatida ficam amedrontados por 2 segundos, correndo para longe do impacto."
     ],
     "id": 1090,
-    "img": "/assets/images/dota/items/muertas_gun.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/muertas_gun.png?t=1593393829403",
     "dname": "Misericórdia e Graça",
     "cost": 0,
     "behavior": "Unit Target",
@@ -16488,7 +16488,7 @@
       "Ative para resgatar um item neutro de classe 1. O item resgatado não pode ser compartilhado, e cada herói só pode resgatar uma ficha por classe."
     ],
     "id": 2091,
-    "img": "/assets/images/dota/items/tier1_token.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tier1_token.png?t=1593393829403",
     "dname": "Ficha de Classe 1",
     "cost": null,
     "behavior": "No Target",
@@ -16508,7 +16508,7 @@
       "Ative para resgatar um item neutro de classe 2. O item resgatado não pode ser compartilhado, e cada herói só pode resgatar uma ficha por classe."
     ],
     "id": 2092,
-    "img": "/assets/images/dota/items/tier2_token.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tier2_token.png?t=1593393829403",
     "dname": "Ficha de Classe 2",
     "cost": null,
     "behavior": "No Target",
@@ -16528,7 +16528,7 @@
       "Ative para resgatar um item neutro de classe 3. O item resgatado não pode ser compartilhado, e cada herói só pode resgatar uma ficha por classe."
     ],
     "id": 2093,
-    "img": "/assets/images/dota/items/tier3_token.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tier3_token.png?t=1593393829403",
     "dname": "Ficha de Classe 3",
     "cost": null,
     "behavior": "No Target",
@@ -16548,7 +16548,7 @@
       "Ative para resgatar um item neutro de classe 4. O item resgatado não pode ser compartilhado, e cada herói só pode resgatar uma ficha por classe."
     ],
     "id": 2094,
-    "img": "/assets/images/dota/items/tier4_token.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tier4_token.png?t=1593393829403",
     "dname": "Ficha de Classe 4",
     "cost": null,
     "behavior": "No Target",
@@ -16568,7 +16568,7 @@
       "Ative para resgatar um item neutro de classe 5. O item resgatado não pode ser compartilhado, e cada herói só pode resgatar uma ficha por classe."
     ],
     "id": 2095,
-    "img": "/assets/images/dota/items/tier5_token.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/tier5_token.png?t=1593393829403",
     "dname": "Ficha de Classe 5",
     "cost": null,
     "behavior": "No Target",
@@ -16589,7 +16589,7 @@
       "Em inglês: Vindicator's Axe "
     ],
     "id": 2096,
-    "img": "/assets/images/dota/items/vindicators_axe.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/vindicators_axe.png?t=1593393829403",
     "dname": "Machado do Defensor",
     "cost": 0,
     "notes": "",
@@ -16628,7 +16628,7 @@
       "Em inglês: Duelist Gloves "
     ],
     "id": 2097,
-    "img": "/assets/images/dota/items/duelist_gloves.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/duelist_gloves.png?t=1593393829403",
     "dname": "Luvas Duelistas",
     "cost": 0,
     "notes": "",
@@ -16662,7 +16662,7 @@
       "Em inglês: Ancient Guardian "
     ],
     "id": 1156,
-    "img": "/assets/images/dota/items/ancient_guardian.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ancient_guardian.png?t=1593393829403",
     "dname": "Guardião Ancestral",
     "cost": 0,
     "notes": "",
@@ -16696,7 +16696,7 @@
       "Em inglês: Safety Bubble "
     ],
     "id": 1157,
-    "img": "/assets/images/dota/items/safety_bubble.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/safety_bubble.png?t=1593393829403",
     "dname": "Bolha Protetora",
     "cost": 0,
     "notes": "",
@@ -16729,7 +16729,7 @@
       "Em inglês: Whisper of the Dread "
     ],
     "id": 1158,
-    "img": "/assets/images/dota/items/whisper_of_the_dread.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/whisper_of_the_dread.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -16762,7 +16762,7 @@
       "Em inglês: Maldição do Nêmesis "
     ],
     "id": 1159,
-    "img": "/assets/images/dota/items/nemesis_curse.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/nemesis_curse.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -16798,7 +16798,7 @@
       "Em inglês: Aviana's Feather "
     ],
     "id": 1160,
-    "img": "/assets/images/dota/items/avianas_feather.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/avianas_feather.png?t=1593393829403",
     "dname": "Pena de Aviana",
     "cost": 0,
     "notes": "",
@@ -16833,7 +16833,7 @@
       "Em inglês: Unwavering Condition "
     ],
     "id": 1161,
-    "img": "/assets/images/dota/items/unwavering_condition.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/unwavering_condition.png?t=1593393829403",
     "dname": "Condicionamento Inabalável",
     "cost": 0,
     "notes": "",
@@ -16858,7 +16858,7 @@
   },
   "horizons_equilibrium": {
     "id": 2098,
-    "img": "/assets/images/dota/items/horizons_equilibrium.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/horizons_equilibrium.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -16893,7 +16893,7 @@
   },
   "blighted_spirit": {
     "id": 2099,
-    "img": "/assets/images/dota/items/blighted_spirit.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/blighted_spirit.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -16925,7 +16925,7 @@
       "Em inglês: Dandelion Amulet "
     ],
     "id": 2190,
-    "img": "/assets/images/dota/items/dandelion_amulet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dandelion_amulet.png?t=1593393829403",
     "dname": "Amuleto de Dente-de-Leão",
     "cost": 0,
     "notes": "",
@@ -16957,7 +16957,7 @@
   },
   "turtle_shell": {
     "id": 2191,
-    "img": "/assets/images/dota/items/turtle_shell.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/turtle_shell.png?t=1593393829403",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -16990,7 +16990,7 @@
       "Em inglês: Martyr's Plate "
     ],
     "id": 2192,
-    "img": "/assets/images/dota/items/martyrs_plate.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/martyrs_plate.png?t=1593393829403",
     "dname": "Placa do Mártir",
     "cost": 0,
     "behavior": [
@@ -17037,7 +17037,7 @@
       "Em inglês: Gossamer Cape "
     ],
     "id": 2193,
-    "img": "/assets/images/dota/items/gossamer_cape.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gossamer_cape.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -17056,7 +17056,7 @@
   },
   "light_collector": {
     "id": 1167,
-    "img": "/assets/images/dota/items/light_collector.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/light_collector.png?t=1593393829403",
     "dname": "Coletor Fótico",
     "cost": 0,
     "behavior": [
@@ -17113,7 +17113,7 @@
       "Em inglês: Rattlecage "
     ],
     "id": 1168,
-    "img": "/assets/images/dota/items/rattlecage.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/rattlecage.png?t=1593393829403",
     "dname": "Placa Toráxica",
     "cost": 0,
     "notes": "",
@@ -17170,7 +17170,7 @@
       "Em inglês: Doubloon "
     ],
     "id": 1803,
-    "img": "/assets/images/dota/items/doubloon.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/doubloon.png?t=1593393829403",
     "dname": "Dobrão",
     "cost": 0,
     "behavior": "No Target",
@@ -17208,7 +17208,7 @@
       "Em inglês: Roshan's Banner ."
     ],
     "id": 1804,
-    "img": "/assets/images/dota/items/roshans_banner.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/roshans_banner.png?t=1593393829403",
     "dname": "Estandarte de Roshan",
     "qual": "artifact",
     "cost": 0,
@@ -17262,7 +17262,7 @@
       "Em inglês: Black Grimoire "
     ],
     "id": 1440,
-    "img": "/assets/images/dota/items/black_grimoire.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/black_grimoire.png?t=1593393829403",
     "dname": "Grimório das Trevas",
     "cost": 0,
     "notes": "",
@@ -17286,7 +17286,7 @@
       "Este item não pode ser largado e nem colocado na mochila, mas pode ser guardado nos espaços normais do inventário. Quando o portador morrer, 100% do ouro perdido pela morte é adicionado ao item, e será reembolsado quando o item for consumido. Clique com o botão direito para consumir e excluir o item permanentemente."
     ],
     "id": 1441,
-    "img": "/assets/images/dota/items/grisgris.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/grisgris.png?t=1593393829403",
     "dname": "Gris-Gris",
     "cost": 0,
     "notes": "",
@@ -17310,7 +17310,7 @@
   },
   "enhancement_vast": {
     "id": 1576,
-    "img": "/assets/images/dota/items/enhancement_vast.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_vast.png?t=1593393829403",
     "dname": "Grandeza",
     "cost": 0,
     "notes": "",
@@ -17331,7 +17331,7 @@
   },
   "enhancement_quickened": {
     "id": 1577,
-    "img": "/assets/images/dota/items/enhancement_quickened.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_quickened.png?t=1593393829403",
     "dname": "Aceleração",
     "cost": 0,
     "notes": "",
@@ -17362,7 +17362,7 @@
   },
   "cursed_circlet": {
     "id": 1578,
-    "img": "/assets/images/dota/items/cursed_circlet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/cursed_circlet.png?t=1593393829403",
     "dname": "Maldição",
     "cost": 0,
     "notes": "",
@@ -17386,7 +17386,7 @@
   },
   "ogre_heart": {
     "id": 1579,
-    "img": "/assets/images/dota/items/ogre_heart.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/ogre_heart.png?t=1593393829403",
     "dname": "Restauração",
     "cost": 0,
     "notes": "",
@@ -17410,7 +17410,7 @@
   },
   "neutral_tabi": {
     "id": 1580,
-    "img": "/assets/images/dota/items/neutral_tabi.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/neutral_tabi.png?t=1593393829403",
     "dname": "Esquiva",
     "cost": 0,
     "notes": "",
@@ -17438,7 +17438,7 @@
   },
   "enhancement_audacious": {
     "id": 1581,
-    "img": "/assets/images/dota/items/enhancement_audacious.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_audacious.png?t=1593393829403",
     "dname": "Ousadia",
     "cost": 0,
     "notes": "",
@@ -17469,7 +17469,7 @@
   },
   "hellbear_totem": {
     "id": 1582,
-    "img": "/assets/images/dota/items/hellbear_totem.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/hellbear_totem.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -17492,7 +17492,7 @@
   },
   "enhancement_mystical": {
     "id": 1583,
-    "img": "/assets/images/dota/items/enhancement_mystical.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_mystical.png?t=1593393829403",
     "dname": "Misticismo",
     "cost": 0,
     "notes": "",
@@ -17523,7 +17523,7 @@
   },
   "enhancement_alert": {
     "id": 1584,
-    "img": "/assets/images/dota/items/enhancement_alert.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_alert.png?t=1593393829403",
     "dname": "Atenção",
     "cost": 0,
     "notes": "",
@@ -17554,7 +17554,7 @@
   },
   "enhancement_brawny": {
     "id": 1585,
-    "img": "/assets/images/dota/items/enhancement_brawny.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_brawny.png?t=1593393829403",
     "dname": "Robustez",
     "cost": 0,
     "notes": "",
@@ -17585,7 +17585,7 @@
   },
   "enhancement_tough": {
     "id": 1586,
-    "img": "/assets/images/dota/items/enhancement_tough.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_tough.png?t=1593393829403",
     "dname": "Reforço",
     "cost": 0,
     "notes": "",
@@ -17616,7 +17616,7 @@
   },
   "enhancement_feverish": {
     "id": 1587,
-    "img": "/assets/images/dota/items/enhancement_feverish.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_feverish.png?t=1593393829403",
     "dname": "Fervor",
     "cost": 0,
     "notes": "",
@@ -17642,7 +17642,7 @@
   },
   "enhancement_fleetfooted": {
     "id": 1588,
-    "img": "/assets/images/dota/items/enhancement_fleetfooted.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_fleetfooted.png?t=1593393829403",
     "dname": "Correria",
     "cost": 0,
     "notes": "Essa velocidade de movimento adicional não é acumulável com adicionais de botas.",
@@ -17663,7 +17663,7 @@
   },
   "enhancement_crude": {
     "id": 1589,
-    "img": "/assets/images/dota/items/enhancement_crude.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_crude.png?t=1593393829403",
     "dname": "Rispidez",
     "cost": 0,
     "notes": "",
@@ -17694,7 +17694,7 @@
   },
   "enhancement_boundless": {
     "id": 1590,
-    "img": "/assets/images/dota/items/enhancement_boundless.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_boundless.png?t=1593393829403",
     "dname": "Alcance",
     "cost": 0,
     "notes": "",
@@ -17720,7 +17720,7 @@
   },
   "enhancement_wise": {
     "id": 1591,
-    "img": "/assets/images/dota/items/enhancement_wise.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_wise.png?t=1593393829403",
     "dname": "Lucidez",
     "cost": 0,
     "notes": "",
@@ -17745,7 +17745,7 @@
   },
   "enhancement_timeless": {
     "id": 1592,
-    "img": "/assets/images/dota/items/enhancement_timeless.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_timeless.png?t=1593393829403",
     "dname": "Atemporalidade",
     "cost": 0,
     "notes": "",
@@ -17771,7 +17771,7 @@
   },
   "enhancement_greedy": {
     "id": 1593,
-    "img": "/assets/images/dota/items/enhancement_greedy.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_greedy.png?t=1593393829403",
     "dname": "Ganância",
     "cost": 0,
     "notes": "",
@@ -17802,7 +17802,7 @@
   },
   "enhancement_vampiric": {
     "id": 1594,
-    "img": "/assets/images/dota/items/enhancement_vampiric.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_vampiric.png?t=1593393829403",
     "dname": "Vampirismo",
     "cost": 0,
     "notes": "",
@@ -17833,7 +17833,7 @@
   },
   "enhancement_keen_eyed": {
     "id": 1595,
-    "img": "/assets/images/dota/items/enhancement_keen_eyed.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_keen_eyed.png?t=1593393829403",
     "dname": "Diligência",
     "cost": 0,
     "notes": "",
@@ -17864,7 +17864,7 @@
   },
   "enhancement_evolved": {
     "id": 1596,
-    "img": "/assets/images/dota/items/enhancement_evolved.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_evolved.png?t=1593393829403",
     "dname": "Evolução",
     "cost": 0,
     "notes": "Concede +24 para cada atributo para heróis Universais.",
@@ -17889,7 +17889,7 @@
   },
   "enhancement_titanic": {
     "id": 1597,
-    "img": "/assets/images/dota/items/enhancement_titanic.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_titanic.png?t=1593393829403",
     "dname": "Titã",
     "cost": 0,
     "notes": "",
@@ -17920,7 +17920,7 @@
       "Em inglês: Unrelenting Eye "
     ],
     "id": 1598,
-    "img": "/assets/images/dota/items/unrelenting_eye.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/unrelenting_eye.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -17957,7 +17957,7 @@
       "Em inglês: Mana Draught "
     ],
     "id": 1599,
-    "img": "/assets/images/dota/items/mana_draught.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/mana_draught.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -17999,7 +17999,7 @@
       "Em inglês: Ripper's Lash "
     ],
     "id": 1600,
-    "img": "/assets/images/dota/items/rippers_lash.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/rippers_lash.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Point Target",
@@ -18042,7 +18042,7 @@
       "Em inglês: Crippling Crossbow "
     ],
     "id": 1601,
-    "img": "/assets/images/dota/items/crippling_crossbow.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/crippling_crossbow.png?t=1593393829403",
     "cost": 0,
     "behavior": "Unit Target",
     "dmg_type": "Magical",
@@ -18089,7 +18089,7 @@
       "Em inglês: Gale Guard "
     ],
     "id": 1602,
-    "img": "/assets/images/dota/items/gale_guard.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gale_guard.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18129,7 +18129,7 @@
       "Em inglês: Gunpowder Gauntlet "
     ],
     "id": 1603,
-    "img": "/assets/images/dota/items/gunpowder_gauntlets.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/gunpowder_gauntlets.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18161,7 +18161,7 @@
       "Em inglês: Searing Signet "
     ],
     "id": 1604,
-    "img": "/assets/images/dota/items/searing_signet.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/searing_signet.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18197,7 +18197,7 @@
       "Em inglês: Serrated Shiv "
     ],
     "id": 1605,
-    "img": "/assets/images/dota/items/serrated_shiv.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/serrated_shiv.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18229,7 +18229,7 @@
       "Em inglês: Pollywog Charm "
     ],
     "id": 1606,
-    "img": "/assets/images/dota/items/polliwog_charm.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/polliwog_charm.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Unit Target",
@@ -18270,7 +18270,7 @@
       "Em inglês: Magnifying Monocle "
     ],
     "id": 1607,
-    "img": "/assets/images/dota/items/magnifying_monocle.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/magnifying_monocle.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18306,7 +18306,7 @@
       "Em inglês: Pyrrhic Cloak "
     ],
     "id": 1608,
-    "img": "/assets/images/dota/items/pyrrhic_cloak.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/pyrrhic_cloak.png?t=1593393829403",
     "cost": 0,
     "behavior": "Unit Target",
     "dmg_type": "Physical",
@@ -18340,7 +18340,7 @@
       "Colete para fabricar novos itens neutros."
     ],
     "id": 1609,
-    "img": "/assets/images/dota/items/madstone_bundle.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/madstone_bundle.png?t=1593393829403",
     "dname": "Lascas de Insanite",
     "qual": "consumable",
     "cost": 0,
@@ -18381,7 +18381,7 @@
   },
   "miniboss_minion_summoner": {
     "id": 1610,
-    "img": "/assets/images/dota/items/miniboss_minion_summoner.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/miniboss_minion_summoner.png?t=1593393829403",
     "qual": "artifact",
     "cost": null,
     "behavior": [
@@ -18451,7 +18451,7 @@
       "Em inglês: Crystal Raindrop "
     ],
     "id": 1636,
-    "img": "/assets/images/dota/items/crystal_raindrop.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/crystal_raindrop.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18491,7 +18491,7 @@
       "Em inglês: Kobold Cup "
     ],
     "id": 1637,
-    "img": "/assets/images/dota/items/kobold_cup.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/kobold_cup.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18530,7 +18530,7 @@
       "Em inglês: Dormant Curio "
     ],
     "id": 1638,
-    "img": "/assets/images/dota/items/dormant_curio.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dormant_curio.png?t=1593393829403",
     "cost": 0,
     "notes": "Amplificará um atributo do próximo artefato em 30%. Não pode afetar intervalos entre usos, custos de mana e alcances de uso.",
     "attrib": [
@@ -18555,7 +18555,7 @@
       "Em inglês: Sister's Shroud "
     ],
     "id": 1639,
-    "img": "/assets/images/dota/items/sisters_shroud.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/sisters_shroud.png?t=1593393829403",
     "cost": 0,
     "notes": "Não é ativado pelo dano causado por criaturas não controladas por heróis.",
     "attrib": [
@@ -18591,7 +18591,7 @@
       "Em inglês: Jidi Pollen Bag "
     ],
     "id": 1640,
-    "img": "/assets/images/dota/items/jidi_pollen_bag.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/jidi_pollen_bag.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18639,7 +18639,7 @@
       "Em inglês: Outworld Staff "
     ],
     "id": 1641,
-    "img": "/assets/images/dota/items/outworld_staff.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/outworld_staff.png?t=1593393829403",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18671,7 +18671,7 @@
       "Em inglês: Dezun Bloodcharm "
     ],
     "id": 1642,
-    "img": "/assets/images/dota/items/dezun_bloodrite.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/dezun_bloodrite.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18699,7 +18699,7 @@
       "Em inglês: Giant's Maul "
     ],
     "id": 1643,
-    "img": "/assets/images/dota/items/giant_maul.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/giant_maul.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18744,7 +18744,7 @@
       "Em inglês: Divine Regalia "
     ],
     "id": 1644,
-    "img": "/assets/images/dota/items/divine_regalia.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/divine_regalia.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18768,7 +18768,7 @@
       "Em inglês: Disgraced Regalia "
     ],
     "id": 1645,
-    "img": "/assets/images/dota/items/divine_regalia_broken.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/divine_regalia_broken.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [],
@@ -18787,7 +18787,7 @@
       "Em inglês: Circlet of the Flayed Twins "
     ],
     "id": 1646,
-    "img": "/assets/images/dota/items/circlet_of_the_flayed_twins.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/circlet_of_the_flayed_twins.png?t=1593393829403",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18816,7 +18816,7 @@
   },
   "enhancement_fierce": {
     "id": 1647,
-    "img": "/assets/images/dota/items/enhancement_fierce.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_fierce.png?t=1593393829403",
     "dname": "Ferocidade",
     "cost": 0,
     "notes": "",
@@ -18847,7 +18847,7 @@
   },
   "enhancement_dominant": {
     "id": 1648,
-    "img": "/assets/images/dota/items/enhancement_dominant.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_dominant.png?t=1593393829403",
     "dname": "Dominância",
     "cost": 0,
     "notes": "",
@@ -18878,7 +18878,7 @@
   },
   "enhancement_restorative": {
     "id": 1649,
-    "img": "/assets/images/dota/items/enhancement_restorative.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_restorative.png?t=1593393829403",
     "dname": "Restauração",
     "cost": 0,
     "notes": "",
@@ -18909,7 +18909,7 @@
   },
   "enhancement_thick": {
     "id": 1650,
-    "img": "/assets/images/dota/items/enhancement_thick.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_thick.png?t=1593393829403",
     "dname": "Espessura",
     "cost": 0,
     "notes": "",
@@ -18940,7 +18940,7 @@
   },
   "enhancement_curious": {
     "id": 1651,
-    "img": "/assets/images/dota/items/enhancement_curious.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/enhancement_curious.png?t=1593393829403",
     "dname": "Potencial",
     "cost": 0,
     "notes": "",
@@ -18965,7 +18965,7 @@
       "Contém ouro."
     ],
     "id": 1652,
-    "img": "/assets/images/dota/items/furion_gold_bag.jpg?t=1593393829403",
+    "img": "/assets/images/dota/items/furion_gold_bag.png?t=1593393829403",
     "dname": "Bolsa de Ouro",
     "cost": 0,
     "behavior": [

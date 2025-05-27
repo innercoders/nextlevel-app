@@ -62,6 +62,18 @@
                             Ver Meta
                         </a> -->
 
+                        <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3 mt-3" [routerLink]="['/dota-meta']" 
+                          [queryParams]="{leagueId: nextLevelLeague.leagueId}">
+                            <span nz-icon nzType="bar-chart" nzTheme="outline"></span>
+                            Meta
+                        </a>
+
+                        <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3 mt-3" [routerLink]="['/dota-matches']" 
+                          [queryParams]="{leagueId: nextLevelLeague.leagueId}">
+                            <span nz-icon nzType="team" nzTheme="outline"></span>
+                            Partidas
+                        </a>
+
                         <a nz-button nzType="primary" nzSize="large" nzShape="round" class="mr-3 mt-3" href="https://discord.gg/cYvUESUgWQ" target="_blank">
                             <nz-icon nzType="discord" nzTheme="outline" />
                         </a>
@@ -116,7 +128,7 @@
                                 <span nz-icon nzType="bar-chart" nzTheme="outline"></span>
                                 Meta
                             </button>
-                            <button nz-button>
+                            <button nz-button [routerLink]="['/dota-matches']" [queryParams]="{leagueId: league.leagueId}">
                                 <span nz-icon nzType="team" nzTheme="outline"></span>
                                 Partidas
                             </button>

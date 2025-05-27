@@ -216,6 +216,14 @@
 							<td class="text-center">{{ player.towerDamage | number:'1.0-0' }}</td>
 							<td width="400px">
 								<div class="dota-player-items">
+									<div class="dota-player-item" *ngFor="let ability of player.dotaHeroAbilities">
+										<img *ngIf="ability && ability.img && !ability.is_innate" [src]="ability.img" nz-tooltip [nzTooltipTitle]="ability.dname ?? ''" />
+										<img *ngIf="ability && !ability.img" src="/assets/images/dota/abilities/talent_tree.svg" nz-tooltip [nzTooltipTitle]="ability.dname ?? ''" />
+									</div>
+								</div>
+							</td>
+							<td width="400px">
+								<div class="dota-player-items">
 									<div class="dota-player-item" *ngFor="let purchased of player.purchasedItems">
 										<img [src]="purchased.item.img" nz-tooltip [nzTooltipTitle]="purchased.item.dname" />
 										<span class="timer">{{ purchased.formatedTime  }}</span>
