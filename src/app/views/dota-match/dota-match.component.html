@@ -1,19 +1,23 @@
 <div class="dota-match-container">
 
 	<div class="" *ngIf="!dotaMatch">
-		carregando...
+		Carregando dados da partida...
 	</div>
 
 	<div class="dota-match" *ngIf="dotaMatch">
 		<div class="dota-match-information" nz-row>
-			<div nz-col nzSpan="24">
+			<div nz-col nzSpan="12">
 				<h3>#{{ dotaMatch.matchId }}</h3>
 
 				<h4 *ngIf="dotaMatch.league">{{ dotaMatch.league.displayName }}</h4>
 				<h4 *ngIf="!dotaMatch.league">Ranqueada</h4>
 			</div>
 
-			<div class="dota-match-teams-infomation" *ngIf="dotaMatch.radiantTeamName && dotaMatch.direTeamName">
+			<div nz-col nzSpan="12" class="text-right">
+				<h4>{{ dotaMatch.durationSecondsFormatted }}</h4>
+			</div>
+
+			<div nz-col nzSpan="24" class="dota-match-teams-infomation" *ngIf="dotaMatch.radiantTeamName && dotaMatch.direTeamName">
 				<div class="dota-match-team radiant">
 					<div class="score-container">
 						<div class="in-horizontal">
@@ -188,6 +192,7 @@
                             <th><img class="mr-1" src="/assets/images/dota/icons/xp.png" height="15px" /> XPM</th>
                             <th><img class="mr-1" src="/assets/images/dota/icons/damage.png" height="15px" /> Dano Heróis</th>
                             <th><img class="mr-1" src="/assets/images/dota/icons/siege.png" height="15px" /> Dano Torres</th>
+							<th>Habilidades</th>
 							<th>Itens</th>
 						</tr>
 					</thead>

@@ -355,7 +355,7 @@
     "scepter_skill_name": "Olhar Penetrante",
     "scepter_new_skill": false,
     "has_shard": true,
-    "shard_desc": "Creates an Ice Spire at the target spot, slowing enemies around it. Can take 4 hero hits or 8 creep hits and when destroyed it will create a Frost Blast around it.\n\nChain Frost can be cast on the Spire and can bounce to the Spire and damage the spire by 1 hero attack if there are no other enemies in range.\n\nLich can cast Frost Shield on the Spire. Each Frost Shield tick will heal the spire by 1 hero attack.",
+    "shard_desc": "Em inglês: <b><font color='#F2A93E'>Ice Spire</font></b>\n \nCria um sincelo no local-alvo, retardando inimigos ao seu redor. É destruído após 4 ataques de heróis ou 8 de criaturas — quando isso ocorrer, uma <b><font color='#F2A93E'>Explosão Congelante</font></b> é lançada ao seu redor.\n\nO <b><font color='#F2A93E'>Congelamento em Cadeia</font></b> pode ser usado na Espiral e saltar para ela caso não haja outros inimigos dentro do raio de alcance, causando o equivalente a 1 ataque de herói à Espiral.\n\nO Lich pode usar o <b><font color='#F2A93E'>Escudo Congelado</font></b> na Espiral. Cada tique do Escudo Congelado cura o sincelo em 1 ataque de herói.",
     "shard_skill_name": "Espiral de Gelo",
     "shard_new_skill": true
   },
@@ -1411,7 +1411,7 @@
     "scepter_skill_name": "Pulso Ressonante",
     "scepter_new_skill": false,
     "has_shard": true,
-    "shard_desc": "Creates an additional watcher path that rotates around the remnant.  The remnant now provides True Sight, and no longer triggers on creeps, instead dealing 50% damage to them every second in both paths.",
+    "shard_desc": "Cria um caminho de vigilância adicional, que rotaciona em torno do resquício. O resquício concede Visão Verdadeira, mas não é mais ativado por criaturas: em vez disso, elas sofrem 50% de dano por segundo enquanto estiverem sendo afetadas por um dos caminhos.",
     "shard_skill_name": "Resquício Etéreo",
     "shard_new_skill": false
   },

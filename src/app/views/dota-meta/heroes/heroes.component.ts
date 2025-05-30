@@ -109,10 +109,6 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 		if(this.selectedFacetId) {
 			params.facetId = this.selectedFacetId;
 		}
-
-		this.dotaMetaService.getHeroOverrallStats(params).subscribe((data) => {
-			this.heroOverrallStats = data.overallStats;
-		});
 	}
 
 	getBestHeroItems() {
@@ -123,17 +119,6 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 		if(this.selectedFacetId) {
 			params.facetId = this.selectedFacetId;
 		}
-
-		this.dotaMetaService.getBestHeroItems(params).subscribe((data) => {
-			data.items = data.items.map((item: any) => {
-				return {
-					...item,
-					imageData: this.dotaHelperService.getItemDataById(item.itemId)
-				}
-			});
-
-			this.bestHeroItems = data;
-		});
 	}
 
 	getHeroMatchups() {
@@ -144,30 +129,6 @@ export class HeroesComponent implements OnInit, AfterViewInit, OnDestroy {
 		if(this.selectedFacetId) {
 			params.facetId = this.selectedFacetId;
 		}
-
-		this.dotaMetaService.getHeroMatchups(params).subscribe((data) => {
-			let finalData = Object.keys(data.matchupsByPosition).map((key) => {
-				return {
-					position: key,
-					matchups: data.matchupsByPosition[key],
-					totalMatches: 0
-				}
-			});
-
-			finalData.sort((a, b) => {
-				return a.position.localeCompare(b.position);
-			});
-
-			finalData.forEach((item) => {
-
-				item.matchups.forEach((matchup: any) => {
-					matchup.enemyHero = this.dotaHelperService.getHeroData(matchup.enemyHeroId);
-					item.totalMatches += matchup.totalMatches;
-				});
-			});
-
-			this.heroMatchups = finalData;
-		});
 	}
 	
 	private handleVideoCanPlay() {

@@ -12,6 +12,7 @@ export * from './request/best-heroes.request';
 export * from './request/hero-matchups.request';
 export * from './request/hero-overrall-stats.request';
 export * from './request/hero-stats-records.request';
+export * from './request/hero-stats.request';
 
 // Response
 export * from './response/dota-meta.response';

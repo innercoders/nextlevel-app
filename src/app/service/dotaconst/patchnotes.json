@@ -38650,7 +38650,7 @@
       "<br>",
       "Agora, fontes de amplificação de cura acumulam-se aditivamente, em vez de reduzidamente",
       "Isso inclui ambas as amplificações de cura recebida e concedida",
-      "Amplificações de vida não podem ficar abaixo de -100%, mas não têm limite superior",
+      "Amplificações de cura não podem ficar abaixo de -100%, mas não têm limite superior",
       "<br>",
       "Agora, efeitos que enraízam e desarmam são considerados efeitos de prisão, e terão o efeito de estado \\\"Preso\\\" acima do herói ",
       "Exemplo: Congelamento da Crystal Maiden"
@@ -38708,7 +38708,7 @@
         "Habilidade passiva (Ataque Congelante) | O retardo e a redução de restaurações de vida não se acumulam mais com o Orbe Congelado e o Orbe Corrosivo"
       ],
       "shivas_guard": [
-        "Habilidade passiva (Aura Congelante) | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 25%, reduz restaurações de vida e curas recebidas em 25%"
+        "Habilidade passiva (Ataque Congelante) | Agora, em vez de reduzir curas, regeneração de vida, roubo de vida e roubo de vida arcano em 25%, reduz restaurações de vida e amplificações de cura em 25%"
       ],
       "bloodstone": [
         "Habilidade ativa (Pacto de Sangue) | Redução do intervalo entre usos (35s → 30s)"
@@ -39071,10 +39071,9 @@
           "Agora, aplica dois acúmulos por uso",
           "Aumento do limite de acúmulos (10 → 20)",
           "Todos os valores por acúmulo foram reduzidos pela metade",
-          "O dano de aplicação permanece o mesmo",
+          "O dano de aplicação e a taxa de rotação permanecem os mesmos",
           "Redução do dano por acúmulo (5/10/15/20 → 2,5/5/7,5/10)",
           "Redução do retardo de movimento por acúmulo (1,5/3/4,5/6% → 0,75/1,5/2,25/3%)",
-          "Redução do retardo da taxa de rotação por acúmulo (10/30/50/70% → 5/15/25/35%)",
           "Reformulação do aprimoramento com o Fragmento de Aghanim",
           "Remove o limite de 20 acúmulos e permite que o Napalm Pegajoso cause 35% de dano a estruturas"
         ],

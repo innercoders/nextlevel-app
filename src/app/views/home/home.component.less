@@ -4,29 +4,17 @@
 	padding: @default-padding;
 		
 		.section-container {
-				margin-bottom: 20px;
-				
-				.section-header {
-						display: flex;
-						justify-content: space-between;
-						align-items: center;
-						margin-bottom: 16px;
-						
-						h2 {
-								margin-bottom: 0;
-								color: #fff;
-						}
+			.section-content {
+				background-color: @component-background;
+				border-radius: @border-radius;
+				overflow: hidden;
+			}
+		}
 
-						a {
-								color: @primary-color;
-						}
-				}
-				
-				.section-content {
-						background-color: #1f1f1f;
-						border-radius: 8px;
-						overflow: hidden;
-				}
+		.position-tabs {
+			::ng-deep .ant-tabs-nav {
+				margin-bottom: 0;
+			}
 		}
 }
 

@@ -185,36 +185,36 @@ export class DotaMetaComponent implements OnInit {
 
 	private getBestHeroes(bestHeroesRequest: BestHeroesRequest) {
 		this.loading = true;
-		this.dotaMetaService.getBestHeroes(bestHeroesRequest).subscribe({
-			next: (data) => {
-				data.data.forEach((hero: any) => {
-					// First get the summary data which is lighter
-					hero.dotaHero = this.dotaHelperService.getHeroDataSummary(hero.heroId);
+		// this.dotaMetaService.getBestHeroes(bestHeroesRequest).subscribe({
+		// 	next: (data) => {
+		// 		data.data.forEach((hero: any) => {
+		// 			// First get the summary data which is lighter
+		// 			hero.dotaHero = this.dotaHelperService.getHeroDataSummary(hero.heroId);
 					
-					// Only load full hero data if we need facet information
-					if (hero.facetId) {
-						let heroAbilities = this.dotaHelperService.getHeroAbilityData(hero.dotaHero.name);
-						if (heroAbilities) {
-							hero.selectedFacet = heroAbilities.facets[hero.facetId - 1];
-						}
-					}
+		// 			// Only load full hero data if we need facet information
+		// 			if (hero.facetId) {
+		// 				let heroAbilities = this.dotaHelperService.getHeroAbilityData(hero.dotaHero.name);
+		// 				if (heroAbilities) {
+		// 					hero.selectedFacet = heroAbilities.facets[hero.facetId - 1];
+		// 				}
+		// 			}
 
-					hero.dotaHero.positionImage = this.getPositionImage(hero.position);
-					hero.dotaHero.positionLabel = this.getPositionLabel(hero.position);
+		// 			hero.dotaHero.positionImage = this.getPositionImage(hero.position);
+		// 			hero.dotaHero.positionLabel = this.getPositionLabel(hero.position);
 
-					if (hero.totalMatches > this.highestMatches) {
-						this.highestMatches = hero.totalMatches;
-					}
-				});
-				this.bestHeroes = data.data;
-				this.totalResults = data.total;
-				this.loading = false;
-			},
-			error: (error) => {
-				console.error(error);
-				this.loading = false;
-			}
-		});
+		// 			if (hero.totalMatches > this.highestMatches) {
+		// 				this.highestMatches = hero.totalMatches;
+		// 			}
+		// 		});
+		// 		this.bestHeroes = data.data;
+		// 		this.totalResults = data.total;
+		// 		this.loading = false;
+		// 	},
+		// 	error: (error) => {
+		// 		console.error(error);
+		// 		this.loading = false;
+		// 	}
+		// });
 	}
 
 	getPositionImage(position: string) {

@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
-  apiUrl: 'https://api.nextlevelxs.com'
+	production: true,
+	apiUrl: 'https://api.nextlevelxs.com'
 }; 

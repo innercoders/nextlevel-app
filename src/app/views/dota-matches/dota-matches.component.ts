@@ -14,6 +14,7 @@ import { NzTagModule } from 'ng-zorro-antd/tag';
 import { NzSliderModule } from 'ng-zorro-antd/slider';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { NzGridModule } from 'ng-zorro-antd/grid';
+import { NzMessageService } from 'ng-zorro-antd/message';
 
 @Component({
 	selector: 'app-dota-matches',
@@ -41,11 +42,11 @@ export class DotaMatchesComponent implements OnInit {
 	loading = false;
 	totalResults = 0;
 	currentLeague: DotaLeague | null = null;
+	featuredLeagues: DotaLeague[] = [];
 	
 	// Filter params
 	matchRequest = {
 		page: 1,
-		limit: 10,
 		status: '',
 		includeHeroes: '',
 		excludeHeroes: '',
@@ -60,17 +61,18 @@ export class DotaMatchesComponent implements OnInit {
 		private dotaHelperService: DotaHelperService,
 		private dotaLeagueService: DotaLeagueService,
 		private router: Router,
-		private route: ActivatedRoute
+		private route: ActivatedRoute,
+		private message: NzMessageService
 	) {}
 
 	ngOnInit(): void {
 		this.loadHeroes();
+		this.loadFeaturedLeagues();
 		
 		// Subscribe to query params
 		this.route.queryParams.subscribe(params => {
 			// Update the matchRequest with query params
 			this.matchRequest.page = params['page'] ? parseInt(params['page']) : 1;
-			this.matchRequest.limit = params['limit'] ? parseInt(params['limit']) : 10;
 			
 			if (params['leagueId']) {
 				this.matchRequest.leagueId = parseInt(params['leagueId']);
@@ -86,10 +88,14 @@ export class DotaMatchesComponent implements OnInit {
 			
 			if (params['includeHeroes']) {
 				this.includedHeroes = params['includeHeroes'].split(',').map((id: string) => parseInt(id));
+			} else {
+				this.includedHeroes = [];
 			}
 			
 			if (params['excludeHeroes']) {
 				this.excludedHeroes = params['excludeHeroes'].split(',').map((id: string) => parseInt(id));
+			} else {
+				this.excludedHeroes = [];
 			}
 			
 			// Load matches with the updated request
@@ -103,6 +109,17 @@ export class DotaMatchesComponent implements OnInit {
 		});
 	}
 
+	loadFeaturedLeagues(): void {
+		this.dotaLeagueService.getFeaturedLeagues().subscribe({
+			next: (data: DotaLeague[]) => {
+				this.featuredLeagues = data;
+			}, 
+			error: (error: any) => {
+				console.error('Error loading featured leagues:', error);
+			}
+		});
+	}
+
 	loadMatches(): void {
 		this.loading = true;
 		
@@ -112,7 +129,7 @@ export class DotaMatchesComponent implements OnInit {
 		
 		this.dotaMatchService.findMatches(
 			this.matchRequest.page,
-			this.matchRequest.limit,
+			10, // Fixed limit of 10
 			this.matchRequest.status,
 			this.matchRequest.includeHeroes,
 			this.matchRequest.excludeHeroes,
@@ -125,6 +142,9 @@ export class DotaMatchesComponent implements OnInit {
 
 				this.matches.forEach(match => {
 					match.durationSecondsFormatted = this.formatDuration(match.durationSeconds);
+					match.players.forEach(player => {
+						player.dotaHero = this.dotaHelperService.getHeroData(player.heroId);
+					});
 				});
 			},
 			error: error => {
@@ -134,14 +154,45 @@ export class DotaMatchesComponent implements OnInit {
 		});
 	}
 
-	changePage(params: any): void {
-		this.matchRequest.page = params.pageIndex;
+	onLeagueChange(leagueId: number | null): void {
+		this.matchRequest.leagueId = leagueId || undefined;
+		this.matchRequest.page = 1; // Reset to first page when filter changes
+		if (leagueId) {
+			this.fetchLeagueInfo(leagueId);
+		} else {
+			this.currentLeague = null;
+		}
 		this.updateUrlParams();
 		this.loadMatches();
 	}
 
-	applyFilters(): void {
-		this.matchRequest.page = 1;
+	onIncludeHeroChange(heroIds: number[]): void {
+		this.includedHeroes = heroIds || [];
+		this.matchRequest.page = 1; // Reset to first page when filter changes
+		this.matchRequest.includeHeroes = this.includedHeroes.join(',');
+		this.updateUrlParams();
+		this.loadMatches();
+	}
+
+	onExcludeHeroChange(heroIds: number[]): void {
+		this.excludedHeroes = heroIds || [];
+		this.matchRequest.page = 1; // Reset to first page when filter changes
+		this.matchRequest.excludeHeroes = this.excludedHeroes.join(',');
+		this.updateUrlParams();
+		this.loadMatches();
+	}
+
+	copyMatchId(event: Event, matchId: string): void {
+		event.stopPropagation(); // Prevent row click event
+		navigator.clipboard.writeText(matchId).then(() => {
+			this.message.success('ID da partida copiado!');
+		}).catch(() => {
+			this.message.error('Erro ao copiar ID da partida');
+		});
+	}
+
+	changePage(params: any): void {
+		this.matchRequest.page = params.pageIndex;
 		this.updateUrlParams();
 		this.loadMatches();
 	}
@@ -158,15 +209,9 @@ export class DotaMatchesComponent implements OnInit {
 		this.matchRequest.excludeHeroes = '';
 		this.matchRequest.leagueId = undefined;
 		this.currentLeague = null;
-		this.applyFilters();
-	}
-
-	onIncludeHeroChange(): void {
-		this.matchRequest.includeHeroes = this.includedHeroes.join(',');
-	}
-
-	onExcludeHeroChange(): void {
-		this.matchRequest.excludeHeroes = this.excludedHeroes.join(',');
+		this.matchRequest.page = 1;
+		this.updateUrlParams();
+		this.loadMatches();
 	}
 
 	formatDuration(seconds: number): string {
@@ -202,10 +247,6 @@ export class DotaMatchesComponent implements OnInit {
 			queryParams.page = this.matchRequest.page;
 		}
 		
-		if (this.matchRequest.limit !== 10) {
-			queryParams.limit = this.matchRequest.limit;
-		}
-		
 		if (this.matchRequest.leagueId) {
 			queryParams.leagueId = this.matchRequest.leagueId;
 		}
@@ -233,6 +274,8 @@ export class DotaMatchesComponent implements OnInit {
 	clearLeagueFilter(): void {
 		this.matchRequest.leagueId = undefined;
 		this.currentLeague = null;
-		this.applyFilters();
+		this.matchRequest.page = 1;
+		this.updateUrlParams();
+		this.loadMatches();
 	}
 } 

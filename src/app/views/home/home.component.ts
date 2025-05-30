@@ -1,30 +1,33 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Router, RouterModule } from '@angular/router';
+
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzIconModule } from 'ng-zorro-antd/icon';
-import { CommonModule } from '@angular/common';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { NzTabsModule } from 'ng-zorro-antd/tabs';
-import { NzMessageService } from 'ng-zorro-antd/message';
-import { Router, RouterModule } from '@angular/router';
-import { BehaviorSubject } from 'rxjs';
 import { NzTabChangeEvent } from 'ng-zorro-antd/tabs';
+import { NzSelectModule } from 'ng-zorro-antd/select';
+import { NzTagModule } from 'ng-zorro-antd/tag';
+import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzSliderModule } from 'ng-zorro-antd/slider';
 
-import { brRanking, DotaMatch, User } from '@app/model';
-import { DotaHelperService, OmniscienceService, DotaRankService, DotaMatchService, UserService } from '@app/service';
+import { brRanking, User, HeroStatsRequest, DotaLeague, DotaHero } from '@app/model';
+import { DotaHelperService, DotaRankService, UserService, DotaMetaService, DotaLeagueService } from '@app/service';
+import { DotaHeroImageComponent, DotaPlayerPositions } from '@app/shared';
 
-// Extend the DotaMatch interface for UI state
-interface DotaMatchWithUI extends DotaMatch {
-	expanded?: boolean;
-}
 
 @Component({
 	selector: 'app-home',
 	imports: [
 		CommonModule,
+		FormsModule,
+		ReactiveFormsModule,
 		NzGridModule,
 		NzCarouselModule,
 		NzButtonModule,
@@ -35,16 +38,18 @@ interface DotaMatchWithUI extends DotaMatch {
 		NzTabsModule,
 		NzTableModule,
 		RouterModule,
+		NzSelectModule,
+		NzTagModule,
+		NzInputModule,
+		NzSliderModule,
+		DotaHeroImageComponent,
 	],
 	templateUrl: './home.component.html',
 	styleUrl: './home.component.less'
 })
 export class HomeComponent implements OnInit {
 
-	public liveMatches: DotaMatchWithUI[] = [];
-	public lastMatches: DotaMatchWithUI[] = [];
 	public loadingDotaMeta: boolean = false;
-	public loadingOnGoingMatches: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
 	public dotaRankBrasil: any[] = brRanking.sort((a, b) => b.MMR_Value - a.MMR_Value);
 	public dotaRanksAmericas: any[] = [];
@@ -54,18 +59,32 @@ export class HomeComponent implements OnInit {
 	public selectedRankingData: any[] = [];
 	public selectedRegionTab: string = 'Brasil';
 
-	public bestHeroes: any[] = [];
-	public bestHeroesPosition: null | 'POSITION_1' | 'POSITION_2' | 'POSITION_3' | 'POSITION_4' | 'POSITION_5' = null;
-
 	public currentUser: User | null = null;
 
-	constructor(private dotaHelperService: DotaHelperService,
-				private omniscienceService: OmniscienceService,
-				private dotaRankService: DotaRankService,
-				private dotaMatchService: DotaMatchService,
-				private message: NzMessageService,
+	// Meta properties
+	private originalMetaHeroes: any[] = [];
+	public metaHeroes: any[] = [];
+	public loadingMeta: boolean = false;
+	public selectedPosition: string | null = null;
+	public positions = DotaPlayerPositions.positions;
+	public featuredLeagues: DotaLeague[] = [];
+	public selectedLeague: DotaLeague | null = null;
+	public heroStatsRequest: HeroStatsRequest = {
+		limit: 150,
+		page: 1,
+		period: 90
+	};
+
+	public heroes: DotaHero[] = [];
+	public selectedHeroes: number[] = [];
+	public minMatchesFilter: number = 0;
+
+	constructor(private dotaRankService: DotaRankService,
 				private userService: UserService,
-				private router: Router) {}
+				private router: Router,
+				private dotaMetaService: DotaMetaService,
+				private dotaLeagueService: DotaLeagueService,
+				private dotaHelperService: DotaHelperService) {}
 
 	public ngOnInit() {
 
@@ -78,43 +97,11 @@ export class HomeComponent implements OnInit {
 			return;
 		}
 
-		this.getOnGoingMatches();
 		this.getDotaRanks();
-		// Default to showing Brazil ranking
 		this.selectedRankingData = this.dotaRankBrasil;
-		this.getLastMatches();
-	}
-
-	getOnGoingMatches() {
-		this.loadingOnGoingMatches.next(true);
-		this.omniscienceService.getOnGoingMatches().subscribe({
-			next: data => {
-				this.liveMatches = data;
-
-				this.liveMatches.forEach(match => {
-					match.players.forEach(player => {
-						player.dotaHero = this.dotaHelperService.getHeroDataSummary(player.heroId);
-					});
-				});
-			}, error: error => {
-				console.error(error);
-			}
-		}).add(() => this.loadingOnGoingMatches.next(false));
-	}
-
-	getLastMatches() {
-		this.dotaMatchService.getLastMatches().subscribe({
-			next: data => {
-				this.lastMatches = data;
-				this.lastMatches.forEach(match => {
-					match.players.forEach(player => {
-						player.dotaHero = this.dotaHelperService.getHeroDataSummary(player.heroId);
-					});
-				});
-			}, error: error => {
-				console.error(error);
-			}
-		});
+		this.loadFeaturedLeagues();
+		this.loadMetaHeroes();
+		this.loadHeroes();
 	}
 
 	getDotaRanks() {
@@ -151,13 +138,7 @@ export class HomeComponent implements OnInit {
 		});
 	}
 
-	copyMatchId(matchId: string) {
-		navigator.clipboard.writeText(matchId);
-		this.message.success('ID da partida copiado.');
-	}
-
 	onRegionTabChange(event: NzTabChangeEvent): void {
-		// Set the selected tab name
 		const tabNames = ['Brasil', 'Europa', 'Americas', 'China', 'Sudeste Asiático'];
 		if (event.index !== null && event.index !== undefined) {
 			this.selectedRegionTab = tabNames[event.index];
@@ -165,7 +146,6 @@ export class HomeComponent implements OnInit {
 			this.selectedRegionTab = 'Brasil';
 		}
 		
-		// Switch table data based on selected tab index
 		switch (event.index) {
 			case 0:
 				
@@ -187,12 +167,170 @@ export class HomeComponent implements OnInit {
 		}
 	}
 
-	// Helper methods to safely access hero data
 	getHeroImage(player: any): string {
 		return player?.dotaHero?.imageUrl || '';
 	}
 
 	getHeroName(player: any): string {
 		return player?.dotaHero?.localizedName || 'Unknown Hero';
+	}
+
+	loadFeaturedLeagues() {
+		this.dotaLeagueService.getFeaturedLeagues().subscribe({
+			next: (data: DotaLeague[]) => {
+				this.featuredLeagues = data;
+			}, error: (error: any) => {
+				console.error(error);
+			}
+		});
+	}
+
+	loadMetaHeroes() {
+		this.loadingMeta = true;
+		this.dotaMetaService.getHeroStats(this.heroStatsRequest).subscribe({
+			next: (data: any) => {
+				console.log(data);
+				this.metaHeroes = data.data.map((hero: any) => {
+					return {
+						heroId: hero.heroId,
+						winRate: hero.winRate,
+						avgKills: hero.avgKills,
+						avgDeaths: hero.avgDeaths,
+						avgAssists: hero.avgAssists,
+						totalMatches: hero.totalMatches,
+						tournamentWinRate: hero.tournamentWinRate,
+						tournamentMatches: hero.tournamentMatches,
+						tournamentContest: hero.tournamentContest,
+						dotaHero: this.dotaHelperService.getHeroDataSummary(hero.heroId)
+					}
+				});
+				this.originalMetaHeroes = [...this.metaHeroes];
+
+				this.onMinMatchesChange(this.minMatchesFilter);
+			}, error: (error: any) => {
+				console.error(error);
+			}
+		}).add(() => this.loadingMeta = false);
+	}
+
+	processHeroStatsRecords(data: any): any[] {
+		// Process the HeroStatsRecordsResponse format
+		if (!data.records) return [];
+		
+		const heroMap = new Map();
+		
+		// Combine all stats for each hero
+		Object.keys(data.records).forEach(statType => {
+			const record = data.records[statType];
+			if (record.heroId) {
+				if (!heroMap.has(record.heroId)) {
+					heroMap.set(record.heroId, {
+						heroId: record.heroId,
+						position: record.position,
+						totalMatches: record.matches
+					});
+				}
+				
+				const hero = heroMap.get(record.heroId);
+				switch (statType) {
+					case 'winRate':
+						hero.winRate = record.value;
+						break;
+					case 'kills':
+						hero.avgKills = record.value;
+						break;
+					case 'deaths':
+						hero.avgDeaths = record.value;
+						break;
+					case 'assists':
+						hero.avgAssists = record.value;
+						break;
+					case 'gpm':
+						hero.avgGpm = record.value;
+						break;
+					case 'xpm':
+						hero.avgXpm = record.value;
+						break;
+					case 'heroDamage':
+						hero.avgHeroDamage = record.value;
+						break;
+					case 'towerDamage':
+						hero.avgTowerDamage = record.value;
+						break;
+				}
+			}
+		});
+		
+		return Array.from(heroMap.values()).map(hero => {
+			hero.dotaHero = this.dotaHelperService.getHeroDataSummary(hero.heroId);
+			return hero;
+		});
+	}
+
+	onLeagueChange(leagueId: number | null) {
+		this.heroStatsRequest.leagueId = leagueId || undefined;
+		this.selectedLeague = leagueId ? this.featuredLeagues.find(l => l.leagueId === leagueId) || null : null;
+		this.loadMetaHeroes();
+	}
+
+	onPositionTabChange(index: number) {
+		this.selectedPosition = this.positions[index].value;
+		this.heroStatsRequest.position = this.selectedPosition || undefined;
+		this.loadMetaHeroes();
+	}
+
+	clearLeagueFilter() {
+		this.heroStatsRequest.leagueId = undefined;
+		this.selectedLeague = null;
+		this.loadMetaHeroes();
+	}
+
+	getPositionImage(position: string) {
+		return DotaPlayerPositions.getPositionImage(position);
+	}
+
+	getPositionLabel(position: string) {
+		return DotaPlayerPositions.getPositionLabel(position);
+	}
+
+	onHeroFilterChange(event: any) {
+		this.applyAllFilters();
+	}
+
+	onMinMatchesChange(event: any) {
+		this.minMatchesFilter = event;
+		this.applyAllFilters();
+	}
+
+	applyAllFilters() {
+		let filteredHeroes = [...this.originalMetaHeroes];
+
+		// Apply hero filter first
+		if (this.selectedHeroes.length > 0) {
+			filteredHeroes = filteredHeroes.filter((hero: any) => {
+				return this.selectedHeroes.includes(hero.heroId);
+			});
+		}
+
+		// Apply min matches filter second
+		if (this.minMatchesFilter > 0) {
+			filteredHeroes = filteredHeroes.filter((hero: any) => {
+				if (this.selectedLeague) {
+					return hero.tournamentMatches >= this.minMatchesFilter;
+				} else {
+					return hero.totalMatches >= this.minMatchesFilter;
+				}
+			});
+		}
+
+		this.metaHeroes = filteredHeroes;
+		console.log('Applied filters - Heroes:', this.selectedHeroes.length, 'MinMatches:', this.minMatchesFilter, 'Results:', this.metaHeroes.length);
+	}
+
+	loadHeroes() {
+		this.dotaHelperService.getAllHeroes().subscribe(heroes => {
+			this.heroes = heroes;
+			this.heroes.sort((a, b) => a.localized_name.localeCompare(b.localized_name));
+		});
 	}
 }

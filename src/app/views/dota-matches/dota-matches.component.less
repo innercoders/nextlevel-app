@@ -35,6 +35,28 @@
 				background-color: rgba(24, 144, 255, 0.1);
 			}
 		}
+
+		.match-id-container {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+
+			.copy-btn {
+				opacity: 0;
+				transition: opacity 0.2s;
+				padding: 2px 4px;
+				height: auto;
+				min-width: auto;
+
+				&:hover {
+					background-color: rgba(24, 144, 255, 0.1);
+				}
+			}
+
+			&:hover .copy-btn {
+				opacity: 1;
+			}
+		}
 		
 		.team-info {
 			display: flex;
@@ -45,6 +67,54 @@
 				height: 24px;
 				margin-right: 8px;
 				object-fit: contain;
+			}
+		}
+
+		.heroes-preview {
+			.team-heroes {
+				display: flex;
+				flex-direction: column;
+				gap: 4px;
+			}
+
+			.heroes-row {
+				display: flex;
+				gap: 2px;
+				justify-content: flex-start;
+
+				.hero-icon {
+					width: 20px;
+					height: 20px;
+					border-radius: 2px;
+					object-fit: cover;
+					transition: transform 0.2s;
+
+					&:hover {
+						transform: scale(1.2);
+						z-index: 10;
+						position: relative;
+					}
+
+					&.radiant {
+						border: 1px solid #92f7b9;
+					}
+
+					&.dire {
+						border: 1px solid #f18f8f;
+					}
+				}
+			}
+
+			.radiant-heroes {
+				.hero-icon {
+					box-shadow: 0 0 3px rgba(#92f7b9, 0.5);
+				}
+			}
+
+			.dire-heroes {
+				.hero-icon {
+					box-shadow: 0 0 3px rgba(#f18f8f, 0.5);
+				}
 			}
 		}
 	}

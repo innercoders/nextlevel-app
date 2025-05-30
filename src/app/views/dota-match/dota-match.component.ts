@@ -68,7 +68,11 @@ export class DotaMatchComponent implements OnInit {
 				player.dotaHeroAbilities = [];
 
 				player.abilities.forEach(ability => {
-					player.dotaHeroAbilities?.push(this.dotaHelperService.getAbilityData(ability));
+					let heroNamePrefix = player.dotaHero?.name.replace('npc_dota_hero_', '');
+
+					if(heroNamePrefix && ability.indexOf(heroNamePrefix) > -1) {
+						player.dotaHeroAbilities?.push(this.dotaHelperService.getAbilityData(ability));
+					}
 				});
 
 				this.setupPlayerItems(player);
@@ -80,6 +84,8 @@ export class DotaMatchComponent implements OnInit {
 
 			this.radiantTeam = match.players.filter(player => player.isRadiant);
 			this.direTeam = match.players.filter(player => !player.isRadiant);
+
+			this.dotaMatch.durationSecondsFormatted = this.dotaHelperService.formatDuration(match.durationSeconds);
 			
 			this.setupChartData(match.radiantNetWorthLeads, match.radiantExperienceLeads);
 		});

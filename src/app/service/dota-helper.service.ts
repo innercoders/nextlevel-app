@@ -44,8 +44,6 @@ export class DotaHelperService {
 				...this.heroes[key]
 			};
 		}).sort((a, b) => a.localized_name.localeCompare(b.localized_name));
-
-		console.log(this.heroesNameOrdered);
 	}
 
 	public getAllHeroes(): Observable<DotaHero[]> {

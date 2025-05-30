@@ -3,7 +3,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Translocar Teletransporte-se a um ponto alvo que está a até 1200 unidades de distância. \n\nA Adaga de Translocação não poderá ser usada por 3 segundos após sofrer dano de um herói inimigo ou Roshan.",
-      "Em inglês: Blink Dagger "
+      "Em inglês: Blink Dagger"
     ],
     "id": 1,
     "img": "/assets/images/dota/items/blink.png?t=1593393829403",
@@ -38,7 +38,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Translocação Esmagadora Teletransporta-se a um ponto alvo que está a até 1200 unidades de distância.\n\nApós o teletransporte, todos os inimigos em um raio de 800 unidades sofrem dano igual a 100 + 50% da sua Força, além de 100% ao longo do tempo, um retardo de 50% da velocidade de movimento e 50 da velocidade de ataque durante 6 segundos. \n\nA Translocação Esmagadora não poderá ser usada por 3 segundos após sofrer dano de um herói inimigo ou Roshan.",
-      "Em inglês: Overwhelming Blink "
+      "Em inglês: Overwhelming Blink"
     ],
     "id": 600,
     "img": "/assets/images/dota/items/overwhelming_blink.png?t=1593393829403",
@@ -110,7 +110,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Translocação Veloz Teletransporte-se a um ponto alvo que está a até 1200 unidades de distância.\n\nApós o teletransporte, você recebe 40% de velocidade de movimento, movimentação faseada e +35 de Agilidade por 6 segundos.\n\nA Translocação Veloz não poderá ser usada por 3 segundos após sofrer dano de um herói inimigo ou Roshan.",
-      "Em inglês: Swift Blink "
+      "Em inglês: Swift Blink"
     ],
     "id": 603,
     "img": "/assets/images/dota/items/swift_blink.png?t=1593393829403",
@@ -165,7 +165,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Translocação Arcana Teletransporte-se a um ponto alvo que está a até 1400 unidades de distância. \n\nApós o teletransporte, você restaura 250 de vida e 100 de mana.\n\nA Translocação Arcana não poderá ser usada por 3 segundos após sofrer dano de um herói inimigo ou Roshan.",
-      "Em inglês: Arcane Blink "
+      "Em inglês: Arcane Blink"
     ],
     "id": 604,
     "img": "/assets/images/dota/items/arcane_blink.png?t=1593393829403",
@@ -389,7 +389,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Perfurar Concede 25% de chance de perfurar, ignorando a esquiva e causando 60 de dano mágico adicional.",
-      "Em inglês: Javelin "
+      "Em inglês: Javelin"
     ],
     "id": 7,
     "img": "/assets/images/dota/items/javelin.png?t=1593393829403",
@@ -491,7 +491,7 @@
     "hint": [
       "Ativa: Cortar Árvore Destrói uma árvore-alvo.",
       "Passiva: Supressão Aumenta o dano causado a unidades que não sejam heróis. 8 para heróis corpo a corpo e 4 para longo alcance.",
-      "Em inglês: Quelling Blade "
+      "Em inglês: Quelling Blade"
     ],
     "id": 11,
     "img": "/assets/images/dota/items/quelling_blade.png?t=1593393829403",
@@ -528,7 +528,7 @@
     "abilities": [],
     "hint": [
       "Usar: Imbuir Restaura instantaneamente 85 de vida.",
-      "Em inglês: Faerie Fire "
+      "Em inglês: Faerie Fire"
     ],
     "id": 237,
     "img": "/assets/images/dota/items/faerie_fire.png?t=1593393829403",
@@ -565,7 +565,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Bloqueio de Dano Mágico Consome uma carga para bloquear 120 de dano mágico ao sofrer uma instância de dano superior a 75. \n\nVem com 6 cargas e desaparece quando elas acabam.",
-      "Em inglês: Infused Raindrop "
+      "Em inglês: Infused Raindrop"
     ],
     "id": 265,
     "img": "/assets/images/dota/items/infused_raindrop.png?t=1593393829403",
@@ -604,7 +604,7 @@
     "abilities": [],
     "hint": [
       "Efeitos de múltiplas Fitas Eólicas não se acumulam.",
-      "Em inglês: Wind Lace "
+      "Em inglês: Wind Lace"
     ],
     "id": 244,
     "img": "/assets/images/dota/items/wind_lace.png?t=1593393829403",
@@ -653,7 +653,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Bloqueio de Dano Concede 50% de chance de bloquear 20 de dano de ataques sofridos em heróis corpo a corpo e 8 de dano em heróis de longo alcance.",
-      "Em inglês: Stout Shield "
+      "Em inglês: Stout Shield"
     ],
     "id": 182,
     "img": "/assets/images/dota/items/stout_shield.png?t=1593393829403",
@@ -688,7 +688,7 @@
     "hint": [
       "Usar: Consumir Consome o Fragmento Lunar para ganhar permanentemente mais 60 de velocidade de ataque e mais 200 unidades de visão noturna. Máximo de 1 uso.",
       "Passiva: Visão Desofuscada Concede visão noturna adicional.",
-      "Em inglês: Moon Shard "
+      "Em inglês: Moon Shard"
     ],
     "id": 247,
     "img": "/assets/images/dota/items/moon_shard.png?t=1593393829403",
@@ -803,7 +803,7 @@
     "abilities": [],
     "hint": [
       "Usar: Plantar Árvore Planta uma árvore em um ponto-alvo que dura 20 segundos.",
-      "Em inglês: Iron Branch "
+      "Em inglês: Iron Branch"
     ],
     "id": 16,
     "img": "/assets/images/dota/items/branches.png?t=1593393829403",
@@ -1099,7 +1099,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Roubo de Vida Cura o atacante em uma porcentagem do dano físico causado.",
-      "Em inglês: Morbid Mask "
+      "Em inglês: Morbid Mask"
     ],
     "id": 26,
     "img": "/assets/images/dota/items/lifesteal.png?t=1593393829403",
@@ -1126,7 +1126,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Roubo de Vida Arcano Cura o atacante em uma porcentagem do dano causado por habilidades.",
-      "Em inglês: Voodoo Mask "
+      "Em inglês: Voodoo Mask"
     ],
     "id": 473,
     "img": "/assets/images/dota/items/voodoo_mask.png?t=1593393829403",
@@ -1197,7 +1197,7 @@
     "abilities": [],
     "hint": [
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Boots of Speed "
+      "Em inglês: Boots of Speed"
     ],
     "id": 29,
     "img": "/assets/images/dota/items/boots.png?t=1593393829403",
@@ -1225,8 +1225,8 @@
     "hint": [
       "Ativa: Revelar Concede Visão Verdadeira em um raio de 300 unidades, revelando Sentinelas e unidades até mesmo na névoa de guerra.",
       "Passiva: Visão Verdadeira Concede a habilidade de ver unidades invisíveis e Sentinelas a qualquer fonte de visão aliada dentro de 900 unidades ao redor do seu portador.",
-      "Passiva: Eternidade Cai do inventário ao morrer e não pode ser destruída. ",
-      "Em inglês: Gem of True Sight "
+      "Passiva: Eternidade Cai do inventário ao morrer e não pode ser destruída.",
+      "Em inglês: Gem of True Sight"
     ],
     "id": 30,
     "img": "/assets/images/dota/items/gem.png?t=1593393829403",
@@ -1312,7 +1312,7 @@
     "abilities": [],
     "hint": [
       "Usar: Fondue Restaura instantaneamente 2500 de vida e 1500 de mana.",
-      "Em inglês: Cheese "
+      "Em inglês: Cheese"
     ],
     "id": 33,
     "img": "/assets/images/dota/items/cheese.png?t=1593393829403",
@@ -1346,7 +1346,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Carga Energética Restaura instantaneamente 15 de vida e mana para cada carga armazenada. \n\n Máximo de 10 cargas. Ganha uma carga sempre que um herói inimigo visível dentro de um raio de 1200 unidades usa uma habilidade.",
-      "Em inglês: Magic Stick "
+      "Em inglês: Magic Stick"
     ],
     "id": 34,
     "img": "/assets/images/dota/items/magic_stick.png?t=1593393829403",
@@ -1400,7 +1400,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Carga Energética Restaura instantaneamente 15 de vida e mana para cada carga armazenada. \n\n Máximo de 20 cargas. Ganha uma carga sempre que um herói inimigo visível dentro de um raio de 1200 unidades usa uma habilidade.",
-      "Em inglês: Magic Wand "
+      "Em inglês: Magic Wand"
     ],
     "id": 36,
     "img": "/assets/images/dota/items/magic_wand.png?t=1593393829403",
@@ -1447,7 +1447,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Forma Fantasma Entra na forma fantasma por 4 segundos, tornando-se imune a dano físico, porém incapacitado de atacar e -40% mais vulnerável a dano mágico.",
-      "Em inglês: Ghost Scepter "
+      "Em inglês: Ghost Scepter"
     ],
     "id": 37,
     "img": "/assets/images/dota/items/ghost.png?t=1593393829403",
@@ -1487,7 +1487,7 @@
     "abilities": [],
     "hint": [
       "Usar: Recuperação Concede 6 de regeneração de mana ao alvo por 25 segundos. O efeito é interrompido caso a unidade seja atacada por um herói inimigo ou Roshan.",
-      "Em inglês: Clarity "
+      "Em inglês: Clarity"
     ],
     "id": 38,
     "img": "/assets/images/dota/items/clarity.png?t=1593393829403",
@@ -1524,7 +1524,7 @@
     "abilities": [],
     "hint": [
       "Usar: Comer Manga Restaura instantaneamente 100 de mana.",
-      "Em inglês: Enchanted Mango "
+      "Em inglês: Enchanted Mango"
     ],
     "id": 216,
     "img": "/assets/images/dota/items/enchanted_mango.png?t=1593393829403",
@@ -1561,7 +1561,7 @@
     "abilities": [],
     "hint": [
       "Usar: Comer Lótus Restaura instantaneamente 125 de vida e mana.",
-      "Em inglês: Healing Lotus "
+      "Em inglês: Healing Lotus"
     ],
     "id": 4204,
     "img": "/assets/images/dota/items/famango.png?t=1593393829403",
@@ -1593,7 +1593,7 @@
     "abilities": [],
     "hint": [
       "Usar: Comer Lótus Restaura instantaneamente 400 de vida e mana.",
-      "Em inglês: Great Healing Lotus "
+      "Em inglês: Great Healing Lotus"
     ],
     "id": 4205,
     "img": "/assets/images/dota/items/great_famango.png?t=1593393829403",
@@ -1629,7 +1629,7 @@
     "abilities": [],
     "hint": [
       "Usar: Comer Lótus Restaura instantaneamente 900 de vida e mana.",
-      "Em inglês: Greater Healing Lotus "
+      "Em inglês: Greater Healing Lotus"
     ],
     "id": 4206,
     "img": "/assets/images/dota/items/greater_famango.png?t=1593393829403",
@@ -1664,7 +1664,7 @@
     "abilities": [],
     "hint": [
       "Usar: Lançar Granada Lança uma granada na área-alvo. Inimigos na área sofrerão 50 de dano de impacto, -15% de retardo e 15 de dano a cada 1s durante 5 segundos. Raio: 300.",
-      "Em inglês: Blood Grenade "
+      "Em inglês: Blood Grenade"
     ],
     "id": 1123,
     "img": "/assets/images/dota/items/blood_grenade.png?t=1593393829403",
@@ -1780,7 +1780,7 @@
     "abilities": [],
     "hint": [
       "Usar: Bálsamo Fornece 30 de regeneração de vida à unidade-alvo durante 13 segundos. \n\nO efeito é interrompido caso a unidade seja atacada por um herói inimigo ou Roshan.\n\nCura em metade do valor quando usado em um aliado.",
-      "Em inglês: Healing Salve "
+      "Em inglês: Healing Salve"
     ],
     "id": 39,
     "img": "/assets/images/dota/items/flask.png?t=1593393829403",
@@ -1821,7 +1821,7 @@
     "abilities": [],
     "hint": [
       "Usar: Revelação Por 12s, cria uma área que revela e reduz em -20% a velocidade de movimento de heróis invisíveis em um raio de 1050 unidades ao redor de onde o usuário estava. Unidades invisíveis reveladas pela areia sofrem 25 de dano.\n\nO efeito negativo em inimigos permanece por 8s após saírem da área de efeito.",
-      "Em inglês: Dust of Appearance "
+      "Em inglês: Dust of Appearance"
     ],
     "id": 40,
     "img": "/assets/images/dota/items/dust.png?t=1593393829403",
@@ -1869,7 +1869,7 @@
     "hint": [
       "Usar: Regenerar Consome uma carga para recuperar 110 de vida e 60 de mana por 2.7 segundos. O efeito é perdido caso o herói seja atacado por um herói inimigo ou Roshan. \n\nA garrafa é reabastecida automaticamente na fonte.\n\nSegure Ctrl para usar em heróis aliados.",
       "Passiva: Engarrafamento de Runas Runas podem ser armazenadas na Garrafa para uso futuro ao clicar nelas com o botão direito. Runas não usadas são ativadas automaticamente após 90 segundos.\n\nUsar uma runa engarrafada reabastece a Garrafa por completo.",
-      "Em inglês: Bottle "
+      "Em inglês: Bottle"
     ],
     "id": 41,
     "img": "/assets/images/dota/items/bottle.png?t=1593393829403",
@@ -1929,7 +1929,7 @@
     "abilities": [],
     "hint": [
       "Usar: Posicionar Posiciona uma Sentinela Observadora, um vigia invisível que fornece visão terrestre em um raio de 1600 unidades do seu entorno para a sua equipe. Dura 6 minutos.\n\nSegure Ctrl para dar uma Sentinela Observadora a um herói aliado.",
-      "Em inglês: Observer Ward "
+      "Em inglês: Observer Ward"
     ],
     "id": 42,
     "img": "/assets/images/dota/items/ward_observer.png?t=1593393829403",
@@ -1973,7 +1973,7 @@
     "abilities": [],
     "hint": [
       "Usar: Posicionar Posiciona uma Sentinela Reveladora, um vigia invisível que fornece Visão Verdadeira, a habilidade de ver unidades e sentinelas invisíveis, para qualquer unidade aliada em um raio de 1050 unidades do seu entorno.\nDura 7 minutos.\n\nNão concede visão terrestre.\nSegure Ctrl para dar uma Sentinela Reveladora a um herói aliado.",
-      "Em inglês: Sentry Ward "
+      "Em inglês: Sentry Ward"
     ],
     "id": 43,
     "img": "/assets/images/dota/items/ward_sentry.png?t=1593393829403",
@@ -2021,7 +2021,7 @@
     "abilities": [],
     "hint": [
       "Usar: Posicionar Posiciona a sentinela selecionada para vigiar a área do seu entorno. Clique duas vezes para alternar entre os tipos de sentinela.",
-      "Em inglês: Observer and Sentry Wards "
+      "Em inglês: Observer and Sentry Wards"
     ],
     "id": 218,
     "img": "/assets/images/dota/items/ward_dispenser.png?t=1593393829403",
@@ -2100,7 +2100,7 @@
     "abilities": [],
     "hint": [
       "Usar: Devorar Consome uma árvore para aumentar a regeneração de vida em 7 por 16 segundos. Consumir uma Árvore Galho-de-Ferro dobra esse valor.\n\nVem com 3 cargas. Pode ser usado em um herói aliado para lhe dar um Tango.\n\nAlcance: 165",
-      "Em inglês: Tango "
+      "Em inglês: Tango"
     ],
     "id": 44,
     "img": "/assets/images/dota/items/tango.png?t=1593393829403",
@@ -2137,7 +2137,7 @@
     "abilities": [],
     "hint": [
       "Usar: Devorar Consome uma árvore para aumentar a regeneração de vida em 7 por 16 segundos. Consumir uma Árvore Galho-de-Ferro dobra esse valor.\n\nAlcance: 165",
-      "Em inglês: Tango (Shared) "
+      "Em inglês: Tango (Shared)"
     ],
     "id": 241,
     "img": "/assets/images/dota/items/tango_single.png?t=1593393829403",
@@ -2208,7 +2208,7 @@
     "abilities": [],
     "hint": [
       "Usar: Teletransporte Após canalizar por 3 segundos, teletransporta-o a uma estrutura aliada-alvo.\n\nAtive duas vezes para se teletransportar à fonte aliada.",
-      "Em inglês: Town Portal Scroll "
+      "Em inglês: Town Portal Scroll"
     ],
     "id": 46,
     "img": "/assets/images/dota/items/tpscroll.png?t=1593393829403",
@@ -2267,9 +2267,9 @@
   "travel_boots": {
     "abilities": [],
     "hint": [
-      "Aprimora: Pergaminho de Teletransporte Aprimora o seu Pergaminho de Teletransporte , permitindo-o alvejar unidades e reduzindo o intervalo entre usos, além de não consumir cargas.",
+      "Aprimora: Pergaminho de Teletransporte Aprimora o seu Pergaminho de Teletransporte, permitindo-o alvejar unidades e reduzindo o intervalo entre usos, além de não consumir cargas.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Boots of Travel "
+      "Em inglês: Boots of Travel"
     ],
     "id": 48,
     "img": "/assets/images/dota/items/travel_boots.png?t=1593393829403",
@@ -2312,9 +2312,9 @@
   "travel_boots_2": {
     "abilities": [],
     "hint": [
-      "Aprimora: Pergaminho de Teletransporte Aprimora o seu Pergaminho de Teletransporte , permitindo-o alvejar unidades e heróis, reduzindo o intervalo entre usos e o tempo de canalização, além de não consumir cargas.",
+      "Aprimora: Pergaminho de Teletransporte Aprimora o seu Pergaminho de Teletransporte, permitindo-o alvejar unidades e heróis, reduzindo o intervalo entre usos e o tempo de canalização, além de não consumir cargas.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Boots of Travel 2 "
+      "Em inglês: Boots of Travel 2"
     ],
     "id": 220,
     "img": "/assets/images/dota/items/travel_boots_2.png?t=1593393829403",
@@ -2365,7 +2365,7 @@
     "hint": [
       "Ativa: Fase Entra em movimentação faseada. Concede 20% de velocidade de movimento adicional para heróis corpo a corpo (10% em heróis de longo alcance) e permite atravessar unidades e rotacionar mais rapidamente por 3 segundos.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Phase Boots "
+      "Em inglês: Phase Boots"
     ],
     "id": 50,
     "img": "/assets/images/dota/items/phase_boots.png?t=1593393829403",
@@ -2757,7 +2757,7 @@
     "hint": [
       "Ativa: Alterar Atributo Alterna entre +10 de Força, +10 de Agilidade e +10 de Inteligência.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Power Treads "
+      "Em inglês: Power Treads"
     ],
     "id": 63,
     "img": "/assets/images/dota/items/power_treads.png?t=1593393829403",
@@ -3126,7 +3126,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Fortalecer Habilidade A próxima habilidade com unidade-alvo que você usar em um inimigo causa uma instância separada de 150 de dano ao alvo e o retarda em 30% por 3s.",
-      "Em inglês: Phylactery "
+      "Em inglês: Phylactery"
     ],
     "id": 1107,
     "img": "/assets/images/dota/items/phylactery.png?t=1593393829403",
@@ -3206,7 +3206,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Fortalecer Habilidade A próxima habilidade com unidade-alvo que você usar em um inimigo causa uma instância separada de 250 de dano adicional e aplica um efeito negativo que retarda o alvo em 30% e desativa passivas durante 4s.",
-      "Em inglês: Khanda "
+      "Em inglês: Khanda"
     ],
     "id": 1808,
     "img": "/assets/images/dota/items/angels_demise.png?t=1593393829403",
@@ -3383,7 +3383,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Transmutar Mata um alvo não heroico para receber 160 de ouro e 2.1 vezes a experiência que a criatura daria normalmente. Matar uma criatura neutra concede lascas de insanite adicionais.\n\nNão pode ser usada em criaturas ancestrais.",
-      "Em inglês: Hand of Midas "
+      "Em inglês: Hand of Midas"
     ],
     "id": 65,
     "img": "/assets/images/dota/items/hand_of_midas.png?t=1593393829403",
@@ -3570,7 +3570,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Lâmina do Bruxo Faz com que o seu próximo ataque aplique um veneno por 4 segundos, retardando o alvo em 25% e causando 0.75x a Inteligência do portador como dano a cada segundo. Esse ataque tem Impacto Verdadeiro.",
-      "Em inglês: Witch Blade "
+      "Em inglês: Witch Blade"
     ],
     "id": 534,
     "img": "/assets/images/dota/items/witch_blade.png?t=1593393829403",
@@ -3695,10 +3695,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Bloqueio de Dano Concede 100% de chance de bloquear 30 de dano de ataques sofridos em heróis corpo a corpo e 20 de dano em heróis de longo alcance.\n\nTem 50% de chance de bloquear ataques de criaturas.",
-      "Em inglês: Poor Man's Shield "
+      "Em inglês: Poor Man's Shield"
     ],
     "id": 71,
     "img": "/assets/images/dota/items/poor_mans_shield.png?t=1593393829403",
+    "dname": "#|m|#Escudo Desgastado",
     "qual": "common",
     "cost": 0,
     "notes": "Múltiplas fontes de bloqueio de dano não se acumulam.",
@@ -3730,7 +3731,8 @@
     "lore": "Um escudo quebrado antigo que parece bloquear mais do que devia.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 2
   },
   "satchel": {
     "id": 731,
@@ -3964,7 +3966,7 @@
     "hint": [
       "Ativa: Recuperar Recupera 250 de vida a unidades dentro de um raio de 1200 unidades.",
       "Passiva: Aura do Mekansm Fornece 2.5 de regeneração de vida a unidades aliadas dentro de um raio de 1200 unidades.",
-      "Em inglês: Mekansm "
+      "Em inglês: Mekansm"
     ],
     "id": 79,
     "img": "/assets/images/dota/items/mekansm.png?t=1593393829403",
@@ -4014,7 +4016,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aura de Vladmir Concede 20% de roubo de vida, 18% de dano adicional, 1 de regeneração de mana e 2 de armadura adicionais a aliados próximos.\n\nRaio: 1200 unidades",
-      "Em inglês: Vladmir's Offering "
+      "Em inglês: Vladmir's Offering"
     ],
     "id": 81,
     "img": "/assets/images/dota/items/vladmir.png?t=1593393829403",
@@ -4182,7 +4184,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aura do Broquel Fornece 2 de armadura a unidades aliadas controladas por jogadores.\n\nRaio: 1200",
-      "Em inglês: Buckler "
+      "Em inglês: Buckler"
     ],
     "id": 86,
     "img": "/assets/images/dota/items/buckler.png?t=1593393829403",
@@ -4235,7 +4237,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aura de Basílio Concede 1 de regeneração de mana para aliados.\n\nRaio: 1200",
-      "Em inglês: Ring of Basilius "
+      "Em inglês: Ring of Basilius"
     ],
     "id": 88,
     "img": "/assets/images/dota/items/ring_of_basilius.png?t=1593393829403",
@@ -4289,7 +4291,7 @@
     "hint": [
       "Ativa: Carga Energética Alveja uma unidade aliada para restaurar instantaneamente 17 de vida e mana por cada carga armazenada. \n\nGanha uma carga automaticamente a cada 8s e sempre que um herói inimigo visível dentro de um raio de 1200 unidades usa uma habilidade.",
       "Passiva: Bênção Sagrada Amplifica toda cura fornecida por você em 15%.",
-      "Em inglês: Holy Locket "
+      "Em inglês: Holy Locket"
     ],
     "id": 269,
     "img": "/assets/images/dota/items/holy_locket.png?t=1593393829403",
@@ -4375,7 +4377,7 @@
     "hint": [
       "Ativa: Barreira Concede uma barreira contra dano mágico com 425 de vida às unidades aliadas próximas. Dura 8 segundos.\n\nRaio: 1200",
       "Passiva: Aura de Introspecção Fornece 2.5 de regeneração de vida e 8% de resistência mágica às unidades aliadas.\n\nRaio: 1200",
-      "Em inglês: Pipe of Insight "
+      "Em inglês: Pipe of Insight"
     ],
     "id": 90,
     "img": "/assets/images/dota/items/pipe.png?t=1593393829403",
@@ -4471,7 +4473,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Libertação da Alma Quando usado em um herói aliado, aumenta a regeneração de vida em 30. Quando usado em um herói inimigo, este sofrerá 25 de dano por segundo.\n\nDura 8 segundos.\n\nCaso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.\n\nGanha cargas toda vez que um herói inimigo morrer dentro de 1400 unidades. Apenas a Urna mais próxima do inimigo que morreu ganhará uma carga.",
-      "Em inglês: Urn of Shadows "
+      "Em inglês: Urn of Shadows"
     ],
     "id": 92,
     "img": "/assets/images/dota/items/urn_of_shadows.png?t=1593393829403",
@@ -4556,8 +4558,8 @@
   "headdress": {
     "abilities": [],
     "hint": [
-      "Passiva: Aura de Regeneração Fornece 2 de regeneração de vida para aliados.\n\nRaio: 1200 ",
-      "Em inglês: Headdress "
+      "Passiva: Aura de Regeneração Fornece 2 de regeneração de vida para aliados.\n\nRaio: 1200",
+      "Em inglês: Headdress"
     ],
     "id": 94,
     "img": "/assets/images/dota/items/headdress.png?t=1593393829403",
@@ -4610,7 +4612,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Enfeitiçar Transforma a unidade-alvo em um animal inofensivo por 2.8 segundos. O alvo tem uma velocidade de movimento base de 140 e ficará silenciado, calado e desarmado.\nSe usado em uma ilusão, ela será destruída instantaneamente.",
-      "Em inglês: Scythe of Vyse "
+      "Em inglês: Scythe of Vyse"
     ],
     "id": 96,
     "img": "/assets/images/dota/items/sheepstick.png?t=1593393829403",
@@ -4714,7 +4716,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Queima de Alma Silencia a unidade-alvo por 5 segundos. Ao fim do silenciamento, causa 30% do dano sofrido como dano mágico adicional.",
-      "Em inglês: Orchid Malevolence "
+      "Em inglês: Orchid Malevolence"
     ],
     "id": 98,
     "img": "/assets/images/dota/items/orchid.png?t=1593393829403",
@@ -4796,7 +4798,7 @@
     "hint": [
       "Ativa: Rasgar Alma Silencia a unidade-alvo por 5s. Ao término do silenciamento, causa 60% de todo o dano sofrido ao alvo como dano mágico.\n\nTodos os ataques no alvo silenciado têm Impacto Verdadeiro e causam 50 de dano adicional se o atacante for um herói ou 25 se for uma criatura. Concede Impacto Verdadeiro aos seus ataques e ataques das suas unidades controladas contra o alvo silenciado.",
       "Passiva: Perfurar Concede 40% de chance de perfurar, ignorando a esquiva e causando 60 de dano mágico adicional.",
-      "Em inglês: Bloodthorn "
+      "Em inglês: Bloodthorn"
     ],
     "id": 250,
     "img": "/assets/images/dota/items/bloodthorn.png?t=1593393829403",
@@ -4887,7 +4889,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Golpe Ecoante Faz com que ataques corpo a corpo sejam desferidos duas vezes rapidamente. Os ataques duplos aplicam 100% de retardo de movimento por 0.8 segundo na primeira batida.",
-      "Em inglês: Echo Sabre "
+      "Em inglês: Echo Sabre"
     ],
     "id": 252,
     "img": "/assets/images/dota/items/echo_sabre.png?t=1593393829403",
@@ -4952,8 +4954,8 @@
   "cyclone": {
     "abilities": [],
     "hint": [
-      "Ativa: Ciclone Captura uma unidade-alvo em um ciclone, tornando-a invulnerável por 2.5 segundos. O Ciclone pode ser usado em unidades inimigas ou em você. \n\nUnidades inimigas sofrem 50 de dano mágico ao aterrissarem.\nTipo de dissipação: Básica ",
-      "Em inglês: Eul's Scepter of Divinity "
+      "Ativa: Ciclone Captura uma unidade-alvo em um ciclone, tornando-a invulnerável por 2.5 segundos. O Ciclone pode ser usado em unidades inimigas ou em você. \n\nUnidades inimigas sofrem 50 de dano mágico ao aterrissarem.\nTipo de dissipação: Básica",
+      "Em inglês: Eul's Scepter of Divinity"
     ],
     "id": 100,
     "img": "/assets/images/dota/items/cyclone.png?t=1593393829403",
@@ -5021,8 +5023,8 @@
   "wind_waker": {
     "abilities": [],
     "hint": [
-      "Ativa: Ciclone Captura uma unidade-alvo em um ciclone, tornando-a invulnerável por 2.5 segundos. O Ciclone pode ser usado em você e unidades inimigas ou aliadas. \n\nUnidades inimigas sofrem 50 de dano mágico ao aterrissarem.\nTipo de dissipação: Básica ",
-      "Em inglês: Wind Waker "
+      "Ativa: Ciclone Captura uma unidade-alvo em um ciclone, tornando-a invulnerável por 2.5 segundos. O Ciclone pode ser usado em você e unidades inimigas ou aliadas. \n\nUnidades inimigas sofrem 50 de dano mágico ao aterrissarem.\nTipo de dissipação: Básica",
+      "Em inglês: Wind Waker"
     ],
     "id": 610,
     "img": "/assets/images/dota/items/wind_waker.png?t=1593393829403",
@@ -5094,7 +5096,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Foco Etéreo Aumenta o alcance de uso de habilidades e itens.",
-      "Em inglês: Aether Lens "
+      "Em inglês: Aether Lens"
     ],
     "id": 232,
     "img": "/assets/images/dota/items/aether_lens.png?t=1593393829403",
@@ -5150,7 +5152,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Força Arremessa a unidade-alvo 600 unidades na direção em que está virada.",
-      "Em inglês: Force Staff "
+      "Em inglês: Force Staff"
     ],
     "id": 102,
     "img": "/assets/images/dota/items/force_staff.png?t=1593393829403",
@@ -5163,7 +5165,7 @@
       "Hero",
       "Basic"
     ],
-    "notes": "Duplo toque usará Força em si mesmo.\nUsar este item não interromperá as ações do alvo.\nNão afeta unidades em uma Cronosfera , Duelo ou Buraco Negro .\nO Cajado de Força tem 850 de alcance de uso quando usado em inimigos.",
+    "notes": "Duplo toque usará Força em si mesmo.\nUsar este item não interromperá as ações do alvo.\nNão afeta unidades em uma Cronosfera, Duelo ou Buraco Negro.\nO Cajado de Força tem 850 de alcance de uso quando usado em inimigos.",
     "attrib": [
       {
         "key": "bonus_intellect",
@@ -5220,7 +5222,7 @@
     "hint": [
       "Ativa: Impulso Furacão Empurra você e o inimigo 450 unidades de distância um do outro, permitindo que, por 6 segundos, você possa desferir 5 ataques contra o alvo com 100 de velocidade de ataque adicional. \n\nPode ser usado em si ou em um aliado para empurrar o alvo 600 na direção em que ele está virado.\nAlcance (inimigos): 450",
       "Passiva: Alcance do Dragão Aumenta o alcance de ataque de heróis de longa distância.",
-      "Em inglês: Hurricane Pike "
+      "Em inglês: Hurricane Pike"
     ],
     "id": 263,
     "img": "/assets/images/dota/items/hurricane_pike.png?t=1593393829403",
@@ -5233,7 +5235,7 @@
       "Hero",
       "Basic"
     ],
-    "notes": "Duplo toque usará Lança Furacão em si mesmo.\nUsar este item não interromperá as ações do alvo.\nNão afeta unidades em uma Cronosfera , Duelo ou Buraco Negro .",
+    "notes": "Duplo toque usará Lança Furacão em si mesmo.\nUsar este item não interromperá as ações do alvo.\nNão afeta unidades em uma Cronosfera, Duelo ou Buraco Negro.",
     "attrib": [
       {
         "key": "bonus_intellect",
@@ -5328,7 +5330,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Explosão de Energia Lança uma poderosa explosão de dano mágico na unidade inimiga alvo. 75% do dano causado por Dagon é convertido em cura para o usuário. Aprimorável.\n\nDano: 400\nCusto de mana: 120",
-      "Em inglês: Dagon "
+      "Em inglês: Dagon"
     ],
     "id": 104,
     "img": "/assets/images/dota/items/dagon.png?t=1593393829403",
@@ -5399,7 +5401,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Explosão de Energia Lança uma poderosa explosão de dano mágico na unidade inimiga alvo. 75% do dano causado por Dagon é convertido em cura para o usuário. Aprimorável.\n\nDano: 400\nCusto de mana: 120",
-      "Em inglês: Dagon "
+      "Em inglês: Dagon"
     ],
     "id": 201,
     "img": "/assets/images/dota/items/dagon_2.png?t=1593393829403",
@@ -5466,7 +5468,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Explosão de Energia Lança uma poderosa explosão de dano mágico na unidade inimiga alvo. 75% do dano causado por Dagon é convertido em cura para o usuário. Aprimorável.\n\nDano: 400\nCusto de mana: 120",
-      "Em inglês: Dagon "
+      "Em inglês: Dagon"
     ],
     "id": 202,
     "img": "/assets/images/dota/items/dagon_3.png?t=1593393829403",
@@ -5533,7 +5535,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Explosão de Energia Lança uma poderosa explosão de dano mágico na unidade inimiga alvo. 75% do dano causado por Dagon é convertido em cura para o usuário. Aprimorável.\n\nDano: 400\nCusto de mana: 120",
-      "Em inglês: Dagon "
+      "Em inglês: Dagon"
     ],
     "id": 203,
     "img": "/assets/images/dota/items/dagon_4.png?t=1593393829403",
@@ -5600,7 +5602,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Explosão de Energia Lança uma poderosa explosão de dano mágico na unidade inimiga alvo. 75% do dano causado por Dagon é convertido em cura para o usuário.\n\nDano: 400\nCusto de mana: 120",
-      "Em inglês: Dagon "
+      "Em inglês: Dagon"
     ],
     "id": 204,
     "img": "/assets/images/dota/items/dagon_5.png?t=1593393829403",
@@ -5683,7 +5685,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Invocação Demoníaca Invoca um Guerreiro e um Arqueiro para lutarem por você durante 60 segundos.\n\nGuerreiro: Queima mana a cada ataque e causa dano mágico a quem o matar. Recebe visão verdadeira no nível 3.\nVida: 800\nDano: 25\nDano da quebra de mana: 30\nDano da Lembrança Final: 600\n\nArqueiro: Possui uma aura de velocidades de movimento e ataque passiva. Recebe Expurgar no 3º nível.\nVida: 800\nDano: 37\nVelocidade de movimento (aura): 5\nRaio (aura): 1200",
-      "Em inglês: Necronomicon "
+      "Em inglês: Necronomicon"
     ],
     "id": 106,
     "img": "/assets/images/dota/items/necronomicon.png?t=1593393829403",
@@ -5771,7 +5773,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Invocação Demoníaca Invoca um Guerreiro e um Arqueiro para lutarem por você durante 60 segundos.\n\nGuerreiro: Queima mana a cada ataque e causa dano mágico a quem o matar. Recebe visão verdadeira no nível 3.\nVida: 800\nDano: 25\nDano da quebra de mana: 30\nDano da Lembrança Final: 600\n\nArqueiro: Possui uma aura de velocidades de movimento e ataque passiva. Recebe Expurgar no 3º nível.\nVida: 800\nDano: 37\nVelocidade de movimento (aura): 5\nRaio (aura): 1200",
-      "Em inglês: Necronomicon "
+      "Em inglês: Necronomicon"
     ],
     "id": 193,
     "img": "/assets/images/dota/items/necronomicon_2.png?t=1593393829403",
@@ -5858,7 +5860,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Invocação Demoníaca Invoca um Guerreiro e um Arqueiro para lutarem por você durante 60 segundos.\n\nGuerreiro: Queima mana a cada ataque e causa dano mágico a quem o matar. Recebe visão verdadeira no nível 3.\nVida: 800\nDano: 25\nDano da quebra de mana: 30\nDano da Lembrança Final: 600\n\nArqueiro: Possui uma aura de velocidades de movimento e ataque passiva. Recebe Expurgar no 3º nível.\nVida: 800\nDano: 37\nVelocidade de movimento (aura): 5\nRaio (aura): 1200",
-      "Em inglês: Necronomicon "
+      "Em inglês: Necronomicon"
     ],
     "id": 194,
     "img": "/assets/images/dota/items/necronomicon_3.png?t=1593393829403",
@@ -5945,7 +5947,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aprimoramento de Habilidade Aprimora a Ultimate e algumas outras habilidades de todos os heróis.",
-      "Em inglês: Aghanim's Scepter "
+      "Em inglês: Aghanim's Scepter"
     ],
     "id": 108,
     "img": "/assets/images/dota/items/ultimate_scepter.png?t=1593393829403",
@@ -6005,7 +6007,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aprimoramento de Habilidade Aprimora a Ultimate e algumas outras habilidades de todos os heróis.",
-      "Em inglês: Aghanim's Blessing "
+      "Em inglês: Aghanim's Blessing"
     ],
     "id": 271,
     "img": "/assets/images/dota/items/ultimate_scepter_2.png?t=1593393829403",
@@ -6028,7 +6030,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aprimoramento de Habilidade Aprimora a Ultimate e algumas outras habilidades de todos os heróis.",
-      "Em inglês: Aghanim's Blessing - Roshan "
+      "Em inglês: Aghanim's Blessing - Roshan"
     ],
     "id": 727,
     "img": "/assets/images/dota/items/ultimate_scepter_roshan.png?t=1593393829403",
@@ -6050,7 +6052,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aprimoramento de Habilidade Aprimora uma habilidade existente ou adiciona uma nova habilidade para o seu herói.",
-      "Em inglês: Aghanim's Shard "
+      "Em inglês: Aghanim's Shard"
     ],
     "id": 609,
     "img": "/assets/images/dota/items/aghanims_shard.png?t=1593393829403",
@@ -6071,7 +6073,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aprimoramento de Habilidade Aprimora uma habilidade existente ou adiciona uma nova habilidade para o seu herói.",
-      "Em inglês: Aghanim's Shard "
+      "Em inglês: Aghanim's Shard"
     ],
     "id": 725,
     "img": "/assets/images/dota/items/aghanims_shard_roshan.png?t=1593393829403",
@@ -6108,8 +6110,8 @@
   "refresher": {
     "abilities": [],
     "hint": [
-      "Ativa: Zerar Intervalos Zera o intervalo entre usos de todos os seus itens e habilidades. Compartilha o intervalo entre usos com o Fragmento Restaurador , que só é reduzido enquanto este item estiver no inventário principal do seu herói.",
-      "Em inglês: Refresher Orb "
+      "Ativa: Zerar Intervalos Zera o intervalo entre usos de todos os seus itens e habilidades. Compartilha o intervalo entre usos com o Fragmento Restaurador, que só é reduzido enquanto este item estiver no inventário principal do seu herói.",
+      "Em inglês: Refresher Orb"
     ],
     "id": 110,
     "img": "/assets/images/dota/items/refresher.png?t=1593393829403",
@@ -6167,7 +6169,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aura de Invasão Fornece 30 de velocidade de ataque e 5 de armadura a unidades e estruturas aliadas próximas e reduz em -5 a armadura de inimigos próximos.\n\nRaio: 1200",
-      "Em inglês: Assault Cuirass "
+      "Em inglês: Assault Cuirass"
     ],
     "id": 112,
     "img": "/assets/images/dota/items/assault.png?t=1593393829403",
@@ -6281,8 +6283,8 @@
   "black_king_bar": {
     "abilities": [],
     "hint": [
-      "Ativa: Avatar Aplica uma dissipação básica. Concede 60% de resistência mágica e imunidade a dano puro e refletido. Enquanto sob efeito do Avatar, qualquer efeito negativo de habilidades inimigas não o afetará. \n\nDuração: 9s\nTipo de dissipação: Básica ",
-      "Em inglês: Black King Bar (BKB) "
+      "Ativa: Avatar Aplica uma dissipação básica. Concede 60% de resistência mágica e imunidade a dano puro e refletido. Enquanto sob efeito do Avatar, qualquer efeito negativo de habilidades inimigas não o afetará. \n\nDuração: 9s\nTipo de dissipação: Básica",
+      "Em inglês: Black King Bar (BKB)"
     ],
     "id": 116,
     "img": "/assets/images/dota/items/black_king_bar.png?t=1593393829403",
@@ -6337,7 +6339,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Reencarnação Você é ressuscitado com vida e mana cheios no local da sua morte 5 segundos após morrer. \n\nReencarnação deve ser usado dentro de 5 minutos ou a Égide do Imortal desaparecerá. Ao desaparecer, o herói que a carregava terá a sua vida e mana regenerados ao longo de 5 segundos (ou até sofrer dano).",
-      "Em inglês: Aegis of the Immortal "
+      "Em inglês: Aegis of the Immortal"
     ],
     "id": 117,
     "img": "/assets/images/dota/items/aegis.png?t=1593393829403",
@@ -6392,7 +6394,7 @@
     "hint": [
       "Ativa: Explosão Ártica Emite uma onda congelante que faz com que inimigos sofram mais 15% de dano arcano durante 16s, além de causar 200 de dano mágico e reduzir a velocidade de movimento em -40% por 4 segundos. Causa 150% de dano a ilusões.\n\nRaio: 900",
       "Passiva: Aura Congelante Reduz a velocidade de ataque de todas as unidades inimigas em -45 e restaurações de vida e amplificações de curas recebidas em 25%.\n\nRaio: 1200",
-      "Em inglês: Shiva's Guard "
+      "Em inglês: Shiva's Guard"
     ],
     "id": 119,
     "img": "/assets/images/dota/items/shivas_guard.png?t=1593393829403",
@@ -6490,8 +6492,8 @@
   "bloodstone": {
     "abilities": [],
     "hint": [
-      "Ativa: Pacto de Sangue Aumenta em 4x o roubo de vida arcano da Pedra de Sangue. Dura 5s.\n\nTipo de dissipação: Básica ",
-      "Em inglês: Bloodstone "
+      "Ativa: Pacto de Sangue Aumenta em 4x o roubo de vida arcano da Pedra de Sangue. Dura 5s.\n\nTipo de dissipação: Básica",
+      "Em inglês: Bloodstone"
     ],
     "id": 121,
     "img": "/assets/images/dota/items/bloodstone.png?t=1593393829403",
@@ -6575,7 +6577,7 @@
     "hint": [
       "Passiva: Bloqueio de Magias Bloqueia uma magia direcionada a você a cada 14 segundos.",
       "Ativa: Transferir Bloqueio de Magias Remove temporariamente o Bloqueio de Magias do portador do item e o transfere para uma unidade aliada por 14 segundos.",
-      "Em inglês: Linken's Sphere "
+      "Em inglês: Linken's Sphere"
     ],
     "id": 123,
     "img": "/assets/images/dota/items/sphere.png?t=1593393829403",
@@ -6645,8 +6647,8 @@
   "lotus_orb": {
     "abilities": [],
     "hint": [
-      "Ativa: Couraça Ressonante Aplica um escudo em uma unidade-alvo com duração de 5 segundos que relança a maioria das magias que requerem alvo de volta ao usuário original. \n\nA unidade protegida ainda sofrerá o dano da magia.\nTipo de dissipação: Básica ",
-      "Em inglês: Lotus Orb "
+      "Ativa: Couraça Ressonante Aplica um escudo em uma unidade-alvo com duração de 5 segundos que relança a maioria das magias que requerem alvo de volta ao usuário original. \n\nA unidade protegida ainda sofrerá o dano da magia.\nTipo de dissipação: Básica",
+      "Em inglês: Lotus Orb"
     ],
     "id": 226,
     "img": "/assets/images/dota/items/lotus_orb.png?t=1593393829403",
@@ -6715,7 +6717,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Martelo Meteorítico CANALIZADA — Após uma canalização bem sucedida, invoca um meteoro que atinge uma área de 400 unidades, atordoando inimigos por 0.5 segundos, causando dano no impacto e ao longo do tempo a unidades e estruturas inimigas durante 6 segundos. Unidades que não são estruturas também sofrem 20% de retardo durante a queima. \n\nDano de impacto em estruturas: 90 \nDano ao longo do tempo em estruturas: 50 \n\nDano de impacto em unidades: 130 \nDano ao longo do tempo em unidades: 50 \n\nDuração da canalização: 2 segundos.\nTempo do impacto: 0.5 segundos.",
-      "Em inglês: Meteor Hammer "
+      "Em inglês: Meteor Hammer"
     ],
     "id": 223,
     "img": "/assets/images/dota/items/meteor_hammer.png?t=1593393829403",
@@ -6819,8 +6821,8 @@
   "nullifier": {
     "abilities": [],
     "hint": [
-      "Ativa: Anular Dissipa os efeitos positivos do alvo e aplica um efeito negativo por 4 segundos. Dissipa e retarda o alvo continuamente.\n\nTipo de dissipação: Básica ",
-      "Em inglês: Nullifier "
+      "Ativa: Anular Dissipa os efeitos positivos do alvo e aplica um efeito negativo por 4 segundos. Dissipa e retarda o alvo continuamente.\n\nTipo de dissipação: Básica",
+      "Em inglês: Nullifier"
     ],
     "id": 225,
     "img": "/assets/images/dota/items/nullifier.png?t=1593393829403",
@@ -6898,8 +6900,8 @@
   "aeon_disk": {
     "abilities": [],
     "hint": [
-      "Passiva: Interruptor de Vida Ao sofrer dano e ficar com menos de 70% de vida, uma dissipação poderosa é aplicada e lhe fornece um efeito durante 2.5 segundos que fornece +75% de resistência estática e reduz a zero qualquer dano causado ou sofrido. Só é ativada por dano de heróis. O intervalo entre usos aumenta a cada ativação.Tipo de dissipação: Poderosa ",
-      "Em inglês: Aeon Disk "
+      "Passiva: Interruptor de Vida Ao sofrer dano e ficar com menos de 70% de vida, uma dissipação poderosa é aplicada e lhe fornece um efeito durante 2.5 segundos que fornece +75% de resistência estática e reduz a zero qualquer dano causado ou sofrido. Só é ativada por dano de heróis. O intervalo entre usos aumenta a cada ativação.Tipo de dissipação: Poderosa",
+      "Em inglês: Aeon Disk"
     ],
     "id": 256,
     "img": "/assets/images/dota/items/aeon_disk.png?t=1593393829403",
@@ -7005,8 +7007,8 @@
   "trident": {
     "abilities": [],
     "hint": [
-      "Combina Sange , Yasha e Kaya em um único item.",
-      "Em inglês: Trident "
+      "Combina Sange, Yasha e Kaya em um único item.",
+      "Em inglês: Trident"
     ],
     "id": 369,
     "img": "/assets/images/dota/items/trident.png?t=1593393829403",
@@ -7096,8 +7098,8 @@
   "refresher_shard": {
     "abilities": [],
     "hint": [
-      "Usar: Zerar Intervalos Zera o intervalo entre usos de todos os seus itens e habilidades. Compartilha o intervalo entre usos com o Orbe Restaurador , que só é reduzido enquanto este item estiver no inventário principal do seu herói.",
-      "Em inglês: Refresher Shard "
+      "Usar: Zerar Intervalos Zera o intervalo entre usos de todos os seus itens e habilidades. Compartilha o intervalo entre usos com o Orbe Restaurador, que só é reduzido enquanto este item estiver no inventário principal do seu herói.",
+      "Em inglês: Refresher Shard"
     ],
     "id": 260,
     "img": "/assets/images/dota/items/refresher_shard.png?t=1593393829403",
@@ -7154,7 +7156,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Libertação da Alma Quando usado em um herói inimigo, reduz 4% da vida atual por segundo, além de reduzir restaurações de vida em 70% e curas recebidas em 70%. Causa 25 de dano por segundo.\n\n Quando usado em um herói aliado, concede 40 de regeneração de vida por segundo.\n\nDura 8s.\n\nCaso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.\n\nGanha cargas toda vez que o portador ou um herói inimigo morrer dentro de 1400 unidades. Apenas o Receptáculo mais próximo do inimigo que morreu ganhará uma carga.",
-      "Em inglês: Spirit Vessel "
+      "Em inglês: Spirit Vessel"
     ],
     "id": 267,
     "img": "/assets/images/dota/items/spirit_vessel.png?t=1593393829403",
@@ -7242,7 +7244,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Bloqueio de Dano Concede 60% de chance de bloquear 50 de dano de ataques sofridos em heróis corpo a corpo e 25 de dano em heróis de longo alcance.",
-      "Em inglês: Vanguard "
+      "Em inglês: Vanguard"
     ],
     "id": 125,
     "img": "/assets/images/dota/items/vanguard.png?t=1593393829403",
@@ -7306,7 +7308,7 @@
     "hint": [
       "Ativa: Proteção Durante 7 segundos, concede a estruturas e heróis aliados próximos 100% de chance de bloquear dano igual a 70 + 2.2% da vida máxima do usuário a cada ataque sofrido.\nUnidades só podem ser afetadas por Proteção uma vez a cada 35 segundos.\n\nRaio: 1200",
       "Passiva: Bloqueio de Dano Concede 60% de chance de bloquear 75 de dano de ataques sofridos para heróis corpo a corpo. O bloqueio é de 50 de dano para heróis de longo alcance.",
-      "Em inglês: Crimson Guard "
+      "Em inglês: Crimson Guard"
     ],
     "id": 242,
     "img": "/assets/images/dota/items/crimson_guard.png?t=1593393829403",
@@ -7404,7 +7406,7 @@
     "hint": [
       "Ativa: Retorno de Dano Durante 5.5s, retorna todo o dano sofrido, aumentando a porcentagem em 85%.",
       "Passiva: Retorno de Dano Sempre que o portador for atacado, reflete 20 de dano + 20% do dano de ataque causado. ",
-      "Em inglês: Blade Mail "
+      "Em inglês: Blade Mail"
     ],
     "id": 127,
     "img": "/assets/images/dota/items/blade_mail.png?t=1593393829403",
@@ -7494,7 +7496,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Barreira Cria um escudo mágico que absorve até 350 de dano mágico. Dura 12 segundos.",
-      "Em inglês: Hood of Defiance "
+      "Em inglês: Hood of Defiance"
     ],
     "id": 131,
     "img": "/assets/images/dota/items/hood_of_defiance.png?t=1593393829403",
@@ -7559,7 +7561,7 @@
     "hint": [
       "Passiva: Mortalha Restaura mana equivalente a 25% do dano arcano sofrido, antes de reduções.",
       "Passiva: Resistência Eterna Por cada 300 de dano arcano que o herói portador sofrer, ele ganha um acúmulo de Resistência durante 5s, até um máximo de 6. Cada acúmulo aumenta a resistência mágica da Mortalha Eterna em 3.5%.",
-      "Em inglês: Eternal Shroud "
+      "Em inglês: Eternal Shroud"
     ],
     "id": 692,
     "img": "/assets/images/dota/items/eternal_shroud.png?t=1593393829403",
@@ -7621,7 +7623,7 @@
     "hint": [
       "Alternar: Transmutar Alterne para ganhar 25% de amplificação arcana adicional ou 250 de dano de ataque adicional.",
       "Passiva: Eternidade Cai do inventário ao morrer e não pode ser destruída. \n\nNão pode ser usada caso seja pega por um aliado do dono até que ela retorne ao inventário dele. Ela pode ser imediatamente usada por qualquer herói caso um inimigo do dono a pegue e seja morto. Uma Rapieira largada não pode ser pega por um entregador.",
-      "Em inglês: Caster Rapier "
+      "Em inglês: Caster Rapier"
     ],
     "id": 133,
     "img": "/assets/images/dota/items/rapier.png?t=1593393829403",
@@ -7676,7 +7678,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Perfurar Concede 80% de chance de perfurar, ignorando a esquiva e causando 70 de dano mágico adicional.",
-      "Em inglês: Monkey King Bar (MKB) "
+      "Em inglês: Monkey King Bar (MKB)"
     ],
     "id": 135,
     "img": "/assets/images/dota/items/monkey_king_bar.png?t=1593393829403",
@@ -7720,7 +7722,7 @@
     "abilities": [],
     "hint": [
       "Alternar: Chamuscar Quando ativo, chamusca e cega inimigos próximos, causando 60 de dano mágico por segundo e fazendo com que errem 15% dos seus ataques. Causa 150% de dano a ilusões. Ilusões causam 35 de dano mágico por segundo.\n\nRaio: 650",
-      "Em inglês: Radiance "
+      "Em inglês: Radiance"
     ],
     "id": 137,
     "img": "/assets/images/dota/items/radiance.png?t=1593393829403",
@@ -7837,7 +7839,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Golpe Crítico Fornece 30% de chance de causar 225% de dano a cada ataque.",
-      "Em inglês: Daedalus "
+      "Em inglês: Daedalus"
     ],
     "id": 141,
     "img": "/assets/images/dota/items/greater_crit.png?t=1593393829403",
@@ -7891,7 +7893,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Pancada Fornece a heróis corpo a corpo 25% de chance de atordoar o alvo por 1.2 segundos e causar 100 de dano físico adicional. A chance é de 10% para heróis de longo alcance.",
-      "Em inglês: Skull Basher "
+      "Em inglês: Skull Basher"
     ],
     "id": 143,
     "img": "/assets/images/dota/items/basher.png?t=1593393829403",
@@ -7967,7 +7969,7 @@
       "Ativa: Cortar Árvore Destrói uma árvore-alvo.",
       "Passiva: Supressão Aumenta o dano causado a unidades não heroicas. 10 para heróis corpo a corpo e 5 para longo alcance. ",
       "Passiva: Transposição Causa 60% do dano de ataque como dano físico em um cone de até 650 unidades ao redor do alvo. Causa 40% contra criaturas. (Apenas heróis corpo a corpo)",
-      "Em inglês: Battle Fury "
+      "Em inglês: Battle Fury"
     ],
     "id": 145,
     "img": "/assets/images/dota/items/bfury.png?t=1593393829403",
@@ -8063,8 +8065,8 @@
   "manta": {
     "abilities": [],
     "hint": [
-      "Ativa: Imagem Espelhada Cria 2 imagens do seu herói que duram 18 segundos. \n\nImagens de heróis corpo a corpo causam 33% de dano, enquanto imagens de longo alcance causam 28% de dano. Ilusões sofrem 300% de dano.\n\n Tipo de dissipação: Básica ",
-      "Em inglês: Manta Style "
+      "Ativa: Imagem Espelhada Cria 2 imagens do seu herói que duram 18 segundos. \n\nImagens de heróis corpo a corpo causam 33% de dano, enquanto imagens de longo alcance causam 28% de dano. Ilusões sofrem 300% de dano.\n\n Tipo de dissipação: Básica",
+      "Em inglês: Manta Style"
     ],
     "id": 147,
     "img": "/assets/images/dota/items/manta.png?t=1593393829403",
@@ -8228,7 +8230,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Alcance do Dragão Aumenta o alcance de ataque de heróis de longa distância.",
-      "Em inglês: Dragon Lance "
+      "Em inglês: Dragon Lance"
     ],
     "id": 236,
     "img": "/assets/images/dota/items/dragon_lance.png?t=1593393829403",
@@ -8284,7 +8286,7 @@
     "abilities": [],
     "hint": [
       "Alternar: Força Profana Enquanto estiver ativada, Força Profana fornece +35 de dano, +25 de Força e +4 de armadura ao custo de uma drenagem de 45 de vida por segundo.\n\nVocê não poderá morrer pela drenagem de vida enquanto estiver ativada, nem pela redução de Força quando for desativada.",
-      "Em inglês: Armlet of Mordiggian "
+      "Em inglês: Armlet of Mordiggian"
     ],
     "id": 151,
     "img": "/assets/images/dota/items/armlet.png?t=1593393829403",
@@ -8355,7 +8357,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Andar Sombrio Torna-o invisível por 17 segundos ou até você atacar ou lançar uma magia. Enquanto Andar Sombrio estiver ativo, você se move 20% mais rápido e pode atravessar unidades. \n\nCaso ataque para encerrar a invisibilidade, você causará 175 de dano físico adicional.",
-      "Em inglês: Shadow Blade "
+      "Em inglês: Shadow Blade"
     ],
     "id": 152,
     "img": "/assets/images/dota/items/invis_sword.png?t=1593393829403",
@@ -8427,7 +8429,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Andar Sombrio Torna o usuário invisível por 17 segundos ou até atacar ou lançar uma magia. Enquanto invisível, move-se 25% mais rápido e atravessa unidades. \n\nAtaques para encerrar a invisibilidade causam 300 de dano físico adicional, desativando habilidades passivas da vítima durante 6s.",
-      "Em inglês: Silver Edge "
+      "Em inglês: Silver Edge"
     ],
     "id": 249,
     "img": "/assets/images/dota/items/silver_edge.png?t=1593393829403",
@@ -8668,7 +8670,7 @@
     "hint": [
       "Ativa: Fúria Profana Roubo de vida 175% maior por 6s.\n\nTipo de dissipação: Básica ",
       "Passiva: Roubo de Vida Cura o atacante em uma porcentagem do dano físico causado.",
-      "Em inglês: Satanic "
+      "Em inglês: Satanic"
     ],
     "id": 156,
     "img": "/assets/images/dota/items/satanic.png?t=1593393829403",
@@ -8743,7 +8745,7 @@
     "hint": [
       "Ativa: Carga Estática Coloca um escudo carregado em uma unidade-alvo, com duração de 15 segundos, que tem 20% de chance de lançar um raio que causa 225 de dano mágico a uma unidade atacante próxima e outras 4 unidades inimigas adicionais.",
       "Passiva: Relâmpago em Cadeia Concede 25% de chance de, ao atacar, liberar um raio de eletricidade que salta por 12 alvos dentro de um raio de 650 unidades, causando 180 de dano mágico a cada um. Relâmpagos perfuram a esquiva, ignorando-a. Causa 150% de dano a ilusões.",
-      "Em inglês: Mjollnir "
+      "Em inglês: Mjollnir"
     ],
     "id": 158,
     "img": "/assets/images/dota/items/mjollnir.png?t=1593393829403",
@@ -8849,7 +8851,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Ataque Congelante Ataques retardam as velocidades de movimento e ataque de heróis inimigos conforme o tipo da vítima (-25%/-20% corpo a corpo e -50%/-20% longo alcance). Também reduz restaurações de vida em 40% e curas recebidas em 40%. Dura 3s.",
-      "Em inglês: Eye of Skadi "
+      "Em inglês: Eye of Skadi"
     ],
     "id": 160,
     "img": "/assets/images/dota/items/skadi.png?t=1593393829403",
@@ -8985,7 +8987,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Dominar Toma controle de uma unidade-alvo neutra não ancestral e altera a sua velocidade de movimento para 380 e vida máxima para 1000. A unidade controlada também recebe +25 de dano base de ataque, +12 de regeneração de vida, +4 de regeneração de mana e +4 de armadura.\n\nUnidades dominadas com uma vida máxima maior do que 1000 continuarão com a sua vida máxima original. Concede ao usuário a recompensa em ouro e experiência da criatura dominada. Criaturas dominadas fornecem 100 de ouro ao serem mortas e não podem mais ser mortas por habilidades que matam criaturas instantaneamente.",
-      "Em inglês: Helm of the Dominator "
+      "Em inglês: Helm of the Dominator"
     ],
     "id": 164,
     "img": "/assets/images/dota/items/helm_of_the_dominator.png?t=1593393829403",
@@ -9084,7 +9086,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Dominar Toma controle de uma unidade-alvo neutra e altera a sua velocidade de movimento para 380 e vida máxima para 1800. A unidade controlada também recebe +70 de dano base de ataque, +12 de regeneração de vida, +4 de regeneração de mana, +7 de armadura e aumenta algumas habilidades do alvo em 1 nível.\n\nUnidades dominadas com uma vida máxima maior do que 1800 continuarão com a sua vida máxima original. Concede ao usuário a recompensa em ouro e experiência da criatura dominada. Criaturas dominadas fornecem 250 de ouro ao serem mortas e não podem mais ser mortas por habilidades que matam criaturas instantaneamente.",
-      "Em inglês: Helm of the Overlord "
+      "Em inglês: Helm of the Overlord"
     ],
     "id": 635,
     "img": "/assets/images/dota/items/helm_of_the_overlord.png?t=1593393829403",
@@ -9171,7 +9173,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Relâmpago em Cadeia Concede 25% de chance de, ao atacar, liberar um raio de eletricidade que salta por 4 alvos dentro de um raio de 650 unidades, causando 110 de dano mágico a cada um. Relâmpagos perfuram a esquiva, ignorando-a. Causa 150% de dano contra ilusões.",
-      "Em inglês: Maelstrom "
+      "Em inglês: Maelstrom"
     ],
     "id": 166,
     "img": "/assets/images/dota/items/maelstrom.png?t=1593393829403",
@@ -9251,7 +9253,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Correntes Eternas Enraíza todos os inimigos em uma área-alvo de 350 unidades por 2s.",
-      "Em inglês: Gleipnir "
+      "Em inglês: Gleipnir"
     ],
     "id": 1466,
     "img": "/assets/images/dota/items/gungir.png?t=1593393829403",
@@ -9318,7 +9320,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Corrupção Os seus ataques reduzem a armadura do alvo em -6 por 7 segundos.",
-      "Passiva: Roubo de Alma A Desoladora ganha +2 de dano sempre que um herói inimigo morrer sob efeito da sua Corrupção , até um máximo de 30 de dano."
+      "Passiva: Roubo de Alma A Desoladora ganha +2 de dano sempre que um herói inimigo morrer sob efeito da sua Corrupção, até um máximo de 30 de dano."
     ],
     "id": 168,
     "img": "/assets/images/dota/items/desolator.png?t=1593393829403",
@@ -9423,7 +9425,7 @@
     "hint": [
       "Ativa: Fúria Concede 110 a mais de velocidade de ataque e 25 de movimento, em troca de 8 de armadura a menos e o silêncio do usuário. Dura 6s.",
       "Passiva: Roubo de Vida Cura o atacante em uma porcentagem do dano físico causado.",
-      "Em inglês: Mask of Madness "
+      "Em inglês: Mask of Madness"
     ],
     "id": 172,
     "img": "/assets/images/dota/items/mask_of_madness.png?t=1593393829403",
@@ -9496,7 +9498,7 @@
     "hint": [
       "Ativa: Inibir Alveja um inimigo, retardando-o por 4 segundos.",
       "Passiva: Quebra de Mana Os seus ataques queimam 40 de mana do alvo e causam 1 de dano físico a cada ponto de mana queimado. \n\nIlusões corpo a corpo queimam 8 de mana e ilusões de longo alcance queimam 8 de mana por ataque.",
-      "Em inglês: Diffusal Blade "
+      "Em inglês: Diffusal Blade"
     ],
     "id": 174,
     "img": "/assets/images/dota/items/diffusal_blade.png?t=1593393829403",
@@ -9582,8 +9584,8 @@
     "abilities": [],
     "hint": [
       "Ativa: Suprimir Retarda o alvo por 5s caso seja um inimigo. Caso seja um aliado, recebe uma dissipação básica, velocidade de movimento adicional e 40% de resistência a retardos durante 5s. O usuário sempre recebe o efeito de aliado quando usado.\n\nA redução ou aumento da velocidade de movimento começa em ±100% e é gradualmente reduzida a 0% pela duração do efeito.",
-      "Passiva: Quebra de Mana Os seus ataques queimam 40 de mana do alvo e causam 1 de dano físico a cada ponto de mana queimado. \n\nIlusões corpo a corpo queimam 8 de mana e ilusões de longo alcance queimam 8 de mana por ataque. \n\nTipo de dissipação: Básica ",
-      "Em inglês: Disperser  "
+      "Passiva: Quebra de Mana Os seus ataques queimam 40 de mana do alvo e causam 1 de dano físico a cada ponto de mana queimado. \n\nIlusões corpo a corpo queimam 8 de mana e ilusões de longo alcance queimam 8 de mana por ataque. \n\nTipo de dissipação: Básica",
+      "Em inglês: Disperser "
     ],
     "id": 1097,
     "img": "/assets/images/dota/items/disperser.png?t=1593393829403",
@@ -9688,7 +9690,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Explosão de Éter Converte o alvo para forma etérea, imunizando-o contra dano físico, impedindo que ataque e aumentando em -40% o dano mágico sofrido.\n\nAlvos inimigos também sofrem -80% de retardo de movimento, além de sofrerem o valor do atributo primário do alvo x1.5 + 50 como dano mágico.\nDuração: 4 segundos",
-      "Em inglês: Ethereal Blade "
+      "Em inglês: Ethereal Blade"
     ],
     "id": 176,
     "img": "/assets/images/dota/items/ethereal_blade.png?t=1593393829403",
@@ -9796,7 +9798,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Sacrifício Consome %abilityhealthcost% de vida para temporariamente receber 170 de mana. Dura 10 segundos.\n\nCaso a quantidade de mana ganho ultrapasse o total da reserva de mana, você ganhará um acréscimo de mana que será usado antes da reserva.",
-      "Em inglês: Soul Ring "
+      "Em inglês: Soul Ring"
     ],
     "id": 178,
     "img": "/assets/images/dota/items/soul_ring.png?t=1593393829403",
@@ -9862,7 +9864,7 @@
       "Ativa: Reabastecer Recupera 150 de mana de todos os aliados próximos.\n\nRaio: 1200",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
       "Passiva: Aura de Basílio Concede 1 de regeneração de mana para aliados.\n\nRaio: 1200 unidades",
-      "Em inglês: Arcane Boots "
+      "Em inglês: Arcane Boots"
     ],
     "id": 180,
     "img": "/assets/images/dota/items/arcane_boots.png?t=1593393829403",
@@ -9917,7 +9919,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Redução de Intervalos Reduz o intervalo entre usos de todas as habilidades e itens.",
-      "Em inglês: Octarine Core "
+      "Em inglês: Octarine Core"
     ],
     "id": 235,
     "img": "/assets/images/dota/items/octarine_core.png?t=1593393829403",
@@ -9966,7 +9968,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Ataque Venenoso Envenena o alvo, causando 10 de dano mágico por segundo. Dura 3s.",
-      "Em inglês: Orb of Venom "
+      "Em inglês: Orb of Venom"
     ],
     "id": 181,
     "img": "/assets/images/dota/items/orb_of_venom.png?t=1593393829403",
@@ -10001,7 +10003,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Corrupção Menor Os seus ataques reduzem a armadura do alvo em -2 por 3 segundos.",
-      "Em inglês: Blight Stone "
+      "Em inglês: Blight Stone"
     ],
     "id": 240,
     "img": "/assets/images/dota/items/blight_stone.png?t=1593393829403",
@@ -10033,7 +10035,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Corrosão Os seus ataques reduzem a armadura do alvo em -2 e a velocidade de movimento em -16% (-8% contra alvos corpo a corpo). Também reduz restaurações de vida em 16%. Dura 3s.",
-      "Em inglês: Orb of Corrosion "
+      "Em inglês: Orb of Corrosion"
     ],
     "id": 569,
     "img": "/assets/images/dota/items/orb_of_corrosion.png?t=1593393829403",
@@ -10085,7 +10087,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Congelamento Os seus ataques retardam a velocidade de movimento em -13% (-6% contra alvos corpo a corpo). Também reduz restaurações de vida em 13%. Dura 3s.",
-      "Em inglês: Orb of Frost "
+      "Em inglês: Orb of Frost"
     ],
     "id": 1575,
     "img": "/assets/images/dota/items/orb_of_frost.png?t=1593393829403",
@@ -10175,7 +10177,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Assassina de Magos Coloca um efeito negativo em inimigos ao atacá-los, causando 20 de dano por segundo e fazendo com que causem menos 40% de dano arcano durante 3 segundos.",
-      "Em inglês: Mage Slayer "
+      "Em inglês: Mage Slayer"
     ],
     "id": 598,
     "img": "/assets/images/dota/items/mage_slayer.png?t=1593393829403",
@@ -10263,7 +10265,7 @@
     "hint": [
       "Ativa: Resistência Concede +35 de velocidade de ataque e +13% de movimento a aliados próximos durante 6s.\n\nRaio: 1200 unidades",
       "Passiva: Aura da Rapidez Concede 15 de velocidade de movimento a aliados.\n\nRaio: 1200 unidades",
-      "Em inglês: Drum of Endurance "
+      "Em inglês: Drum of Endurance"
     ],
     "id": 185,
     "img": "/assets/images/dota/items/ancient_janggo.png?t=1593393829403",
@@ -10344,7 +10346,7 @@
     "hint": [
       "Ativa: Resistência Concede +50 de velocidade de ataque e +15% de movimento a aliados próximos durante 6 segundos. Pelos primeiros 1.5 segundos, os aliados são imunes a retardo.\n\nRaio: 1200 unidades",
       "Passiva: Aura da Rapidez Concede 20 de velocidade de movimento a aliados.\n\nRaio: 1200 unidades",
-      "Em inglês: Boots of Bearing "
+      "Em inglês: Boots of Bearing"
     ],
     "id": 931,
     "img": "/assets/images/dota/items/boots_of_bearing.png?t=1593393829403",
@@ -10417,7 +10419,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Bravura Caso usado em um aliado, concede -6 de armadura enquanto reduz a do usuário. \n\nCaso usado em um inimigo, reduz em -6 a armadura do inimigo e do usuário.\n\nDuração: 8s",
-      "Em inglês: Medallion of Courage "
+      "Em inglês: Medallion of Courage"
     ],
     "id": 187,
     "img": "/assets/images/dota/items/medallion_of_courage.png?t=1593393829403",
@@ -10485,7 +10487,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Brilho Solar Quando usado em aliados, fornece-lhes mais 5 de armadura, 60 de velocidade de ataque, 15% de velocidade de movimento e uma barreira contra 350 de dano físico.\n\nNão concede armadura, velocidades de movimento ou ataque adicionais caso usado no portador.\n\nDuração: 7s",
-      "Em inglês: Solar Crest "
+      "Em inglês: Solar Crest"
     ],
     "id": 229,
     "img": "/assets/images/dota/items/solar_crest.png?t=1593393829403",
@@ -10583,7 +10585,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Proteger Quando usada em um aliado, concede uma barreira contra dano físico com 250 de vida. Duração: 7s",
-      "Em inglês: Pavise "
+      "Em inglês: Pavise"
     ],
     "id": 1128,
     "img": "/assets/images/dota/items/pavise.png?t=1593393829403",
@@ -10643,7 +10645,7 @@
     "abilities": [],
     "hint": [
       "Usar: Enganação O usuário e todas as unidades aliadas controladas por jogadores em um raio de 1025 unidades tornam-se invisíveis e recebem 15% de velocidade de movimento adicional por 45 segundos.\n\nEnquanto o usuário estiver invisível, qualquer aliado que ficar a menos de 300 unidades de distância dele também receberá o efeito. Cada Fumaça só pode ser aplicada uma vez por aliado. \n\nAtacar ou mover-se dentro de um raio de 1025 unidades de um herói ou torre inimiga removerá a invisibilidade.\n\nEnganação fornece invisibilidade e imunidade à Visão Verdadeira.",
-      "Em inglês: Smoke of Deceit "
+      "Em inglês: Smoke of Deceit"
     ],
     "id": 188,
     "img": "/assets/images/dota/items/smoke_of_deceit.png?t=1593393829403",
@@ -10690,7 +10692,7 @@
     "abilities": [],
     "hint": [
       "Usar: Esclarecimento Fornece 750 de experiência + 150 por tomo consumido pela sua equipe após os dois primeiros.\n\n",
-      "Em inglês: Tome of Knowledge "
+      "Em inglês: Tome of Knowledge"
     ],
     "id": 257,
     "img": "/assets/images/dota/items/tome_of_knowledge.png?t=1593393829403",
@@ -10740,7 +10742,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Fraqueza Mágica Causa uma explosão em um raio de 900 unidades que faz com que heróis inimigos sofram mais 10% de dano mágico.\n\nPode ser usada durante canalizações.\n\nDuração: 16s.",
-      "Em inglês: Veil of Discord "
+      "Em inglês: Veil of Discord"
     ],
     "id": 190,
     "img": "/assets/images/dota/items/veil_of_discord.png?t=1593393829403",
@@ -10814,7 +10816,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Crítico Fantasma Concede a cada ataque 30% de chance de causar mais 80% do dano de ataque como dano mágico adicional.",
-      "Em inglês: Revenant's Brooch "
+      "Em inglês: Revenant's Brooch"
     ],
     "id": 911,
     "img": "/assets/images/dota/items/revenants_brooch.png?t=1593393829403",
@@ -10875,7 +10877,7 @@
     "hint": [
       "Passiva: Lâmina do Bruxo Faz com que o seu próximo ataque tenha Impacto Verdadeiro e aplique um veneno por 4s, retardando o alvo em 25% e causando 0.75x a Inteligência do portador como dano a cada segundo.",
       "Passiva: Corrupção Mágica Os seus ataques reduzem a resistência mágica de inimigos em 20% durante 4s.",
-      "Em inglês: Parasma "
+      "Em inglês: Parasma"
     ],
     "id": 1806,
     "img": "/assets/images/dota/items/devastator.png?t=1593393829403",
@@ -10961,10 +10963,10 @@
   "guardian_greaves": {
     "abilities": [],
     "hint": [
-      "Ativa: Recompor Restaura 325 de vida e 200 de mana de aliados próximos e remove a maioria dos efeitos negativos do usuário.\n\nRaio: 1200\nTipo de dissipação: Básica ",
+      "Ativa: Recompor Restaura 325 de vida e 200 de mana de aliados próximos e remove a maioria dos efeitos negativos do usuário.\n\nRaio: 1200\nTipo de dissipação: Básica",
       "Passiva: Aura Guardiã Concede 2.5 de regeneração de vida, 1.5 de regeneração de mana e 3 de armadura a unidades aliadas. Caso um herói aliado fique com menos de 25% de vida, os valores são aumentados para 14.5 de regeneração de vida, 5 de regeneração de mana e 8 de armadura adicional.\n\nRaio: 1200 unidades ",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Guardian Greaves "
+      "Em inglês: Guardian Greaves"
     ],
     "id": 231,
     "img": "/assets/images/dota/items/guardian_greaves.png?t=1593393829403",
@@ -11073,7 +11075,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Incapacitar Enraíza o alvo por 2 segundos.",
-      "Em inglês: Rod of Atos "
+      "Em inglês: Rod of Atos"
     ],
     "id": 206,
     "img": "/assets/images/dota/items/rod_of_atos.png?t=1593393829403",
@@ -11133,10 +11135,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Cortar Remove 80% da vida atual de uma unidade inimiga não controlada por um jogador.\n\nUsar em uma árvore a destrói imediatamente.",
-      "Em inglês: Iron Talon "
+      "Em inglês: Iron Talon"
     ],
     "id": 239,
     "img": "/assets/images/dota/items/iron_talon.png?t=1593393829403",
+    "dname": "#|f|#Garras de Ferro",
     "qual": "common",
     "cost": 0,
     "behavior": "Unit Target",
@@ -11201,7 +11204,7 @@
     "hint": [
       "Ativa: Sobrepujar Atordoa uma unidade inimiga por 1.6s.\n\nIgnora imunidade a efeitos.",
       "Passiva: Pancada Concede a heróis corpo a corpo 25% de chance de atordoar o alvo por 1.2s e causar 120 de dano físico adicional. A chance é de 10% para heróis de longo alcance.",
-      "Em inglês: Abyssal Blade "
+      "Em inglês: Abyssal Blade"
     ],
     "id": 208,
     "img": "/assets/images/dota/items/abyssal_blade.png?t=1593393829403",
@@ -11294,7 +11297,7 @@
     "hint": [
       "Ativa: Desarmar Impossibilita um alvo de atacar por 3s caso o alvo seja corpo a corpo e 4s caso seja de longo alcance.",
       "Passiva: Bloqueio de Dano Concede 60% de chance de bloquear %amage_block_melee% de dano de ataques sofridos em heróis corpo a corpo e %amage_block_ranged% de dano em heróis de longo alcance.",
-      "Em inglês: Heaven's Halberd "
+      "Em inglês: Heaven's Halberd"
     ],
     "id": 210,
     "img": "/assets/images/dota/items/heavens_halberd.png?t=1593393829403",
@@ -11361,7 +11364,7 @@
     "hint": [
       "Passiva: Aura de Áquila Fornece 1 de regeneração de mana e 2 de armadura para aliados próximos.\n\nRaio: 1200 unidades",
       "Alternar: Aura Desative para não afetar unidades que não sejam heróis.",
-      "Em inglês: Ring of Aquila "
+      "Em inglês: Ring of Aquila"
     ],
     "id": 212,
     "img": "/assets/images/dota/items/ring_of_aquila.png?t=1593393829403",
@@ -11419,7 +11422,7 @@
     "hint": [
       "Passiva: Quebra Sempre que atacar um herói ou for atacado por qualquer unidade, os 14 de regeneração de vida adicionais são perdidos e a velocidade de movimento adicional é reduzida a 40 por 13 segundos.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Tranquil Boots "
+      "Em inglês: Tranquil Boots"
     ],
     "id": 214,
     "img": "/assets/images/dota/items/tranquil_boots.png?t=1593393829403",
@@ -11487,7 +11490,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Sumir Concede invisibilidade a você ou um herói aliado por 3.5s, mas reduz a velocidade de movimento em 35%.",
-      "Em inglês: Shadow Amulet "
+      "Em inglês: Shadow Amulet"
     ],
     "id": 215,
     "img": "/assets/images/dota/items/shadow_amulet.png?t=1593393829403",
@@ -11544,7 +11547,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Cobertura Cintilante Após um atraso de 0.5s, concede invisibilidade, 20 de velocidade de movimento e uma barreira contra dano mágico com 375 de vida a você ou ao herói aliado alvo durante 5 segundos.\n\nPode ser usada durante canalizações.",
-      "Em inglês: Glimmer Cape "
+      "Em inglês: Glimmer Cape"
     ],
     "id": 254,
     "img": "/assets/images/dota/items/glimmer_cape.png?t=1593393829403",
@@ -11869,7 +11872,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Amplificação Mágica Reduz a resistência mágica do inimigo atacado em 20%.",
-      "Em inglês: Grove Bow "
+      "Em inglês: Grove Bow"
     ],
     "id": 288,
     "img": "/assets/images/dota/items/grove_bow.png?t=1593393829403",
@@ -11906,7 +11909,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Redução de Intervalos Reduz o intervalo entre usos de todas as habilidades e itens.",
-      "Em inglês: Quickening Charm "
+      "Em inglês: Quickening Charm"
     ],
     "id": 289,
     "img": "/assets/images/dota/items/quickening_charm.png?t=1593393829403",
@@ -11967,10 +11970,10 @@
   "force_boots": {
     "abilities": [],
     "hint": [
-      "Ativa: Força Empurra o alvo 750 unidades na direção em que estiver virado. Aplica uma dissipação ao usar em um aliado.\n\nTipo de dissipação: Básica ",
+      "Ativa: Força Empurra o alvo 750 unidades na direção em que estiver virado. Aplica uma dissipação ao usar em um aliado.\n\nTipo de dissipação: Básica",
       "Passiva: Velocidade Ilimitada Remove completamente o limite de velocidade do portador.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Force Boots "
+      "Em inglês: Force Boots"
     ],
     "id": 291,
     "img": "/assets/images/dota/items/force_boots.png?t=1593393829403",
@@ -12015,10 +12018,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Corrupção Superior Os seus ataques reduzem a armadura do alvo em -13 por 7 segundos.",
-      "Em inglês: Stygian Desolator "
+      "Em inglês: Stygian Desolator"
     ],
     "id": 292,
     "img": "/assets/images/dota/items/desolator_2.png?t=1593393829403",
+    "dname": "#|f|#Desoladora Infernal",
     "cost": 0,
     "bkbpierce": "Yes",
     "notes": "A redução de armadura funciona em estruturas.",
@@ -12042,13 +12046,14 @@
     "lore": "A clássica versão demoníaca que serviu como base para o amado formato mortal.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "phoenix_ash": {
     "abilities": [],
     "hint": [
       "Passiva: Renascer Ao invés de sofrer dano letal, o portador é curado em metade da vida e zera o intervalo entre usos de habilidades, exceto Ultimates. Uso único, desaparece após ativado.",
-      "Em inglês: Phoenix Ash "
+      "Em inglês: Phoenix Ash"
     ],
     "id": 293,
     "img": "/assets/images/dota/items/phoenix_ash.png?t=1593393829403",
@@ -12073,7 +12078,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Revelar Revela uma área-alvo no mapa com raio de 800 unidades por 6 segundos.",
-      "Em inglês: Seer Stone "
+      "Em inglês: Seer Stone"
     ],
     "id": 294,
     "img": "/assets/images/dota/items/seer_stone.png?t=1593393829403",
@@ -12140,7 +12145,7 @@
     "abilities": [],
     "hint": [
       "Usar: Consumir Restaura 500 de vida e 250 de mana do alvo ao longo de 6 segundos.\n\nCaso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.",
-      "Em inglês: Elixir "
+      "Em inglês: Elixir"
     ],
     "id": 302,
     "img": "/assets/images/dota/items/elixer.png?t=1593393829403",
@@ -12215,7 +12220,7 @@
     "hint": [
       "Ativa: Megaescudo Passa a fornecer 25% de reflexão de dano por 5 segundos.",
       "Passiva: Escudo Fornece +4 de armadura e +8% de resistência mágica a todos os demais aliados em até 1200 unidades de distância.",
-      "Em inglês: Arcanist's Armor "
+      "Em inglês: Arcanist's Armor"
     ],
     "id": 829,
     "img": "/assets/images/dota/items/force_field.png?t=1593393829403",
@@ -12332,7 +12337,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Endurecer Concede 6 de armadura adicional, em troca de -20 de velocidade de movimento. Dura 6s.",
-      "Em inglês: Craggy Coat "
+      "Em inglês: Craggy Coat"
     ],
     "id": 298,
     "img": "/assets/images/dota/items/craggy_coat.png?t=1593393829403",
@@ -12377,7 +12382,7 @@
     "abilities": [],
     "hint": [
       "Usar: Imbuir Restaura instantaneamente 250 de vida.",
-      "Em inglês: Greater Faerie Fire "
+      "Em inglês: Greater Faerie Fire"
     ],
     "id": 299,
     "img": "/assets/images/dota/items/greater_faerie_fire.png?t=1593393829403",
@@ -12414,7 +12419,7 @@
     "abilities": [],
     "hint": [
       "Aumenta todo o dano e a duração de efeitos negativos de habilidades.",
-      "Em inglês: Timeless Relic "
+      "Em inglês: Timeless Relic"
     ],
     "id": 300,
     "img": "/assets/images/dota/items/timeless_relic.png?t=1593393829403",
@@ -12445,7 +12450,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Escudo Ecoante Bloqueia e reflete a maioria dos feitiços alvejados de volta para o lançador uma vez a cada 12 segundos.",
-      "Em inglês: Mirror Shield "
+      "Em inglês: Mirror Shield"
     ],
     "id": 301,
     "img": "/assets/images/dota/items/mirror_shield.png?t=1593393829403",
@@ -12479,7 +12484,7 @@
     "abilities": [],
     "hint": [
       "Usar: Plantar Árvore Planta uma árvore em um ponto-alvo que dura 20 segundos.",
-      "Em inglês: Iron Branch "
+      "Em inglês: Iron Branch"
     ],
     "id": 304,
     "img": "/assets/images/dota/items/ironwood_tree.png?t=1593393829403",
@@ -12510,7 +12515,7 @@
     "abilities": [],
     "hint": [
       "Usar: Plantar Mangueira Planta uma mangueira em um ponto-alvo que fornece o poder ilimitado das mangas! A árvore gera Mangas Encantadas a cada 60 segundos e concede visão desobstruída da área.",
-      "Em inglês: Mango Tree "
+      "Em inglês: Mango Tree"
     ],
     "id": 328,
     "img": "/assets/images/dota/items/mango_tree.png?t=1593393829403",
@@ -12537,7 +12542,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Consumir Consome todas as cargas e concede à unidade-alvo aliada um efeito que fornece +2.5 de regeneração de vida e +1.25 de regeneração de mana por carga durante 8s.\n\nCaso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.",
-      "Em inglês: Royal Jelly "
+      "Em inglês: Royal Jelly"
     ],
     "id": 305,
     "img": "/assets/images/dota/items/royal_jelly.png?t=1593393829403",
@@ -12620,7 +12625,7 @@
     "abilities": [],
     "hint": [
       "Usar: Consumir Fornece temporariamente o efeito do Cetro de Aghanim a um alvo aliado. Dura 3 minutos.",
-      "Em inglês: Tome of Aghanim "
+      "Em inglês: Tome of Aghanim"
     ],
     "id": 307,
     "img": "/assets/images/dota/items/tome_of_aghanim.png?t=1593393829403",
@@ -12651,7 +12656,7 @@
     "abilities": [],
     "hint": [
       "Usar: Reparação Estrutural Alveja uma estrutura, restaurando 40% da sua vida durante 30 segundos. Também fornece +10 de armadura durante o período.",
-      "Em inglês: Repair Kit "
+      "Em inglês: Repair Kit"
     ],
     "id": 308,
     "img": "/assets/images/dota/items/repair_kit.png?t=1593393829403",
@@ -12696,10 +12701,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Golpe Silencioso O próximo ataque silencia o alvo por 1.5 segundos.",
-      "Em inglês: Mind Breaker "
+      "Em inglês: Mind Breaker"
     ],
     "id": 309,
     "img": "/assets/images/dota/items/mind_breaker.png?t=1593393829403",
+    "dname": "#|f|#Quebramentes",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -12728,8 +12734,8 @@
     "abilities": [],
     "hint": [
       "Passiva: Visão Verdadeira Concede a habilidade de ver unidades invisíveis e Sentinelas a qualquer fonte de visão aliada dentro de 500 unidades ao redor do seu portador.",
-      "Passiva: Perda de Carga Perde uma carga ao morrer. Após perder todas as cargas, o item desaparece. ",
-      "Em inglês: Third Eye "
+      "Passiva: Perda de Carga Perde uma carga ao morrer. Após perder todas as cargas, o item desaparece.",
+      "Em inglês: Third Eye"
     ],
     "id": 310,
     "img": "/assets/images/dota/items/third_eye.png?t=1593393829403",
@@ -12764,7 +12770,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Redução de Intervalos Reduz o intervalo entre usos de todas as habilidades e itens.",
-      "Em inglês: Spell Prism "
+      "Em inglês: Spell Prism"
     ],
     "id": 311,
     "img": "/assets/images/dota/items/spell_prism.png?t=1593393829403",
@@ -12800,7 +12806,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Golpe Enfeitiçado O próximo ataque enfeitiça o inimigo atingido, transformando-o em um sapo por 1.5 segundos.",
-      "Em inglês: Prince's Knife "
+      "Em inglês: Prince's Knife"
     ],
     "id": 325,
     "img": "/assets/images/dota/items/princes_knife.png?t=1593393829403",
@@ -12834,7 +12840,7 @@
     "abilities": [],
     "hint": [
       "Aumenta a vida máxima do portador, enquanto reduz o seu mana máximo.",
-      "Em inglês: Witless Shako "
+      "Em inglês: Witless Shako"
     ],
     "id": 330,
     "img": "/assets/images/dota/items/witless_shako.png?t=1593393829403",
@@ -12865,7 +12871,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Golpe Crítico Fortalece o seu próximo ataque, tornando-o um golpe crítico que causa 130% de dano.",
-      "Em inglês: Imp Claw "
+      "Em inglês: Imp Claw"
     ],
     "id": 334,
     "img": "/assets/images/dota/items/imp_claw.png?t=1593393829403",
@@ -12893,8 +12899,8 @@
   "flicker": {
     "abilities": [],
     "hint": [
-      "Ativa: Tremeluzir Dissipa efeitos negativos e transloca o herói para um ponto aleatório em frente entre 200 e 600 unidades de distância. Caso usada em até 3 segundos após sofrer dano de um jogador, a translocação não moverá o herói para outro ponto.\n\nTipo de dissipação: Básica ",
-      "Em inglês: Flicker "
+      "Ativa: Tremeluzir Dissipa efeitos negativos e transloca o herói para um ponto aleatório em frente entre 200 e 600 unidades de distância. Caso usada em até 3 segundos após sofrer dano de um jogador, a translocação não moverá o herói para outro ponto.\n\nTipo de dissipação: Básica",
+      "Em inglês: Flicker"
     ],
     "id": 335,
     "img": "/assets/images/dota/items/flicker.png?t=1593393829403",
@@ -12932,7 +12938,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Aura Presciente Reduz o intervalo entre usos da Sonda em 50%. Aumenta os alcances de ataque (somente heróis de longo alcance) e uso de aliados em um raio de 1200 unidades ao seu redor.",
-      "Em inglês: Telescope "
+      "Em inglês: Telescope"
     ],
     "id": 336,
     "img": "/assets/images/dota/items/spy_gadget.png?t=1593393829403",
@@ -12972,10 +12978,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Disparada Concede 20% de velocidade de movimento adicional, mais 50% de taxa de rotação e movimentação desobstruída por 10s. Passar por árvores as destroem.",
-      "Em inglês: Spider Legs "
+      "Em inglês: Spider Legs"
     ],
     "id": 326,
     "img": "/assets/images/dota/items/spider_legs.png?t=1593393829403",
+    "dname": "#|f|#Pernas de Aranha",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13002,16 +13009,18 @@
     "lore": "Uma mistura assustadora, porém útil, de necromancia e engenharia.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "helm_of_the_undying": {
     "abilities": [],
     "hint": [
       "Passiva: Morte Postergada Sobrevive por mais 5 segundos após sofrer um golpe fatal. Caso algum herói inimigo morra em um raio de 1200 unidades, a morte é postergada por mais 5s.",
-      "Em inglês: Helm of the Undying "
+      "Em inglês: Helm of the Undying"
     ],
     "id": 327,
     "img": "/assets/images/dota/items/helm_of_the_undying.png?t=1593393829403",
+    "dname": "#|m|#Elmo do Morto-Vivo",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13034,7 +13043,8 @@
     "lore": "O preço pelo seu uso é pago no além-vida.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "vambrace": {
     "abilities": [],
@@ -13043,7 +13053,7 @@
       " Força: +10% de resistência mágica ",
       " Agilidade: +15 de velocidade de ataque ",
       " Inteligência: +8% de amplificação arcana",
-      "Em inglês: Vambrace "
+      "Em inglês: Vambrace"
     ],
     "id": 331,
     "img": "/assets/images/dota/items/vambrace.png?t=1593393829403",
@@ -13118,7 +13128,7 @@
     "abilities": [],
     "hint": [
       "Usar: Consumir Concede ao alvo os efeitos de todas as runas de poder por 50 segundos. Cada uso consome uma carga.",
-      "Em inglês: Fusion Rune "
+      "Em inglês: Fusion Rune"
     ],
     "id": 313,
     "img": "/assets/images/dota/items/fusion_rune.png?t=1593393829403",
@@ -13149,7 +13159,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Regeneração Hídrica Fornece 10 de regeneração de vida e 5 de regeneração de mana enquanto estiver no rio.",
-      "Em inglês: Ocean Heart "
+      "Em inglês: Ocean Heart"
     ],
     "id": 354,
     "img": "/assets/images/dota/items/ocean_heart.png?t=1593393829403",
@@ -13183,10 +13193,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Coragem Concede 10 de dano quando o herói estiver com mais de 50% de vida, e 5 de armadura quando contrário.",
-      "Em inglês: Spark of Courage "
+      "Em inglês: Spark of Courage"
     ],
     "id": 1124,
     "img": "/assets/images/dota/items/spark_of_courage.png?t=1593393829403",
+    "dname": "#|f|#Faísca da Coragem",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13209,7 +13220,8 @@
     "lore": "Um amuleto de batalha comum entre os exércitos que serviam aos Filhos da Luz.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "broom_handle": {
     "id": 355,
@@ -13246,10 +13258,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Escavar Canaliza por 1s. \nPode encontrar uma Runa de Recompensas, Bálsamo de Cura, uma Manga Encantada ou um Kobold. Ao escavar na água, sempre encontra uma Runa d'Água.",
-      "Em inglês: Trusty Shovel "
+      "Em inglês: Trusty Shovel"
     ],
     "id": 356,
     "img": "/assets/images/dota/items/trusty_shovel.png?t=1593393829403",
+    "dname": "#|f|#Pá de Confiança",
     "cost": 0,
     "behavior": [
       "Point Target",
@@ -13317,7 +13330,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Queimadura Faz com que os seus ataques queimem os inimigos, causando 22 de dano por segundo durante 3 segundos. Afeta estruturas.",
-      "Em inglês: Dragon Scale "
+      "Em inglês: Dragon Scale"
     ],
     "id": 358,
     "img": "/assets/images/dota/items/dragon_scale.png?t=1593393829403",
@@ -13346,10 +13359,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Essência Vital Aumenta a sua vida atual e máxima em 240 durante 10 segundos.",
-      "Em inglês: Essence Ring "
+      "Em inglês: Essence Ring"
     ],
     "id": 359,
     "img": "/assets/images/dota/items/essence_ring.png?t=1593393829403",
+    "dname": "#|m|#Anel da Essência",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13380,13 +13394,14 @@
     "lore": "Uma quinquilharia antiga abençoada pelo sopro de Verodícia.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 2
   },
   "clumsy_net": {
     "abilities": [],
     "hint": [
       "Ativa: Enredar Prende o alvo e você mesmo por 1.75 segundos.",
-      "Em inglês: Clumsy Net "
+      "Em inglês: Clumsy Net"
     ],
     "id": 360,
     "img": "/assets/images/dota/items/clumsy_net.png?t=1593393829403",
@@ -13426,7 +13441,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Golpe Certeiro Fortalece o seu próximo ataque com 250 de dano mágico adicional e Impacto Verdadeiro. Heróis de longo alcance têm +350 de alcance adicional.",
-      "Em inglês: Enchanted Quiver "
+      "Em inglês: Enchanted Quiver"
     ],
     "id": 361,
     "img": "/assets/images/dota/items/enchanted_quiver.png?t=1593393829403",
@@ -13459,10 +13474,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Disfarce Solitário Usa uma Fumaça da Enganação apenas em você, durando 15s.",
-      "Em inglês: Ninja Gear "
+      "Em inglês: Ninja Gear"
     ],
     "id": 362,
     "img": "/assets/images/dota/items/ninja_gear.png?t=1593393829403",
+    "dname": "#|m|#Equipamento Ninja",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13508,7 +13524,7 @@
     "hint": [
       "Ativa: Criar Ilusão Cria uma imagem sob o seu controle. ",
       " Passiva: Maestria Ilusionística Fornece mais 6% de dano a todas as unidades e ilusões controladas pelo herói portador.",
-      "Em inglês: Illusionist's Cape "
+      "Em inglês: Illusionist's Cape"
     ],
     "id": 363,
     "img": "/assets/images/dota/items/illusionsts_cape.png?t=1593393829403",
@@ -13570,7 +13586,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Destruição Puxa inimigos em um raio de 400 unidades ao seu redor, retardando-os em 50% durante 3 segundos e causando 175 + 1.5x a sua Força como dano mágico.",
-      "Em inglês: Havoc Hammer "
+      "Em inglês: Havoc Hammer"
     ],
     "id": 364,
     "img": "/assets/images/dota/items/havoc_hammer.png?t=1593393829403",
@@ -13636,11 +13652,12 @@
   "panic_button": {
     "abilities": [],
     "hint": [
-      "Passiva: Rejuvenescer Quando a vida do portador ficar abaixo de 20%, ele receberá uma dissipação poderosa e será curado em 1500 de vida.Tipo de dissipação: Poderosa ",
-      "Em inglês: Magic Lamp "
+      "Passiva: Rejuvenescer Quando a vida do portador ficar abaixo de 20%, ele receberá uma dissipação poderosa e será curado em 1500 de vida.Tipo de dissipação: Poderosa",
+      "Em inglês: Magic Lamp"
     ],
     "id": 365,
     "img": "/assets/images/dota/items/panic_button.png?t=1593393829403",
+    "dname": "#|f|#Lâmpada Mágica",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13694,7 +13711,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Arremesso Arremessa inimigos 50 unidades para trás, causando 50 de dano puro a cada ataque.",
-      "Em inglês: Ballista "
+      "Em inglês: Ballista"
     ],
     "id": 367,
     "img": "/assets/images/dota/items/ballista.png?t=1593393829403",
@@ -13734,7 +13751,7 @@
       "Ativa: Passeio Florestal Cria um caminho de florestas atrás de você por 3 segundos. As árvores duram até 15 segundos.",
       "Passiva: Movimentação Arbórea Remove o limite de velocidade de movimento e concede movimentação desobstruída entre árvores.",
       "Velocidades de movimento adicionais de múltiplas botas não se acumulam.",
-      "Em inglês: Woodland Striders "
+      "Em inglês: Woodland Striders"
     ],
     "id": 368,
     "img": "/assets/images/dota/items/woodland_striders.png?t=1593393829403",
@@ -13793,10 +13810,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Invocação Demoníaca Superior Invoca 2 pares de guerreiros e arqueiros demoníacos que duram 65s. O Guerreiro queima mana a cada acerto, revela unidades invisíveis e causa dano mágico a quem o matar. O Arqueiro tem uma habilidade de dissipação básica com retardo e uma aura passiva de velocidade de movimento.",
-      "Em inglês: Book of the Dead "
+      "Em inglês: Book of the Dead"
     ],
     "id": 370,
     "img": "/assets/images/dota/items/demonicon.png?t=1593393829403",
+    "dname": "#|m|#Livro dos Mortos",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -13823,16 +13841,18 @@
     "lore": "Um registro do juízo final. Com uma página faltando.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "fallen_sky": {
     "abilities": [],
     "hint": [
       "Ativa: Impacto Celeste Transforma-se em um meteoro que atinge a área-alvo após 1s, em um raio de 315 unidades, atordoando inimigos por 1.6 segundos, causando dano no impacto e ao longo do tempo a unidades e estruturas inimigas a cada 1s durante 6 segundos.\n\nDano de impacto em estruturas: 75 \nDano ao longo do tempo em estruturas: 60 \n\nDano de impacto em unidades: 150 \nDano ao longo do tempo em unidades: 60\\\\\n\nImpacto Celeste não pode ser usado por 3s após sofrer dano de um herói inimigo ou Roshan.",
-      "Em inglês: Fallen Sky "
+      "Em inglês: Fallen Sky"
     ],
     "id": 371,
     "img": "/assets/images/dota/items/fallen_sky.png?t=1593393829403",
+    "dname": "#|m|#Impacto Celeste",
     "cost": 0,
     "behavior": "Point Target",
     "notes": "",
@@ -13904,17 +13924,19 @@
     "lore": "Uma das únicas criações remanescentes dos acólitos da Forja da Serpe.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "pirate_hat": {
     "abilities": [],
     "hint": [
       "Passiva: Pilhar Rouba 150 de ouro de heróis inimigos que morrerem em até 2400 unidades de distância. Caso o portador seja o assassino, ignora o limite de alcance e rouba mais 400 de ouro.",
       "Passiva: Tesouros Enterrados Reduz o ouro perdido ao morrer em 100%.",
-      "Em inglês: Pirate Hat "
+      "Em inglês: Pirate Hat"
     ],
     "id": 372,
     "img": "/assets/images/dota/items/pirate_hat.png?t=1593393829403",
+    "dname": "#|m|#Chapéu de Pirata",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -13961,8 +13983,8 @@
   "ex_machina": {
     "abilities": [],
     "hint": [
-      "Ativa: Zerar Intervalos Zera o intervalo entre usos de todos os itens (exceto o Orbe Restaurador ).",
-      "Em inglês: Ex Machina "
+      "Ativa: Zerar Intervalos Zera o intervalo entre usos de todos os itens (exceto o Orbe Restaurador).",
+      "Em inglês: Ex Machina"
     ],
     "id": 374,
     "img": "/assets/images/dota/items/ex_machina.png?t=1593393829403",
@@ -14055,11 +14077,12 @@
   "minotaur_horn": {
     "abilities": [],
     "hint": [
-      "Ativa: Avatar Inferior Aplica uma dissipação básica. Concede 50% de resistência mágica e imunidade a dano puro e refletido durante 2s. Enquanto sob efeito do Avatar Inferior, qualquer efeito negativo de habilidades inimigas não o afetará.\n\nTipo de dissipação: Básica ",
-      "Em inglês: Minotaur Horn "
+      "Ativa: Avatar Inferior Aplica uma dissipação básica. Concede 50% de resistência mágica e imunidade a dano puro e refletido durante 2s. Enquanto sob efeito do Avatar Inferior, qualquer efeito negativo de habilidades inimigas não o afetará.\n\nTipo de dissipação: Básica",
+      "Em inglês: Minotaur Horn"
     ],
     "id": 377,
     "img": "/assets/images/dota/items/minotaur_horn.png?t=1593393829403",
+    "dname": "#|m|#Chifre de Minotauro",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -14086,16 +14109,18 @@
     "lore": "O troféu de uma poderosa fera emboscada e morta dentro da sua própria casa.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "orb_of_destruction": {
     "abilities": [],
     "hint": [
       "Passiva: Corrupção Preventiva Ataques reduzem a armadura e velocidade de movimento do alvo. O valor do retardo varia de acordo com o tipo de ataque do herói portador.",
-      "Em inglês: Orb of Destruction "
+      "Em inglês: Orb of Destruction"
     ],
     "id": 378,
     "img": "/assets/images/dota/items/orb_of_destruction.png?t=1593393829403",
+    "dname": "#|m|#Orbe da Destruição",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14164,7 +14189,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Reabastecer Mana Recupera mana equivalente a 30 + 3% do mana máximo do lançador para todos os aliados próximos.\n\nRaio: 1200",
-      "Em inglês: Arcane Ring "
+      "Em inglês: Arcane Ring"
     ],
     "id": 349,
     "img": "/assets/images/dota/items/arcane_ring.png?t=1593393829403",
@@ -14235,10 +14260,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Lascar Ao sofrer ataques, retorna 30 do dano a heróis e 20 do dano a criaturas.",
-      "Em inglês: Chipped Vest "
+      "Em inglês: Chipped Vest"
     ],
     "id": 565,
     "img": "/assets/images/dota/items/chipped_vest.png?t=1593393829403",
+    "dname": "#|m|#Colete Lascado",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14261,7 +14287,8 @@
     "lore": "Pode até não aparecer, mas é estranhamente confortável.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "wizard_glass": {
     "id": 566,
@@ -14360,7 +14387,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Imolar Queima unidades inimigas em 45 de dano por segundo. Ilusões causam 30 de dano por segundo.\n\nRaio: 375",
-      "Em inglês: Cloak of Flames "
+      "Em inglês: Cloak of Flames"
     ],
     "id": 574,
     "img": "/assets/images/dota/items/cloak_of_flames.png?t=1593393829403",
@@ -14436,7 +14463,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Capa Faz com que você fique invisível por 6 segundos.",
-      "Em inglês: Trickster Cloak "
+      "Em inglês: Trickster Cloak"
     ],
     "id": 571,
     "img": "/assets/images/dota/items/trickster_cloak.png?t=1593393829403",
@@ -14504,7 +14531,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Roubo de Vida Cura o atacante em 7 de vida a cada ataque.",
-      "Em inglês: Possessed Mask "
+      "Em inglês: Possessed Mask"
     ],
     "id": 577,
     "img": "/assets/images/dota/items/possessed_mask.png?t=1593393829403",
@@ -14600,7 +14627,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Corte Cada ataque tem 25% de chance de reduzir a velocidade de movimento do inimigo em 20% e a velocidade de ataque em 60 durante 3 segundos.",
-      "Em inglês: Penta-Edged Sword "
+      "Em inglês: Penta-Edged Sword"
     ],
     "id": 638,
     "img": "/assets/images/dota/items/penta_edged_sword.png?t=1593393829403",
@@ -14717,7 +14744,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Chicotear Concede 25% de velocidade de movimento quando usado em aliados, retarda em 25% quando usado em inimigos. Dura 4 segundos.",
-      "Em inglês: Bullwhip "
+      "Em inglês: Bullwhip"
     ],
     "id": 680,
     "img": "/assets/images/dota/items/bullwhip.png?t=1593393829403",
@@ -14767,10 +14794,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Empurrão Paranormal Empurra a unidade-alvo inimiga em 400 unidades de distância para longe de você.",
-      "Em inglês: Psychic Headband "
+      "Em inglês: Psychic Headband"
     ],
     "id": 675,
     "img": "/assets/images/dota/items/psychic_headband.png?t=1593393829403",
+    "dname": "#|m|#Diadema Paranormal",
     "cost": 0,
     "behavior": "Unit Target",
     "target_team": "Enemy",
@@ -14803,16 +14831,18 @@
     "lore": "Um experimento fracassado sobre o controle telecinético, embora ainda útil para outras finalidades.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 3
   },
   "ceremonial_robe": {
     "abilities": [],
     "hint": [
       "Passiva: Aura Cerimonial Reduz a resistência estática de inimigos em 10%, e a resistência mágica em 10%.\n\nRaio: 1200",
-      "Em inglês: Ceremonial Robe "
+      "Em inglês: Ceremonial Robe"
     ],
     "id": 676,
     "img": "/assets/images/dota/items/ceremonial_robe.png?t=1593393829403",
+    "dname": "#|f|#Túnica Cerimonial",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -14845,7 +14875,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Mercúrio Concede um adicional de 5% de velocidade de movimento e 20 de velocidade de ataque sempre que uma das suas habilidades estiver em intervalo.",
-      "Em inglês: Quicksilver Amulet "
+      "Em inglês: Quicksilver Amulet"
     ],
     "id": 686,
     "img": "/assets/images/dota/items/quicksilver_amulet.png?t=1593393829403",
@@ -14894,8 +14924,8 @@
     "abilities": [],
     "hint": [
       "Ativa: Sombras Alveja inimigos, aliados ou a si mesmo. Torna o alvo inalvejável por inimigos do portador, mas também silenciado, calado e desarmado por 4 segundos. Aplica uma dissipação básica.",
-      "Tipo de dissipação: Básica ",
-      "Em inglês: Book of Shadows "
+      "Tipo de dissipação: Básica",
+      "Em inglês: Book of Shadows"
     ],
     "id": 677,
     "img": "/assets/images/dota/items/book_of_shadows.png?t=1593393829403",
@@ -14934,7 +14964,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Passos Gigantes Pode caminhar através de qualquer terreno e causa, a cada segundo, dano igual a 100% da sua Força a unidades que você estiver em cima.",
-      "Em inglês: Giant's Ring "
+      "Em inglês: Giant's Ring"
     ],
     "id": 678,
     "img": "/assets/images/dota/items/giants_ring.png?t=1593393829403",
@@ -14981,7 +15011,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Sombra da Vingança Ao morrer, você invoca uma ilusão resistente que causa 100% de dano e sofre 150%. Pode usar todas as habilidades básicas. A ilusão dura 30 segundos.",
-      "Em inglês: Shadow of Vengeance "
+      "Em inglês: Shadow of Vengeance"
     ],
     "id": 679,
     "img": "/assets/images/dota/items/vengeances_shadow.png?t=1593393829403",
@@ -15162,7 +15192,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Resistência Sempre que um efeito negativo for aplicado ao portador, concede 40% de resistência estática e 40% de resistência a retardos por 3 segundos.",
-      "Em inglês: Ascetic's Cap "
+      "Em inglês: Ascetic's Cap"
     ],
     "id": 825,
     "img": "/assets/images/dota/items/ascetic_cap.png?t=1593393829403",
@@ -15266,10 +15296,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Piedade Sombria Os seus ataques causam 3 de dano adicional para cada 7% de vida perdida da vítima.",
-      "Em inglês: Brigand's Blade "
+      "Em inglês: Brigand's Blade"
     ],
     "id": 828,
     "img": "/assets/images/dota/items/misericorde.png?t=1593393829403",
+    "dname": "#|f|#Lâmina do Salteador",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15296,7 +15327,8 @@
     "lore": "A famosa lâmina de um assassino infame, roubada e contrabandeada para fora da Espiral Branca após a misteriosa morte do seu dono.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 2
   },
   "light_robes": {
     "id": 836,
@@ -15324,9 +15356,9 @@
   "heavy_blade": {
     "abilities": [],
     "hint": [
-      "Ativa: Limpar Dissipa o inimigo ou aliado alvejado.\n\nTipo de dissipação: Básica ",
+      "Ativa: Limpar Dissipa o inimigo ou aliado alvejado.\n\nTipo de dissipação: Básica",
       "Passiva: Subjugar Os seus ataques causam dano adicional equivalente a 4% do mana máximo do alvo.",
-      "Em inglês: Witchbane "
+      "Em inglês: Witchbane"
     ],
     "id": 837,
     "img": "/assets/images/dota/items/heavy_blade.png?t=1593393829403",
@@ -15367,10 +15399,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Emporcalhar Transforma o seu herói em uma criatura por 3 segundos e concede +20% de velocidade de movimento.",
-      "Em inglês: Pig Pole "
+      "Em inglês: Pig Pole"
     ],
     "id": 838,
     "img": "/assets/images/dota/items/unstable_wand.png?t=1593393829403",
+    "dname": "#|m|#Cajado Suíno",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15435,10 +15468,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Arrancada Empurra o seu herói 300 unidades para a frente. O Cavalo de Pau não pode ser usado por 3s caso o portador sofra dano de um jogador.",
-      "Em inglês: Tumbler's Toy "
+      "Em inglês: Tumbler's Toy"
     ],
     "id": 840,
     "img": "/assets/images/dota/items/pogo_stick.png?t=1593393829403",
+    "dname": "#|m|#Cavalo de Pau",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15466,13 +15500,14 @@
     "lore": "Um brinquedo antigo encontrado nas ruínas de uma feirinha circense de Ozenja.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 2
   },
   "paintball": {
     "abilities": [],
     "hint": [
       " Ativa: Marca das Sombras Lança uma Marca em um inimigo a até 900 unidades de distância, aplicando um efeito negativo que causa 40 de dano por segundo e concede visão da unidade ao longo de 7 segundos.",
-      "Em inglês: Fae Grenade "
+      "Em inglês: Fae Grenade"
     ],
     "id": 835,
     "img": "/assets/images/dota/items/paintball.png?t=1593393829403",
@@ -15513,7 +15548,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Vale Verdejante Alveja o terreno em um raio de 400 unidades. Concede regeneração de vida a todas as unidades aliadas enquanto estiverem sobre a área de efeito, equivalente a 6 + 25% da regeneração da vida do usuário no momento da ativação. Dura 8s.",
-      "Em inglês: Seeds of Serenity "
+      "Em inglês: Seeds of Serenity"
     ],
     "id": 945,
     "img": "/assets/images/dota/items/seeds_of_serenity.png?t=1593393829403",
@@ -15562,7 +15597,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Cão de Caça Atacar pelas costas retarda um inimigo em 16% (8% para portadores de longo alcance) e causa mais 20 de dano. O retardo dura 2s.",
-      "Em inglês: Lance of Pursuit "
+      "Em inglês: Lance of Pursuit"
     ],
     "id": 946,
     "img": "/assets/images/dota/items/lance_of_pursuit.png?t=1593393829403",
@@ -15612,10 +15647,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Ritos de Eloshar Sempre que o portador for atacado, ele recebe um acúmulo de 0.4 de regeneração de mana, até um máximo de 5 acúmulos. Cada acúmulo dura 5 segundos.",
-      "Em inglês: Occult Bracelet "
+      "Em inglês: Occult Bracelet"
     ],
     "id": 947,
     "img": "/assets/images/dota/items/occult_bracelet.png?t=1593393829403",
+    "dname": "#|m|#Bracelete Oculto",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -15646,7 +15682,8 @@
     "lore": "Uma pulseira que carrega uma efígie do olho insone de Eloshar, a deusa das trevas.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "tome_of_omniscience": {
     "id": 948,
@@ -15679,10 +15716,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Quicada da Morsa Ogro Quica em frente como uma morsa ogro, saltando 2 vezes. Cada salto causa 250 de dano e retarda inimigos em um raio de 275 unidades em -100% durante 1.5s. Distância entre os saltos: 400 unidades.",
-      "Em inglês: Ogre Seal Totem "
+      "Em inglês: Ogre Seal Totem"
     ],
     "id": 949,
     "img": "/assets/images/dota/items/ogre_seal_totem.png?t=1593393829403",
+    "dname": "#|m|#Totem da Morsa Ogro",
     "cost": 0,
     "behavior": "No Target",
     "notes": "",
@@ -15858,7 +15896,7 @@
     "hint": [
       "Ativa: Aproximar Ao alvejar um inimigo, dispara um arpão na sua direção, aproximando você e ele até 35% unidades da distância entre ambos. Se o usuário for um herói corpo a corpo, ambos ficarão a distância de corpo a corpo um do outro.",
       " Passiva: Golpe Ecoante Faz com que ataques corpo a corpo sejam desferidos duas vezes rapidamente. Os ataques duplos aplicam 100% de retardo de movimento por 1s na primeira batida. Intervalo entre usos do Golpe Ecoante: 5s",
-      "Em inglês: Harpoon "
+      "Em inglês: Harpoon"
     ],
     "id": 939,
     "img": "/assets/images/dota/items/harpoon.png?t=1593393829403",
@@ -16230,7 +16268,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Disparo Quebrado Somente longo alcance. O próximo ataque disparará projéteis que causa 10 de dano adicional contra 2 alvos adicionais dentro do alcance de ataque + 225 unidades de alcance adicional. Não ativa modificadores de ataque.",
-      "Em inglês: Specialist's Array "
+      "Em inglês: Specialist's Array"
     ],
     "id": 1076,
     "img": "/assets/images/dota/items/specialists_array.png?t=1593393829403",
@@ -16271,7 +16309,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Ensopar Consome 100 de vida para ganhar 40 de dano temporariamente. Dura 8 segundos.",
-      "Em inglês: Dagger of Ristul "
+      "Em inglês: Dagger of Ristul"
     ],
     "id": 1077,
     "img": "/assets/images/dota/items/dagger_of_ristul.png?t=1593393829403",
@@ -16586,7 +16624,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Vingança Concede 30 de dano caso o herói portador esteja silenciado, e 20 de armadura caso esteja atordoado.",
-      "Em inglês: Vindicator's Axe "
+      "Em inglês: Vindicator's Axe"
     ],
     "id": 2096,
     "img": "/assets/images/dota/items/vindicators_axe.png?t=1593393829403",
@@ -16625,7 +16663,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Ousadia Concede 20 de velocidade de ataque enquanto houver heróis inimigos em até 1200 unidades de distância.",
-      "Em inglês: Duelist Gloves "
+      "Em inglês: Duelist Gloves"
     ],
     "id": 2097,
     "img": "/assets/images/dota/items/duelist_gloves.png?t=1593393829403",
@@ -16659,7 +16697,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Poder Ancestral Concede 50 de dano adicional caso o portador esteja em até 2000 unidades de distância de um Ancestral.",
-      "Em inglês: Ancient Guardian "
+      "Em inglês: Ancient Guardian"
     ],
     "id": 1156,
     "img": "/assets/images/dota/items/ancient_guardian.png?t=1593393829403",
@@ -16693,7 +16731,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Bolha Pessoal O herói portador tem uma barreira contra 100 de dano. A barreira se regenera completamente após passar 8s sem sofrer dano. O dano causado a si mesmo pelo portador ignora a barreira.",
-      "Em inglês: Safety Bubble "
+      "Em inglês: Safety Bubble"
     ],
     "id": 1157,
     "img": "/assets/images/dota/items/safety_bubble.png?t=1593393829403",
@@ -16726,10 +16764,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Visão em Túnel O herói portador tem a visão durante o dia reduzida em 15%, mas o dano arcano é aumentado em 10%.",
-      "Em inglês: Whisper of the Dread "
+      "Em inglês: Whisper of the Dread"
     ],
     "id": 1158,
     "img": "/assets/images/dota/items/whisper_of_the_dread.png?t=1593393829403",
+    "dname": "#|m|#Sussurro Apavorante",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -16752,17 +16791,19 @@
     "lore": "O ar que passa por entre este amuleto faz um som apavorante.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 3
   },
   "nemesis_curse": {
     "abilities": [],
     "hint": [
       "Passiva: Canhão de Vidro O herói sofre 6% de dano a mais de todas as fontes.",
       "Passiva: Vitrificar Ao atacar um herói, aplica um efeito negativo que aumenta o dano sofrido por ele em 12% durante 5s. Apenas um alvo pode ser vitrificado por vez.",
-      "Em inglês: Maldição do Nêmesis "
+      "Em inglês: Maldição do Nêmesis"
     ],
     "id": 1159,
     "img": "/assets/images/dota/items/nemesis_curse.png?t=1593393829403",
+    "dname": "#|f|#Maldição do Nêmesis",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -16795,7 +16836,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Pássaro Livre Quando o herói portador tem menos de 30% de vida, ganha movimentação desobstruída.",
-      "Em inglês: Aviana's Feather "
+      "Em inglês: Aviana's Feather"
     ],
     "id": 1160,
     "img": "/assets/images/dota/items/avianas_feather.png?t=1593393829403",
@@ -16830,7 +16871,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Inabalável A vida máxima do herói é definida como 1800 e não pode ser alterada por outros efeitos ou atributos.",
-      "Em inglês: Unwavering Condition "
+      "Em inglês: Unwavering Condition"
     ],
     "id": 1161,
     "img": "/assets/images/dota/items/unwavering_condition.png?t=1593393829403",
@@ -16922,7 +16963,7 @@
     "abilities": [],
     "hint": [
       "Passiva: Bloqueio de Dano Mágico A cada 12s, bloqueia até 300 de dano mágico de instâncias de dano acima de 75.",
-      "Em inglês: Dandelion Amulet "
+      "Em inglês: Dandelion Amulet"
     ],
     "id": 2190,
     "img": "/assets/images/dota/items/dandelion_amulet.png?t=1593393829403",
@@ -16987,7 +17028,7 @@
     "abilities": [],
     "hint": [
       "Ativa: Martírio Redireciona para você 25% de todo o dano mágico sofrido pelos heróis aliados em até 900 unidades de distância de você por 10s.",
-      "Em inglês: Martyr's Plate "
+      "Em inglês: Martyr's Plate"
     ],
     "id": 2192,
     "img": "/assets/images/dota/items/martyrs_plate.png?t=1593393829403",
@@ -17034,10 +17075,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Sexto Sentido Esquiva-se automaticamente do ataque de um herói inimigo.",
-      "Em inglês: Gossamer Cape "
+      "Em inglês: Gossamer Cape"
     ],
     "id": 2193,
     "img": "/assets/images/dota/items/gossamer_cape.png?t=1593393829403",
+    "dname": "#|m|#Capa de Seda",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -17167,7 +17209,7 @@
     "abilities": [],
     "hint": [
       "Alternar: Inversão Alterne para converter 30% da sua vida máxima em mana máximo ou 30% do seu mana máximo em vida máxima.",
-      "Em inglês: Doubloon "
+      "Em inglês: Doubloon"
     ],
     "id": 1803,
     "img": "/assets/images/dota/items/doubloon.png?t=1593393829403",
@@ -17205,7 +17247,7 @@
     "abilities": [],
     "hint": [
       "Usar: Fincar Estandarte Cria um estandarte no local-alvo. Criaturas de trilha na área de efeito tornam-se imunes a dano. Dura 120 segundos.\n\nPode ser destruído. Ataques de heróis corpo a corpo causam o dobro de dano contra o Estandarte.",
-      "Em inglês: Roshan's Banner ."
+      "Em inglês: Roshan's Banner."
     ],
     "id": 1804,
     "img": "/assets/images/dota/items/roshans_banner.png?t=1593393829403",
@@ -17258,8 +17300,8 @@
   "black_grimoire": {
     "abilities": [],
     "hint": [
-      "Usar: Conhecimento Profano Matar e ajudar a matar heróis fortalece o Grimório das Trevas, concedendo cargas. Clique com o botão direito para consumir e ganhar 200 de experiência por carga. Começa a partida em intervalo entre usos.\nEste item não pode ser largado. ",
-      "Em inglês: Black Grimoire "
+      "Usar: Conhecimento Profano Matar e ajudar a matar heróis fortalece o Grimório das Trevas, concedendo cargas. Clique com o botão direito para consumir e ganhar 200 de experiência por carga. Começa a partida em intervalo entre usos.\nEste item não pode ser largado.",
+      "Em inglês: Black Grimoire"
     ],
     "id": 1440,
     "img": "/assets/images/dota/items/black_grimoire.png?t=1593393829403",
@@ -17917,10 +17959,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Incansável Aumenta a resistência a retardos em 100%. Esse efeito é reduzido em 20% a cada inimigo em até 600 unidades de distância.\n\nAumenta a resistência estática em 10% a cada herói inimigo em até 600 unidades de distância.",
-      "Em inglês: Unrelenting Eye "
+      "Em inglês: Unrelenting Eye"
     ],
     "id": 1598,
     "img": "/assets/images/dota/items/unrelenting_eye.png?t=1593393829403",
+    "dname": "#|m|#Olho Incansável",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -17947,17 +17990,19 @@
     "lore": "O olho de uma serpente do tamanho de um melão (e tão suculento quanto).",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "mana_draught": {
     "abilities": [],
     "hint": [
       "Ativa: Entornar Restaura 60 + 4% do mana máximo do lançador ao longo de 6s. Caso a unidade seja atacada por um herói inimigo ou Roshan, o efeito é perdido.\n\nSegure Ctrl para usar em um herói aliado.",
       "Passiva: Envasar Acelera o intervalo entre usos do Frasco de Mana em 30% enquanto estiver na água.",
-      "Em inglês: Mana Draught "
+      "Em inglês: Mana Draught"
     ],
     "id": 1599,
     "img": "/assets/images/dota/items/mana_draught.png?t=1593393829403",
+    "dname": "#|m|#Frasco de Mana",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -17990,16 +18035,18 @@
     "lore": "Uma bebida refrescante, ótima para compartilhar com os amigos.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 2
   },
   "rippers_lash": {
     "abilities": [],
     "hint": [
       "Ativa: Açoitar Afinca espinhos em todos os inimigos na área-alvo de 200 unidades. Ao longo de 10s, inimigos afetados sofrem dano adicional quando atacados.",
-      "Em inglês: Ripper's Lash "
+      "Em inglês: Ripper's Lash"
     ],
     "id": 1600,
     "img": "/assets/images/dota/items/rippers_lash.png?t=1593393829403",
+    "dname": "#|m|#Chicote Espinhoso",
     "cost": 0,
     "behavior": [
       "Point Target",
@@ -18033,16 +18080,18 @@
     "lore": "Os horticultores feéricos de Revtel são conhecidos por ultrapassar os limites da polinização cruzada e da segurança.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "crippling_crossbow": {
     "abilities": [],
     "hint": [
       "Ativa: Disparo na Canela Atinge um inimigo, causando 75 de dano e 80% de retardo, além de reduzir restaurações de vida em 40% durante 4s. O retardo perde a eficácia gradualmente ao longo da duração.",
-      "Em inglês: Crippling Crossbow "
+      "Em inglês: Crippling Crossbow"
     ],
     "id": 1601,
     "img": "/assets/images/dota/items/crippling_crossbow.png?t=1593393829403",
+    "dname": "#|f|#Besta Debilitante",
     "cost": 0,
     "behavior": "Unit Target",
     "dmg_type": "Magical",
@@ -18080,16 +18129,18 @@
     "lore": "A madeira porosa desta besta imbui cada disparo com uma seiva narcótica poderosa mas de curta duração.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 4
   },
   "gale_guard": {
     "abilities": [],
     "hint": [
       "Ativa: Escudo Ciclonal Envolve o usuário em uma barreira contra todo tipo de dano, que absorve 75% do dano sofrido, até um máximo de 250. Dura até 10 segundos e, enquanto estiver ativo, concede 50% de resistência a retardos.",
-      "Em inglês: Gale Guard "
+      "Em inglês: Gale Guard"
     ],
     "id": 1602,
     "img": "/assets/images/dota/items/gale_guard.png?t=1593393829403",
+    "dname": "#|f|#Proteção Eólica",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18120,16 +18171,18 @@
     "lore": "Ao ouvir com atenção, é sempre possível confiar as suas intenções aos ventos.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 3
   },
   "gunpowder_gauntlets": {
     "abilities": [],
     "hint": [
       "Passiva: Ataque Bombástico O seu próximo ataque causa 120 de dano mágico adicional e também afeta inimigos em até 250 unidades de distância, com 50% do dano do ataque original mais o adicional de dano mágico.",
-      "Em inglês: Gunpowder Gauntlet "
+      "Em inglês: Gunpowder Gauntlet"
     ],
     "id": 1603,
     "img": "/assets/images/dota/items/gunpowder_gauntlets.png?t=1593393829403",
+    "dname": "#|f|#Manopla Explosiva",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18152,16 +18205,18 @@
     "lore": "Uma pegadinha \\\"inofensiva\\\" que foi longe demais.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 3
   },
   "searing_signet": {
     "abilities": [],
     "hint": [
       "Passiva: Queima Arcana Instâncias de dano mágico acima de 55 causadas por habilidades incendeiam inimigos, fazendo-os sofrer 72 de dano mágico ao longo de 6s.",
-      "Em inglês: Searing Signet "
+      "Em inglês: Searing Signet"
     ],
     "id": 1604,
     "img": "/assets/images/dota/items/searing_signet.png?t=1593393829403",
+    "dname": "#|m|#Selo Chamuscante",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18188,16 +18243,18 @@
     "lore": "Para torturar um feiticeiro, é preciso desenvolver meios muito além do mundano.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 2
   },
   "serrated_shiv": {
     "abilities": [],
     "hint": [
       "Passiva: Peixeira Ataques têm 20% de chance de ter Impacto Verdadeiro e causar 8% da vida atual do alvo como dano físico adicional. Causa 200 de dano fixo contra Roshan.",
-      "Em inglês: Serrated Shiv "
+      "Em inglês: Serrated Shiv"
     ],
     "id": 1605,
     "img": "/assets/images/dota/items/serrated_shiv.png?t=1593393829403",
+    "dname": "#|f|#Faca de Serra",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18220,16 +18277,18 @@
     "lore": "Muito perigosa para trabalhos manuais, o único propósito desta lâmina são os assassinatos cruéis.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 3
   },
   "polliwog_charm": {
     "abilities": [],
     "hint": [
       "Ativa: Coaxar Aumenta a regeneração de vida de um aliado-alvo em 8 durante 14s. Enquanto estiver em cima d'água, a unidade abençoada também se move 10% mais rápido.",
-      "Em inglês: Pollywog Charm "
+      "Em inglês: Pollywog Charm"
     ],
     "id": 1606,
     "img": "/assets/images/dota/items/polliwog_charm.png?t=1593393829403",
+    "dname": "#|m|#Amuleto do Girino",
     "cost": 0,
     "behavior": [
       "Unit Target",
@@ -18261,16 +18320,18 @@
     "lore": "Um pequeno pingente que vibra quando molhado.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "magnifying_monocle": {
     "abilities": [],
     "hint": [
       "Passiva: Visão Keen Aumenta o alcance de uso em 125 unidades e o alcance de ataque em 100 unidades (corpo a corpo e longo alcance). Sofrer mais de 25 de dano de uma fonte controlada por inimigos ou Roshan desativa esse efeito durante 3s.",
-      "Em inglês: Magnifying Monocle "
+      "Em inglês: Magnifying Monocle"
     ],
     "id": 1607,
     "img": "/assets/images/dota/items/magnifying_monocle.png?t=1593393829403",
+    "dname": "#|m|#Monóculo Ampliador",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18297,16 +18358,18 @@
     "lore": "Refinamento mortal.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 4
   },
   "pyrrhic_cloak": {
     "abilities": [],
     "hint": [
       "Ativa: Retribuição Durante os próximos 6s, reflete para o alvo 75% do dano sofrido pelo portador, em forma de dano físico.",
-      "Em inglês: Pyrrhic Cloak "
+      "Em inglês: Pyrrhic Cloak"
     ],
     "id": 1608,
     "img": "/assets/images/dota/items/pyrrhic_cloak.png?t=1593393829403",
+    "dname": "#|f|#Capa Pírrica",
     "cost": 0,
     "behavior": "Unit Target",
     "dmg_type": "Physical",
@@ -18332,7 +18395,8 @@
     "lore": "Alguns generais se preocupam bem menos com a sobrevivência dos seus soldados do que a destruição dos seus inimigos.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 4
   },
   "madstone_bundle": {
     "abilities": [],
@@ -18448,10 +18512,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Cristalizar Durante os próximos 8s, até 3 instâncias de dano arcano acima de 30 têm o seu dano reduzido em 75.",
-      "Em inglês: Crystal Raindrop "
+      "Em inglês: Crystal Raindrop"
     ],
     "id": 1636,
     "img": "/assets/images/dota/items/crystal_raindrop.png?t=1593393829403",
+    "dname": "#|f|#Gota Cristalizada",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18488,10 +18553,11 @@
     "abilities": [],
     "hint": [
       "Ativa: Saideira Aumenta a velocidade de movimento de todas as unidades aliadas ao seu redor.",
-      "Em inglês: Kobold Cup "
+      "Em inglês: Kobold Cup"
     ],
     "id": 1637,
     "img": "/assets/images/dota/items/kobold_cup.png?t=1593393829403",
+    "dname": "#|f|#Taça Kobold",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18521,16 +18587,18 @@
     "lore": "O Rei Kobold beberá na hora que ele bem entender.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "dormant_curio": {
     "abilities": [],
     "hint": [
       "Passiva: Potencial Oculto Artefatos neutros fabricados ao segurar um Tesouro Adormecido têm a sua potência aumentada em 30%.",
-      "Em inglês: Dormant Curio "
+      "Em inglês: Dormant Curio"
     ],
     "id": 1638,
     "img": "/assets/images/dota/items/dormant_curio.png?t=1593393829403",
+    "dname": "#|m|#Tesouro Adormecido",
     "cost": 0,
     "notes": "Amplificará um atributo do próximo artefato em 30%. Não pode afetar intervalos entre usos, custos de mana e alcances de uso.",
     "attrib": [
@@ -18545,17 +18613,19 @@
     "lore": "Querer não é poder.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "sisters_shroud": {
     "abilities": [],
     "hint": [
       "Passiva: Sob o Véu Ao ficar com menos de 50% de vida, ganha 200% de esquiva durante 8s. Durante este efeito, esquivar-se de um ataque reduz a esquiva adicional em 75% do valor atual.",
       "Passiva: Último Abraço O intervalo entre usos deste item só é zerado caso o portador morra ou mate um herói inimigo.",
-      "Em inglês: Sister's Shroud "
+      "Em inglês: Sister's Shroud"
     ],
     "id": 1639,
     "img": "/assets/images/dota/items/sisters_shroud.png?t=1593393829403",
+    "dname": "#|m|#Mortalha das Irmãs",
     "cost": 0,
     "notes": "Não é ativado pelo dano causado por criaturas não controladas por heróis.",
     "attrib": [
@@ -18582,16 +18652,18 @@
     "lore": "Uma mortalha que cobriu o sarcófago da Primeira Irmã.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "jidi_pollen_bag": {
     "abilities": [],
     "hint": [
       "Ativa: Polinizar Lança o pólen em todas as unidades inimigas próximas, reduzindo restaurações de vida e causando dano ao longo do tempo com base na vida máxima.",
-      "Em inglês: Jidi Pollen Bag "
+      "Em inglês: Jidi Pollen Bag"
     ],
     "id": 1640,
     "img": "/assets/images/dota/items/jidi_pollen_bag.png?t=1593393829403",
+    "dname": "#|m|#Pólen de Jidi",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18630,16 +18702,18 @@
     "lore": "Muito perigoso. Muito difícil de se encontrar.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 3
   },
   "outworld_staff": {
     "abilities": [],
     "hint": [
       "Ativa: Autoexílio Remove o usuário do mundo durante 0.7s, tornando-o invulnerável e desativado. Ao retornar para o mundo, sofre 5% da vida máxima como dano.",
-      "Em inglês: Outworld Staff "
+      "Em inglês: Outworld Staff"
     ],
     "id": 1641,
     "img": "/assets/images/dota/items/outworld_staff.png?t=1593393829403",
+    "dname": "#|m|#Cajado D'outromundo",
     "cost": 0,
     "behavior": [
       "Instant Cast",
@@ -18662,16 +18736,18 @@
     "lore": "Prova de que o sentinela solitário nem sempre foi assim.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 4
   },
   "dezun_bloodrite": {
     "abilities": [],
     "hint": [
       "Passiva: Invocação Sangrenta Aumenta as suas áreas de efeito de habilidades e itens em 15%, mas também adiciona um custo de vida equivalente a 35% do custo de mana.",
-      "Em inglês: Dezun Bloodcharm "
+      "Em inglês: Dezun Bloodrite"
     ],
     "id": 1642,
     "img": "/assets/images/dota/items/dezun_bloodrite.png?t=1593393829403",
+    "dname": "#|m|#Ritual Sangrento de Dezun",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18690,16 +18766,18 @@
     "lore": "Um portal para uma linhagem perdida de poder, alcançado somente com sangue.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 4
   },
   "giant_maul": {
     "abilities": [],
     "hint": [
       "Passiva: Golpe Esmagador Fortalece o seu próximo ataque para causar um acerto crítico. Heróis atingidos com esse ataque fortalecido sofrem redução temporária das velocidades de movimento, ataque e lançamento.",
-      "Em inglês: Giant's Maul "
+      "Em inglês: Giant's Maul"
     ],
     "id": 1643,
     "img": "/assets/images/dota/items/giant_maul.png?t=1593393829403",
+    "dname": "#|f|#Marreta do Gigante",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18735,16 +18813,18 @@
     "lore": "Bruto, mas esmagadoramente eficaz.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 4
   },
   "divine_regalia": {
     "abilities": [],
     "hint": [
       "Passiva: Exaltação Aumenta todo o dano causado em 20%. Morrer desativa este item neutro permanentemente, e o encantamento atual é perdido.",
-      "Em inglês: Divine Regalia "
+      "Em inglês: Divine Regalia"
     ],
     "id": 1644,
     "img": "/assets/images/dota/items/divine_regalia.png?t=1593393829403",
+    "dname": "#|f|#Regalia Divina",
     "cost": 0,
     "notes": "",
     "attrib": [
@@ -18759,16 +18839,18 @@
     "lore": "Tão magnífica que não tolera o fracasso.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 5
   },
   "divine_regalia_broken": {
     "abilities": [],
     "hint": [
       "Passiva: Desdém Você morreu, então não recebe nada.",
-      "Em inglês: Disgraced Regalia "
+      "Em inglês: Disgraced Regalia"
     ],
     "id": 1645,
     "img": "/assets/images/dota/items/divine_regalia_broken.png?t=1593393829403",
+    "dname": "#|f|#Regalia Arruinada",
     "cost": 0,
     "notes": "",
     "attrib": [],
@@ -18784,10 +18866,11 @@
     "abilities": [],
     "hint": [
       "Passiva: Banho de Sangue Converte uma porcentagem do dano sofrido ao longo dos últimos 10s em regeneração de vida, até um limite.",
-      "Em inglês: Circlet of the Flayed Twins "
+      "Em inglês: Circlet of the Flayed Twins"
     ],
     "id": 1646,
     "img": "/assets/images/dota/items/circlet_of_the_flayed_twins.png?t=1593393829403",
+    "dname": "#|f|#Tiara dos Gêmeos Esfolados",
     "cost": 0,
     "notes": "",
     "attrib": [
