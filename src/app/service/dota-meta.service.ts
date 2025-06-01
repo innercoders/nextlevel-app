@@ -12,11 +12,37 @@ export class DotaMetaService extends NlService {
 		super();
 	}
 
-	getHeroStats(request: HeroStatsRequest): Observable<HeroStatsRecordsResponse> {
+	getHeroStats(request: HeroStatsRequest): Observable<any> {
 		const params = this.buildHttpParams(request);
 
-		return this.http.get<HeroStatsRecordsResponse>(`${this.baseAPI}/api/v1/dota-meta/hero-stats`, 
+		return this.http.get<any>(`${this.baseAPI}/api/v1/dota-meta/hero-stats`, 
 			{ params });
+	}
+	
+	getCompleteMeta(request: HeroStatsRequest): Observable<any> {
+		const params = this.buildHttpParams(request);
+
+		return this.http.get<any>(`${this.baseAPI}/api/v1/dota-meta/complete-meta`, 
+			{ params });
+	}
+
+	getSimpleHeroInfo(heroId: number, facetId?: number, daysAgo?: number, onlyLeagueGames?: boolean): Observable<any> {
+		const params: any = { heroId };
+		if (facetId !== undefined) params.facetId = facetId;
+		if (daysAgo !== undefined) params.daysAgo = daysAgo;
+		if (onlyLeagueGames !== undefined) params.onlyLeagueGames = onlyLeagueGames;
+
+		const httpParams = this.buildHttpParams(params);
+		return this.http.get<any>(`${this.baseAPI}/api/v1/dota-meta/simple-hero`, { params: httpParams });
+	}
+
+	getDetailedHeroInfo(heroId: number, facetId: number, daysAgo?: number, onlyLeagueGames?: boolean): Observable<any> {
+		const params: any = { heroId, facetId };
+		if (daysAgo !== undefined) params.daysAgo = daysAgo;
+		if (onlyLeagueGames !== undefined) params.onlyLeagueGames = onlyLeagueGames;
+
+		const httpParams = this.buildHttpParams(params);
+		return this.http.get<any>(`${this.baseAPI}/api/v1/dota-meta/detailed-hero`, { params: httpParams });
 	}
 	
 }

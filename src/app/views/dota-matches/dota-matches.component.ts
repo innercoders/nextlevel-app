@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+
 import { DotaHelperService, DotaMatchService, DotaLeagueService } from '@app/service';
 import { DotaMatch, DotaHero, DotaLeague } from '@app/model';
+
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzButtonModule } from 'ng-zorro-antd/button';
@@ -33,7 +35,8 @@ import { NzMessageService } from 'ng-zorro-antd/message';
 		NzTagModule,
 		NzSliderModule,
 		NzToolTipModule,
-		NzGridModule
+		NzGridModule,
+		RouterModule
 	]
 })
 export class DotaMatchesComponent implements OnInit {

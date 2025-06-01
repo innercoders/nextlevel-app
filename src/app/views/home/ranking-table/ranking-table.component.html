@@ -1,0 +1,126 @@
+<div class="section-content in-card">
+    <nz-tabset class="px-3" (nzSelectChange)="onRegionTabChange($event)">
+        <nz-tab nzTitle="Brasil">
+            <nz-table 
+                #brasilTable 
+                [nzData]="dotaRankBrasil" 
+                [nzPageSize]="100"
+                [nzLoading]="false" 
+                [nzShowPagination]="false"
+                class="brasil-table"
+                [nzScroll]="{ y: '730px' }">
+                <thead>
+                    <tr>
+                        <th [nzWidth]="'60px'">#</th>
+                        <th>Jogador</th>
+                        <th [nzWidth]="'100px'">MMR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let player of brasilTable.data; let i = index">
+                        <td><strong>{{ i + 1 }}</strong></td>
+                        <td>{{ player.Player }}</td>
+                        <td>{{ player.MMR }}</td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </nz-tab>
+        <nz-tab nzTitle="Americas">
+            <nz-table 
+                #americasTable 
+                [nzData]="dotaRanksAmericas" 
+                [nzPageSize]="100"
+                [nzLoading]="false" 
+                [nzShowPagination]="false"
+                [nzScroll]="{ y: '730px' }">
+                <thead>
+                    <tr>
+                        <th [nzWidth]="'60px'">#</th>
+                        <th>Jogador</th>
+                        <th [nzWidth]="'80px'">País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let player of americasTable.data; let i = index">
+                        <td><strong>{{ i + 1 }}</strong></td>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.country || '-' }}</td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </nz-tab>
+        <nz-tab nzTitle="Europa">
+            <nz-table 
+                #europeTable 
+                [nzData]="dotaRanksEurope" 
+                [nzPageSize]="100"
+                [nzLoading]="false" 
+                [nzShowPagination]="false"
+                [nzScroll]="{ y: '730px' }">
+                <thead>
+                    <tr>
+                        <th [nzWidth]="'60px'">#</th>
+                        <th>Jogador</th>
+                        <th [nzWidth]="'80px'">País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let player of europeTable.data; let i = index">
+                        <td><strong>{{ i + 1 }}</strong></td>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.country || '-' }}</td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </nz-tab>
+        <nz-tab nzTitle="Sudeste Asiático">
+            <nz-table 
+                #seAsiaTable 
+                [nzData]="dotaRanksSeAsia" 
+                [nzPageSize]="100"
+                [nzLoading]="false" 
+                [nzShowPagination]="false"
+                [nzScroll]="{ y: '730px' }">
+                <thead>
+                    <tr>
+                        <th [nzWidth]="'60px'">#</th>
+                        <th>Jogador</th>
+                        <th [nzWidth]="'80px'">País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let player of seAsiaTable.data; let i = index">
+                        <td><strong>{{ i + 1 }}</strong></td>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.country || '-' }}</td>
+                    </tr>   
+                </tbody>
+            </nz-table>
+        </nz-tab>
+        <nz-tab nzTitle="China">
+            <nz-table 
+                #chinaTable 
+                [nzData]="dotaRanksChina" 
+                [nzPageSize]="100"
+                [nzLoading]="false" 
+                [nzShowPagination]="false"
+                [nzScroll]="{ y: '730px' }">
+                <thead>
+                    <tr>
+                        <th [nzWidth]="'60px'">#</th>
+                        <th>Jogador</th>
+                        <th [nzWidth]="'80px'">País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let player of chinaTable.data; let i = index">
+                        <td><strong>{{ i + 1 }}</strong></td>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.mmr }}</td>
+                        <td>{{ player.team || '-' }}</td>
+                    </tr>
+                </tbody>
+            </nz-table>
+        </nz-tab>
+    </nz-tabset>
+</div> 

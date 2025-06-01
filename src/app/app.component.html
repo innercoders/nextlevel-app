@@ -1,8 +1,8 @@
 <app-main-slider *ngIf="showSlider$ | async"></app-main-slider>
 
-<app-side-menu *ngIf="currentUser"></app-side-menu>
+<app-side-menu></app-side-menu>
 
-<div class="header-nz" nz-row nzAlign="middle" *ngIf="currentUser">
+<div class="header-nz" nz-row nzAlign="middle">
 	<div nz-col nzSpan="16" class="search-bar-container">
 		<div class="search-bar" *ngIf="false">
 			<nz-input-group [nzSuffix]="suffixIconSearch">

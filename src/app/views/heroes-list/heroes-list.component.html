@@ -1,0 +1,117 @@
+<div class="heroes-container">
+  <!-- Filters -->
+  <div class="filters-section in-card">
+	<div class="filter-group">
+	  
+	  <!-- Attribute Filters -->
+	  <div class="filter-section">
+		<span class="filter-subtitle">ATRIBUTO</span>
+		<div class="filter-buttons">
+		  <button 
+			nz-button 
+			*ngFor="let attr of attributes" 
+			[nzType]="selectedAttribute === attr.value ? 'primary' : 'default'"
+			(click)="onAttributeFilter(attr.value)"
+			class="filter-btn"
+			[nz-tooltip]="attr.label">
+			<img [src]="'/assets/images/dota/type/' + attr.icon" [alt]="attr.label" class="filter-icon">
+		  </button>
+		</div>
+	  </div>
+
+	  <!-- Attack Type Filters -->
+	  <div class="filter-section">
+		<span class="filter-subtitle">TIPO</span>
+		<div class="filter-buttons">
+		  <button 
+			nz-button 
+			*ngFor="let type of attackTypes" 
+			[nzType]="selectedAttackType === type.value ? 'primary' : 'default'"
+			(click)="onAttackTypeFilter(type.value)"
+			class="filter-btn"
+			[nz-tooltip]="type.label">
+			<img [src]="getAttackTypeIcon(type.value)" [alt]="type.label" class="filter-icon">
+		  </button>
+		</div>
+	  </div>
+
+	  <!-- Complexity Filters -->
+	  <div class="filter-section">
+		<span class="filter-subtitle">COMPLEXIDADE</span>
+		<div class="filter-buttons">
+			<nz-button-group [nzSize]="'large'"> 
+				<button nz-button (click)="onComplexityFilter(1)" [nzType]="selectedComplexity === 1 ? 'primary' : 'default'">
+					<nz-icon nzType="thunderbolt" [nzTheme]="1 > 0 ? 'fill' : 'outline'" />
+				</button>
+				<button nz-button (click)="onComplexityFilter(2)" [nzType]="selectedComplexity === 2 ? 'primary' : 'default'">
+					<nz-icon nzType="thunderbolt" [nzTheme]="2 > 0 ? 'fill' : 'outline'" />
+				</button>
+				<button nz-button (click)="onComplexityFilter(3)" [nzType]="selectedComplexity === 3 ? 'primary' : 'default'">
+					<nz-icon nzType="thunderbolt" [nzTheme]="3 > 0 ? 'fill' : 'outline'" />
+				</button>
+			</nz-button-group>
+		</div>
+	  </div>
+
+	  <!-- Include Heroes Filter -->
+	  <div class="filter-section">
+		<div class="filter-buttons">
+		  <nz-select [(ngModel)]="includedHeroes" class="filter-select" nzMode="multiple" style="width: 300px"
+					nzPlaceHolder="Selecionar heróis" (ngModelChange)="onIncludeHeroChange($event)">
+			<nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
+		  </nz-select>
+		</div>
+	  </div>
+
+	  <!-- Search -->
+	  <div class="search-section">
+		
+	  </div>
+
+	  <!-- Clear Filters -->
+	  <button nz-button nzType="default" (click)="clearFilters()" class="clear-btn" 
+			  *ngIf="selectedAttribute || selectedAttackType || selectedComplexity || includedHeroes.length > 0">
+		Limpar Filtros
+	  </button>
+	</div>
+  </div>
+
+  <!-- Heroes Grid -->
+  <div class="heroes-grid">
+	<div 
+	  *ngFor="let hero of filteredHeroes" 
+	  class="hero-card"
+	  (click)="onHeroClick(hero)">
+	  
+	  <div class="hero-image-container">
+		<img [src]="hero.img" [alt]="hero.localized_name" class="hero-image">
+		
+		<!-- Attribute Icon -->
+		<div class="attribute-badge">
+		  <img [src]="'/assets/images/dota/type/' + hero.primaryAttributeImage" [alt]="hero.primary_attr" class="attr-icon">
+		</div>
+
+		<!-- Attack Type Icon -->
+		<div class="attack-type-badge">
+		  <img [src]="getAttackTypeIcon(hero.attack_type)" [alt]="hero.attack_type" class="attack-type-icon">
+		</div>
+		
+		<!-- Complexity Indicator -->
+		<!-- <div class="complexity-badge">
+		  <i class="diamond-icon" 
+			 [class.filled]="i < hero.complexity" 
+			 *ngFor="let i of [0,1,2]"></i>
+		</div> -->
+	  </div>
+
+	  <div class="hero-name">
+		{{ hero.localized_name }}
+	  </div>
+	</div>
+  </div>
+
+  <!-- Results Count -->
+  <div class="results-info" *ngIf="filteredHeroes.length !== heroes.length">
+	Mostrando {{ filteredHeroes.length }} de {{ heroes.length }} heróis
+  </div>
+</div> 

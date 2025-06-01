@@ -1,4 +1,4 @@
-@import '../../../../styles/_variables';
+@import '../../../styles/_variables';
 
 @hero-video: scaleX(1);
 @hero-inverted-video: scaleX(-1);
@@ -233,6 +233,13 @@
 
 		.hero-facet-description {
 			position: relative;
+			padding: @default-padding;
+			background-color: rgba(#000, 0.6);
+			// border-bottom-left-radius: @border-radius;
+			// border-bottom-right-radius: @border-radius;
+		}
+
+		.hero-facet-footer {
 			padding: @default-padding;
 			background-color: rgba(#000, 0.6);
 			border-bottom-left-radius: @border-radius;

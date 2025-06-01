@@ -1,4 +1,4 @@
-<div class="dota-hero radius" *ngIf="hero" [ngClass]="{'full': full}" [routerLink]="'/dota-meta/heroes/' + hero.sanitizedName">
+<div class="dota-hero radius" *ngIf="hero" [ngClass]="{'full': full}" [routerLink]="'/heroes/' + hero.sanitizedName">
     <div class="dota-hero-image">
         <img class="hero-image" [src]="hero.img" [alt]="hero.localized_name" nz-tooltip [nzTooltipTitle]="hero.localized_name"/>
         <div class="dota-hero-facet" [ngClass]="'bg-' + selectedFacet.color" *ngIf="selectedFacet">

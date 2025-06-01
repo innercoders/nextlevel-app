@@ -1,0 +1,107 @@
+<div class="section-content in-card">
+    <div nz-row class="p-3">
+        <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="12">
+            <div class="filter-controls p-3">
+                <nz-select nzPlaceHolder="Selecione heróis" [(ngModel)]="selectedHeroes" class="filter-select w-100" nzMode="multiple" (ngModelChange)="onHeroFilterChange($event)" nzAllowClear="true">
+                    <nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
+                </nz-select>
+            </div>
+        </div>
+        <div class="p-3" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="12">
+            <div class="filter-controls">
+                <nz-select [(ngModel)]="heroStatsRequest.leagueId" (ngModelChange)="onLeagueChange($event)" class="filter-select w-100" nzPlaceHolder="Selecione uma liga" nzAllowClear>
+                    <nz-option *ngFor="let league of featuredLeagues" [nzValue]="league.leagueId" [nzLabel]="league.displayName || league.name"></nz-option>
+                </nz-select>
+            </div>
+        </div>
+        <div nz-col nzSpan="24">
+            <div class="filter-controls p-3">
+                <div class="in-horizontal between">
+                    <div class="filter-label">Mínimo de Partidas ({{ minMatchesFilter }})</div>
+                    <div class="filter-label">Total de Partidas: ({{ totalLeagueMatches }})</div>
+                </div>
+                <nz-slider class="mt-0" [nzMin]="0" [nzMax]="totalLeagueMatches ? totalLeagueMatches : 100" [nzStep]="1" [(ngModel)]="minMatchesFilter" (ngModelChange)="onMinMatchesChange($event)"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- Position Tabs -->
+    <div class="in-card px-3 position-tabs" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+        <nz-tabset style="margin-bottom: 0;" nzSize="large" nzCentered="true" (nzSelectedIndexChange)="onPositionTabChange($event)">
+            <nz-tab *ngFor="let position of positions" [nzTitle]="titleTemplate">
+                <ng-template #titleTemplate>
+                    <div class="in-horizontal">
+                        <img height="20px" class="mr-2" [src]="getPositionImage(position.value)" *ngIf="position.value">
+                        <span class="d-none d-xl-block" *ngIf="position.value">{{ position.label }}</span>
+                        <span *ngIf="!position.value">Todos</span>
+                    </div>
+                </ng-template>
+            </nz-tab>
+        </nz-tabset>
+    </div>
+
+    <!-- Meta Heroes Table -->
+    <div class="in-tab-content">
+        <nz-table #metaTable 
+            [nzData]="metaHeroes" 
+            [nzLoading]="loadingMeta" 
+            [nzShowPagination]="false" 
+            [nzPageSize]="10" 
+            [nzScroll]="{ y: '600px' }"
+            class="heroes-table">
+            <thead>
+                <tr>
+                    @for (column of metaTableColumns; track column.title) {
+                        <th [nzWidth]="column.width || null" [nzSortFn]="column.compare" [nzSortPriority]="column.priority" nz-tooltip [nzTooltipTitle]="column.tooltip">{{ column.title }}</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                <ng-container *ngFor="let hero of metaTable.data">
+                    <tr *ngIf="hero.dotaHero" class="hero-row">
+                        <td>
+                            <app-dota-hero [hero]="hero.dotaHero"></app-dota-hero>
+                        </td>
+                        <td>
+                            <div class="in-vertical">
+                                <span [ngClass]="{'text-success': hero.winRate > 50, 'text-danger': hero.winRate < 50}">{{ hero.winRate | number:'1.0-1' }}%</span>
+                                <span class="text-muted">{{ hero.totalMatches }} partidas</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="in-vertical">
+                                <span [ngClass]="{'text-success': hero.tournamentWinRate > 50, 'text-danger': hero.tournamentWinRate < 50}">{{ hero.tournamentWinRate | number:'1.0-1' }}%</span>
+                                <span class="text-muted">{{ hero.tournamentMatches }} partidas</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="in-vertical">
+                                <div class="in-horizontal between" style="margin-bottom: -10px;">
+                                    <div class="in-horizontal">
+                                        <span class="mr-1">{{ hero.tournamentContest }} </span>
+                                        <span class="text-muted"> picks/bans</span>
+                                    </div>
+                                    <div class="in-horizontal text-right" style="font-size: 70%;">
+                                        <span class="text-muted">{{ hero.tournamentContest / totalLeagueMatches * 100 | number:'1.0-1' }}%</span>
+                                    </div>
+                                </div>
+                                <div class="in-vertical">
+                                    <nz-progress class="win-rate-progress" [ngClass]="hero.contestRateClass" [nzPercent]="hero.tournamentContest / totalLeagueMatches * 100" [nzShowInfo]="false" [nzStrokeColor]="hero.contestRateColor" nzStrokeWidth="2"></nz-progress>
+                                </div>
+                            </div>
+                        </td>
+                        <!-- <td>
+                            <div class="in-horizontal">
+                                <span class="text-success">{{ hero.avgKills | number:'1.0-0' }}</span> 
+                                <span class="text-muted">/</span> 
+                                <span class="text-danger">{{ hero.avgDeaths | number:'1.0-0' }}</span> 
+                                <span class="text-muted">/</span> 
+                                <span class="text-info">{{ hero.avgAssists | number:'1.0-0' }}</span>
+                            </div>
+                        </td> -->
+                    </tr>
+                </ng-container>
+            </tbody>
+        </nz-table>
+    </div>
+</div> 

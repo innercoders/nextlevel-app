@@ -29,8 +29,16 @@ export const routes: Routes = [
 				loadComponent: () => import('./views/dota-meta/dota-meta.component').then(m => m.DotaMetaComponent)
 			},
 			{
+				path: 'heroes',
+				loadComponent: () => import('./views/heroes-list/heroes-list.component').then(m => m.HeroesListComponent)
+			},
+			{
+				path: 'heroes/:heroId',
+				loadComponent: () => import('./views/hero-details/hero-details.component').then(m => m.HeroDetailsComponent)
+			},
+			{
 				path: 'dota-meta/heroes/:heroId',
-				loadComponent: () => import('./views/dota-meta/heroes/heroes.component').then(m => m.HeroesComponent)
+				redirectTo: 'hero-details/:heroId'
 			},
 			{
 				path: 'admin',

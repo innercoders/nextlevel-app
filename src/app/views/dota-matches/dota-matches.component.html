@@ -1,133 +1,134 @@
 <div class="dota-matches-container">
-    <div class="mb-3" nz-row>
-        <div nz-col nzSpan="24" nzAlign="bottom">
-            <h3>Últimas Partidas</h3>
-            <h6>Lista de partidas recentes</h6>
-        </div>
-    </div>
+	<div class="mb-3" nz-row>
+		<div nz-col nzSpan="24" nzAlign="bottom">
+			<h3>Últimas Partidas</h3>
+		</div>
+	</div>
 
-    <!-- Filter Section -->
-    <div class="mb-3 filter-section" nz-row [nzGutter]="16">
-        <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24">
-            <div class="in-card p-3">
-                <div nz-row [nzGutter]="16" class="filter-controls">
-                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6">
-                        <nz-select [(ngModel)]="matchRequest.leagueId" (ngModelChange)="onLeagueChange($event)" class="filter-select" nzPlaceHolder="Selecione uma liga" nzAllowClear>
-                            <nz-option *ngFor="let league of featuredLeagues" [nzValue]="league.leagueId" [nzLabel]="league.displayName || league.name"></nz-option>
-                        </nz-select>
-                    </div>
-                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6">
-                        <nz-select [(ngModel)]="includedHeroes" class="filter-select" nzMode="multiple" 
-                                  nzPlaceHolder="Incluir heróis" (ngModelChange)="onIncludeHeroChange($event)">
-                            <nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
-                        </nz-select>
-                    </div>
-                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6">
-                        <nz-select [(ngModel)]="excludedHeroes" class="filter-select" nzMode="multiple" 
-                                  nzPlaceHolder="Excluir heróis" (ngModelChange)="onExcludeHeroChange($event)">
-                            <nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
-                        </nz-select>
-                    </div>
-                    <div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6" class="filter-button-container">
-                        <div class="in-horizontal">
-                            <button nz-button nzType="default" (click)="clearFilters()" *ngIf="includedHeroes.length || excludedHeroes.length || matchRequest.leagueId">
-                                <span nz-icon nzType="clear" nzTheme="outline" class="mr-1"></span>
-                                Limpar Filtros
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- Filter Section -->
+	<div class="mb-3 filter-section" nz-row [nzGutter]="16">
+		<div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24">
+			<div class="in-card p-3">
+				<div nz-row [nzGutter]="16" class="filter-controls">
+					<div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6">
+						<nz-select [(ngModel)]="matchRequest.leagueId" (ngModelChange)="onLeagueChange($event)" class="filter-select" nzPlaceHolder="Selecione uma liga" nzAllowClear>
+							<nz-option *ngFor="let league of featuredLeagues" [nzValue]="league.leagueId" [nzLabel]="league.displayName || league.name"></nz-option>
+						</nz-select>
+					</div>
+					<div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6">
+						<nz-select [(ngModel)]="includedHeroes" class="filter-select" nzMode="multiple" 
+								  nzPlaceHolder="Incluir heróis" (ngModelChange)="onIncludeHeroChange($event)">
+							<nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
+						</nz-select>
+					</div>
+					<div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6">
+						<nz-select [(ngModel)]="excludedHeroes" class="filter-select" nzMode="multiple" 
+								  nzPlaceHolder="Excluir heróis" (ngModelChange)="onExcludeHeroChange($event)">
+							<nz-option *ngFor="let hero of heroes" [nzValue]="hero.id" [nzLabel]="hero.localized_name"></nz-option>
+						</nz-select>
+					</div>
+					<div nz-col nzXs="12" nzSm="8" nzMd="6" nzLg="6" class="filter-button-container">
+						<div class="in-horizontal end w-100">
+							<button nz-button nzType="default" (click)="clearFilters()" *ngIf="includedHeroes.length || excludedHeroes.length || matchRequest.leagueId">
+								<span nz-icon nzType="clear" nzTheme="outline" class="mr-1"></span>
+								Limpar Filtros
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div nz-row>
-        <div nz-col nzSpan="24">
-            <div class="in-tab-content">
-                <nz-table #matchTable [nzData]="matches" [nzLoading]="loading" [nzShowPagination]="true" 
-                        [nzPageSize]="10" [nzTotal]="totalResults" [nzFrontPagination]="false" 
-                        (nzQueryParams)="changePage($event)" class="matches-table"
-                        [nzLoadingIndicator]="indicatorTemplate">
-                    <ng-template #indicatorTemplate>
-                        <div class="custom-loading">
-                            <span nz-icon nzType="loading" nzTheme="outline"></span>
-                            <span class="loading-text">Carregando partidas...</span>
-                        </div>
-                    </ng-template>
-                    <thead>
-                        <tr>
-                            <th [nzWidth]="'120px'">#ID</th>
-                            <th>Data</th>
-                            <th>Liga</th>
-                            <th [nzWidth]="'150px'">Heróis</th>
-                            <th>Radiant</th>
-                            <th>Dire</th>
-                            <th [nzWidth]="'80px'">Duração</th>
-                            <th [nzWidth]="'100px'">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr *ngFor="let match of matchTable.data" (click)="goToMatch(match.matchId)" class="match-row">
-                            <td>
-                                <div class="match-id-container">
-                                    <span>{{ match.matchId }}</span>
-                                    <button nz-button nzType="text" nzSize="small" class="copy-btn" (click)="copyMatchId($event, match.matchId)" 
-                                            nz-tooltip="Copiar ID da partida">
-                                        <span nz-icon nzType="copy" nzTheme="outline"></span>
-                                    </button>
-                                </div>
-                            </td>
-                            <td>{{ match.startDateTime| date:'dd/MM/yyyy HH:mm' }}</td>
-                            <td>
-                                <span *ngIf="match.league">{{ match.league.displayName }}</span>
-                                <span *ngIf="!match.league">Ranqueada</span>
-                            </td>
-                            <td>
-                                <div class="heroes-preview">
-                                    <div class="team-heroes">
-                                        <div class="heroes-row radiant-heroes">
-                                            <img *ngFor="let player of match.players | slice:0:5" 
-                                                 [src]="player.dotaHero?.img"
-												 nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name"
-                                                 class="hero-icon radiant">
-                                        </div>
-                                        <div class="heroes-row dire-heroes">
-                                            <img *ngFor="let player of match.players | slice:5:10" 
-                                                 [src]="player.dotaHero?.img"
-												 nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name"
-                                                 class="hero-icon dire">
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="team-info">
-                                    <img *ngIf="match.radiantTeamLogoUrl" [src]="match.radiantTeamLogoUrl" class="team-logo">
-                                    <span [ngClass]="{'text-success': match.didRadiantWin, 'text-muted': !match.didRadiantWin}">
-                                        {{ match.radiantTeamName || 'Radiant' }}
-                                    </span>
-                                    <span class="ml-2">{{ match.radiantTeamScore }}</span>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="team-info">
-                                    <img *ngIf="match.direTeamLogoUrl" [src]="match.direTeamLogoUrl" class="team-logo">
-                                    <span [ngClass]="{'text-danger': !match.didRadiantWin, 'text-muted': match.didRadiantWin}">
-                                        {{ match.direTeamName || 'Dire' }}
-                                    </span>
-                                    <span class="ml-2">{{ match.direTeamScore }}</span>
-                                </div>
-                            </td>
-                            <td>{{ match.durationSecondsFormatted }}</td>
-                            <td>
-                                <nz-tag [nzColor]="match.status === 'COMPLETED' ? 'green' : match.status === 'MATCH_ON_GOING' ? 'blue' : 'orange'">
-                                    {{ match.status === 'COMPLETED' ? 'Completa' : match.status === 'MATCH_ON_GOING' ? 'Ao vivo' : 'Pendente' }}
-                                </nz-tag>
-                            </td>
-                        </tr>
-                    </tbody>
-                </nz-table>
-            </div>
-        </div>
-    </div>
+	<div nz-row>
+		<div nz-col nzSpan="24">
+			<div class="in-tab-content">
+				<nz-table #matchTable [nzData]="matches" [nzLoading]="loading" [nzShowPagination]="true" 
+						[nzPageSize]="10" [nzTotal]="totalResults" [nzFrontPagination]="false" 
+						(nzQueryParams)="changePage($event)" class="matches-table"
+						[nzLoadingIndicator]="indicatorTemplate">
+					<ng-template #indicatorTemplate>
+						<div class="custom-loading">
+							<span nz-icon nzType="loading" nzTheme="outline"></span>
+							<span class="loading-text">Carregando partidas...</span>
+						</div>
+					</ng-template>
+					<thead>
+						<tr>
+							<th [nzWidth]="'120px'">#ID</th>
+							<th>Data</th>
+							<th>Liga</th>
+							<th [nzWidth]="'150px'">Heróis</th>
+							<th>Radiant</th>
+							<th>Dire</th>
+							<th [nzWidth]="'80px'">Duração</th>
+							<th [nzWidth]="'100px'">Status</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let match of matchTable.data" (click)="goToMatch(match.matchId)" class="match-row">
+							<td>
+								<div class="match-id-container">
+									<span>{{ match.matchId }}</span>
+									<button nz-button nzType="text" nzSize="small" class="copy-btn" (click)="copyMatchId($event, match.matchId)" 
+											nz-tooltip="Copiar ID da partida">
+										<span nz-icon nzType="copy" nzTheme="outline"></span>
+									</button>
+								</div>
+							</td>
+							<td>{{ match.startDateTime| date:'dd/MM/yyyy HH:mm' }}</td>
+							<td>
+								<span *ngIf="match.league">{{ match.league.displayName }}</span>
+								<span *ngIf="!match.league">Ranqueada</span>
+							</td>
+							<td>
+								<div class="heroes-preview">
+									<div class="team-heroes">
+										<div class="heroes-row radiant-heroes">
+											<img *ngFor="let player of match.players | slice:0:5" 
+												[routerLink]="['/hero-details', player.dotaHero?.id]"
+												[src]="player.dotaHero?.img"
+												nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name"
+												class="hero-icon radiant" (click)="$event.stopPropagation()">
+										</div>
+										<div class="heroes-row dire-heroes">
+											<img *ngFor="let player of match.players | slice:5:10" 
+												[routerLink]="['/hero-details', player.dotaHero?.id]"
+												[src]="player.dotaHero?.img"
+												nz-tooltip [nzTooltipTitle]="player.dotaHero?.localized_name"
+												class="hero-icon dire" (click)="$event.stopPropagation()">
+										</div>
+									</div>
+								</div>
+							</td>
+							<td>
+								<div class="team-info">
+									<img *ngIf="match.radiantTeamLogoUrl" [src]="match.radiantTeamLogoUrl" class="team-logo">
+									<span [ngClass]="{'text-success': match.didRadiantWin, 'text-muted': !match.didRadiantWin}">
+										{{ match.radiantTeamName || 'Radiant' }}
+									</span>
+									<span class="ml-2">{{ match.radiantTeamScore }}</span>
+								</div>
+							</td>
+							<td>
+								<div class="team-info">
+									<img *ngIf="match.direTeamLogoUrl" [src]="match.direTeamLogoUrl" class="team-logo">
+									<span [ngClass]="{'text-danger': !match.didRadiantWin, 'text-muted': match.didRadiantWin}">
+										{{ match.direTeamName || 'Dire' }}
+									</span>
+									<span class="ml-2">{{ match.direTeamScore }}</span>
+								</div>
+							</td>
+							<td>{{ match.durationSecondsFormatted }}</td>
+							<td>
+								<nz-tag [nzColor]="match.status === 'COMPLETED' ? 'green' : match.status === 'MATCH_ON_GOING' ? 'blue' : 'orange'">
+									{{ match.status === 'COMPLETED' ? 'Completa' : match.status === 'MATCH_ON_GOING' ? 'Ao vivo' : 'Pendente' }}
+								</nz-tag>
+							</td>
+						</tr>
+					</tbody>
+				</nz-table>
+			</div>
+		</div>
+	</div>
 </div> 
