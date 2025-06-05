@@ -23,13 +23,13 @@
 
     <div class="previous-next-hero">
         <div class="in-horizontal" *ngIf="hero.previousHero">
-            <button nz-button nzType="text" [nzSize]="'large'" routerLink="/hero-details/{{ hero.previousHero.sanitizedName }}">
+            <button nz-button nzType="text" [nzSize]="'large'" routerLink="/heroes/{{ hero.previousHero.sanitizedName }}">
                 <nz-icon nzType="caret-left" />
                 {{ hero.previousHero.localized_name }}
             </button>
         </div>
         <div class="in-horizontal" *ngIf="hero.nextHero">
-            <button nz-button nzType="text" [nzSize]="'large'" routerLink="/hero-details/{{ hero.nextHero.sanitizedName }}">
+            <button nz-button nzType="text" [nzSize]="'large'" routerLink="/heroes/{{ hero.nextHero.sanitizedName }}">
                 {{ hero.nextHero.localized_name }}
                 <nz-icon nzType="caret-right" />
             </button>
@@ -39,7 +39,7 @@
     <div class="hero-similar-heroes" *ngIf="hero.similarHeroesData">
         <span class="text-muted mr-2">Heróis similares:</span>
         <div class="in-horizontal">
-            <img *ngFor="let hero of hero.similarHeroesData" [src]="hero.img" height="40px" routerLink="/hero-details/{{ hero.sanitizedName }}"
+            <img *ngFor="let hero of hero.similarHeroesData" [src]="hero.img" height="40px" routerLink="/heroes/{{ hero.sanitizedName }}"
             nz-tooltip [nzTooltipTitle]="hero.localized_name"/>
         </div>
     </div>

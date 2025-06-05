@@ -79,8 +79,6 @@ export class HeroDetailsComponent implements OnInit, AfterViewInit, OnDestroy {
 			this.heroAbilities = this.dotaHelperService.getHeroAbilityData(this.hero.name as string);
 			this.heroId = this.hero.id.toString();
 
-			console.log(this.hero);
-
 			// First find the best facet (most matches), then load detailed info
 			this.findBestFacetAndLoadData();
 			

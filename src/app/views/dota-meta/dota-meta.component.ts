@@ -138,14 +138,14 @@ export class DotaMetaComponent implements OnInit {
 		});
 
 		this.loadFeaturedLeagues();
-		this.loadHeroes();
 	}
 
 	loadFeaturedLeagues() {
 		this.dotaLeagueService.getFeaturedLeagues().subscribe({
 			next: (data: DotaLeague[]) => {
 				this.featuredLeagues = data;
-				// Don't auto-select the first league, keep it optional
+				this.heroStatsRequest.leagueId = this.featuredLeagues[0].leagueId;
+				this.selectedLeague = this.featuredLeagues[0];
 				this.loadMetaHeroes();
 			}, error: (error: any) => {
 				console.error(error);
